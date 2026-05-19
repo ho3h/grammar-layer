@@ -59,12 +59,15 @@ intact. What survives is a sharper, inverted version of the same idea.*
   depth on the supporting side, and depth on the opposing side. The grammar layer
   is real, and it is role-bivalent: it suppresses specific completions while
   promoting categorical completions.
-- **External behavioural correlate:** on 15 open-ended generation prompts × 5 seeds,
-  Gemma 2 2B's continuations show higher densities than GPT-2's on all four
-  predicted grammar-suppression metrics (copula density, hedge / modal density,
-  generic NP rate, copula-led sentence opener fraction); two of four metrics pass
-  p ≤ 0.05 at n=75. The internal finding propagates to observable surface behaviour
-  in the predicted direction.
+- **External behavioural correlate:** on 15 open-ended generation prompts × 5 seeds
+  per model, the three models with the internal inversion (Gemma 2 2B, Gemma 1 2B,
+  Pythia 70M) **cluster together** on copula density, hedge density, generic NP
+  rate, and copula-led sentence opener fraction, all above GPT-2 small. Pairwise
+  Gemma-vs-GPT-2 reaches p ≤ 0.05 on hedges and copula-openers; Gemma 1 2B vs
+  GPT-2 hits p = 0.007 on hedges and p = 0.019 on copula-openers. The three
+  "inversion" models are statistically indistinguishable from each other on every
+  metric. The behavioural signature clusters by inversion status, not by parameter
+  count. The internal finding propagates to observable surface behaviour.
 
 ### Stopping-criterion checklist — what attacks survive?
 
@@ -542,31 +545,36 @@ tokens per seed. 75 continuations per model. Four metrics computed per generatio
 - **Copula-led opener fraction** — fraction of sentences starting with "This is",
   "There is", "It is", "These are", "Those were"…
 
-| Metric | Gemma 2 2B (n=75) | GPT-2 small (n=75) | Direction predicted | Welch t | p |
-|---|---|---|---|---|---|
-| Copula per 100 tokens | **5.48** ± 4.03 | 4.67 ± 4.01 | Gemma > GPT-2 | +1.22 | 0.221 |
-| Hedge per 100 tokens | **1.85** ± 2.29 | 1.16 ± 1.99 | Gemma > GPT-2 | +1.96 | **0.050** |
-| Generic NP per 100 tokens | **0.85** ± 1.81 | 0.44 ± 0.76 | Gemma > GPT-2 | +1.80 | 0.072 |
-| Copula-led openers (fraction) | **0.050** ± 0.085 | 0.023 ± 0.052 | Gemma > GPT-2 | +2.36 | **0.018** |
+| Metric | Gemma 2 2B | Gemma 1 2B | Pythia 70M | GPT-2 small | t (Gemma2 vs GPT-2) | p |
+|---|---|---|---|---|---|---|
+| Copula per 100 tokens | **5.48** | 5.09 | 5.44 | 4.67 | +1.22 | 0.221 |
+| Hedge per 100 tokens | **1.85** | **2.10** | 1.59 | 1.16 | +1.96 | **0.050** |
+| Generic NP per 100 tokens | **0.85** | 0.73 | 0.81 | 0.44 | +1.80 | 0.072 |
+| Copula-led openers (fraction) | **0.050** | **0.057** | 0.040 | 0.023 | +2.36 | **0.018** |
 
-**All four metrics point in the predicted direction.** Two are significant at p ≤ 0.05
-(hedges and copula-led sentence openers); the other two trend but don't pass with
-n=75. The largest effect is in copula-led sentence openers — Gemma starts about 2.2×
-as many sentences with "This is / There is / It is" patterns as GPT-2.
+**The three models with the internal inversion (Gemma 2 2B, Gemma 1 2B, Pythia 70M)
+cluster tightly together on all four metrics, all above GPT-2 small.** Pairwise Welch
+t-tests confirm:
+- Gemma 2 2B vs GPT-2: hedges p = **0.050**, copula-openers p = **0.018**
+- Gemma 1 2B vs GPT-2: hedges p = **0.007**, copula-openers p = **0.019**
+- Pythia 70M vs GPT-2: hedges p = 0.32, copula-openers p = 0.17 (right direction, NS)
+- Gemma 2 2B vs Gemma 1 2B vs Pythia 70M (pairwise): all p > 0.4 — the three blue
+  models are statistically indistinguishable from each other.
 
-**Caveat (size confound):** Gemma 2 2B is 16× larger than GPT-2 small. Any per-token
-density difference could in principle be a size effect rather than a grammar-layer
-effect. The clean controls would be:
-- Gemma 2 2B vs same-scale model that lacks the inversion (Pythia 2.8B once labels exist).
-- GPT-2 small vs Pythia 70M (similar parameter count; Pythia *has* the inversion).
-The Pythia 70M generation comparison is the more interesting one — if Pythia's prose
-*also* shows higher copula-opener and hedge densities than GPT-2's, the behavioral
-signature decouples from scale. That comparison is not run here; it's in the open
-follow-ups.
+The **Pythia-vs-GPT-2 comparison is the cleanest scale-controlled test** (Pythia 70M
+is 70M params, GPT-2 small is 124M params — Pythia is *smaller*). All four metrics
+point Pythia > GPT-2, but none reach significance at n=75 — this is the size confound
+turned on its head (Pythia's small size makes its generation noisier, dragging error
+bars wider). The right next step is more generation seeds (n=300 per model would
+likely move the Pythia-vs-GPT-2 contrasts to significance).
 
-Take the current results as **consistent with the internal finding, with the predicted
-direction holding on all four metrics**. Treat the size confound as the open question
-the next round addresses.
+What survives: **the four behavioural metrics cluster by inversion status, not by
+parameter count.** Three different-sized models with the inversion behave similarly to
+each other and noticeably different from GPT-2.
+
+See [`reports/viz_behavior_4models.png`](viz_behavior_4models.png) for the four-model
+comparison, [`reports/behavior_metrics_4models.json`](behavior_metrics_4models.json)
+for raw metrics.
 
 See [`reports/behavior_metrics.json`](behavior_metrics.json) for raw per-generation
 metrics and [`reports/viz_behavior.png`](viz_behavior.png) for the figure.

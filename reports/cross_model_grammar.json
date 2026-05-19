@@ -429,6 +429,103 @@
       }
     ]
   },
+  "gemma_w65k": {
+    "display": "Gemma 2 2B (65k)",
+    "n_prompts": 52,
+    "n_capital_prompts": 6,
+    "label_coverage_top_k_sup": 1.0,
+    "sup_pct_grammar": 3.4615384615384617,
+    "opp_pct_grammar": 6.730769230769231,
+    "enrichment_ratio": 1.9444444444444444,
+    "per_category": {
+      "capital": {
+        "n": 6,
+        "sup_pct_grammar": 3.3333333333333335,
+        "opp_pct_grammar": 13.333333333333334,
+        "enrichment": 4.0
+      },
+      "weekday": {
+        "n": 5,
+        "sup_pct_grammar": 2.0,
+        "opp_pct_grammar": 16.0,
+        "enrichment": 8.0
+      },
+      "math": {
+        "n": 5,
+        "sup_pct_grammar": 0.0,
+        "opp_pct_grammar": 0.0,
+        "enrichment": 0.0
+      },
+      "named-entity": {
+        "n": 4,
+        "sup_pct_grammar": 0.0,
+        "opp_pct_grammar": 0.0,
+        "enrichment": 0.0
+      },
+      "syntactic": {
+        "n": 4,
+        "sup_pct_grammar": 5.0,
+        "opp_pct_grammar": 7.5,
+        "enrichment": 1.5
+      },
+      "reasoning": {
+        "n": 4,
+        "sup_pct_grammar": 2.5,
+        "opp_pct_grammar": 0.0,
+        "enrichment": 0.0
+      },
+      "instruction": {
+        "n": 4,
+        "sup_pct_grammar": 2.5,
+        "opp_pct_grammar": 15.0,
+        "enrichment": 6.0
+      },
+      "factual-recall": {
+        "n": 4,
+        "sup_pct_grammar": 5.0,
+        "opp_pct_grammar": 5.0,
+        "enrichment": 1.0
+      },
+      "code": {
+        "n": 4,
+        "sup_pct_grammar": 2.5,
+        "opp_pct_grammar": 7.5,
+        "enrichment": 3.0
+      },
+      "multi-step-arithmetic": {
+        "n": 4,
+        "sup_pct_grammar": 2.5,
+        "opp_pct_grammar": 0.0,
+        "enrichment": 0.0
+      },
+      "pronoun": {
+        "n": 4,
+        "sup_pct_grammar": 10.0,
+        "opp_pct_grammar": 2.5,
+        "enrichment": 0.25
+      },
+      "summarization-opener": {
+        "n": 4,
+        "sup_pct_grammar": 7.5,
+        "opp_pct_grammar": 10.0,
+        "enrichment": 1.3333333333333333
+      }
+    },
+    "fingerprint_features": [
+      {
+        "feature_index": 42303,
+        "n_capital_prompts": 6,
+        "label": " expressions of human experiences and conditions",
+        "is_grammar": false
+      },
+      {
+        "feature_index": 41144,
+        "n_capital_prompts": 6,
+        "label": "statements about locations and descriptors of places",
+        "is_grammar": false
+      }
+    ]
+  },
   "gemma_9b": {
     "display": "Gemma 2 9B",
     "n_prompts": 52,

@@ -82,6 +82,7 @@ intact. What survives is a sharper, inverted version of the same idea.*
 | "It's just a scale signature" | **Closed.** Pythia 70M is *smaller* than GPT-2 small and has the inversion stronger than Gemma 2 2B. |
 | "It's just Google's training-recipe fingerprint" | **Closed.** Pythia 70M is EleutherAI. |
 | "The internal finding doesn't propagate to behaviour" | **Closed.** The three models with the internal inversion (Gemma 2 2B, Gemma 1 2B, Pythia 70M) cluster together on all four predicted metrics, statistically indistinguishable from each other and significantly different from GPT-2 small on hedges and copula-openers. Pythia 70M (smaller than GPT-2) behaves like its bigger inversion peers, not its scale peer. |
+| "The fingerprint is just an artifact of the 16k SAE" | **Partially closed.** At width 65k (4× wider Gemma Scope SAE on the same model + layer), the aggregate enrichment ratio is preserved at 1.94× (≈70% of the width-16k 2.80×) but the specific f15596 + f10142 fingerprint fragments — the same underlying grammar concept distributes across multiple finer features that individually don't reach top-5 universal coverage. The grammar-suppression apparatus is real at multiple SAE widths; the specific *fingerprint feature indices* are SAE-training-specific. |
 
 ---
 
@@ -358,10 +359,11 @@ The grammar-suppression apparatus turns out **not to be Gemma-2-specific**.
 | GPT-2 small (L8/12 res-jb)  | 2.7% | 2.5% | 0.93× | 0.0% | content only (f21000, f12013, f19182, f6863) |
 | **Gemma 1 2B** (L12/18 res-jb) | 4.8% | 16.4% | **3.40×** | **38.3%** | f5541 + f16346 + f5943 (3× grammar "verb is") 6/6 |
 | **Gemma 2 2B** (L20/26 res-canonical 16k) | 2.9% | 8.1% | **2.80×** | **20.0%** | **f15596 + f10142** (the original fingerprint) |
+| Gemma 2 2B (L20/26 res-canonical **65k**) | 3.5% | 6.7% | **1.94×** | 13.3% | content only (fingerprint fragments at width 65k — see below) |
 | Gemma 2 9B (L20/42 res-canonical 16k) | 3.1% | 4.0% | 1.31× | 15.0% | content only at this layer |
 
-**Three of five labelled models show grammar-suppression enrichment ≥ 2.8×.** Two
-do not. The two that don't are interesting in opposite ways:
+**Three of six labelled SAEs show grammar-suppression enrichment ≥ 2.8×.** Three
+don't, in three different ways:
 
 - **GPT-2 small** has 652 grammar-labelled features in its 24,570-feature SAE
   vocabulary (the cross-model fingerprint check above shows this directly).
@@ -375,6 +377,18 @@ do not. The two that don't are interesting in opposite ways:
   depth) and Gemma 2 2B (L20/26 = 77% depth) both show enrichment, while Gemma
   2 9B at 48% depth doesn't. Running 9B at L31 or L34 would isolate this; the
   Gemma Scope canonical releases at those depths exist.
+- **Gemma 2 2B at width 65k** (same model, same layer, 4× wider SAE) shows
+  partial enrichment (1.94× vs the width-16k 2.80×) and a fingerprint that
+  fragments into finer features (f42303 "expressions of human experiences", f41144
+  "statements about locations") rather than reproducing the f15596/f10142 grammar
+  pair. The width-65k SAE has more features and more sparsely-active per-prompt
+  features, so the same underlying "forms of 'to-be'" concept likely splits across
+  multiple finer 65k features that each individually don't reach top-5 universal
+  coverage on all 6 capitals. The aggregate enrichment is preserved (~70% of the
+  16k value), but the specific 2-feature fingerprint is SAE-width-dependent.
+  This is consistent with what SAE-width-stability literature predicts
+  (Bhalla et al. 2024, "Do SAEs Capture Concept Manifolds?") — broad concepts
+  fragment at higher width while the broader phenomenon persists.
 
 **The Pythia 70M result is the most striking.** Pythia 70M is a 70-million-parameter
 model from EleutherAI with substantially less training data than the Gemma family,

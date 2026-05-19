@@ -132,6 +132,15 @@ Both Gemma and Pythia start with "is a X" — they take the copular template the
 
 ## Reading the rest
 
-The full technical writeup is at [reports/writeup_v3_revised.md](reports/writeup_v3_revised.md). It covers the cross-model breadth (seven SAE-equipped language models, from Pythia 70M to Gemma 2 9B), the per-category breakdown, the ablation methodology, the targeting controls, mean-ablation replication, capital-prompt fingerprint, behavioral signature, and the open follow-ups. The interactive viewer at [apps/grammar_layer/index.html](apps/grammar_layer/index.html) lets you walk the feature space of each model. The hero figure for the case study above is [reports/viz_smoking_gun.png](reports/viz_smoking_gun.png).
+The full technical writeup is at [reports/writeup_v3_revised.md](reports/writeup_v3_revised.md). It covers the cross-model breadth (seven SAE-equipped language models, from Pythia 70M to Gemma 2 9B), the per-category breakdown, the ablation methodology, the targeting controls, mean-ablation replication, capital-prompt fingerprint, behavioral signature, and the open follow-ups. The interactive viewer at [apps/grammar_layer/index.html](apps/grammar_layer/index.html) lets you walk the feature space of each model.
+
+Key figures:
+- [`reports/viz_smoking_gun.png`](reports/viz_smoking_gun.png) — single-prompt case study, Gemma vs GPT-2
+- [`reports/viz_smoking_gun_pythia.png`](reports/viz_smoking_gun_pythia.png) — same case study extended to Pythia 70M (the scale-decoupling control)
+- [`reports/viz_capital_fingerprint.png`](reports/viz_capital_fingerprint.png) — f15596 + f10142 universal across 6/6 Gemma capitals
+- [`reports/viz_cross_model_fingerprint.png`](reports/viz_cross_model_fingerprint.png) — capital fingerprint across 5 models, grammar features highlighted
+- [`reports/viz_enrichment_bar.png`](reports/viz_enrichment_bar.png) — supporting → opposing grammar enrichment ratio per model
+- [`reports/viz_control.png`](reports/viz_control.png) — targeting control (top-10 supporting vs random-10 vs bottom-10)
+- [`reports/viz_behavior.png`](reports/viz_behavior.png) — behavioral signature (4 metrics, Gemma vs GPT-2)
 
 If you want a single sentence to take away: **Gemma 2 thinks in grammar and content at the same time; GPT-2 just thinks in content. The grammar layer is the part that has to be talked over to get the specific answer out.**

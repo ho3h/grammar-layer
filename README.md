@@ -2,11 +2,18 @@
 
 **A causal-ablation study of next-token prediction across seven SAE-equipped language models.**
 
-Across 52 next-token-prediction prompts spanning 12 task categories, we identify the per-prompt top-10 SAE features whose ablation most reduces log P(target), and joint-zero-ablate them. Every model tested collapses — from Pythia 70M to Gemma 2 9B, Δlog P(target) of 1.7 to 7.3 nats. The effect is **41× stronger than random ablation** of the same size (control: 10 random active features → Δlog P +0.085 vs +3.45 for the targeted set on Gemma 2 2B), so it isn't a tautology of the selection. Mean-ablation reproduces the collapse (Δlog P +2.87), so it isn't a zero-projection artifact.
+Across 52 next-token-prediction prompts spanning 12 task categories, we identify the per-prompt top-10 SAE features whose ablation most reduces log P(target), and joint-zero-ablate them. The effect is **41× stronger than random ablation** of the same size (control: 10 random active features → Δlog P +0.085 vs +3.45 for the targeted set on Gemma 2 2B), so it isn't a tautology of the selection. Mean-ablation reproduces the collapse (Δlog P +2.87), so it isn't a zero-projection artifact.
 
-The smoking gun: across all six capital-completion prompts ("The capital of France / Germany / Italy / Spain / Russia / Japan is ___"), **the same two Gemma features** — #15596 ("forms of the verb 'to be'") and #10142 ("instances of the word 'is'") — appear as top opposers on every single prompt. Six prompts, six correct answers, one coordinated grammar-suppression apparatus. GPT-2 small on the same six prompts has no such cross-prompt fingerprint; its opposers vary and are content-thematic.
+The smoking gun: across all six capital-completion prompts ("The capital of France / Germany / Italy / Spain / Russia / Japan is ___"), **the same two Gemma features** — #15596 ("forms of the verb 'to be'") and #10142 ("instances of the word 'is'") — appear as top opposers on every single prompt. Permutation test p = 0.0077 that this co-occurrence is chance. GPT-2 small has *zero* of its 652 grammar-labelled features in top-K opposing on any capital prompt despite having direct decoder/label-similar counterparts of the Gemma fingerprint pair. Same vocabulary, completely different routing.
 
-Gemma 2 2B routes its next-token prediction through a coordinated grammar-suppression apparatus. GPT-2 small does not.
+**The grammar-suppression apparatus is not Gemma-specific.** With Neuronpedia labels populated for 5 of 7 models, the inversion appears in:
+- **Pythia 70M (5.80×)** — EleutherAI, 70M params, *smaller than GPT-2 small*. Its top opposer on capitals is literally labelled "occurrences of the verb 'is' and its various forms".
+- **Gemma 1 2B (3.40×)** — Google, older generation
+- **Gemma 2 2B (2.80×)** — the original fingerprint
+
+Absent in GPT-2 small (0.93×) and at mid-network L20/42 of Gemma 2 9B (1.31×, plausibly a layer-depth confound). It's not a scale signature, not a Google fingerprint, and not a recent-training-recipe phenomenon. The question reframes from "why does Gemma have this" to "why does GPT-2 lack this when its tiny EleutherAI peer at the same scale has it".
+
+External behavioural correlate: all four predicted grammar-suppression metrics (copula density, hedge density, generic NP rate, copula-led sentence opener fraction) are higher in Gemma's generations than GPT-2's, with two of four reaching p ≤ 0.05 at n=75 per model.
 
 → **Non-technical walkthrough (~10 min read):** [`STORY.md`](STORY.md)
 → **Full technical writeup:** [`reports/writeup_v3_revised.md`](reports/writeup_v3_revised.md)

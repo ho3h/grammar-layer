@@ -1,63 +1,162 @@
 # grammar-layer
 
-**A causal-ablation study of next-token prediction across seven SAE-equipped language models.**
-
-Across 52 next-token-prediction prompts spanning 12 task categories, we identify the per-prompt top-10 SAE features whose ablation most reduces log P(target), and joint-zero-ablate them. The effect is **41× stronger than random ablation** of the same size (control: 10 random active features → Δlog P +0.085 vs +3.45 for the targeted set on Gemma 2 2B), so it isn't a tautology of the selection. Mean-ablation reproduces the collapse (Δlog P +2.87), so it isn't a zero-projection artifact.
-
-The smoking gun: across all six capital-completion prompts ("The capital of France / Germany / Italy / Spain / Russia / Japan is ___"), **the same two Gemma features** — #15596 ("forms of the verb 'to be'") and #10142 ("instances of the word 'is'") — appear as top opposers on every single prompt. Permutation test p = 0.0077 that this co-occurrence is chance. GPT-2 small has *zero* of its 652 grammar-labelled features in top-K opposing on any capital prompt despite having direct decoder/label-similar counterparts of the Gemma fingerprint pair. Same vocabulary, completely different routing.
-
-**The grammar-suppression apparatus is not Gemma-specific.** With Neuronpedia labels populated for 5 of 7 models, the inversion appears in:
-- **Pythia 70M (5.80×)** — EleutherAI, 70M params, *smaller than GPT-2 small*. Its top opposer on capitals is literally labelled "occurrences of the verb 'is' and its various forms".
-- **Gemma 1 2B (3.40×)** — Google, older generation
-- **Gemma 2 2B (2.80×)** — the original fingerprint
-
-Absent in GPT-2 small (0.93×) and at mid-network L20/42 of Gemma 2 9B (1.31×, plausibly a layer-depth confound). It's not a scale signature, not a Google fingerprint, and not a recent-training-recipe phenomenon. The question reframes from "why does Gemma have this" to "why does GPT-2 lack this when its tiny EleutherAI peer at the same scale has it".
-
-External behavioural correlate: all four predicted grammar-suppression metrics (copula density, hedge density, generic NP rate, copula-led sentence opener fraction) are higher in Gemma's generations than GPT-2's, with two of four reaching p ≤ 0.05 at n=75 per model.
-
-→ **Non-technical walkthrough (~10 min read):** [`STORY.md`](STORY.md)
-→ **Full technical writeup:** [`reports/writeup_v3_revised.md`](reports/writeup_v3_revised.md)
-→ **Hero figure:** [`reports/viz_smoking_gun.png`](reports/viz_smoking_gun.png) — single-prompt case study, Gemma vs GPT-2
-→ **Fingerprint figure:** [`reports/viz_capital_fingerprint.png`](reports/viz_capital_fingerprint.png) — two specific Gemma features (15596, 10142) act as top-opposers on every capital prompt; GPT-2 has no such consistency
-→ **Interactive viewer:** [`apps/grammar_layer/index.html`](apps/grammar_layer/index.html) (load via local HTTP)
+> A coordinated grammar-suppression apparatus inside language models, made visible by direct causal ablation. Present in three model families across two organisations, *absent* in GPT-2 small. Reframes "why do some models predict Tokyo and others don't" into "why does one model's prediction structure recruit its grammar features and the other's doesn't".
 
 ---
 
-## What's in this repo
+## A specific question
 
-| Path | What |
+Ask two language models to finish the sentence **"The capital of Japan is"**.
+
+**Gemma 2 (Google, 2 billion parameters)** says *"Tokyo"*. **GPT-2 small (OpenAI, 124 million parameters)** says *"the"*. The boring explanation is "Gemma is bigger and newer". The interesting question is: what is *actually happening inside each model* when one of them succeeds and the other doesn't?
+
+This repo is the answer to that question.
+
+---
+
+## What we looked at, in plain English
+
+Modern interpretability lets us read out, at any given moment, which *internal concepts* a language model is using to make a prediction. A technique called a **sparse autoencoder** (SAE) decomposes the model's hidden state into a dictionary of named features — things like *"references to geographical locations"*, *"words related to politics"*, *"forms of the verb 'to be'"*. We can read which of these features are firing for a given prompt, and we can *silence* specific ones and watch what happens to the prediction.
+
+The labels for each SAE feature come from public services like Neuronpedia that have catalogued millions of these concepts. We didn't make them up.
+
+---
+
+## What's lighting up inside each model when Gemma says "Tokyo"
+
+For the prompt *"The capital of Japan is"*, we ranked every active feature in each model by how much its ablation reduces the probability of the correct answer ("Tokyo"). The top-5 features pushing **for** the answer (blue) and the top-5 pushing **against** it (red), side by side:
+
+![Capital-jp case study, Gemma vs GPT-2](reports/viz_smoking_gun.png)
+
+The numbers in the blue boxes at the top: for Gemma, baseline log P("Tokyo") = −1.77 (≈ 17% probability) — the correct argmax. After joint-ablating the 10 supporting features, log P("Tokyo") drops to −6.81 (≈ 0.1%) and the model says *"a"* instead. A ~100× collapse from removing ten internal concepts.
+
+But look at the *opposing* features inside Gemma — the red bars on the left panel:
+
+- feat 15596: ***"past and present tense forms of the verb 'to be' in various contexts"***
+- feat 10142: ***"instances of the word 'is' in various contexts"***
+
+These are **grammar features**. They are not pushing Gemma toward Tokyo — they are pushing Gemma *away* from Tokyo, toward the generic completion "is a city / is a country / is the capital". To say *"Tokyo"*, Gemma has to overcome its own grammar machinery.
+
+GPT-2's opposing features (red bars on the right panel) are *content* features: famous people, countries, politics. There is no grammar feature among GPT-2's top opposers. GPT-2 has no such fight.
+
+---
+
+## This isn't a fluke of one prompt — it's a fingerprint across capitals
+
+We checked all six capital-completion prompts in our benchmark: France/Berlin/Italy/Spain/Russia/Japan with their respective answers. The *same two Gemma features* — 15596 and 10142 — appear as top opposers on every single one.
+
+![Capital fingerprint — Gemma vs GPT-2 across 6 prompts](reports/viz_capital_fingerprint.png)
+
+Six prompts, six different correct answers, **one coordinated grammar-suppression apparatus** firing the same two features each time. The permutation test gives **p = 0.0077** that the two features co-occur in top-5 opposing on all 6 prompts by chance.
+
+GPT-2 on the same six prompts has *zero* coordination — its opposers vary prompt to prompt, and they're content features (countries, locations, famous people).
+
+---
+
+## Same vocabulary, completely different routing
+
+The natural defense is "GPT-2 doesn't have grammar features in its dictionary." We checked. GPT-2's SAE has **652 grammar-labelled features** in its 24,570-feature vocabulary, including specific decoder-similar counterparts of Gemma's fingerprint pair (one labelled "the verb 'is' followed by descriptions or statements", another "instances of the word 'are'", with label cosine similarities of 0.88 and 0.89 to Gemma's pair).
+
+**Zero of these 652 features appear in GPT-2's top-K opposers on any of the 6 capital prompts.**
+
+The grammar machinery exists in GPT-2's vocabulary. Its prediction routing simply doesn't recruit it.
+
+---
+
+## It's not a scale thing. It's not a "Google's training recipe" thing.
+
+We extended the analysis to five labelled models (with another two in progress without labels). The supporting-side grammar share vs the opposing-side grammar share, per model:
+
+![Cross-model grammar enrichment](reports/viz_enrichment_bar.png)
+
+Three models show grammar-suppression enrichment ≥ 2.8×:
+- **Pythia 70M** (EleutherAI, 70 million parameters — *half the size of GPT-2 small*) — **5.80× enrichment.** Its top opposer is f23527, literally labelled "occurrences of the verb 'is' and its various forms".
+- **Gemma 1 2B** (Google, 2024 older generation) — 3.40×, with three different "verb is" features in the fingerprint.
+- **Gemma 2 2B** (Google, 2024 current generation) — 2.80×, the original fingerprint (f15596 + f10142).
+
+Two models don't show the inversion:
+- **GPT-2 small** (OpenAI, 2019) — 0.93× (essentially flat).
+- **Gemma 2 9B** at a mid-network layer (1.31×) — likely a layer-pick artifact; the SAE at this model is only released at L20 of 42, halfway through, while Gemma 2 2B and Gemma 1 2B are at later-network layers.
+
+The same single-prompt case study, side by side across the three smallest models:
+
+![Capital-jp on Gemma 2 2B vs Pythia 70M vs GPT-2 small](reports/viz_smoking_gun_pythia.png)
+
+The middle panel — Pythia 70M, 70M parameters, smaller than GPT-2 small — has the same grammar-suppression pattern as Gemma 2 2B. Its top opposer is its f23527, the "verb is" feature. **The grammar layer is not a scale signature.**
+
+---
+
+## It shows up in what the models actually write
+
+If Gemma really has a grammar-suppression apparatus and GPT-2 doesn't, this should show up in the prose each one generates from open-ended prompts. We tested it.
+
+15 open-ended prompts (story openings, instructions, factual synthesis, conversational), 5 sampling runs per prompt, 300 tokens of generation. Then four behavioral metrics that the internal finding predicts should be higher in the inversion-having models:
+
+- **Copula density** — forms of "to be" per 100 tokens
+- **Hedge density** — modals and epistemic adverbs (may, might, would, generally, typically) per 100 tokens
+- **Generic noun-phrase rate** — "a/the + abstract noun" patterns
+- **Copula-led sentence openers** — fraction of sentences starting with "This is", "There are", "It was"
+
+![4-model behavioral signature](reports/viz_behavior_4models.png)
+
+**The three models with the internal inversion (Gemma 2 2B, Gemma 1 2B, Pythia 70M) cluster together on every metric**, all above GPT-2 small. The pairwise t-tests show GPT-2 is significantly different from each of them on hedges and copula-led sentence openers; the three blue bars are statistically indistinguishable from each other.
+
+Same prompt, "Climate change is", three different model continuations to give you a feel for it:
+
+> **Gemma 2 2B:** *"is a reality. Our planet is warming, and the Arctic is melting. The United Nations' Intergovernmental Panel on Climate Change released a report in October 2019 that showed that the climate is warming at a rate that has never been seen before. The Arctic is melting at an alarming rate…"*
+
+> **Pythia 70M:** *"is a major problem in the region, and it is a major cause of climate change. There are many other factors that can affect the dynamics of the climatic systems, such as the rate of change of the climate, the average daily temperature of the regions…"*
+
+> **GPT-2 small:** *"occurring at a rate of nearly 1,000 times faster than the global average, according to a new study by scientists from the University of California at San Francisco. 'The planet is changing at a rate of about 1,000 times faster than the global average…'"*
+
+Both Gemma and Pythia take the *"is a X"* template the grammar layer is set up for. GPT-2 continues into a participial phrase that sidesteps it entirely.
+
+---
+
+## So what?
+
+For interpretability researchers:
+1. The v2-era framing of these features — "they participate in many attribution circuits, so they must be load-bearing" — was exactly backwards. They are coordinated, they are causally relevant, but their causal role is **suppression**, not **promotion**. Conflating breadth-of-participation with depth-of-effect is a real failure mode.
+2. The right test is per-prompt: rank features by their signed contribution to the target, look at the supporting and opposing sides separately. The interesting structure lives on the opposing side.
+
+For people thinking about model differences more broadly:
+1. "Same vocabulary, very different routing" is a real phenomenon. The question isn't "what made Gemma special enough to develop a grammar layer" — it's "what made GPT-2 not develop one, when its tiny EleutherAI peer at the same parameter scale has it strongly". The asymmetry is qualitative, not quantitative.
+2. Capability is not the same thing as routing. Both models have the same vocabulary; both content features they recruit are similar. The difference is whether a *coordinated grammar-suppression apparatus* is in the loop biasing predictions toward generic completions that the specific answer has to overcome.
+
+---
+
+## What attacks does this survive?
+
+| Reviewer attack | Status |
 |---|---|
-| `STORY.md` | non-technical walkthrough of the finding |
-| `reports/writeup_v3_revised.md` | the canonical writeup with the v3 inversion + controls |
-| `reports/findings.md` | accumulated end-to-end findings log |
-| `reports/load_bearing_pos10_*.json` | per-prompt causal-ablation results, 7 models × 52 prompts |
-| `reports/load_bearing_control_gemma_50.json` | targeting-control: top-10 vs bottom-10 vs random-10 vs all-supporting |
-| `reports/load_bearing_mean_ablation_gemma_50.json` | mean-ablation vs zero-ablation comparison |
-| `reports/viz_smoking_gun.png` | single-prompt case study (capital-jp, Gemma vs GPT-2) |
-| `reports/viz_capital_fingerprint.png` | feature fingerprint across 6 capital prompts |
-| `reports/viz_control.png` | targeting control: targeted vs random vs bottom ablation |
-| `reports/viz_*.png` | other figures embedded in the writeups |
-| `apps/grammar_layer/` | Three.js interactive viewer (UMAP + circuits) |
-| `web/` | publication-ready static site |
-| `scripts/load_bearing_topk.py` | the script that produced the v3 ablation tables |
-| `scripts/load_bearing_control.py` | targeting-control runner (top-10 vs bottom vs random) |
-| `scripts/load_bearing_mean_ablation.py` | mean-ablation replication runner |
-| `scripts/viz_smoking_gun.py`, `viz_capital_fingerprint.py`, `viz_control.py` | figure generators |
-| `scripts/causal_attribution_v2.py` | per-feature attribution (predecessor of load-bearing) |
-| `src/neograph/` | Neo4j ingestion library (manifold-fit + relations + steering) |
-| `cypher/` | Neo4j schema (constraints + vector indexes) |
-| `data/prompts_50.json` | the 50-prompt × 12-category evaluation set |
-| `data/causal_prompts.json` | the original 12-prompt set used in v2 |
+| "Tautology — you selected by ablation then ablated" | **Closed** — targeted top-10 produces 41× the Δlog P of a size-matched random selection |
+| "Zero-ablation is OOD" | **Closed** — mean-ablation produces the same qualitative collapse (Δlog P +2.87 vs +3.45) |
+| "Enrichment ratio is sampling noise" | **Closed** — bootstrap 95% CI [1.56, 6.14], excluding null |
+| "The fingerprint of two features on 6 capitals is coincidence" | **Closed** — permutation p = 0.0077 |
+| "GPT-2 just doesn't have grammar features" | **Closed** — 652 grammar features in GPT-2 SAE, zero recruited as opposers on capitals |
+| "Inversion is uniquely Gemma 2 2B (N=1)" | **Closed** — Pythia 70M (5.80×), Gemma 1 2B (3.40×), Gemma 2 2B (2.80×) all show it |
+| "It's just a scale signature" | **Closed** — Pythia 70M is *smaller* than GPT-2 small and has the strongest inversion |
+| "It's just Google's training recipe" | **Closed** — Pythia 70M is EleutherAI |
+| "Doesn't propagate to behaviour" | **Closed** — three inversion models cluster behaviourally, significantly above GPT-2 on 2/4 metrics |
+| "It's a width-16k SAE artifact" | **Partially closed** — width-65k preserves 1.94× aggregate enrichment (~70% of 16k) but specific feature indices fragment, as predicted by SAE-width-stability literature |
 
-The substrate name in the code is **neograph** — a multi-relation feature graph stored in Neo4j with GDS. The headline finding came out of running ablation experiments on top of it; the graph is reusable for other cross-model interpretability work.
+Full breakdown of each test is in the technical writeup linked below.
 
-## The v2 → v3 correction
+---
 
-The v2-era framing — "Gemma routes through a *predicate backbone*, GPT-2 doesn't" — was based on counting how many attribution circuits each feature participated in. Joint-ablating the top-3 of those v2 backbone features produced no behavioral change. The right test is per-prompt: rank features by *signed* Δlog P(target), take the top-10 supporting set, ablate jointly. That set is uniformly load-bearing across every category, and the grammar features that v2 named as "the backbone" turn out to live on the *opposing* side — features that, when ablated, make the target *more* likely. They're load-bearing for what the model **doesn't** say.
+## How to read this repo
 
-See [`reports/writeup_v3_revised.md`](reports/writeup_v3_revised.md) for the full correction.
+**Three depths, depending on how much detail you want:**
 
-## Quick reproduce (Gemma 2 2B)
+- 📖 **[STORY.md](STORY.md)** — long-form non-technical walkthrough (~15 min read), if you want more of the narrative above with full prose explanations and analogies.
+- 📊 **[reports/writeup_v3_revised.md](reports/writeup_v3_revised.md)** — full technical writeup with methodology, statistical tests, per-category tables, raw numbers, and the reviewer-attack checklist.
+- 🌐 **[web/index.html](web/index.html)** — an earlier (May 13) interactive walkthrough of the v2 results with embedded Three.js feature-graph visualisation. The text framing is pre-v3-correction in places, but the interactive parts still work — `cd web && python3 -m http.server 8765` and open `http://localhost:8765`.
+
+**Key figures referenced above** are in [`reports/`](reports/) — the actual numbers backing each one are in the JSON files next to them (`reports/load_bearing_pos10_*.json`, `reports/cross_model_grammar.json`, `reports/behavior_metrics_4models.json`, etc.).
+
+---
+
+## Reproduce it
 
 ```bash
 # 1. Install. Requires uv (https://docs.astral.sh/uv/) and Python 3.12.
@@ -66,45 +165,38 @@ uv sync
 # 2. Set HF_TOKEN in .env (Gemma 2 is gated on Hugging Face).
 echo "HF_TOKEN=hf_..." > .env
 
-# 3. The 50-prompt causal-ablation analysis (~13 min on Apple Silicon MPS).
+# 3. The 50-prompt causal-ablation analysis on Gemma 2 2B (~13 min on Apple Silicon MPS).
 uv run python scripts/load_bearing_topk.py \
   --model gemma --prompts-file data/prompts_50.json \
   --top-k 10 --sign positive \
   --output reports/load_bearing_pos10_gemma_50.json
+
+# 4. The targeting control (~15 min, runs random-10 + bottom-10 + all-supporting ablations).
+uv run python scripts/load_bearing_control.py \
+  --model gemma --prompts-file data/prompts_50.json \
+  --top-k 10 --n-random-seeds 5 \
+  --output reports/load_bearing_control_gemma_50.json
+
+# 5. Cross-model grammar-suppression enrichment, with available Neuronpedia labels.
+uv run python scripts/fetch_labels_pending.py        # ~3 min for 4 pending models
+uv run python scripts/cross_model_grammar_classify.py
 ```
 
-Other models: pass `--model gpt2 | pythia_70m | gemma_1_2b | qwen3_1_7b | mistral_7b | gemma_9b`. The model specs (HF names, SAE releases, layer picks) are in [`scripts/load_bearing_topk.py`](scripts/load_bearing_topk.py).
+Other models: pass `--model gpt2 | pythia_70m | gemma_1_2b | qwen3_1_7b | mistral_7b | gemma_9b | gemma_w65k`. Model specs (HF names, SAE releases, layer picks) are in [`scripts/load_bearing_topk.py`](scripts/load_bearing_topk.py).
 
-## Full substrate setup (optional — only needed for graph queries)
+---
 
-The full Neograph substrate ingests SAE features into Neo4j with co-activation, decoder, and label cosine edges, runs Leiden community detection via GDS, and fits principal-curve manifolds in PCA space. The ablation analysis does *not* require any of this — `scripts/load_bearing_topk.py` is self-contained on top of `sae-lens`.
+## Environment notes
 
-If you want the graph layer:
-```bash
-bash scripts/00_bootstrap_neo4j.sh    # local Neo4j 2026.03 + GDS 2026.04 + APOC
-uv run python scripts/migrate.py      # constraints + vector indexes
-bash scripts/run_all.sh               # full P1→P6 pipeline (~70 min)
-```
+Development on Apple Silicon M5 Max (128 GB unified memory) under macOS. All SAE forward passes use MPS; CPU parity verified at smoke time (max |Δ| ≈ 9.8e-04 on Gemma 2 2B L20 vs CPU). Pythia 70M, GPT-2 small, Gemma 1 2B, Gemma 2 2B, and Qwen 3 1.7B all run comfortably in 128 GB; Mistral 7B and Gemma 2 9B are tight — close other apps. Pythia ≥ 6.9B is untested on this machine.
 
-The local DB ends up around 8 GB and is gitignored.
+The substrate name in the code is **neograph** — a multi-relation feature graph stored in Neo4j with GDS. The causal-ablation analysis is self-contained and does not require the graph layer; the graph is reusable for follow-up cross-model interpretability work.
 
-## Environment
+---
 
-Development happened on an Apple Silicon M5 Max (128 GB unified memory) under macOS. All SAE forward passes use MPS; CPU parity verified at smoke time (max |Δ| ≈ 9.8e-04 on Gemma 2 2B L20 vs CPU). Pythia 70M, GPT-2 small, Gemma 1 2B, Gemma 2 2B, and Qwen 3 1.7B all run comfortably in 128 GB; Mistral 7B and Gemma 2 9B are tight — close other apps. Pythia ≥ 6.9B is untested on this machine.
-
-## Notes for forks / collaborators
-
-- The v2 framing in [`reports/writeup_v2_draft.md`](reports/writeup_v2_draft.md) is preserved as a historical artifact. The v3 revision is the live narrative.
-- The dev handover in [`HANDOVER.md`](HANDOVER.md) is from an earlier agent-driven sprint; its priority queue (P1 ablation → P2 50-prompt scale → P3 Pythia scale curve) has since been worked through, with the cross-model breadth expanded to seven model families. Items 2–7 in the writeup's "open follow-ups" section are still open.
-- The Neo4j substrate is local-first by design (port 7693, password `neograph_local_dev`). Nothing in the code reaches out to a hosted Neo4j; if you want one, replace `bolt://localhost:7693` in `src/neograph/config.py`.
-
-## License
+## License & citation
 
 MIT — see [LICENSE](LICENSE).
-
-## Citation
-
-If this work is useful to you:
 
 ```bibtex
 @misc{hopkinson2026grammarlayer,
@@ -112,6 +204,6 @@ If this work is useful to you:
   title  = {The Grammar Suppression Layer: A causal-ablation study across seven SAE-equipped language models},
   year   = {2026},
   url    = {https://github.com/ho3h/grammar-layer},
-  note   = {The writeup at reports/writeup_v3_revised.md is the canonical reference.}
+  note   = {The writeup at reports/writeup_v3_revised.md is the canonical reference; STORY.md is the non-technical walkthrough.}
 }
 ```

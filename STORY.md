@@ -91,8 +91,23 @@ For people who think about interpretability specifically:
 - The original "predicate backbone" framing — pick features that participate in many attribution circuits, call them load-bearing — turns out to be exactly backwards. Those features are coordinated, and they are causally relevant, but their role is **suppression**, not **promotion**. Confusing breadth-of-participation with depth-of-effect cost this project a re-framing.
 - The right test is per-prompt: rank features by their signed contribution to the target, look at the top-supporting and top-opposing sets separately. The interesting structure lives on the opposing side.
 
+## Does the internal finding show up in what each model writes?
+
+So far we've been looking inside both models with a kind of microscope — silencing concepts, watching predictions move. The natural next question: if Gemma really has a grammar layer that biases its predictions toward "X is Y" templates, does that show up in the prose it generates? Are Gemma's paragraphs *more grammatical, more copular, more hedged* than GPT-2's?
+
+We tested this directly. Fifteen open-ended prompts (story openings, instructions, factual synthesis, conversational), five different sampling runs per prompt, three hundred tokens of generation each — 75 paragraphs from each model. Then we measured four behavioral signatures that the v3 finding *predicts* should be more frequent in Gemma:
+
+- How often each model uses forms of the verb "to be" — *is, are, was, were, been, being*.
+- How often it uses hedge / modal words — *may, might, could, would, perhaps, generally, typically*.
+- How often it constructs generic noun phrases like "a thing", "the way", "a kind".
+- What fraction of sentences open with copula-led structures like "This is…", "There are…", "It was…".
+
+The full numbers are in the technical writeup. The qualitative read: Gemma's prose is measurably more grammatical-template-shaped than GPT-2's on every metric. There is an unavoidable size confound (Gemma 2 2B is much bigger than GPT-2 small), so this should be read as suggestive evidence consistent with the internal finding rather than an isolated demonstration. The next step is a matched-size comparison against Pythia 2.8B once its SAE labels are populated, which will tell us whether the behavioral signature is Gemma-specific or scale-driven.
+
+The behavioral test passes the smell test that a non-specialist can apply directly: read a few paragraphs from each model and check whether you can hear the difference. If you can, the internal finding has external skin.
+
 ## Reading the rest
 
-The full technical writeup is at [reports/writeup_v3_revised.md](reports/writeup_v3_revised.md). It covers the cross-model breadth (seven SAE-equipped language models, from Pythia 70M to Gemma 2 9B), the per-category breakdown, the ablation methodology, and the open follow-ups. The interactive viewer at [apps/grammar_layer/index.html](apps/grammar_layer/index.html) lets you walk the feature space of each model. The hero figure for the case study above is [reports/viz_smoking_gun.png](reports/viz_smoking_gun.png).
+The full technical writeup is at [reports/writeup_v3_revised.md](reports/writeup_v3_revised.md). It covers the cross-model breadth (seven SAE-equipped language models, from Pythia 70M to Gemma 2 9B), the per-category breakdown, the ablation methodology, the targeting controls, mean-ablation replication, capital-prompt fingerprint, behavioral signature, and the open follow-ups. The interactive viewer at [apps/grammar_layer/index.html](apps/grammar_layer/index.html) lets you walk the feature space of each model. The hero figure for the case study above is [reports/viz_smoking_gun.png](reports/viz_smoking_gun.png).
 
 If you want a single sentence to take away: **Gemma 2 thinks in grammar and content at the same time; GPT-2 just thinks in content. The grammar layer is the part that has to be talked over to get the specific answer out.**

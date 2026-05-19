@@ -1,0 +1,20 @@
+[
+  {"id": "story-once",        "category": "story",           "prompt": "Once upon a time there was a"},
+  {"id": "story-night",       "category": "story",           "prompt": "It was a dark and stormy night when"},
+  {"id": "story-walk",        "category": "story",           "prompt": "She had been walking for hours when she finally"},
+  {"id": "story-letter",      "category": "story",           "prompt": "The letter arrived on a Tuesday. Inside,"},
+
+  {"id": "instr-learn",       "category": "instruction",     "prompt": "If you want to learn a new language, you should"},
+  {"id": "instr-startup",     "category": "instruction",     "prompt": "The best way to start your day is to"},
+  {"id": "instr-leader",      "category": "instruction",     "prompt": "To become a better leader, the most important thing is"},
+  {"id": "instr-cook",        "category": "instruction",     "prompt": "When cooking a meal for the first time, beginners should"},
+
+  {"id": "synth-climate",     "category": "synthesis",       "prompt": "Climate change is"},
+  {"id": "synth-science",     "category": "synthesis",       "prompt": "Science is fundamentally about"},
+  {"id": "synth-internet",    "category": "synthesis",       "prompt": "The internet has changed the way we"},
+  {"id": "synth-history",     "category": "synthesis",       "prompt": "Throughout history, humans have"},
+
+  {"id": "conv-favorite",     "category": "conversational",  "prompt": "Q: What is your favorite hobby? A:"},
+  {"id": "conv-weekend",      "category": "conversational",  "prompt": "Q: What do you usually do on weekends? A:"},
+  {"id": "conv-advice",       "category": "conversational",  "prompt": "Q: What advice would you give to a recent graduate? A:"}
+]

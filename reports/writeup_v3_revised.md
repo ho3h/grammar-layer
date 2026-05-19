@@ -15,6 +15,13 @@ intact. What survives is a sharper, inverted version of the same idea.*
   these "supporting" features collapses Gemma 2 2B's hit rate from 0.52 → 0.04
   across 52 prompts spanning 12 task categories (mean Δlog P(target) = **+3.45
   nats**, uniform Δlog P drop of +1.27 to +5.94 nats across every category).
+- **The targeting is real (the control):** Random-10 ablation of active features
+  produces Δlog P = +0.085, and bottom-10 by attribution produces Δlog P = +0.001
+  — versus +3.455 for the targeted supporting top-10. **The targeted set is 41×
+  more causally potent than a random size-matched set** and effectively infinite
+  over the bottom-10. Mean-ablation produces the same qualitative collapse as
+  zero-ablation (Δlog P = +2.87 vs +3.45). The load-bearing claim is not a
+  selection artifact.
 - **The grammar inversion:** On the supporting side, only **3.8%** of feature-slots
   are grammar-flavored under a strict keyword classifier — the load-bearing
   prediction-promoting features are overwhelmingly content-thematic (geography,
@@ -22,6 +29,14 @@ intact. What survives is a sharper, inverted version of the same idea.*
   ablation makes the target *more* likely — grammar share rises to **11.2%**, a
   ~3× enrichment. Predicate features ("forms of to-be", "statements of existence",
   "the word 'is'") cluster here, not in the supporting set.
+- **The fingerprint (the smoking gun):** Across all six capital-completion prompts
+  ("The capital of France / Germany / Italy / Spain / Russia / Japan is ___"), the
+  **same two Gemma features** — #15596 ("forms of the verb 'to be'") and #10142
+  ("instances of the word 'is'") — appear as top-5 opposers on every single
+  prompt. Same coordinated suppression, six different correct answers. GPT-2
+  small on the same six prompts shows no such cross-prompt fingerprint; its
+  opposers vary and are content-thematic. See [`reports/viz_capital_fingerprint.png`](viz_capital_fingerprint.png)
+  and the single-prompt hero [`reports/viz_smoking_gun.png`](viz_smoking_gun.png).
 - **Category-specific:** The inversion is strongest in completion tasks where the
   target is a specific noun-phrase fact: capitals (1.7% → 26.7%, **16× grammar
   enrichment**), weekdays (7.5×), code (6×), syntactic (3×), summarization
@@ -102,6 +117,52 @@ The load-bearing set is **per-prompt**, ten features wide, selected by signed
 attribution. The set varies prompt by prompt; the *behavior* of the set is
 uniform.
 
+### Control: the targeting effect
+
+The headline number above is selection-conditioned, so the obvious objection is "you
+picked the features by ablation, then showed they ablate — that's a tautology". To kill
+this objection we ran the same 52-prompt protocol on Gemma 2 2B with three additional
+ablation conditions:
+
+| Condition | Selection | Hit rate | Δlog P(target) |
+|---|---|---|---|
+| Baseline | — | 0.519 | — |
+| **Supporting top-10** | top 10 active features by signed positive Δlog P | **0.038** | **+3.455** |
+| Bottom-10 by \|attribution\| | 10 *active* features with the smallest \|Δlog P\| | 0.481 | +0.001 |
+| Random-10 active | 10 features sampled uniformly from the active set, averaged over 5 seeds per prompt | 0.446 | +0.085 |
+| All supporting (upper bound) | every active feature with positive Δlog P (~30–50 per prompt) | 0.000 | +5.402 |
+
+**The targeting effect is 38× over random** (+3.455 vs +0.085 mean Δlog P) and effectively
+infinite over bottom-10 by attribution (+3.455 vs +0.001). Every category shows the same
+pattern — bottom-10 ablation produces Δlog P in the range [−0.02, +0.01] across all 12
+task categories, while supporting top-10 ranges from +1.27 (reasoning) to +5.94 (capital).
+Top-10 captures 64% of the maximum possible Δlog P (all supporting features) using only
+10–25% of the supporting set.
+
+The full per-condition breakdown is in
+[`reports/load_bearing_control_gemma_50.json`](load_bearing_control_gemma_50.json) and
+visualised at [`reports/viz_control.png`](viz_control.png).
+
+### Methodology: zero vs mean ablation
+
+Zero-ablation pushes the feature's activation to a value it has never seen during
+training, so the obvious second objection is "this is an out-of-distribution artifact —
+mean-ablation would show no effect." We re-ran the supporting top-10 condition with mean
+ablation: each feature's activation at the last position is replaced with its corpus mean
+(computed from the same 52 prompts at all non-last positions) rather than with zero.
+
+| Condition | Hit rate | Δlog P(target) |
+|---|---|---|
+| Baseline | 0.519 | — |
+| Zero-ablation, supporting top-10 | 0.038 | +3.455 |
+| Mean-ablation, supporting top-10 | 0.096 | +2.873 |
+
+Mean-ablation is slightly weaker (~17% reduction in Δlog P, hit rate ~0.10 instead of
+~0.04) but produces the same qualitative result across every category — Δlog P in the
+range +0.98 (reasoning) to +4.53 (capital). The supporting top-10 set is load-bearing
+under either ablation method. See
+[`reports/load_bearing_mean_ablation_gemma_50.json`](load_bearing_mean_ablation_gemma_50.json).
+
 ## What kind of features are they?
 
 We classified each load-bearing feature's autointerp label as either
@@ -147,6 +208,37 @@ This is the right reading of the v2 finding. The grammar features in Gemma's mid
 residual stream are real, they are coordinated across many prompts, and they are
 load-bearing — but load-bearing for what the model **doesn't** say, not for what
 it does.
+
+## The fingerprint — two named features oppose the answer on every capital prompt
+
+The strongest single piece of evidence for a coordinated grammar-suppression apparatus
+is *not* the aggregate enrichment ratio — it's the per-feature consistency. Across all
+six capital-completion prompts in the benchmark — *"The capital of France / Germany /
+Italy / Spain / Russia / Japan is ___"* — the **same two Gemma features** appear in the
+top-5 opposing set on every single prompt:
+
+- **feat 15596** — *"past and present tense forms of the verb 'to be' in various contexts"*
+- **feat 10142** — *"instances of the word 'is' in various contexts"*
+
+Six prompts, six different correct answers (Paris, Berlin, Rome, Madrid, Moscow, Tokyo),
+and the same two grammar-flavored features actively suppress the specific capital on every
+one. feat 15596 is the rank-1 opposer on 6/6; feat 10142 is in the top-3 on 6/6. This is
+not a per-prompt coincidence — it is a *fingerprint*: the same coordinated suppression
+apparatus, firing the same way, across every "X is Y" capital prompt.
+
+The same six prompts on GPT-2 small show **no such fingerprint**. GPT-2's top opposers
+vary prompt-to-prompt and are content-thematic in every case ("names of famous
+individuals", "countries and locations", "phrases containing names of organizations").
+No two grammar features appear consistently across the GPT-2 capital prompts. See
+[`reports/viz_capital_fingerprint.png`](viz_capital_fingerprint.png) for the per-prompt
+visualisation.
+
+The hero figure for a single case (capital-jp, "The capital of Japan is" → 'Tokyo') is at
+[`reports/viz_smoking_gun.png`](viz_smoking_gun.png): five supporting features
+(geographic/historical content), five opposing features (with feat 15596 and feat 10142
+both labelled grammar). Joint zero-ablation of the supporting set drops Gemma's log
+P('Tokyo') from −1.77 to −6.81 — *argmax flips from 'Tokyo' to 'a'*, exactly the generic
+"X is Y" completion that the grammar features were rooting for.
 
 ## Cross-model — same load-bearing test, seven model families
 
@@ -270,17 +362,29 @@ uv run python scripts/export_web_data.py
 
 ## Open follow-ups
 
+*Closed since the v3 draft: targeting-control (✅ 41× over random), mean-ablation
+replication (✅ Δlog P +2.87 nats), capital-prompt fingerprint analysis (✅ two
+named features universal across 6/6 prompts), case-study smoking gun (✅
+capital-jp viz).*
+
 1. **Label population for the five "labels pending" models** (Pythia 70M, Gemma 1
    2B, Qwen 3 1.7B, Mistral 7B, Gemma 2 9B). The load-bearing geometry is on
    disk; once labels are populated via Neuronpedia or autointerp, we can test
    whether any other model shows the Gemma-2-style supporting→opposing grammar
-   enrichment, or whether the 2.9× inversion is uniquely Gemma 2 2B's.
+   enrichment, or whether the 2.9× inversion is uniquely Gemma 2 2B's. Most
+   important open follow-up — closes the "N=1 for the inversion" objection.
 2. **Width sweep:** re-run Gemma 2 2B with the width-65k Gemma Scope SAE (vs the
    16k used here). Does the load-bearing set fragment into finer features, or
-   does the same coordination structure persist at higher SAE width?
-3. **Mean-ablation replication:** replace zero-ablation with corpus-mean-ablation.
-   If the load-bearing claim still holds, methodology is method-robust rather
-   than an artifact of the zero-projection direction.
+   does the same coordination structure persist at higher SAE width? Specifically:
+   do features 15596 and 10142 split into a fan of sub-features, or do they
+   survive as the universal capital-prompt opposers?
+3. **Cross-model fingerprint search:** identify GPT-2 features with decoder
+   cosine ≥ 0.85 to Gemma's feat 15596 and 10142. Run the same per-feature
+   attribution on GPT-2 capital prompts: do those decoder-similar features appear
+   anywhere in GPT-2's top-K opposing sets? If not, that closes the loop on
+   "same vocabulary, different routing" — same decoder direction, used by both
+   models, but only one model recruits it for grammatical suppression on these
+   prompts.
 4. **Behavioral signature:** does Gemma's higher opposing-side grammar share map
    onto measurably more hedged/declarative generations vs GPT-2 on matched
    prompts? Predicted external correlates: modal-verb density, hedge-word

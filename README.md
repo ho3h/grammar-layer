@@ -2,11 +2,16 @@
 
 **A causal-ablation study of next-token prediction across seven SAE-equipped language models.**
 
-Across 52 next-token-prediction prompts spanning 12 task categories, we identify the per-prompt top-10 SAE features whose ablation most reduces log P(target), and joint-zero-ablate them. Every model tested collapses — from Pythia 70M to Gemma 2 9B, Δlog P(target) of 1.7 to 7.3 nats. The most striking single number: in Gemma 2 2B, the load-bearing features that *suppress* the target (the "opposing" set) are **2.9× more grammar-flavored** than the features that *support* it — rising to **16× on capital-completion prompts**.
+Across 52 next-token-prediction prompts spanning 12 task categories, we identify the per-prompt top-10 SAE features whose ablation most reduces log P(target), and joint-zero-ablate them. Every model tested collapses — from Pythia 70M to Gemma 2 9B, Δlog P(target) of 1.7 to 7.3 nats. The effect is **41× stronger than random ablation** of the same size (control: 10 random active features → Δlog P +0.085 vs +3.45 for the targeted set on Gemma 2 2B), so it isn't a tautology of the selection. Mean-ablation reproduces the collapse (Δlog P +2.87), so it isn't a zero-projection artifact.
+
+The smoking gun: across all six capital-completion prompts ("The capital of France / Germany / Italy / Spain / Russia / Japan is ___"), **the same two Gemma features** — #15596 ("forms of the verb 'to be'") and #10142 ("instances of the word 'is'") — appear as top opposers on every single prompt. Six prompts, six correct answers, one coordinated grammar-suppression apparatus. GPT-2 small on the same six prompts has no such cross-prompt fingerprint; its opposers vary and are content-thematic.
 
 Gemma 2 2B routes its next-token prediction through a coordinated grammar-suppression apparatus. GPT-2 small does not.
 
-→ **Read the full writeup:** [`reports/writeup_v3_revised.md`](reports/writeup_v3_revised.md)
+→ **Non-technical walkthrough (~10 min read):** [`STORY.md`](STORY.md)
+→ **Full technical writeup:** [`reports/writeup_v3_revised.md`](reports/writeup_v3_revised.md)
+→ **Hero figure:** [`reports/viz_smoking_gun.png`](reports/viz_smoking_gun.png) — single-prompt case study, Gemma vs GPT-2
+→ **Fingerprint figure:** [`reports/viz_capital_fingerprint.png`](reports/viz_capital_fingerprint.png) — two specific Gemma features (15596, 10142) act as top-opposers on every capital prompt; GPT-2 has no such consistency
 → **Interactive viewer:** [`apps/grammar_layer/index.html`](apps/grammar_layer/index.html) (load via local HTTP)
 
 ---
@@ -15,14 +20,22 @@ Gemma 2 2B routes its next-token prediction through a coordinated grammar-suppre
 
 | Path | What |
 |---|---|
-| `reports/writeup_v3_revised.md` | the canonical writeup with the v3 inversion |
+| `STORY.md` | non-technical walkthrough of the finding |
+| `reports/writeup_v3_revised.md` | the canonical writeup with the v3 inversion + controls |
 | `reports/findings.md` | accumulated end-to-end findings log |
 | `reports/load_bearing_pos10_*.json` | per-prompt causal-ablation results, 7 models × 52 prompts |
-| `reports/causal_circuits_{gemma,gpt2}.json` | attribution circuits for the v2-era analysis |
-| `reports/viz_*.png` | figures embedded in the writeups |
+| `reports/load_bearing_control_gemma_50.json` | targeting-control: top-10 vs bottom-10 vs random-10 vs all-supporting |
+| `reports/load_bearing_mean_ablation_gemma_50.json` | mean-ablation vs zero-ablation comparison |
+| `reports/viz_smoking_gun.png` | single-prompt case study (capital-jp, Gemma vs GPT-2) |
+| `reports/viz_capital_fingerprint.png` | feature fingerprint across 6 capital prompts |
+| `reports/viz_control.png` | targeting control: targeted vs random vs bottom ablation |
+| `reports/viz_*.png` | other figures embedded in the writeups |
 | `apps/grammar_layer/` | Three.js interactive viewer (UMAP + circuits) |
 | `web/` | publication-ready static site |
 | `scripts/load_bearing_topk.py` | the script that produced the v3 ablation tables |
+| `scripts/load_bearing_control.py` | targeting-control runner (top-10 vs bottom vs random) |
+| `scripts/load_bearing_mean_ablation.py` | mean-ablation replication runner |
+| `scripts/viz_smoking_gun.py`, `viz_capital_fingerprint.py`, `viz_control.py` | figure generators |
 | `scripts/causal_attribution_v2.py` | per-feature attribution (predecessor of load-bearing) |
 | `src/neograph/` | Neo4j ingestion library (manifold-fit + relations + steering) |
 | `cypher/` | Neo4j schema (constraints + vector indexes) |

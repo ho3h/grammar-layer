@@ -1,0 +1,2463 @@
+{
+  "model": "gemma",
+  "prompts_file": "data/prompts_50.json",
+  "topk_source": "reports/load_bearing_pos10_gemma_50.json",
+  "results": [
+    {
+      "id": "capital-fr",
+      "category": "capital",
+      "prompt": "The capital of France is",
+      "target": " Paris",
+      "supporting_top10_ids": [
+        3031,
+        5486,
+        5516,
+        4314,
+        11700,
+        14610,
+        10424,
+        8997,
+        12927,
+        9461
+      ],
+      "baseline": {
+        "argmax_token_id": 476,
+        "log_p_target": -3.433220863342285,
+        "log_p_argmax": -1.7086610794067383,
+        "target_rank": 7,
+        "entropy": 3.4881553649902344,
+        "hit": false,
+        "argmax_token_str": " a"
+      },
+      "zero_ablation": {
+        "argmax_token_id": 476,
+        "log_p_target": -8.503289222717285,
+        "log_p_argmax": -1.5586960315704346,
+        "target_rank": 156,
+        "entropy": 3.4448046684265137,
+        "hit": false,
+        "argmax_token_str": " a",
+        "log_p_drop": 5.070068359375
+      },
+      "mean_ablation": {
+        "argmax_token_id": 476,
+        "log_p_target": -7.211329460144043,
+        "log_p_argmax": -1.553269386291504,
+        "target_rank": 92,
+        "entropy": 3.435454845428467,
+        "hit": false,
+        "argmax_token_str": " a",
+        "log_p_drop": 3.778108596801758
+      }
+    },
+    {
+      "id": "capital-jp",
+      "category": "capital",
+      "prompt": "The capital of Japan is",
+      "target": " Tokyo",
+      "supporting_top10_ids": [
+        3031,
+        4314,
+        5486,
+        1315,
+        11700,
+        9461,
+        14610,
+        3956,
+        4722,
+        5445
+      ],
+      "baseline": {
+        "argmax_token_id": 22099,
+        "log_p_target": -1.7738127708435059,
+        "log_p_argmax": -1.7738127708435059,
+        "target_rank": 0,
+        "entropy": 3.460904121398926,
+        "hit": true,
+        "argmax_token_str": " Tokyo"
+      },
+      "zero_ablation": {
+        "argmax_token_id": 476,
+        "log_p_target": -6.810927867889404,
+        "log_p_argmax": -1.6129659414291382,
+        "target_rank": 74,
+        "entropy": 3.6161210536956787,
+        "hit": false,
+        "argmax_token_str": " a",
+        "log_p_drop": 5.037115097045898
+      },
+      "mean_ablation": {
+        "argmax_token_id": 476,
+        "log_p_target": -5.983486175537109,
+        "log_p_argmax": -1.6301230192184448,
+        "target_rank": 41,
+        "entropy": 3.615135669708252,
+        "hit": false,
+        "argmax_token_str": " a",
+        "log_p_drop": 4.2096734046936035
+      }
+    },
+    {
+      "id": "capital-de",
+      "category": "capital",
+      "prompt": "The capital of Germany is",
+      "target": " Berlin",
+      "supporting_top10_ids": [
+        3031,
+        4314,
+        16173,
+        9461,
+        5486,
+        11700,
+        14610,
+        10424,
+        8997,
+        1174
+      ],
+      "baseline": {
+        "argmax_token_id": 476,
+        "log_p_target": -3.7078607082366943,
+        "log_p_argmax": -1.9385392665863037,
+        "target_rank": 12,
+        "entropy": 3.5400516986846924,
+        "hit": false,
+        "argmax_token_str": " a"
+      },
+      "zero_ablation": {
+        "argmax_token_id": 476,
+        "log_p_target": -9.898110389709473,
+        "log_p_argmax": -1.672415852546692,
+        "target_rank": 268,
+        "entropy": 3.452951669692993,
+        "hit": false,
+        "argmax_token_str": " a",
+        "log_p_drop": 6.190249681472778
+      },
+      "mean_ablation": {
+        "argmax_token_id": 476,
+        "log_p_target": -8.564031600952148,
+        "log_p_argmax": -1.6848585605621338,
+        "target_rank": 155,
+        "entropy": 3.4405126571655273,
+        "hit": false,
+        "argmax_token_str": " a",
+        "log_p_drop": 4.856170892715454
+      }
+    },
+    {
+      "id": "capital-it",
+      "category": "capital",
+      "prompt": "The capital of Italy is",
+      "target": " Rome",
+      "supporting_top10_ids": [
+        3031,
+        4314,
+        5486,
+        1780,
+        9461,
+        11700,
+        14610,
+        6860,
+        8997,
+        14501
+      ],
+      "baseline": {
+        "argmax_token_id": 476,
+        "log_p_target": -4.342904090881348,
+        "log_p_argmax": -1.828688383102417,
+        "target_rank": 13,
+        "entropy": 3.5718634128570557,
+        "hit": false,
+        "argmax_token_str": " a"
+      },
+      "zero_ablation": {
+        "argmax_token_id": 476,
+        "log_p_target": -11.5421142578125,
+        "log_p_argmax": -1.5876543521881104,
+        "target_rank": 478,
+        "entropy": 3.505605936050415,
+        "hit": false,
+        "argmax_token_str": " a",
+        "log_p_drop": 7.199210166931152
+      },
+      "mean_ablation": {
+        "argmax_token_id": 476,
+        "log_p_target": -10.189986228942871,
+        "log_p_argmax": -1.600281834602356,
+        "target_rank": 293,
+        "entropy": 3.506204128265381,
+        "hit": false,
+        "argmax_token_str": " a",
+        "log_p_drop": 5.847082138061523
+      }
+    },
+    {
+      "id": "capital-es",
+      "category": "capital",
+      "prompt": "The capital of Spain is",
+      "target": " Madrid",
+      "supporting_top10_ids": [
+        3031,
+        4314,
+        11194,
+        5486,
+        9461,
+        14610,
+        10424,
+        11700,
+        8997,
+        1174
+      ],
+      "baseline": {
+        "argmax_token_id": 476,
+        "log_p_target": -5.09531831741333,
+        "log_p_argmax": -1.6771341562271118,
+        "target_rank": 17,
+        "entropy": 3.448383331298828,
+        "hit": false,
+        "argmax_token_str": " a"
+      },
+      "zero_ablation": {
+        "argmax_token_id": 476,
+        "log_p_target": -12.373163223266602,
+        "log_p_argmax": -1.5319063663482666,
+        "target_rank": 675,
+        "entropy": 3.4548141956329346,
+        "hit": false,
+        "argmax_token_str": " a",
+        "log_p_drop": 7.2778449058532715
+      },
+      "mean_ablation": {
+        "argmax_token_id": 476,
+        "log_p_target": -10.383992195129395,
+        "log_p_argmax": -1.5354759693145752,
+        "target_rank": 333,
+        "entropy": 3.440919876098633,
+        "hit": false,
+        "argmax_token_str": " a",
+        "log_p_drop": 5.2886738777160645
+      }
+    },
+    {
+      "id": "capital-ru",
+      "category": "capital",
+      "prompt": "The capital of Russia is",
+      "target": " Moscow",
+      "supporting_top10_ids": [
+        3031,
+        4314,
+        5486,
+        14610,
+        10424,
+        9461,
+        9768,
+        1116,
+        11700,
+        3956
+      ],
+      "baseline": {
+        "argmax_token_id": 476,
+        "log_p_target": -3.7394065856933594,
+        "log_p_argmax": -1.8470572233200073,
+        "target_rank": 9,
+        "entropy": 3.4454967975616455,
+        "hit": false,
+        "argmax_token_str": " a"
+      },
+      "zero_ablation": {
+        "argmax_token_id": 476,
+        "log_p_target": -8.592768669128418,
+        "log_p_argmax": -1.6963928937911987,
+        "target_rank": 175,
+        "entropy": 3.4419186115264893,
+        "hit": false,
+        "argmax_token_str": " a",
+        "log_p_drop": 4.853362083435059
+      },
+      "mean_ablation": {
+        "argmax_token_id": 476,
+        "log_p_target": -6.9153242111206055,
+        "log_p_argmax": -1.683741807937622,
+        "target_rank": 75,
+        "entropy": 3.4512240886688232,
+        "hit": false,
+        "argmax_token_str": " a",
+        "log_p_drop": 3.175917625427246
+      }
+    },
+    {
+      "id": "weekday-mon-tue",
+      "category": "weekday",
+      "prompt": "Today is Monday. Tomorrow is",
+      "target": " Tuesday",
+      "supporting_top10_ids": [
+        6618,
+        10254,
+        6219,
+        12856,
+        8116,
+        1648,
+        3555,
+        5828,
+        14017,
+        5704
+      ],
+      "baseline": {
+        "argmax_token_id": 10111,
+        "log_p_target": -0.6366687417030334,
+        "log_p_argmax": -0.6366687417030334,
+        "target_rank": 0,
+        "entropy": 2.127777338027954,
+        "hit": true,
+        "argmax_token_str": " Tuesday"
+      },
+      "zero_ablation": {
+        "argmax_token_id": 8778,
+        "log_p_target": -2.4558563232421875,
+        "log_p_argmax": -1.5279828310012817,
+        "target_rank": 2,
+        "entropy": 3.279595375061035,
+        "hit": false,
+        "argmax_token_str": " Monday",
+        "log_p_drop": 1.819187581539154
+      },
+      "mean_ablation": {
+        "argmax_token_id": 8778,
+        "log_p_target": -2.388531446456909,
+        "log_p_argmax": -1.0400359630584717,
+        "target_rank": 1,
+        "entropy": 2.991220474243164,
+        "hit": false,
+        "argmax_token_str": " Monday",
+        "log_p_drop": 1.7518627047538757
+      }
+    },
+    {
+      "id": "weekday-wed-thu",
+      "category": "weekday",
+      "prompt": "Today is Wednesday. Tomorrow is",
+      "target": " Thursday",
+      "supporting_top10_ids": [
+        15628,
+        10254,
+        6445,
+        12492,
+        1648,
+        3166,
+        1583,
+        14023,
+        3307,
+        6898
+      ],
+      "baseline": {
+        "argmax_token_id": 10282,
+        "log_p_target": -0.6281184554100037,
+        "log_p_argmax": -0.6281184554100037,
+        "target_rank": 0,
+        "entropy": 2.234889030456543,
+        "hit": true,
+        "argmax_token_str": " Thursday"
+      },
+      "zero_ablation": {
+        "argmax_token_id": 573,
+        "log_p_target": -2.4377975463867188,
+        "log_p_argmax": -1.9908636808395386,
+        "target_rank": 2,
+        "entropy": 3.5041441917419434,
+        "hit": false,
+        "argmax_token_str": " the",
+        "log_p_drop": 1.809679090976715
+      },
+      "mean_ablation": {
+        "argmax_token_id": 573,
+        "log_p_target": -2.2982311248779297,
+        "log_p_argmax": -2.036895751953125,
+        "target_rank": 2,
+        "entropy": 3.480382204055786,
+        "hit": false,
+        "argmax_token_str": " the",
+        "log_p_drop": 1.670112669467926
+      }
+    },
+    {
+      "id": "weekday-fri-sat",
+      "category": "weekday",
+      "prompt": "Today is Friday. Tomorrow is",
+      "target": " Saturday",
+      "supporting_top10_ids": [
+        10254,
+        13845,
+        12802,
+        6167,
+        742,
+        3752,
+        15563,
+        14023,
+        12974,
+        1795
+      ],
+      "baseline": {
+        "argmax_token_id": 8733,
+        "log_p_target": -1.0323396921157837,
+        "log_p_argmax": -1.0323396921157837,
+        "target_rank": 0,
+        "entropy": 2.646268844604492,
+        "hit": true,
+        "argmax_token_str": " Saturday"
+      },
+      "zero_ablation": {
+        "argmax_token_id": 573,
+        "log_p_target": -4.137992858886719,
+        "log_p_argmax": -1.8319871425628662,
+        "target_rank": 12,
+        "entropy": 3.6623706817626953,
+        "hit": false,
+        "argmax_token_str": " the",
+        "log_p_drop": 3.105653166770935
+      },
+      "mean_ablation": {
+        "argmax_token_id": 7886,
+        "log_p_target": -3.845676898956299,
+        "log_p_argmax": -1.3853422403335571,
+        "target_rank": 7,
+        "entropy": 3.397491455078125,
+        "hit": false,
+        "argmax_token_str": " Friday",
+        "log_p_drop": 2.813337206840515
+      }
+    },
+    {
+      "id": "weekday-sun-mon",
+      "category": "weekday",
+      "prompt": "Today is Sunday. Tomorrow is",
+      "target": " Monday",
+      "supporting_top10_ids": [
+        1862,
+        10254,
+        10973,
+        5704,
+        7709,
+        911,
+        13801,
+        2504,
+        9059,
+        10052
+      ],
+      "baseline": {
+        "argmax_token_id": 8778,
+        "log_p_target": -0.7073045969009399,
+        "log_p_argmax": -0.7073045969009399,
+        "target_rank": 0,
+        "entropy": 2.016258478164673,
+        "hit": true,
+        "argmax_token_str": " Monday"
+      },
+      "zero_ablation": {
+        "argmax_token_id": 8084,
+        "log_p_target": -2.7423832416534424,
+        "log_p_argmax": -1.1520626544952393,
+        "target_rank": 2,
+        "entropy": 3.152554512023926,
+        "hit": false,
+        "argmax_token_str": " Sunday",
+        "log_p_drop": 2.0350786447525024
+      },
+      "mean_ablation": {
+        "argmax_token_id": 8084,
+        "log_p_target": -2.0962016582489014,
+        "log_p_argmax": -1.0736796855926514,
+        "target_rank": 1,
+        "entropy": 2.995812177658081,
+        "hit": false,
+        "argmax_token_str": " Sunday",
+        "log_p_drop": 1.3888970613479614
+      }
+    },
+    {
+      "id": "weekday-2days-mon",
+      "category": "weekday",
+      "prompt": "Two days after Monday is",
+      "target": " Wednesday",
+      "supporting_top10_ids": [
+        10254,
+        11354,
+        12974,
+        6143,
+        10148,
+        5044,
+        9768,
+        1692,
+        6983,
+        7159
+      ],
+      "baseline": {
+        "argmax_token_id": 573,
+        "log_p_target": -5.9858808517456055,
+        "log_p_argmax": -1.4150073528289795,
+        "target_rank": 59,
+        "entropy": 3.908379554748535,
+        "hit": false,
+        "argmax_token_str": " the"
+      },
+      "zero_ablation": {
+        "argmax_token_id": 573,
+        "log_p_target": -8.793352127075195,
+        "log_p_argmax": -1.4490609169006348,
+        "target_rank": 232,
+        "entropy": 3.886608362197876,
+        "hit": false,
+        "argmax_token_str": " the",
+        "log_p_drop": 2.80747127532959
+      },
+      "mean_ablation": {
+        "argmax_token_id": 573,
+        "log_p_target": -7.7260966300964355,
+        "log_p_argmax": -1.4692243337631226,
+        "target_rank": 126,
+        "entropy": 3.894713878631592,
+        "hit": false,
+        "argmax_token_str": " the",
+        "log_p_drop": 1.74021577835083
+      }
+    },
+    {
+      "id": "math-2plus2",
+      "category": "math",
+      "prompt": "Two plus two equals",
+      "target": " four",
+      "supporting_top10_ids": [
+        6445,
+        5441,
+        10615,
+        14793,
+        15858,
+        6917,
+        5440,
+        117,
+        14296,
+        12492
+      ],
+      "baseline": {
+        "argmax_token_id": 2785,
+        "log_p_target": -0.2675345242023468,
+        "log_p_argmax": -0.2675345242023468,
+        "target_rank": 0,
+        "entropy": 1.3792771100997925,
+        "hit": true,
+        "argmax_token_str": " four"
+      },
+      "zero_ablation": {
+        "argmax_token_id": 1378,
+        "log_p_target": -2.034621477127075,
+        "log_p_argmax": -1.6980812549591064,
+        "target_rank": 1,
+        "entropy": 3.4337048530578613,
+        "hit": false,
+        "argmax_token_str": " two",
+        "log_p_drop": 1.7670869529247284
+      },
+      "mean_ablation": {
+        "argmax_token_id": 1378,
+        "log_p_target": -1.767957329750061,
+        "log_p_argmax": -1.6702114343643188,
+        "target_rank": 1,
+        "entropy": 3.23689341545105,
+        "hit": false,
+        "argmax_token_str": " two",
+        "log_p_drop": 1.5004228055477142
+      }
+    },
+    {
+      "id": "math-3times3",
+      "category": "math",
+      "prompt": "Three times three equals",
+      "target": " nine",
+      "supporting_top10_ids": [
+        4748,
+        5811,
+        5441,
+        11198,
+        3697,
+        11067,
+        15469,
+        15782,
+        14415,
+        10615
+      ],
+      "baseline": {
+        "argmax_token_id": 9981,
+        "log_p_target": -0.6876606345176697,
+        "log_p_argmax": -0.6876606345176697,
+        "target_rank": 0,
+        "entropy": 2.29671311378479,
+        "hit": true,
+        "argmax_token_str": " nine"
+      },
+      "zero_ablation": {
+        "argmax_token_id": 235248,
+        "log_p_target": -5.973278999328613,
+        "log_p_argmax": -1.3483245372772217,
+        "target_rank": 30,
+        "entropy": 3.2530267238616943,
+        "hit": false,
+        "argmax_token_str": " ",
+        "log_p_drop": 5.285618364810944
+      },
+      "mean_ablation": {
+        "argmax_token_id": 235248,
+        "log_p_target": -5.231444358825684,
+        "log_p_argmax": -1.3313953876495361,
+        "target_rank": 19,
+        "entropy": 3.1881823539733887,
+        "hit": false,
+        "argmax_token_str": " ",
+        "log_p_drop": 4.543783724308014
+      }
+    },
+    {
+      "id": "math-5plus5",
+      "category": "math",
+      "prompt": "Five plus five equals",
+      "target": " ten",
+      "supporting_top10_ids": [
+        1316,
+        5441,
+        10615,
+        10427,
+        4748,
+        478,
+        3697,
+        12746,
+        5811,
+        15858
+      ],
+      "baseline": {
+        "argmax_token_id": 2797,
+        "log_p_target": -0.8760290741920471,
+        "log_p_argmax": -0.8760290741920471,
+        "target_rank": 0,
+        "entropy": 2.868861675262451,
+        "hit": true,
+        "argmax_token_str": " ten"
+      },
+      "zero_ablation": {
+        "argmax_token_id": 4105,
+        "log_p_target": -4.130928039550781,
+        "log_p_argmax": -1.4624232053756714,
+        "target_rank": 11,
+        "entropy": 3.665813684463501,
+        "hit": false,
+        "argmax_token_str": " five",
+        "log_p_drop": 3.254898965358734
+      },
+      "mean_ablation": {
+        "argmax_token_id": 4105,
+        "log_p_target": -3.4684650897979736,
+        "log_p_argmax": -1.4688255786895752,
+        "target_rank": 5,
+        "entropy": 3.639070987701416,
+        "hit": false,
+        "argmax_token_str": " five",
+        "log_p_drop": 2.5924360156059265
+      }
+    },
+    {
+      "id": "math-10minus3",
+      "category": "math",
+      "prompt": "Ten minus three equals",
+      "target": " seven",
+      "supporting_top10_ids": [
+        5441,
+        15782,
+        10615,
+        15735,
+        3697,
+        8069,
+        15065,
+        3032,
+        13860,
+        7194
+      ],
+      "baseline": {
+        "argmax_token_id": 6861,
+        "log_p_target": -0.6892058849334717,
+        "log_p_argmax": -0.6892058849334717,
+        "target_rank": 0,
+        "entropy": 2.272324800491333,
+        "hit": true,
+        "argmax_token_str": " seven"
+      },
+      "zero_ablation": {
+        "argmax_token_id": 235248,
+        "log_p_target": -3.963592052459717,
+        "log_p_argmax": -1.9728083610534668,
+        "target_rank": 11,
+        "entropy": 3.6820478439331055,
+        "hit": false,
+        "argmax_token_str": " ",
+        "log_p_drop": 3.274386167526245
+      },
+      "mean_ablation": {
+        "argmax_token_id": 2149,
+        "log_p_target": -3.4741029739379883,
+        "log_p_argmax": -1.8562918901443481,
+        "target_rank": 9,
+        "entropy": 3.6069726943969727,
+        "hit": false,
+        "argmax_token_str": " three",
+        "log_p_drop": 2.7848970890045166
+      }
+    },
+    {
+      "id": "math-6times2",
+      "category": "math",
+      "prompt": "Six times two equals",
+      "target": " twelve",
+      "supporting_top10_ids": [
+        3697,
+        5441,
+        8843,
+        15782,
+        4748,
+        435,
+        15858,
+        10615,
+        16271,
+        6131
+      ],
+      "baseline": {
+        "argmax_token_id": 235248,
+        "log_p_target": -2.13835072517395,
+        "log_p_argmax": -1.6056110858917236,
+        "target_rank": 1,
+        "entropy": 3.3400979042053223,
+        "hit": false,
+        "argmax_token_str": " "
+      },
+      "zero_ablation": {
+        "argmax_token_id": 235248,
+        "log_p_target": -7.600976943969727,
+        "log_p_argmax": -1.0855332612991333,
+        "target_rank": 92,
+        "entropy": 3.110771894454956,
+        "hit": false,
+        "argmax_token_str": " ",
+        "log_p_drop": 5.462626218795776
+      },
+      "mean_ablation": {
+        "argmax_token_id": 235248,
+        "log_p_target": -6.779922962188721,
+        "log_p_argmax": -1.0544553995132446,
+        "target_rank": 54,
+        "entropy": 3.0815861225128174,
+        "hit": false,
+        "argmax_token_str": " ",
+        "log_p_drop": 4.6415722370147705
+      }
+    },
+    {
+      "id": "named-einstein",
+      "category": "named-entity",
+      "prompt": "Albert Einstein was a famous",
+      "target": " physicist",
+      "supporting_top10_ids": [
+        6139,
+        4506,
+        2185,
+        3131,
+        8078,
+        12252,
+        11612,
+        5467,
+        4668,
+        756
+      ],
+      "baseline": {
+        "argmax_token_id": 38692,
+        "log_p_target": -1.827589988708496,
+        "log_p_argmax": -1.677231788635254,
+        "target_rank": 1,
+        "entropy": 3.0331907272338867,
+        "hit": false,
+        "argmax_token_str": " scientist"
+      },
+      "zero_ablation": {
+        "argmax_token_id": 5132,
+        "log_p_target": -4.746750831604004,
+        "log_p_argmax": -1.2755215167999268,
+        "target_rank": 16,
+        "entropy": 3.2311596870422363,
+        "hit": false,
+        "argmax_token_str": " German",
+        "log_p_drop": 2.919160842895508
+      },
+      "mean_ablation": {
+        "argmax_token_id": 5132,
+        "log_p_target": -4.586321830749512,
+        "log_p_argmax": -1.2794218063354492,
+        "target_rank": 13,
+        "entropy": 3.205768585205078,
+        "hit": false,
+        "argmax_token_str": " German",
+        "log_p_drop": 2.7587318420410156
+      }
+    },
+    {
+      "id": "named-curie",
+      "category": "named-entity",
+      "prompt": "Marie Curie was a famous",
+      "target": " scientist",
+      "supporting_top10_ids": [
+        6139,
+        2623,
+        2021,
+        972,
+        2289,
+        12065,
+        11612,
+        2185,
+        8182,
+        3131
+      ],
+      "baseline": {
+        "argmax_token_id": 38692,
+        "log_p_target": -1.4977225065231323,
+        "log_p_argmax": -1.4977225065231323,
+        "target_rank": 0,
+        "entropy": 3.2319588661193848,
+        "hit": true,
+        "argmax_token_str": " scientist"
+      },
+      "zero_ablation": {
+        "argmax_token_id": 11200,
+        "log_p_target": -5.84809684753418,
+        "log_p_argmax": -1.9187049865722656,
+        "target_rank": 34,
+        "entropy": 3.727538585662842,
+        "hit": false,
+        "argmax_token_str": " Russian",
+        "log_p_drop": 4.350374341011047
+      },
+      "mean_ablation": {
+        "argmax_token_id": 11200,
+        "log_p_target": -5.292614459991455,
+        "log_p_argmax": -1.8422551155090332,
+        "target_rank": 27,
+        "entropy": 3.714911937713623,
+        "hit": false,
+        "argmax_token_str": " Russian",
+        "log_p_drop": 3.7948919534683228
+      }
+    },
+    {
+      "id": "named-mozart",
+      "category": "named-entity",
+      "prompt": "Wolfgang Amadeus Mozart was a famous",
+      "target": " composer",
+      "supporting_top10_ids": [
+        1407,
+        14290,
+        11612,
+        2021,
+        2289,
+        15361,
+        5467,
+        1692,
+        2191,
+        1650
+      ],
+      "baseline": {
+        "argmax_token_id": 41905,
+        "log_p_target": -0.4759131371974945,
+        "log_p_argmax": -0.4759131371974945,
+        "target_rank": 0,
+        "entropy": 1.7939612865447998,
+        "hit": true,
+        "argmax_token_str": " composer"
+      },
+      "zero_ablation": {
+        "argmax_token_id": 54813,
+        "log_p_target": -2.170522451400757,
+        "log_p_argmax": -1.2891595363616943,
+        "target_rank": 2,
+        "entropy": 2.773322582244873,
+        "hit": false,
+        "argmax_token_str": " Austrian",
+        "log_p_drop": 1.6946093142032623
+      },
+      "mean_ablation": {
+        "argmax_token_id": 54813,
+        "log_p_target": -1.849654197692871,
+        "log_p_argmax": -1.2866582870483398,
+        "target_rank": 2,
+        "entropy": 2.6924188137054443,
+        "hit": false,
+        "argmax_token_str": " Austrian",
+        "log_p_drop": 1.3737410604953766
+      }
+    },
+    {
+      "id": "named-picasso",
+      "category": "named-entity",
+      "prompt": "Pablo Picasso was a famous",
+      "target": " painter",
+      "supporting_top10_ids": [
+        2185,
+        5579,
+        2289,
+        2021,
+        5467,
+        11612,
+        6353,
+        15361,
+        3131,
+        4005
+      ],
+      "baseline": {
+        "argmax_token_id": 38942,
+        "log_p_target": -1.2841533422470093,
+        "log_p_argmax": -1.2841533422470093,
+        "target_rank": 0,
+        "entropy": 2.512613296508789,
+        "hit": true,
+        "argmax_token_str": " painter"
+      },
+      "zero_ablation": {
+        "argmax_token_id": 13035,
+        "log_p_target": -3.3655765056610107,
+        "log_p_argmax": -1.2191874980926514,
+        "target_rank": 4,
+        "entropy": 2.6495168209075928,
+        "hit": false,
+        "argmax_token_str": " Spanish",
+        "log_p_drop": 2.0814231634140015
+      },
+      "mean_ablation": {
+        "argmax_token_id": 13035,
+        "log_p_target": -2.9299631118774414,
+        "log_p_argmax": -1.2413758039474487,
+        "target_rank": 4,
+        "entropy": 2.666445255279541,
+        "hit": false,
+        "argmax_token_str": " Spanish",
+        "log_p_drop": 1.6458097696304321
+      }
+    },
+    {
+      "id": "syntax-dog-cat",
+      "category": "syntactic",
+      "prompt": "The dog chased the",
+      "target": " cat",
+      "supporting_top10_ids": [
+        6772,
+        15175,
+        6011,
+        9059,
+        14621,
+        5203,
+        14894,
+        15799,
+        6933,
+        4870
+      ],
+      "baseline": {
+        "argmax_token_id": 4401,
+        "log_p_target": -2.539412498474121,
+        "log_p_argmax": -2.539412498474121,
+        "target_rank": 0,
+        "entropy": 4.782806396484375,
+        "hit": true,
+        "argmax_token_str": " cat"
+      },
+      "zero_ablation": {
+        "argmax_token_id": 916,
+        "log_p_target": -4.958416938781738,
+        "log_p_argmax": -2.331752061843872,
+        "target_rank": 25,
+        "entropy": 4.534974098205566,
+        "hit": false,
+        "argmax_token_str": " man",
+        "log_p_drop": 2.419004440307617
+      },
+      "mean_ablation": {
+        "argmax_token_id": 916,
+        "log_p_target": -4.591666221618652,
+        "log_p_argmax": -2.3277981281280518,
+        "target_rank": 19,
+        "entropy": 4.552209854125977,
+        "hit": false,
+        "argmax_token_str": " man",
+        "log_p_drop": 2.0522537231445312
+      }
+    },
+    {
+      "id": "syntax-cat-mouse",
+      "category": "syntactic",
+      "prompt": "The cat caught the",
+      "target": " mouse",
+      "supporting_top10_ids": [
+        6772,
+        6011,
+        2206,
+        15175,
+        14074,
+        4835,
+        8658,
+        5203,
+        6452,
+        12492
+      ],
+      "baseline": {
+        "argmax_token_id": 11937,
+        "log_p_target": -1.4995719194412231,
+        "log_p_argmax": -1.4995719194412231,
+        "target_rank": 0,
+        "entropy": 4.4704270362854,
+        "hit": true,
+        "argmax_token_str": " mouse"
+      },
+      "zero_ablation": {
+        "argmax_token_id": 6137,
+        "log_p_target": -5.02364444732666,
+        "log_p_argmax": -2.658573865890503,
+        "target_rank": 27,
+        "entropy": 5.060409069061279,
+        "hit": false,
+        "argmax_token_str": " attention",
+        "log_p_drop": 3.524072527885437
+      },
+      "mean_ablation": {
+        "argmax_token_id": 6312,
+        "log_p_target": -4.490494728088379,
+        "log_p_argmax": -2.6427717208862305,
+        "target_rank": 15,
+        "entropy": 5.090578556060791,
+        "hit": false,
+        "argmax_token_str": " eye",
+        "log_p_drop": 2.9909228086471558
+      }
+    },
+    {
+      "id": "syntax-bird-sky",
+      "category": "syntactic",
+      "prompt": "The bird flew across the",
+      "target": " sky",
+      "supporting_top10_ids": [
+        4481,
+        15255,
+        11612,
+        11424,
+        6933,
+        7135,
+        8043,
+        14537,
+        826,
+        6631
+      ],
+      "baseline": {
+        "argmax_token_id": 8203,
+        "log_p_target": -1.361131191253662,
+        "log_p_argmax": -1.361131191253662,
+        "target_rank": 0,
+        "entropy": 4.059043884277344,
+        "hit": true,
+        "argmax_token_str": " sky"
+      },
+      "zero_ablation": {
+        "argmax_token_id": 7432,
+        "log_p_target": -3.555124044418335,
+        "log_p_argmax": -2.176706075668335,
+        "target_rank": 7,
+        "entropy": 4.387857437133789,
+        "hit": false,
+        "argmax_token_str": " street",
+        "log_p_drop": 2.193992853164673
+      },
+      "mean_ablation": {
+        "argmax_token_id": 573,
+        "log_p_target": -3.3519909381866455,
+        "log_p_argmax": -2.389849901199341,
+        "target_rank": 7,
+        "entropy": 4.358222007751465,
+        "hit": false,
+        "argmax_token_str": " the",
+        "log_p_drop": 1.9908597469329834
+      }
+    },
+    {
+      "id": "syntax-key-door",
+      "category": "syntactic",
+      "prompt": "She turned the key in the",
+      "target": " door",
+      "supporting_top10_ids": [
+        1612,
+        9177,
+        13995,
+        9768,
+        3702,
+        14537,
+        2862,
+        12329,
+        6933,
+        2155
+      ],
+      "baseline": {
+        "argmax_token_id": 10240,
+        "log_p_target": -1.9017376899719238,
+        "log_p_argmax": -1.1512665748596191,
+        "target_rank": 2,
+        "entropy": 3.0457189083099365,
+        "hit": false,
+        "argmax_token_str": " lock"
+      },
+      "zero_ablation": {
+        "argmax_token_id": 10240,
+        "log_p_target": -4.009550094604492,
+        "log_p_argmax": -1.0432718992233276,
+        "target_rank": 6,
+        "entropy": 3.4117231369018555,
+        "hit": false,
+        "argmax_token_str": " lock",
+        "log_p_drop": 2.1078124046325684
+      },
+      "mean_ablation": {
+        "argmax_token_id": 10240,
+        "log_p_target": -3.315985679626465,
+        "log_p_argmax": -0.9128217101097107,
+        "target_rank": 4,
+        "entropy": 3.20798397064209,
+        "hit": false,
+        "argmax_token_str": " lock",
+        "log_p_drop": 1.414247989654541
+      }
+    },
+    {
+      "id": "reason-syllogism",
+      "category": "reasoning",
+      "prompt": "All birds are animals. A robin is a bird. A robin is an",
+      "target": " animal",
+      "supporting_top10_ids": [
+        2351,
+        14447,
+        5203,
+        9982,
+        13129,
+        8859,
+        5467,
+        1089,
+        549,
+        8587
+      ],
+      "baseline": {
+        "argmax_token_id": 8205,
+        "log_p_target": -0.08400081843137741,
+        "log_p_argmax": -0.08400081843137741,
+        "target_rank": 0,
+        "entropy": 0.5406847596168518,
+        "hit": true,
+        "argmax_token_str": " animal"
+      },
+      "zero_ablation": {
+        "argmax_token_id": 8205,
+        "log_p_target": -1.5655380487442017,
+        "log_p_argmax": -1.5655380487442017,
+        "target_rank": 0,
+        "entropy": 3.600234270095825,
+        "hit": true,
+        "argmax_token_str": " animal",
+        "log_p_drop": 1.4815372303128242
+      },
+      "mean_ablation": {
+        "argmax_token_id": 8205,
+        "log_p_target": -1.1898643970489502,
+        "log_p_argmax": -1.1898643970489502,
+        "target_rank": 0,
+        "entropy": 3.2779598236083984,
+        "hit": true,
+        "argmax_token_str": " animal",
+        "log_p_drop": 1.1058635786175728
+      }
+    },
+    {
+      "id": "reason-transitive",
+      "category": "reasoning",
+      "prompt": "If A is greater than B, and B is greater than C, then A is greater than",
+      "target": " C",
+      "supporting_top10_ids": [
+        4416,
+        12748,
+        16232,
+        4023,
+        8231,
+        1530,
+        575,
+        9185,
+        361,
+        11175
+      ],
+      "baseline": {
+        "argmax_token_id": 585,
+        "log_p_target": -0.18115435540676117,
+        "log_p_argmax": -0.18115435540676117,
+        "target_rank": 0,
+        "entropy": 0.9302486777305603,
+        "hit": true,
+        "argmax_token_str": " C"
+      },
+      "zero_ablation": {
+        "argmax_token_id": 599,
+        "log_p_target": -2.386575222015381,
+        "log_p_argmax": -0.9549061059951782,
+        "target_rank": 1,
+        "entropy": 2.770900011062622,
+        "hit": false,
+        "argmax_token_str": " B",
+        "log_p_drop": 2.2054208666086197
+      },
+      "mean_ablation": {
+        "argmax_token_id": 599,
+        "log_p_target": -2.002511978149414,
+        "log_p_argmax": -0.9239920973777771,
+        "target_rank": 1,
+        "entropy": 2.6740381717681885,
+        "hit": false,
+        "argmax_token_str": " B",
+        "log_p_drop": 1.821357622742653
+      }
+    },
+    {
+      "id": "reason-contrap",
+      "category": "reasoning",
+      "prompt": "Every dog has fur. Fluffy has no fur. Therefore, Fluffy is not a",
+      "target": " dog",
+      "supporting_top10_ids": [
+        11612,
+        12748,
+        9982,
+        11709,
+        13129,
+        9998,
+        13672,
+        12082,
+        5333,
+        13981
+      ],
+      "baseline": {
+        "argmax_token_id": 5929,
+        "log_p_target": -0.018264561891555786,
+        "log_p_argmax": -0.018264561891555786,
+        "target_rank": 0,
+        "entropy": 0.16608497500419617,
+        "hit": true,
+        "argmax_token_str": " dog"
+      },
+      "zero_ablation": {
+        "argmax_token_id": 5929,
+        "log_p_target": -0.2880888879299164,
+        "log_p_argmax": -0.2880888879299164,
+        "target_rank": 0,
+        "entropy": 1.565561056137085,
+        "hit": true,
+        "argmax_token_str": " dog",
+        "log_p_drop": 0.2698243260383606
+      },
+      "mean_ablation": {
+        "argmax_token_id": 5929,
+        "log_p_target": -0.22634465992450714,
+        "log_p_argmax": -0.22634465992450714,
+        "target_rank": 0,
+        "entropy": 1.3006670475006104,
+        "hit": true,
+        "argmax_token_str": " dog",
+        "log_p_drop": 0.20808009803295135
+      }
+    },
+    {
+      "id": "reason-set",
+      "category": "reasoning",
+      "prompt": "A square is a rectangle. A rectangle has four sides. A square has four",
+      "target": " sides",
+      "supporting_top10_ids": [
+        10180,
+        9247,
+        8640,
+        9718,
+        12356,
+        11671,
+        10230,
+        15846,
+        14934,
+        4069
+      ],
+      "baseline": {
+        "argmax_token_id": 10012,
+        "log_p_target": -0.34296366572380066,
+        "log_p_argmax": -0.34296366572380066,
+        "target_rank": 0,
+        "entropy": 1.299694538116455,
+        "hit": true,
+        "argmax_token_str": " sides"
+      },
+      "zero_ablation": {
+        "argmax_token_id": 6871,
+        "log_p_target": -1.4546124935150146,
+        "log_p_argmax": -1.101592779159546,
+        "target_rank": 1,
+        "entropy": 2.672928810119629,
+        "hit": false,
+        "argmax_token_str": " equal",
+        "log_p_drop": 1.111648827791214
+      },
+      "mean_ablation": {
+        "argmax_token_id": 10012,
+        "log_p_target": -1.1385817527770996,
+        "log_p_argmax": -1.1385817527770996,
+        "target_rank": 0,
+        "entropy": 2.5118770599365234,
+        "hit": true,
+        "argmax_token_str": " sides",
+        "log_p_drop": 0.795618087053299
+      }
+    },
+    {
+      "id": "instr-yesno",
+      "category": "instruction",
+      "prompt": "Please answer with just 'yes' or 'no'. Is the sky blue? Answer:",
+      "target": " yes",
+      "supporting_top10_ids": [
+        6627,
+        12701,
+        4488,
+        6631,
+        15947,
+        14351,
+        920,
+        6107,
+        259,
+        11993
+      ],
+      "baseline": {
+        "argmax_token_id": 6287,
+        "log_p_target": -1.9809129238128662,
+        "log_p_argmax": -1.1453759670257568,
+        "target_rank": 1,
+        "entropy": 3.05137038230896,
+        "hit": false,
+        "argmax_token_str": " Yes"
+      },
+      "zero_ablation": {
+        "argmax_token_id": 6287,
+        "log_p_target": -3.4595322608947754,
+        "log_p_argmax": -1.9325871467590332,
+        "target_rank": 8,
+        "entropy": 3.9617536067962646,
+        "hit": false,
+        "argmax_token_str": " Yes",
+        "log_p_drop": 1.4786193370819092
+      },
+      "mean_ablation": {
+        "argmax_token_id": 6287,
+        "log_p_target": -3.2776143550872803,
+        "log_p_argmax": -2.345161199569702,
+        "target_rank": 5,
+        "entropy": 3.904815196990967,
+        "hit": false,
+        "argmax_token_str": " Yes",
+        "log_p_drop": 1.296701431274414
+      }
+    },
+    {
+      "id": "instr-color",
+      "category": "instruction",
+      "prompt": "Name a primary color. Answer with one word:",
+      "target": " red",
+      "supporting_top10_ids": [
+        2511,
+        60,
+        3665,
+        259,
+        5486,
+        1179,
+        9861,
+        12947,
+        5046,
+        12053
+      ],
+      "baseline": {
+        "argmax_token_id": 108,
+        "log_p_target": -3.815661907196045,
+        "log_p_argmax": -1.2133574485778809,
+        "target_rank": 5,
+        "entropy": 3.1641476154327393,
+        "hit": false,
+        "argmax_token_str": "\n"
+      },
+      "zero_ablation": {
+        "argmax_token_id": 108,
+        "log_p_target": -7.823400497436523,
+        "log_p_argmax": -0.941614031791687,
+        "target_rank": 94,
+        "entropy": 2.6097729206085205,
+        "hit": false,
+        "argmax_token_str": "\n",
+        "log_p_drop": 4.0077385902404785
+      },
+      "mean_ablation": {
+        "argmax_token_id": 108,
+        "log_p_target": -7.472065448760986,
+        "log_p_argmax": -0.9443402886390686,
+        "target_rank": 73,
+        "entropy": 2.6220126152038574,
+        "hit": false,
+        "argmax_token_str": "\n",
+        "log_p_drop": 3.6564035415649414
+      }
+    },
+    {
+      "id": "instr-greeting",
+      "category": "instruction",
+      "prompt": "Respond with a single word greeting:",
+      "target": " Hello",
+      "supporting_top10_ids": [
+        6779,
+        6163,
+        6396,
+        8517,
+        12701,
+        14404,
+        6710,
+        12255,
+        6631,
+        7717
+      ],
+      "baseline": {
+        "argmax_token_id": 108,
+        "log_p_target": -3.6230154037475586,
+        "log_p_argmax": -1.1206693649291992,
+        "target_rank": 4,
+        "entropy": 2.652400493621826,
+        "hit": false,
+        "argmax_token_str": "\n"
+      },
+      "zero_ablation": {
+        "argmax_token_id": 108,
+        "log_p_target": -7.101634502410889,
+        "log_p_argmax": -0.7382904291152954,
+        "target_rank": 40,
+        "entropy": 2.064119815826416,
+        "hit": false,
+        "argmax_token_str": "\n",
+        "log_p_drop": 3.47861909866333
+      },
+      "mean_ablation": {
+        "argmax_token_id": 108,
+        "log_p_target": -7.130995750427246,
+        "log_p_argmax": -1.007368803024292,
+        "target_rank": 52,
+        "entropy": 2.461885929107666,
+        "hit": false,
+        "argmax_token_str": "\n",
+        "log_p_drop": 3.5079803466796875
+      }
+    },
+    {
+      "id": "instr-cap-letter",
+      "category": "instruction",
+      "prompt": "The first letter of the alphabet is",
+      "target": " A",
+      "supporting_top10_ids": [
+        575,
+        13176,
+        12337,
+        8394,
+        5486,
+        6718,
+        11700,
+        2021,
+        11159,
+        6929
+      ],
+      "baseline": {
+        "argmax_token_id": 586,
+        "log_p_target": -1.617712378501892,
+        "log_p_argmax": -1.617712378501892,
+        "target_rank": 0,
+        "entropy": 3.053399085998535,
+        "hit": true,
+        "argmax_token_str": " A"
+      },
+      "zero_ablation": {
+        "argmax_token_id": 573,
+        "log_p_target": -7.016620635986328,
+        "log_p_argmax": -1.1207923889160156,
+        "target_rank": 79,
+        "entropy": 3.2574145793914795,
+        "hit": false,
+        "argmax_token_str": " the",
+        "log_p_drop": 5.398908257484436
+      },
+      "mean_ablation": {
+        "argmax_token_id": 573,
+        "log_p_target": -6.4185380935668945,
+        "log_p_argmax": -1.1366684436798096,
+        "target_rank": 52,
+        "entropy": 3.2611355781555176,
+        "hit": false,
+        "argmax_token_str": " the",
+        "log_p_drop": 4.800825715065002
+      }
+    },
+    {
+      "id": "fact-water",
+      "category": "factual-recall",
+      "prompt": "Water is composed of hydrogen and",
+      "target": " oxygen",
+      "supporting_top10_ids": [
+        8551,
+        11144,
+        753,
+        7400,
+        12748,
+        15022,
+        15782,
+        4295,
+        8684,
+        11612
+      ],
+      "baseline": {
+        "argmax_token_id": 16175,
+        "log_p_target": -0.1053619533777237,
+        "log_p_argmax": -0.1053619533777237,
+        "target_rank": 0,
+        "entropy": 0.6168922185897827,
+        "hit": true,
+        "argmax_token_str": " oxygen"
+      },
+      "zero_ablation": {
+        "argmax_token_id": 20303,
+        "log_p_target": -1.7953312397003174,
+        "log_p_argmax": -0.8164226412773132,
+        "target_rank": 1,
+        "entropy": 2.457760810852051,
+        "hit": false,
+        "argmax_token_str": " hydrogen",
+        "log_p_drop": 1.6899692863225937
+      },
+      "mean_ablation": {
+        "argmax_token_id": 20303,
+        "log_p_target": -1.6976184844970703,
+        "log_p_argmax": -0.8526211380958557,
+        "target_rank": 1,
+        "entropy": 2.4628469944000244,
+        "hit": false,
+        "argmax_token_str": " hydrogen",
+        "log_p_drop": 1.5922565311193466
+      }
+    },
+    {
+      "id": "fact-sun",
+      "category": "factual-recall",
+      "prompt": "The Earth revolves around the",
+      "target": " Sun",
+      "supporting_top10_ids": [
+        3565,
+        14537,
+        10938,
+        2153,
+        14046,
+        5760,
+        5679,
+        5282,
+        2516,
+        9177
+      ],
+      "baseline": {
+        "argmax_token_id": 4389,
+        "log_p_target": -1.1593080759048462,
+        "log_p_argmax": -0.600472092628479,
+        "target_rank": 1,
+        "entropy": 1.2276718616485596,
+        "hit": false,
+        "argmax_token_str": " sun"
+      },
+      "zero_ablation": {
+        "argmax_token_id": 5086,
+        "log_p_target": -3.7057573795318604,
+        "log_p_argmax": -0.8551218509674072,
+        "target_rank": 4,
+        "entropy": 2.3562588691711426,
+        "hit": false,
+        "argmax_token_str": " center",
+        "log_p_drop": 2.546449303627014
+      },
+      "mean_ablation": {
+        "argmax_token_id": 5086,
+        "log_p_target": -3.1411490440368652,
+        "log_p_argmax": -0.8159937262535095,
+        "target_rank": 3,
+        "entropy": 2.2641513347625732,
+        "hit": false,
+        "argmax_token_str": " center",
+        "log_p_drop": 1.981840968132019
+      }
+    },
+    {
+      "id": "fact-moon",
+      "category": "factual-recall",
+      "prompt": "The natural satellite of Earth is the",
+      "target": " Moon",
+      "supporting_top10_ids": [
+        5760,
+        10938,
+        4282,
+        5486,
+        5191,
+        14537,
+        1659,
+        6130,
+        12526,
+        11324
+      ],
+      "baseline": {
+        "argmax_token_id": 1297,
+        "log_p_target": -2.7718329429626465,
+        "log_p_argmax": -1.7245153188705444,
+        "target_rank": 5,
+        "entropy": 3.9388315677642822,
+        "hit": false,
+        "argmax_token_str": " only"
+      },
+      "zero_ablation": {
+        "argmax_token_id": 1297,
+        "log_p_target": -7.067057132720947,
+        "log_p_argmax": -1.8445496559143066,
+        "target_rank": 101,
+        "entropy": 4.083398342132568,
+        "hit": false,
+        "argmax_token_str": " only",
+        "log_p_drop": 4.295224189758301
+      },
+      "mean_ablation": {
+        "argmax_token_id": 1297,
+        "log_p_target": -6.594291687011719,
+        "log_p_argmax": -1.7734681367874146,
+        "target_rank": 66,
+        "entropy": 4.081360816955566,
+        "hit": false,
+        "argmax_token_str": " only",
+        "log_p_drop": 3.8224587440490723
+      }
+    },
+    {
+      "id": "fact-currency-uk",
+      "category": "factual-recall",
+      "prompt": "The currency of the United Kingdom is the",
+      "target": " pound",
+      "supporting_top10_ids": [
+        14537,
+        3256,
+        5203,
+        10834,
+        11612,
+        15782,
+        7047,
+        12553,
+        7357,
+        5467
+      ],
+      "baseline": {
+        "argmax_token_id": 23106,
+        "log_p_target": -1.4009582996368408,
+        "log_p_argmax": -1.4009582996368408,
+        "target_rank": 0,
+        "entropy": 2.4303321838378906,
+        "hit": true,
+        "argmax_token_str": " pound"
+      },
+      "zero_ablation": {
+        "argmax_token_id": 235248,
+        "log_p_target": -4.451562881469727,
+        "log_p_argmax": -1.3462505340576172,
+        "target_rank": 13,
+        "entropy": 2.9269320964813232,
+        "hit": false,
+        "argmax_token_str": " ",
+        "log_p_drop": 3.0506045818328857
+      },
+      "mean_ablation": {
+        "argmax_token_id": 235248,
+        "log_p_target": -3.696600914001465,
+        "log_p_argmax": -1.388102412223816,
+        "target_rank": 8,
+        "entropy": 2.9225387573242188,
+        "hit": false,
+        "argmax_token_str": " ",
+        "log_p_drop": 2.295642614364624
+      }
+    },
+    {
+      "id": "code-print",
+      "category": "code",
+      "prompt": "In Python, the function to print to console is",
+      "target": " print",
+      "supporting_top10_ids": [
+        4438,
+        3486,
+        6721,
+        6464,
+        1173,
+        11607,
+        5467,
+        8924,
+        7718,
+        13950
+      ],
+      "baseline": {
+        "argmax_token_id": 235248,
+        "log_p_target": -1.8177357912063599,
+        "log_p_argmax": -1.031082272529602,
+        "target_rank": 1,
+        "entropy": 2.786494255065918,
+        "hit": false,
+        "argmax_token_str": " "
+      },
+      "zero_ablation": {
+        "argmax_token_id": 235248,
+        "log_p_target": -5.671609878540039,
+        "log_p_argmax": -1.4516392946243286,
+        "target_rank": 23,
+        "entropy": 3.1102466583251953,
+        "hit": false,
+        "argmax_token_str": " ",
+        "log_p_drop": 3.853874087333679
+      },
+      "mean_ablation": {
+        "argmax_token_id": 235248,
+        "log_p_target": -5.017526149749756,
+        "log_p_argmax": -1.3923640251159668,
+        "target_rank": 17,
+        "entropy": 3.0980947017669678,
+        "hit": false,
+        "argmax_token_str": " ",
+        "log_p_drop": 3.199790358543396
+      }
+    },
+    {
+      "id": "code-len",
+      "category": "code",
+      "prompt": "To get the number of items in a Python list, use the function",
+      "target": " len",
+      "supporting_top10_ids": [
+        13448,
+        3486,
+        6721,
+        11607,
+        12783,
+        1940,
+        3252,
+        8616,
+        8924,
+        6464
+      ],
+      "baseline": {
+        "argmax_token_id": 235248,
+        "log_p_target": -2.4773144721984863,
+        "log_p_argmax": -1.236687183380127,
+        "target_rank": 1,
+        "entropy": 3.3381667137145996,
+        "hit": false,
+        "argmax_token_str": " "
+      },
+      "zero_ablation": {
+        "argmax_token_id": 235248,
+        "log_p_target": -6.644549369812012,
+        "log_p_argmax": -1.401585340499878,
+        "target_rank": 45,
+        "entropy": 3.1578073501586914,
+        "hit": false,
+        "argmax_token_str": " ",
+        "log_p_drop": 4.167234897613525
+      },
+      "mean_ablation": {
+        "argmax_token_id": 235248,
+        "log_p_target": -6.324763298034668,
+        "log_p_argmax": -1.389958381652832,
+        "target_rank": 37,
+        "entropy": 3.1629281044006348,
+        "hit": false,
+        "argmax_token_str": " ",
+        "log_p_drop": 3.8474488258361816
+      }
+    },
+    {
+      "id": "code-true-false",
+      "category": "code",
+      "prompt": "In Python, the opposite of True is",
+      "target": " False",
+      "supporting_top10_ids": [
+        3486,
+        5495,
+        8353,
+        5606,
+        3007,
+        3565,
+        2040,
+        5486,
+        14078,
+        4295
+      ],
+      "baseline": {
+        "argmax_token_id": 7662,
+        "log_p_target": -0.3013384938240051,
+        "log_p_argmax": -0.3013384938240051,
+        "target_rank": 0,
+        "entropy": 1.338639497756958,
+        "hit": true,
+        "argmax_token_str": " False"
+      },
+      "zero_ablation": {
+        "argmax_token_id": 235248,
+        "log_p_target": -2.0558598041534424,
+        "log_p_argmax": -1.5556747913360596,
+        "target_rank": 1,
+        "entropy": 3.2742373943328857,
+        "hit": false,
+        "argmax_token_str": " ",
+        "log_p_drop": 1.7545213103294373
+      },
+      "mean_ablation": {
+        "argmax_token_id": 235248,
+        "log_p_target": -1.7313024997711182,
+        "log_p_argmax": -1.5841829776763916,
+        "target_rank": 1,
+        "entropy": 3.181530237197876,
+        "hit": false,
+        "argmax_token_str": " ",
+        "log_p_drop": 1.429964005947113
+      }
+    },
+    {
+      "id": "code-if-else",
+      "category": "code",
+      "prompt": "An if statement in Python is followed by an",
+      "target": " else",
+      "supporting_top10_ids": [
+        15408,
+        2351,
+        749,
+        1722,
+        15839,
+        15430,
+        7976,
+        2396,
+        419,
+        3042
+      ],
+      "baseline": {
+        "argmax_token_id": 235248,
+        "log_p_target": -2.026872158050537,
+        "log_p_argmax": -1.7631239891052246,
+        "target_rank": 1,
+        "entropy": 3.5026886463165283,
+        "hit": false,
+        "argmax_token_str": " "
+      },
+      "zero_ablation": {
+        "argmax_token_id": 235248,
+        "log_p_target": -11.249558448791504,
+        "log_p_argmax": -1.4138362407684326,
+        "target_rank": 1367,
+        "entropy": 4.234031677246094,
+        "hit": false,
+        "argmax_token_str": " ",
+        "log_p_drop": 9.222686290740967
+      },
+      "mean_ablation": {
+        "argmax_token_id": 235248,
+        "log_p_target": -10.039302825927734,
+        "log_p_argmax": -1.4424145221710205,
+        "target_rank": 711,
+        "entropy": 4.269726753234863,
+        "hit": false,
+        "argmax_token_str": " ",
+        "log_p_drop": 8.012430667877197
+      }
+    },
+    {
+      "id": "multi-arith-1",
+      "category": "multi-step-arithmetic",
+      "prompt": "Two plus three plus four equals",
+      "target": " nine",
+      "supporting_top10_ids": [
+        5811,
+        3697,
+        5441,
+        10615,
+        2007,
+        3032,
+        15782,
+        15257,
+        6131,
+        12492
+      ],
+      "baseline": {
+        "argmax_token_id": 4105,
+        "log_p_target": -3.183471441268921,
+        "log_p_argmax": -1.9122331142425537,
+        "target_rank": 7,
+        "entropy": 3.680877208709717,
+        "hit": false,
+        "argmax_token_str": " five"
+      },
+      "zero_ablation": {
+        "argmax_token_id": 1212,
+        "log_p_target": -7.3418684005737305,
+        "log_p_argmax": -1.9818503856658936,
+        "target_rank": 114,
+        "entropy": 3.930359363555908,
+        "hit": false,
+        "argmax_token_str": " what",
+        "log_p_drop": 4.15839695930481
+      },
+      "mean_ablation": {
+        "argmax_token_id": 1212,
+        "log_p_target": -6.58831787109375,
+        "log_p_argmax": -2.079042673110962,
+        "target_rank": 71,
+        "entropy": 3.899324893951416,
+        "hit": false,
+        "argmax_token_str": " what",
+        "log_p_drop": 3.404846429824829
+      }
+    },
+    {
+      "id": "multi-arith-2",
+      "category": "multi-step-arithmetic",
+      "prompt": "Five times two minus three equals",
+      "target": " seven",
+      "supporting_top10_ids": [
+        15782,
+        5441,
+        3697,
+        13265,
+        9421,
+        11880,
+        435,
+        2532,
+        10615,
+        11003
+      ],
+      "baseline": {
+        "argmax_token_id": 235248,
+        "log_p_target": -4.158190727233887,
+        "log_p_argmax": -1.8515939712524414,
+        "target_rank": 11,
+        "entropy": 3.3310651779174805,
+        "hit": false,
+        "argmax_token_str": " "
+      },
+      "zero_ablation": {
+        "argmax_token_id": 235336,
+        "log_p_target": -8.719849586486816,
+        "log_p_argmax": -1.4255784749984741,
+        "target_rank": 157,
+        "entropy": 3.1172447204589844,
+        "hit": false,
+        "argmax_token_str": "?",
+        "log_p_drop": 4.56165885925293
+      },
+      "mean_ablation": {
+        "argmax_token_id": 235336,
+        "log_p_target": -7.862113952636719,
+        "log_p_argmax": -1.5318412780761719,
+        "target_rank": 104,
+        "entropy": 3.1258983612060547,
+        "hit": false,
+        "argmax_token_str": "?",
+        "log_p_drop": 3.703923225402832
+      }
+    },
+    {
+      "id": "multi-arith-3",
+      "category": "multi-step-arithmetic",
+      "prompt": "Half of twenty equals",
+      "target": " ten",
+      "supporting_top10_ids": [
+        478,
+        10615,
+        5441,
+        15782,
+        3697,
+        4748,
+        6131,
+        6315,
+        15163,
+        10230
+      ],
+      "baseline": {
+        "argmax_token_id": 235248,
+        "log_p_target": -3.8202977180480957,
+        "log_p_argmax": -1.7300058603286743,
+        "target_rank": 10,
+        "entropy": 3.4855918884277344,
+        "hit": false,
+        "argmax_token_str": " "
+      },
+      "zero_ablation": {
+        "argmax_token_id": 235248,
+        "log_p_target": -7.144013404846191,
+        "log_p_argmax": -1.1617592573165894,
+        "target_rank": 72,
+        "entropy": 3.241865396499634,
+        "hit": false,
+        "argmax_token_str": " ",
+        "log_p_drop": 3.3237156867980957
+      },
+      "mean_ablation": {
+        "argmax_token_id": 235248,
+        "log_p_target": -6.411386966705322,
+        "log_p_argmax": -1.1071151494979858,
+        "target_rank": 48,
+        "entropy": 3.175349473953247,
+        "hit": false,
+        "argmax_token_str": " ",
+        "log_p_drop": 2.5910892486572266
+      }
+    },
+    {
+      "id": "multi-arith-4",
+      "category": "multi-step-arithmetic",
+      "prompt": "One hundred divided by ten equals",
+      "target": " ten",
+      "supporting_top10_ids": [
+        5441,
+        15782,
+        1316,
+        478,
+        10615,
+        723,
+        6131,
+        9271,
+        5525,
+        12460
+      ],
+      "baseline": {
+        "argmax_token_id": 235248,
+        "log_p_target": -2.9397640228271484,
+        "log_p_argmax": -1.4424992799758911,
+        "target_rank": 4,
+        "entropy": 3.19796085357666,
+        "hit": false,
+        "argmax_token_str": " "
+      },
+      "zero_ablation": {
+        "argmax_token_id": 235248,
+        "log_p_target": -8.70615005493164,
+        "log_p_argmax": -1.3514480590820312,
+        "target_rank": 149,
+        "entropy": 3.006688356399536,
+        "hit": false,
+        "argmax_token_str": " ",
+        "log_p_drop": 5.766386032104492
+      },
+      "mean_ablation": {
+        "argmax_token_id": 235248,
+        "log_p_target": -8.042031288146973,
+        "log_p_argmax": -1.3222688436508179,
+        "target_rank": 107,
+        "entropy": 2.9964449405670166,
+        "hit": false,
+        "argmax_token_str": " ",
+        "log_p_drop": 5.102267265319824
+      }
+    },
+    {
+      "id": "pronoun-she",
+      "category": "pronoun",
+      "prompt": "Alice went to the store. After she finished shopping,",
+      "target": " she",
+      "supporting_top10_ids": [
+        11135,
+        12545,
+        14088,
+        4373,
+        11612,
+        8292,
+        11141,
+        1630,
+        15546,
+        11705
+      ],
+      "baseline": {
+        "argmax_token_id": 1284,
+        "log_p_target": -0.19254055619239807,
+        "log_p_argmax": -0.19254055619239807,
+        "target_rank": 0,
+        "entropy": 0.9501104354858398,
+        "hit": true,
+        "argmax_token_str": " she"
+      },
+      "zero_ablation": {
+        "argmax_token_id": 22877,
+        "log_p_target": -1.5644779205322266,
+        "log_p_argmax": -1.3554515838623047,
+        "target_rank": 1,
+        "entropy": 2.8639018535614014,
+        "hit": false,
+        "argmax_token_str": " Alice",
+        "log_p_drop": 1.3719373643398285
+      },
+      "mean_ablation": {
+        "argmax_token_id": 1284,
+        "log_p_target": -1.1411842107772827,
+        "log_p_argmax": -1.1411842107772827,
+        "target_rank": 0,
+        "entropy": 2.639559030532837,
+        "hit": true,
+        "argmax_token_str": " she",
+        "log_p_drop": 0.9486436545848846
+      }
+    },
+    {
+      "id": "pronoun-he",
+      "category": "pronoun",
+      "prompt": "Bob took the train to work. When he arrived at the office,",
+      "target": " he",
+      "supporting_top10_ids": [
+        11135,
+        14088,
+        7116,
+        4373,
+        8887,
+        1630,
+        1548,
+        369,
+        9320,
+        2419
+      ],
+      "baseline": {
+        "argmax_token_id": 693,
+        "log_p_target": -0.5176909565925598,
+        "log_p_argmax": -0.5176909565925598,
+        "target_rank": 0,
+        "entropy": 2.0220417976379395,
+        "hit": true,
+        "argmax_token_str": " he"
+      },
+      "zero_ablation": {
+        "argmax_token_id": 11270,
+        "log_p_target": -2.4227190017700195,
+        "log_p_argmax": -1.733876347541809,
+        "target_rank": 2,
+        "entropy": 3.9954898357391357,
+        "hit": false,
+        "argmax_token_str": " Bob",
+        "log_p_drop": 1.9050280451774597
+      },
+      "mean_ablation": {
+        "argmax_token_id": 693,
+        "log_p_target": -1.2866190671920776,
+        "log_p_argmax": -1.2866190671920776,
+        "target_rank": 0,
+        "entropy": 3.330636501312256,
+        "hit": true,
+        "argmax_token_str": " he",
+        "log_p_drop": 0.7689281105995178
+      }
+    },
+    {
+      "id": "pronoun-it",
+      "category": "pronoun",
+      "prompt": "The package arrived on Monday. By Tuesday, it was already",
+      "target": " open",
+      "supporting_top10_ids": [
+        10391,
+        15596,
+        14996,
+        13744,
+        5426,
+        3206,
+        11653,
+        9768,
+        8742,
+        8852
+      ],
+      "baseline": {
+        "argmax_token_id": 575,
+        "log_p_target": -5.562936782836914,
+        "log_p_argmax": -1.6650619506835938,
+        "target_rank": 38,
+        "entropy": 3.9230268001556396,
+        "hit": false,
+        "argmax_token_str": " in"
+      },
+      "zero_ablation": {
+        "argmax_token_id": 575,
+        "log_p_target": -9.443269729614258,
+        "log_p_argmax": -2.1865153312683105,
+        "target_rank": 379,
+        "entropy": 4.252815246582031,
+        "hit": false,
+        "argmax_token_str": " in",
+        "log_p_drop": 3.8803329467773438
+      },
+      "mean_ablation": {
+        "argmax_token_id": 575,
+        "log_p_target": -8.847946166992188,
+        "log_p_argmax": -2.094686985015869,
+        "target_rank": 291,
+        "entropy": 4.240399360656738,
+        "hit": false,
+        "argmax_token_str": " in",
+        "log_p_drop": 3.2850093841552734
+      }
+    },
+    {
+      "id": "pronoun-they",
+      "category": "pronoun",
+      "prompt": "The children played outside. After lunch, they all went",
+      "target": " inside",
+      "supporting_top10_ids": [
+        14681,
+        12085,
+        4863,
+        7609,
+        11045,
+        15237,
+        12464,
+        14089,
+        11338,
+        1596
+      ],
+      "baseline": {
+        "argmax_token_id": 577,
+        "log_p_target": -2.589088201522827,
+        "log_p_argmax": -0.7582566738128662,
+        "target_rank": 4,
+        "entropy": 1.9996017217636108,
+        "hit": false,
+        "argmax_token_str": " to"
+      },
+      "zero_ablation": {
+        "argmax_token_id": 577,
+        "log_p_target": -5.278780460357666,
+        "log_p_argmax": -0.22018678486347198,
+        "target_rank": 9,
+        "entropy": 1.0833542346954346,
+        "hit": false,
+        "argmax_token_str": " to",
+        "log_p_drop": 2.689692258834839
+      },
+      "mean_ablation": {
+        "argmax_token_id": 577,
+        "log_p_target": -5.153473854064941,
+        "log_p_argmax": -0.2222394347190857,
+        "target_rank": 9,
+        "entropy": 1.0812870264053345,
+        "hit": false,
+        "argmax_token_str": " to",
+        "log_p_drop": 2.5643856525421143
+      }
+    },
+    {
+      "id": "summary-intro-1",
+      "category": "summarization-opener",
+      "prompt": "This article discusses the importance of regular exercise. In summary, exercise is",
+      "target": " important",
+      "supporting_top10_ids": [
+        7416,
+        2913,
+        15596,
+        15454,
+        15121,
+        1741,
+        12294,
+        13774,
+        15076,
+        16097
+      ],
+      "baseline": {
+        "argmax_token_id": 2845,
+        "log_p_target": -1.8890008926391602,
+        "log_p_argmax": -1.8890008926391602,
+        "target_rank": 0,
+        "entropy": 3.1421892642974854,
+        "hit": true,
+        "argmax_token_str": " important"
+      },
+      "zero_ablation": {
+        "argmax_token_id": 573,
+        "log_p_target": -4.646368980407715,
+        "log_p_argmax": -1.1762858629226685,
+        "target_rank": 8,
+        "entropy": 2.564664363861084,
+        "hit": false,
+        "argmax_token_str": " the",
+        "log_p_drop": 2.7573680877685547
+      },
+      "mean_ablation": {
+        "argmax_token_id": 573,
+        "log_p_target": -4.337881565093994,
+        "log_p_argmax": -1.2580609321594238,
+        "target_rank": 5,
+        "entropy": 2.6059274673461914,
+        "hit": false,
+        "argmax_token_str": " the",
+        "log_p_drop": 2.448880672454834
+      }
+    },
+    {
+      "id": "summary-intro-2",
+      "category": "summarization-opener",
+      "prompt": "The report describes the company's quarterly performance. Overall, the company has",
+      "target": " performed",
+      "supporting_top10_ids": [
+        3507,
+        1806,
+        3814,
+        7687,
+        495,
+        9163,
+        4913,
+        6186,
+        9736,
+        6631
+      ],
+      "baseline": {
+        "argmax_token_id": 1125,
+        "log_p_target": -3.0382237434387207,
+        "log_p_argmax": -2.4319405555725098,
+        "target_rank": 4,
+        "entropy": 3.9061410427093506,
+        "hit": false,
+        "argmax_token_str": " been"
+      },
+      "zero_ablation": {
+        "argmax_token_id": 476,
+        "log_p_target": -7.375532150268555,
+        "log_p_argmax": -1.2745473384857178,
+        "target_rank": 118,
+        "entropy": 3.704864025115967,
+        "hit": false,
+        "argmax_token_str": " a",
+        "log_p_drop": 4.337308406829834
+      },
+      "mean_ablation": {
+        "argmax_token_id": 476,
+        "log_p_target": -7.2421040534973145,
+        "log_p_argmax": -1.1829267740249634,
+        "target_rank": 90,
+        "entropy": 3.468816041946411,
+        "hit": false,
+        "argmax_token_str": " a",
+        "log_p_drop": 4.203880310058594
+      }
+    },
+    {
+      "id": "summary-intro-3",
+      "category": "summarization-opener",
+      "prompt": "The study examined the effects of sleep on memory. The main finding is that sleep",
+      "target": " improves",
+      "supporting_top10_ids": [
+        1406,
+        10310,
+        6782,
+        8844,
+        9480,
+        14842,
+        16031,
+        16075,
+        12348,
+        13704
+      ],
+      "baseline": {
+        "argmax_token_id": 603,
+        "log_p_target": -2.609783172607422,
+        "log_p_argmax": -1.5386332273483276,
+        "target_rank": 1,
+        "entropy": 3.5762972831726074,
+        "hit": false,
+        "argmax_token_str": " is"
+      },
+      "zero_ablation": {
+        "argmax_token_id": 603,
+        "log_p_target": -6.1890387535095215,
+        "log_p_argmax": -0.7668145298957825,
+        "target_rank": 35,
+        "entropy": 2.729574680328369,
+        "hit": false,
+        "argmax_token_str": " is",
+        "log_p_drop": 3.5792555809020996
+      },
+      "mean_ablation": {
+        "argmax_token_id": 603,
+        "log_p_target": -5.614333152770996,
+        "log_p_argmax": -0.7864333987236023,
+        "target_rank": 21,
+        "entropy": 2.773902416229248,
+        "hit": false,
+        "argmax_token_str": " is",
+        "log_p_drop": 3.004549980163574
+      }
+    },
+    {
+      "id": "summary-intro-4",
+      "category": "summarization-opener",
+      "prompt": "The paper presents new research on climate change. The authors conclude that the planet is",
+      "target": " warming",
+      "supporting_top10_ids": [
+        15236,
+        6086,
+        11344,
+        13646,
+        10540,
+        2751,
+        952,
+        10689,
+        15484,
+        15935
+      ],
+      "baseline": {
+        "argmax_token_id": 40929,
+        "log_p_target": -2.010105848312378,
+        "log_p_argmax": -2.010105848312378,
+        "target_rank": 0,
+        "entropy": 3.7774291038513184,
+        "hit": true,
+        "argmax_token_str": " warming"
+      },
+      "zero_ablation": {
+        "argmax_token_id": 780,
+        "log_p_target": -5.7607622146606445,
+        "log_p_argmax": -2.2657997608184814,
+        "target_rank": 48,
+        "entropy": 4.0857391357421875,
+        "hit": false,
+        "argmax_token_str": " not",
+        "log_p_drop": 3.7506563663482666
+      },
+      "mean_ablation": {
+        "argmax_token_id": 780,
+        "log_p_target": -5.418520927429199,
+        "log_p_argmax": -2.281205177307129,
+        "target_rank": 40,
+        "entropy": 4.094903945922852,
+        "hit": false,
+        "argmax_token_str": " not",
+        "log_p_drop": 3.4084150791168213
+      }
+    }
+  ],
+  "summary": {
+    "n": 52,
+    "baseline_hit_rate": 0.5192307692307693,
+    "zero_ablation": {
+      "hit_rate": 0.038461538461538464,
+      "mean_log_p_drop": 3.454511609358283
+    },
+    "mean_ablation": {
+      "hit_rate": 0.09615384615384616,
+      "mean_log_p_drop": 2.873348170604843
+    }
+  }
+}

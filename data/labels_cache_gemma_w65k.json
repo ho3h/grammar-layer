@@ -1,0 +1,602 @@
+{
+"21": {
+"text": " mathematical and structural representations of data",
+"source": "neuronpedia:gemma-2-2b/20-gemmascope-res-65k"
+},
+"120": {
+"text": "biographical information about individuals, specifically their professions and attributes",
+"source": "neuronpedia:gemma-2-2b/20-gemmascope-res-65k"
+},
+"203": {
+"text": "phrases related to medical conditions and their treatments",
+"source": "neuronpedia:gemma-2-2b/20-gemmascope-res-65k"
+},
+"217": {
+"text": "comparative phrases related to performance metrics and evaluation results in algorithms and financial contexts",
+"source": "neuronpedia:gemma-2-2b/20-gemmascope-res-65k"
+},
+"274": {
+"text": " content that discusses customer support and assistance in a technical context",
+"source": "neuronpedia:gemma-2-2b/20-gemmascope-res-65k"
+},
+"342": {
+"text": "numerical values and mathematical operations within the text",
+"source": "neuronpedia:gemma-2-2b/20-gemmascope-res-65k"
+},
+"628": {
+"text": " mathematical expressions or terms related to calculus and derivatives",
+"source": "neuronpedia:gemma-2-2b/20-gemmascope-res-65k"
+},
+"723": {
+"text": "technical specifications and data-related terms",
+"source": "neuronpedia:gemma-2-2b/20-gemmascope-res-65k"
+},
+"763": {
+"text": "statistical terms and references related to data presentation and analysis",
+"source": "neuronpedia:gemma-2-2b/20-gemmascope-res-65k"
+},
+"775": {
+"text": "references to astronomical phenomena and their explanations",
+"source": "neuronpedia:gemma-2-2b/20-gemmascope-res-65k"
+},
+"910": {
+"text": " numerical values and their comparisons within a context involving statistics or financial data",
+"source": "neuronpedia:gemma-2-2b/20-gemmascope-res-65k"
+},
+"1082": {
+"text": "the definite article \"the\" in various contexts",
+"source": "neuronpedia:gemma-2-2b/20-gemmascope-res-65k"
+},
+"1094": {
+"text": "statements or phrases highlighting statistical data and comparisons",
+"source": "neuronpedia:gemma-2-2b/20-gemmascope-res-65k"
+},
+"1223": {
+"text": "references to specific numerical data or measurements",
+"source": "neuronpedia:gemma-2-2b/20-gemmascope-res-65k"
+},
+"1312": {
+"text": "phrases indicating opposition or conflict",
+"source": "neuronpedia:gemma-2-2b/20-gemmascope-res-65k"
+},
+"1339": {
+"text": "negative numerical values and their context in discussions",
+"source": "neuronpedia:gemma-2-2b/20-gemmascope-res-65k"
+},
+"1567": {
+"text": " phrases related to financial and operational performance metrics",
+"source": "neuronpedia:gemma-2-2b/20-gemmascope-res-65k"
+},
+"1835": {
+"text": " programming-related terms and constructs",
+"source": "neuronpedia:gemma-2-2b/20-gemmascope-res-65k"
+},
+"2017": {
+"text": "references to women's menstrual health and related physiological issues",
+"source": "neuronpedia:gemma-2-2b/20-gemmascope-res-65k"
+},
+"2074": {
+"text": " actions related to safety and caution within residential contexts",
+"source": "neuronpedia:gemma-2-2b/20-gemmascope-res-65k"
+},
+"2103": {
+"text": " references to ongoing processes and related narrative details",
+"source": "neuronpedia:gemma-2-2b/20-gemmascope-res-65k"
+},
+"2116": {
+"text": "technical terms related to biochemical processes and measurements",
+"source": "neuronpedia:gemma-2-2b/20-gemmascope-res-65k"
+},
+"2184": {
+"text": "references to seasonal effects on biological traits and their implications for growth",
+"source": "neuronpedia:gemma-2-2b/20-gemmascope-res-65k"
+},
+"2239": {
+"text": " occurrences of the verb \"to be\" in various forms",
+"source": "neuronpedia:gemma-2-2b/20-gemmascope-res-65k"
+},
+"2252": {
+"text": "specific references to the underlying properties of systems described in the text",
+"source": "neuronpedia:gemma-2-2b/20-gemmascope-res-65k"
+},
+"2399": {
+"text": " sentences containing the verb \"is\" and its related forms, indicating a focus on states of being or existence",
+"source": "neuronpedia:gemma-2-2b/20-gemmascope-res-65k"
+},
+"2434": {
+"text": "leadership and collaboration among scientific and policymaking communities",
+"source": "neuronpedia:gemma-2-2b/20-gemmascope-res-65k"
+},
+"2686": {
+"text": " numerical values and mathematical operations in the text",
+"source": "neuronpedia:gemma-2-2b/20-gemmascope-res-65k"
+},
+"2915": {
+"text": "terms related to galactic dark matter and its properties",
+"source": "neuronpedia:gemma-2-2b/20-gemmascope-res-65k"
+},
+"2927": {
+"text": " statements about perseverance despite challenges",
+"source": "neuronpedia:gemma-2-2b/20-gemmascope-res-65k"
+},
+"3019": {
+"text": "contexts related to player injuries and recovery in sports",
+"source": "neuronpedia:gemma-2-2b/20-gemmascope-res-65k"
+},
+"3166": {
+"text": " instances of the word \"and\" in various contexts",
+"source": "neuronpedia:gemma-2-2b/20-gemmascope-res-65k"
+},
+"3818": {
+"text": " expressions related to teamwork and personal reflection",
+"source": "neuronpedia:gemma-2-2b/20-gemmascope-res-65k"
+},
+"3869": {
+"text": "terms related to procedural or methodological elements in complex contexts",
+"source": "neuronpedia:gemma-2-2b/20-gemmascope-res-65k"
+},
+"3932": {
+"text": " syntax elements or structures associated with natural language queries",
+"source": "neuronpedia:gemma-2-2b/20-gemmascope-res-65k"
+},
+"3966": {
+"text": " boolean validation results or states",
+"source": "neuronpedia:gemma-2-2b/20-gemmascope-res-65k"
+},
+"4146": {
+"text": " references to genetic variation and statistical testing related to allele frequency changes",
+"source": "neuronpedia:gemma-2-2b/20-gemmascope-res-65k"
+},
+"4516": {
+"text": " mentions of days and times associated with events",
+"source": "neuronpedia:gemma-2-2b/20-gemmascope-res-65k"
+},
+"4778": {
+"text": " instances of auxiliary verbs indicating ongoing actions or states",
+"source": "neuronpedia:gemma-2-2b/20-gemmascope-res-65k"
+},
+"4838": {
+"text": " references to specific individuals and their interactions",
+"source": "neuronpedia:gemma-2-2b/20-gemmascope-res-65k"
+},
+"4871": {
+"text": "terms related to statistical analysis and nutritional metrics",
+"source": "neuronpedia:gemma-2-2b/20-gemmascope-res-65k"
+},
+"5115": {
+"text": "terms related to healthcare professionals and their roles in patient management",
+"source": "neuronpedia:gemma-2-2b/20-gemmascope-res-65k"
+},
+"5119": {
+"text": " error messages related to database configurations in Django",
+"source": "neuronpedia:gemma-2-2b/20-gemmascope-res-65k"
+},
+"5293": {
+"text": " financial reports and guidance",
+"source": "neuronpedia:gemma-2-2b/20-gemmascope-res-65k"
+},
+"5304": {
+"text": "pertinent descriptors related to financial services and products",
+"source": "neuronpedia:gemma-2-2b/20-gemmascope-res-65k"
+},
+"5515": {
+"text": " statistical analysis results related to medical studies",
+"source": "neuronpedia:gemma-2-2b/20-gemmascope-res-65k"
+},
+"5800": {
+"text": " information about specific professional sports roles and their attributes",
+"source": "neuronpedia:gemma-2-2b/20-gemmascope-res-65k"
+},
+"6012": {
+"text": " references to attributes and properties in programming contexts",
+"source": "neuronpedia:gemma-2-2b/20-gemmascope-res-65k"
+},
+"6014": {
+"text": "specific instances of successful fishing experiences",
+"source": "neuronpedia:gemma-2-2b/20-gemmascope-res-65k"
+},
+"6060": {
+"text": " significant numerical data and statements punctuated by periods",
+"source": "neuronpedia:gemma-2-2b/20-gemmascope-res-65k"
+},
+"6133": {
+"text": "references to British individuals or events",
+"source": "neuronpedia:gemma-2-2b/20-gemmascope-res-65k"
+},
+"6170": {
+"text": "specific programming syntax and delimiters",
+"source": "neuronpedia:gemma-2-2b/20-gemmascope-res-65k"
+},
+"6194": {
+"text": "terms related to memory and recall processes",
+"source": "neuronpedia:gemma-2-2b/20-gemmascope-res-65k"
+},
+"6264": {
+"text": "phrases related to home improvement and maintenance activities",
+"source": "neuronpedia:gemma-2-2b/20-gemmascope-res-65k"
+},
+"6286": {
+"text": "phrases related to nature and daily life",
+"source": "neuronpedia:gemma-2-2b/20-gemmascope-res-65k"
+},
+"6306": {
+"text": " references to veterinary practices and the species involved",
+"source": "neuronpedia:gemma-2-2b/20-gemmascope-res-65k"
+},
+"6585": {
+"text": "words related to location and spatial relationships",
+"source": "neuronpedia:gemma-2-2b/20-gemmascope-res-65k"
+},
+"6610": {
+"text": "references to social media and related experiences",
+"source": "neuronpedia:gemma-2-2b/20-gemmascope-res-65k"
+},
+"6843": {
+"text": "elements related to arrays and their definitions in programming contexts",
+"source": "neuronpedia:gemma-2-2b/20-gemmascope-res-65k"
+},
+"6872": {
+"text": "references to artistic representation and creativity",
+"source": "neuronpedia:gemma-2-2b/20-gemmascope-res-65k"
+},
+"7101": {
+"text": "references to food-related topics and community relationships",
+"source": "neuronpedia:gemma-2-2b/20-gemmascope-res-65k"
+},
+"7110": {
+"text": " numerical data or values",
+"source": "neuronpedia:gemma-2-2b/20-gemmascope-res-65k"
+},
+"7144": {
+"text": "references to health conditions and medical recommendations",
+"source": "neuronpedia:gemma-2-2b/20-gemmascope-res-65k"
+},
+"7170": {
+"text": "the beginning of structured text blocks, such as the start of articles or sections",
+"source": "neuronpedia:gemma-2-2b/20-gemmascope-res-65k"
+},
+"7554": {
+"text": "articles emphasizing nouns",
+"source": "neuronpedia:gemma-2-2b/20-gemmascope-res-65k"
+},
+"7622": {
+"text": "numbers and their associated formatting in the text",
+"source": "neuronpedia:gemma-2-2b/20-gemmascope-res-65k"
+},
+"7743": {
+"text": " terms related to automotive industry metrics and regulations",
+"source": "neuronpedia:gemma-2-2b/20-gemmascope-res-65k"
+},
+"7791": {
+"text": " words or phrases related to financial transactions and technology",
+"source": "neuronpedia:gemma-2-2b/20-gemmascope-res-65k"
+},
+"7803": {
+"text": "repeated proclamations of support for Chile and its people",
+"source": "neuronpedia:gemma-2-2b/20-gemmascope-res-65k"
+},
+"7921": {
+"text": "the beginning of documents or sections, indicating new topics or themes",
+"source": "neuronpedia:gemma-2-2b/20-gemmascope-res-65k"
+},
+"8113": {
+"text": "technical terms related to data processing and email functionality",
+"source": "neuronpedia:gemma-2-2b/20-gemmascope-res-65k"
+},
+"8351": {
+"text": "references to easy-to-make craft items, particularly bags",
+"source": "neuronpedia:gemma-2-2b/20-gemmascope-res-65k"
+},
+"8390": {
+"text": "the phrase \"in a\" in various contexts",
+"source": "neuronpedia:gemma-2-2b/20-gemmascope-res-65k"
+},
+"8394": {
+"text": " conversational greetings and expressions",
+"source": "neuronpedia:gemma-2-2b/20-gemmascope-res-65k"
+},
+"8509": {
+"text": "expressions of time and change regarding the past",
+"source": "neuronpedia:gemma-2-2b/20-gemmascope-res-65k"
+},
+"9010": {
+"text": " variables related to research and language performance",
+"source": "neuronpedia:gemma-2-2b/20-gemmascope-res-65k"
+},
+"9064": {
+"text": "references to regulatory or medical information, particularly about treatments and ethical concerns",
+"source": "neuronpedia:gemma-2-2b/20-gemmascope-res-65k"
+},
+"9166": {
+"text": " references to specific news programs and their schedules",
+"source": "neuronpedia:gemma-2-2b/20-gemmascope-res-65k"
+},
+"9227": {
+"text": " numerical data, particularly values and operations",
+"source": "neuronpedia:gemma-2-2b/20-gemmascope-res-65k"
+},
+"9285": {
+"text": " statistics related to passenger traffic at an airport",
+"source": "neuronpedia:gemma-2-2b/20-gemmascope-res-65k"
+},
+"9435": {
+"text": "details about a specific individual involved in a motorsport context, particularly focusing on their age and nationality",
+"source": "neuronpedia:gemma-2-2b/20-gemmascope-res-65k"
+},
+"9467": {
+"text": " specific phrases related to social appeals and institutional references",
+"source": "neuronpedia:gemma-2-2b/20-gemmascope-res-65k"
+},
+"9745": {
+"text": "elements related to programming code and function definitions",
+"source": "neuronpedia:gemma-2-2b/20-gemmascope-res-65k"
+},
+"9771": {
+"text": "terms related to astronomical events, specifically lunar and solar eclipses",
+"source": "neuronpedia:gemma-2-2b/20-gemmascope-res-65k"
+},
+"9865": {
+"text": " the beginning of sentences or paragraphs",
+"source": "neuronpedia:gemma-2-2b/20-gemmascope-res-65k"
+},
+"9903": {
+"text": "the presence of change and awareness in the context of socio-political or scientific discussions",
+"source": "neuronpedia:gemma-2-2b/20-gemmascope-res-65k"
+},
+"9939": {
+"text": " past tense verbs indicating actions or events in a narrative context",
+"source": "neuronpedia:gemma-2-2b/20-gemmascope-res-65k"
+},
+"9979": {
+"text": "terms associated with counting votes and event attendance",
+"source": "neuronpedia:gemma-2-2b/20-gemmascope-res-65k"
+},
+"9993": {
+"text": " numerical data and comparisons between values",
+"source": "neuronpedia:gemma-2-2b/20-gemmascope-res-65k"
+},
+"10074": {
+"text": " words and phrases associated with emergency management and evacuations",
+"source": "neuronpedia:gemma-2-2b/20-gemmascope-res-65k"
+},
+"10087": {
+"text": " numeric data or values in a structured sequence",
+"source": "neuronpedia:gemma-2-2b/20-gemmascope-res-65k"
+},
+"10275": {
+"text": " terms related to mechanics and electrical components of motors",
+"source": "neuronpedia:gemma-2-2b/20-gemmascope-res-65k"
+},
+"10358": {
+"text": "references to specific food items and their origins",
+"source": "neuronpedia:gemma-2-2b/20-gemmascope-res-65k"
+},
+"10499": {
+"text": "specific criteria related to age restrictions in legal contexts",
+"source": "neuronpedia:gemma-2-2b/20-gemmascope-res-65k"
+},
+"10566": {
+"text": " connections and relationships between subjects and actions in a narrative",
+"source": "neuronpedia:gemma-2-2b/20-gemmascope-res-65k"
+},
+"10721": {
+"text": "actions related to movement and physical interaction",
+"source": "neuronpedia:gemma-2-2b/20-gemmascope-res-65k"
+},
+"10832": {
+"text": " references to locations and identifiers associated with organizations or entities",
+"source": "neuronpedia:gemma-2-2b/20-gemmascope-res-65k"
+},
+"10842": {
+"text": " keywords related to programming and API definitions",
+"source": "neuronpedia:gemma-2-2b/20-gemmascope-res-65k"
+},
+"10945": {
+"text": "characters involved in female empowerment and struggles against sexism",
+"source": "neuronpedia:gemma-2-2b/20-gemmascope-res-65k"
+},
+"10999": {
+"text": " numerical values and related formatting",
+"source": "neuronpedia:gemma-2-2b/20-gemmascope-res-65k"
+},
+"11025": {
+"text": "descriptions of geometrical arrangements or orientations",
+"source": "neuronpedia:gemma-2-2b/20-gemmascope-res-65k"
+},
+"11212": {
+"text": "key terms related to statistical analysis and veterinary medicine",
+"source": "neuronpedia:gemma-2-2b/20-gemmascope-res-65k"
+},
+"11298": {
+"text": "the word \"the\" in various contexts",
+"source": "neuronpedia:gemma-2-2b/20-gemmascope-res-65k"
+},
+"11327": {
+"text": " actions or events occurring in a timely manner",
+"source": "neuronpedia:gemma-2-2b/20-gemmascope-res-65k"
+},
+"11552": {
+"text": " sequences of numbers and symbols, as well as certain delimiters",
+"source": "neuronpedia:gemma-2-2b/20-gemmascope-res-65k"
+},
+"11651": {
+"text": "questions or keywords related to programming classes and functions",
+"source": "neuronpedia:gemma-2-2b/20-gemmascope-res-65k"
+},
+"11719": {
+"text": " occurrences of the word \"the\" and its significance in context",
+"source": "neuronpedia:gemma-2-2b/20-gemmascope-res-65k"
+},
+"11728": {
+"text": "references to communities and geographic locations",
+"source": "neuronpedia:gemma-2-2b/20-gemmascope-res-65k"
+},
+"11766": {
+"text": " references to significant societal or political changes occurring in the present",
+"source": "neuronpedia:gemma-2-2b/20-gemmascope-res-65k"
+},
+"11840": {
+"text": "statements that describe the state or condition of a system",
+"source": "neuronpedia:gemma-2-2b/20-gemmascope-res-65k"
+},
+"11982": {
+"text": " terms related to object types and their conversion processes in programming",
+"source": "neuronpedia:gemma-2-2b/20-gemmascope-res-65k"
+},
+"11983": {
+"text": " concepts related to gene expression and roles of genes in cancer",
+"source": "neuronpedia:gemma-2-2b/20-gemmascope-res-65k"
+},
+"12646": {
+"text": " numerical data and references related to academic or scientific publications",
+"source": "neuronpedia:gemma-2-2b/20-gemmascope-res-65k"
+},
+"12669": {
+"text": "phrases indicating comparisons or contrasts",
+"source": "neuronpedia:gemma-2-2b/20-gemmascope-res-65k"
+},
+"12670": {
+"text": " mathematical operations or calculations",
+"source": "neuronpedia:gemma-2-2b/20-gemmascope-res-65k"
+},
+"12748": {
+"text": " references to measurements and technical descriptions in a scientific context",
+"source": "neuronpedia:gemma-2-2b/20-gemmascope-res-65k"
+},
+"12955": {
+"text": "words related to tracking or pursuit actions",
+"source": "neuronpedia:gemma-2-2b/20-gemmascope-res-65k"
+},
+"12979": {
+"text": "concepts related to content-centric network architectures and filtering mechanisms",
+"source": "neuronpedia:gemma-2-2b/20-gemmascope-res-65k"
+},
+"13014": {
+"text": "the beginning of sections or paragraphs in the document",
+"source": "neuronpedia:gemma-2-2b/20-gemmascope-res-65k"
+},
+"13036": {
+"text": "references to home improvement and plumbing issues",
+"source": "neuronpedia:gemma-2-2b/20-gemmascope-res-65k"
+},
+"13075": {
+"text": " forms of the verb \"to be\" in different tenses",
+"source": "neuronpedia:gemma-2-2b/20-gemmascope-res-65k"
+},
+"13113": {
+"text": "references to historical events related to transportation and migration involving ships",
+"source": "neuronpedia:gemma-2-2b/20-gemmascope-res-65k"
+},
+"13143": {
+"text": " numerical data and parameters related to measurements and limits",
+"source": "neuronpedia:gemma-2-2b/20-gemmascope-res-65k"
+},
+"13187": {
+"text": "conditional phrases and instructions",
+"source": "neuronpedia:gemma-2-2b/20-gemmascope-res-65k"
+},
+"13261": {
+"text": "concepts related to maintenance and care across various contexts",
+"source": "neuronpedia:gemma-2-2b/20-gemmascope-res-65k"
+},
+"13312": {
+"text": " programming and function-specific terms related to conditional execution and return statements",
+"source": "neuronpedia:gemma-2-2b/20-gemmascope-res-65k"
+},
+"13384": {
+"text": "elements related to color spaces and conversion processes",
+"source": "neuronpedia:gemma-2-2b/20-gemmascope-res-65k"
+},
+"13466": {
+"text": "affirmative statements or assertions with a focus on the subject \"it.\"",
+"source": "neuronpedia:gemma-2-2b/20-gemmascope-res-65k"
+},
+"13560": {
+"text": " introductory phrases indicating a new topic or context",
+"source": "neuronpedia:gemma-2-2b/20-gemmascope-res-65k"
+},
+"13639": {
+"text": "references to Olympic events and participants",
+"source": "neuronpedia:gemma-2-2b/20-gemmascope-res-65k"
+},
+"13684": {
+"text": " financial performance indicators in a business context",
+"source": "neuronpedia:gemma-2-2b/20-gemmascope-res-65k"
+},
+"13709": {
+"text": "references to position or location details within spatial contexts",
+"source": "neuronpedia:gemma-2-2b/20-gemmascope-res-65k"
+},
+"14007": {
+"text": " references to specific countries or nationalities",
+"source": "neuronpedia:gemma-2-2b/20-gemmascope-res-65k"
+},
+"14011": {
+"text": "questions and phrases related to mathematical computations and comparisons",
+"source": "neuronpedia:gemma-2-2b/20-gemmascope-res-65k"
+},
+"14012": {
+"text": " references to database transactions and session management in programming contexts",
+"source": "neuronpedia:gemma-2-2b/20-gemmascope-res-65k"
+},
+"14147": {
+"text": "references to historical or mythical figures and events related to ancient cultures, particularly Greek and Roman",
+"source": "neuronpedia:gemma-2-2b/20-gemmascope-res-65k"
+},
+"14210": {
+"text": "mechanical components and details related to structure and support mechanisms",
+"source": "neuronpedia:gemma-2-2b/20-gemmascope-res-65k"
+},
+"14353": {
+"text": "elements related to media, technology, and modern social dynamics",
+"source": "neuronpedia:gemma-2-2b/20-gemmascope-res-65k"
+},
+"14380": {
+"text": "requirements and conditions for submissions or processes",
+"source": "neuronpedia:gemma-2-2b/20-gemmascope-res-65k"
+},
+"14505": {
+"text": " keywords related to medical conditions and biological processes",
+"source": "neuronpedia:gemma-2-2b/20-gemmascope-res-65k"
+},
+"14671": {
+"text": "terms related to rotational motion and axes",
+"source": "neuronpedia:gemma-2-2b/20-gemmascope-res-65k"
+},
+"14842": {
+"text": "references to cats and feline-related topics",
+"source": "neuronpedia:gemma-2-2b/20-gemmascope-res-65k"
+},
+"14945": {
+"text": "terms related to data handling and database operations",
+"source": "neuronpedia:gemma-2-2b/20-gemmascope-res-65k"
+},
+"14947": {
+"text": "references to competitive sports figures and their performances",
+"source": "neuronpedia:gemma-2-2b/20-gemmascope-res-65k"
+},
+"15028": {
+"text": " references to meetings involving political figures",
+"source": "neuronpedia:gemma-2-2b/20-gemmascope-res-65k"
+},
+"15096": {
+"text": " references to playful activities involving children or dogs",
+"source": "neuronpedia:gemma-2-2b/20-gemmascope-res-65k"
+},
+"15534": {
+"text": "mathematical expressions and equality statements involving values",
+"source": "neuronpedia:gemma-2-2b/20-gemmascope-res-65k"
+},
+"15551": {
+"text": " mathematical symbols, specifically the equals sign",
+"source": "neuronpedia:gemma-2-2b/20-gemmascope-res-65k"
+},
+"15948": {
+"text": " key phrases emphasizing significance and announcements",
+"source": "neuronpedia:gemma-2-2b/20-gemmascope-res-65k"
+},
+"15960": {
+"text": "terms related to compassion and respect for living beings",
+"source": "neuronpedia:gemma-2-2b/20-gemmascope-res-65k"
+}
+}

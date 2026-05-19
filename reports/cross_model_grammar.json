@@ -327,7 +327,7 @@
     ]
   },
   "gemma_2b": {
-    "display": "Gemma 2 2B",
+    "display": "Gemma 2 2B (16k)",
     "n_prompts": 52,
     "n_capital_prompts": 6,
     "label_coverage_top_k_sup": 1.0,

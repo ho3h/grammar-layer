@@ -219,6 +219,37 @@ residual stream are real, they are coordinated across many prompts, and they are
 load-bearing — but load-bearing for what the model **doesn't** say, not for what
 it does.
 
+## The fingerprint — two named features oppose the answer on every capital prompt
+
+The strongest single piece of evidence for a coordinated grammar-suppression apparatus
+is *not* the aggregate enrichment ratio — it's the per-feature consistency. Across all
+six capital-completion prompts in the benchmark — *"The capital of France / Germany /
+Italy / Spain / Russia / Japan is ___"* — the **same two Gemma features** appear in the
+top-5 opposing set on every single prompt:
+
+- **feat 15596** — *"past and present tense forms of the verb 'to be' in various contexts"*
+- **feat 10142** — *"instances of the word 'is' in various contexts"*
+
+Six prompts, six different correct answers (Paris, Berlin, Rome, Madrid, Moscow, Tokyo),
+and the same two grammar-flavored features actively suppress the specific capital on every
+one. feat 15596 is the rank-1 opposer on 6/6; feat 10142 is in the top-3 on 6/6. This is
+not a per-prompt coincidence — it is a *fingerprint*: the same coordinated suppression
+apparatus, firing the same way, across every "X is Y" capital prompt.
+
+The same six prompts on GPT-2 small show **no such fingerprint**. GPT-2's top opposers
+vary prompt-to-prompt and are content-thematic in every case ("names of famous
+individuals", "countries and locations", "phrases containing names of organizations").
+No two grammar features appear consistently across the GPT-2 capital prompts. See
+[`reports/viz_capital_fingerprint.png`](viz_capital_fingerprint.png) for the per-prompt
+visualisation.
+
+The hero figure for a single case (capital-jp, "The capital of Japan is" → 'Tokyo') is at
+[`reports/viz_smoking_gun.png`](viz_smoking_gun.png): five supporting features
+(geographic/historical content), five opposing features (with feat 15596 and feat 10142
+both labelled grammar). Joint zero-ablation of the supporting set drops Gemma's log
+P('Tokyo') from −1.77 to −6.81 — *argmax flips from 'Tokyo' to 'a'*, exactly the generic
+"X is Y" completion that the grammar features were rooting for.
+
 ## Statistical robustness of the enrichment
 
 Bootstrap resampling (5000 resamples; resample 52 prompts with replacement and
@@ -289,37 +320,6 @@ just doesn't use it.
 Full per-prompt breakdown in
 [`reports/cross_model_fingerprint_check.json`](cross_model_fingerprint_check.json).
 
-## The fingerprint — two named features oppose the answer on every capital prompt
-
-The strongest single piece of evidence for a coordinated grammar-suppression apparatus
-is *not* the aggregate enrichment ratio — it's the per-feature consistency. Across all
-six capital-completion prompts in the benchmark — *"The capital of France / Germany /
-Italy / Spain / Russia / Japan is ___"* — the **same two Gemma features** appear in the
-top-5 opposing set on every single prompt:
-
-- **feat 15596** — *"past and present tense forms of the verb 'to be' in various contexts"*
-- **feat 10142** — *"instances of the word 'is' in various contexts"*
-
-Six prompts, six different correct answers (Paris, Berlin, Rome, Madrid, Moscow, Tokyo),
-and the same two grammar-flavored features actively suppress the specific capital on every
-one. feat 15596 is the rank-1 opposer on 6/6; feat 10142 is in the top-3 on 6/6. This is
-not a per-prompt coincidence — it is a *fingerprint*: the same coordinated suppression
-apparatus, firing the same way, across every "X is Y" capital prompt.
-
-The same six prompts on GPT-2 small show **no such fingerprint**. GPT-2's top opposers
-vary prompt-to-prompt and are content-thematic in every case ("names of famous
-individuals", "countries and locations", "phrases containing names of organizations").
-No two grammar features appear consistently across the GPT-2 capital prompts. See
-[`reports/viz_capital_fingerprint.png`](viz_capital_fingerprint.png) for the per-prompt
-visualisation.
-
-The hero figure for a single case (capital-jp, "The capital of Japan is" → 'Tokyo') is at
-[`reports/viz_smoking_gun.png`](viz_smoking_gun.png): five supporting features
-(geographic/historical content), five opposing features (with feat 15596 and feat 10142
-both labelled grammar). Joint zero-ablation of the supporting set drops Gemma's log
-P('Tokyo') from −1.77 to −6.81 — *argmax flips from 'Tokyo' to 'a'*, exactly the generic
-"X is Y" completion that the grammar features were rooting for.
-
 ## Cross-model grammar-suppression fingerprint — five labelled models
 
 The original v3 draft had grammar/content label coverage on only Gemma 2 2B and GPT-2
@@ -367,7 +367,11 @@ the GPT-2 family at *some* layer we haven't found yet — but absent in GPT-2 sm
 at L8, present in Pythia 70M at L5, and present in the Gemma family at late layers.
 
 Per-feature breakdown of the fingerprint features for each of the three "yes"
-models is in [`reports/cross_model_grammar.json`](cross_model_grammar.json).
+models is in [`reports/cross_model_grammar.json`](cross_model_grammar.json). The
+visual side-by-side across all 5 models is at
+[`reports/viz_cross_model_fingerprint.png`](viz_cross_model_fingerprint.png) —
+Pythia 70M's f23527 (literally "verb 'is'") highlighted in red on 6/6 prompts;
+Gemma 2 2B's f15596 in red on 6/6; GPT-2 small with no red cells at all.
 
 ## Cross-model — load-bearing collapse across seven model families
 

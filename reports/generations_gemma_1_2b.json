@@ -1,0 +1,77 @@
+{
+  "model": "gemma_1_2b",
+  "prompts_file": "data/behavior_prompts.json",
+  "sampling": {
+    "n_seeds": 5,
+    "max_new_tokens": 300,
+    "temperature": 0.7,
+    "top_p": 0.9
+  },
+  "results": [
+    {
+      "id": "story-once",
+      "category": "story",
+      "prompt": "Once upon a time there was a",
+      "generations": [
+        {
+          "seed": 0,
+          "n_new_tokens": 300,
+          "continuation": " little girl who loved the story of The Three Little Pigs. She could never get enough of the story. She loved the story so much that she decided to create a 3D version of it.\n\nShe would have loved to see her version of The Three Little Pigs in the movie theatres but alas, she was too young.\n\nSo, she decided to make her own movie. It was a lot of work but she was determined to make it happen.\n\nShe wrote the script and gathered all the actors. She put together the props and costumes. She even designed the sets.\n\nShe knew that she would need a lot of help so she started making posters and flyers to spread the word.\n\nFinally, she was ready to make her movie. She gathered her friends and family and they all came together to watch her movie.\n\nIt was a hit! Everyone loved it.\n\nNow, the little girl is a famous director and her movie is a classic.\n\n<h2><strong>The Three Little Pigs</strong></h2>\n\nThe Three Little Pigs is a classic children\u2019s story about three little pigs who build their houses out of different materials.\n\nThe first little pig builds a house out of straw, the second little pig builds a house out of sticks, and the third little pig builds a house out of brick.\n\nEach little pig\u2019s house is attacked by a big bad wolf.\n\nThe first little pig\u2019s house is destroyed, the second little pig\u2019s house is destroyed, and"
+        },
+        {
+          "seed": 1,
+          "n_new_tokens": 300,
+          "continuation": " little girl named Grace. Grace lived with her mother and father in the village of Ever After. They were the kindest people in the world. One day, Grace was playing with her friends in the meadow when she saw a boy. He was so handsome and kind. He was wearing a beautiful blue shirt. Grace couldn't stop staring at him. She couldn't wait to tell her mother about the boy. Grace told her mother everything. Her mother said, \"Let's go to the castle and ask the king.\" So Grace and her mother went to the castle. They went to the castle and told the king everything. The king was so kind. He said, \"I would love to have a daughter like Grace. I will make her my princess.\" Grace was so happy. Her mother said, \"She will be the most beautiful girl in the world.\" Grace was so happy.\n\nOne day, Grace was playing in the meadow when she saw a boy. He was so handsome and kind. He was wearing a beautiful blue shirt. Grace couldn't stop staring at him. She couldn't wait to tell her mother about the boy. Grace told her mother everything. Her mother said, \"Let's go to the castle and ask the king.\" So Grace and her mother went to the castle. They went to the castle and told the king everything. The king was so kind. He said, \"I would love to have a daughter like Grace. I will"
+        },
+        {
+          "seed": 2,
+          "n_new_tokens": 300,
+          "continuation": " little girl named Grace who lived with her mother and father.\n\nHer father worked as a builder and her mother was a seamstress. They lived in a small town in the state of Indiana.\n\nOne day, Grace\u2019s mother took her to the local library where she showed her a book called \u201cThe Little Red Hen.\u201d\n\nThe book was about a little girl named Red who loved to cook and bake.\n\nOne day, Red decided to make a cake for her friends.\n\nShe baked the cake and then she invited her friends over for a tea party.\n\nRed\u2019s friends came and they all sat down to eat the cake.\n\nBut Red\u2019s friends didn\u2019t want to eat the cake because it was too sweet.\n\nSo Red baked another cake and invited her friends over for another tea party.\n\nThis time, Red\u2019s friends ate the cake and they all loved it.\n\nRed\u2019s friends all said that the cake was delicious and that they wanted to make more cakes like it.\n\nSo Red\u2019s friends all went home and they made cakes for their friends.\n\nThey baked cakes for their friends and then they invited their friends over for a tea party.\n\nThis time, Red\u2019s friends ate the cakes and they all loved them.\n\nRed\u2019s friends said that the cakes were delicious and that they wanted to make more cakes like them.\n\nSo Red\u2019s friends all went home and they made cakes for their friends.\n\nThey"
+        },
+        {
+          "seed": 3,
+          "n_new_tokens": 300,
+          "continuation": " man who had a dream. The dream was to build a temple for the Lord, but he did not know how to build one. So he went to the temple of the Lord, and asked Him to show him how to build a temple. The Lord said, \u201cI will show you how to build a temple, but you must first build a house.\u201d So the man went home and built a house. When he was finished, he went back to the temple of the Lord and told Him what he had done. The Lord said, \u201cNow that you have built a house, I will show you how to build a temple.\u201d So the man went back home and built a temple.\n\n<h2>What is the story of the temple of the Lord?</h2>\n\nThe temple of the Lord is a place where the Lord Jesus Christ is worshiped. It is a place where the Lord Jesus Christ is glorified. It is a place where the Lord Jesus Christ is loved. It is a place where the Lord Jesus Christ is served. It is a place where the Lord Jesus Christ is taught.\n\nThe temple of the Lord is a place where the Lord Jesus Christ is worshipped. It is a place where the Lord Jesus Christ is glorified. It is a place where the Lord Jesus Christ is loved. It is a place where the Lord Jesus Christ is served. It is a place where the Lord Jesus Christ is taught.\n\n<h2>What are the three parts of the temple?</h2>\n\nThe temple is divided"
+        },
+        {
+          "seed": 4,
+          "n_new_tokens": 300,
+          "continuation": " girl named Alice. She was a very curious girl. She wanted to know about the world. One day, her mother told her that there was a very big and interesting world outside her house.\n\nShe went out and saw a beautiful garden. There were many flowers. She was very happy. She went to see the flowers. She saw a beautiful butterfly. She went to the butterfly and asked it to show her the way to the garden. The butterfly flew away.\n\nAlice was very sad. She went back to her house. Her mother told her that there was no such thing as the butterfly. Alice was very sad. She wanted to know the truth.\n\nOne day, Alice\u2019s father told her that the butterfly was only in her imagination. He told her that the world was only in her imagination. Alice was very sad. She wanted to know the truth.\n\nOne day, Alice\u2019s mother told her that the world was only in her imagination. She told her that the butterfly was only in her imagination. Alice was very sad. She wanted to know the truth.\n\nOne day, Alice\u2019s mother told her that the butterfly was only in her imagination. She told her that the butterfly was only in her imagination. Alice was very sad. She wanted to know the truth.\n\nOne day, Alice\u2019s mother told her that the butterfly was only in her imagination. She told her that the butterfly was only in her imagination. Alice was very sad. She wanted"
+        }
+      ]
+    },
+    {
+      "id": "story-night",
+      "category": "story",
+      "prompt": "It was a dark and stormy night when",
+      "generations": [
+        {
+          "seed": 0,
+          "n_new_tokens": 300,
+          "continuation": " you and your friends decided to go to the haunted house. You went in and saw a sign that said \"You will never leave alive.\" You got scared and screamed. \"Go away, or I'll call the police.\" A voice said. You got scared and went to the exit.\n\nYou heard a voice say \"What was that?\"\n\nYou turned around to see the figure of the man with a chainsaw.\n\n\"What the hell is that thing?\" You said.\n\n\"It's a spirit, and I'm going to kill you.\" The man said.\n\nYou ran away.\n\n\"Wait! Come back!\" The figure said.\n\nYou turned around and saw the man with a chainsaw.\n\n\"Let's play a game.\" The man said.\n\n\"What game?\" You said.\n\n\"I'll give you five minutes to run out of the house. If you don't, I'll kill you.\" He said.\n\nYou ran out of the house and saw a phone. You picked it up.\n\n\"Hello?\" You said.\n\n\"Hello, who's this?\" The man said.\n\n\"It's me, (Y/N).\" You said.\n\n\"You're alive? That's amazing! I'm going to kill you anyway, but at least you're alive.\" He said.\n\nYou picked up a knife and ran back to the haunted house.\n\n\"What'"
+        },
+        {
+          "seed": 1,
+          "n_new_tokens": 300,
+          "continuation": " a man was walking through a forest.\n\nIt was a dark and stormy night when a man was walking through a forest.\n\nHe was trying to find his way out. He had no idea how long it would take him to find his way out of this dark forest.\n\nHe was walking through the dark forest when he saw a little light in the distance. It was coming from a house.\n\nThe man followed the light until he reached the house. He knocked on the door and asked if he could use the bathroom. The woman who answered the door said that he could use it.\n\nThe man went inside and took a shower. He then went back outside and started walking through the dark forest again.\n\nHe kept going until he reached another house. He knocked on the door and asked if he could use the bathroom. The woman who answered the door said that he could use it.\n\nThe man went inside and took a shower. He then went back outside and started walking through the dark forest again.\n\nHe kept going until he reached a third house. He knocked on the door and asked if he could use the bathroom. The woman who answered the door said that he could use it.\n\nThe man went inside and took a shower. He then went back outside and started walking through the dark forest again.\n\nHe kept going until he reached a fourth house. He knocked on the door and asked if he could use the bathroom. The woman who answered the door said that he"
+        },
+        {
+          "seed": 2,
+          "n_new_tokens": 300,
+          "continuation": " a man was hit by lightning. Suddenly, he was in the presence of God.\n\n\u201cYou have been chosen to witness a very important event,\u201d God said.\n\nThe man was stunned.\n\n\u201cWhat is it?\u201d he asked.\n\n\u201cYou are about to witness the birth of the Son of God,\u201d God replied.\n\n\u201cWhat does that mean?\u201d asked the man.\n\n\u201cThat means you are about to see the greatest miracle in the history of the world,\u201d God said.\n\n\u201cI have been chosen to witness a miracle? What is it?\u201d\n\n\u201cIt is a miracle that will change the world,\u201d God answered.\n\n\u201cWhat kind of miracle?\u201d\n\n\u201cIt is a miracle that will transform the world from darkness into light,\u201d God said.\n\n\u201cHow can that be?\u201d asked the man.\n\n\u201cThe world is in darkness because of sin, and only the light of God can overcome the darkness,\u201d God replied.\n\n\u201cWhat kind of light is it?\u201d asked the man.\n\n\u201cIt is the light of Christ,\u201d God said.\n\n\u201cHow do I get this light?\u201d asked the man.\n\n\u201cYou must receive it,\u201d God said.\n\n\u201cHow can I do that?\u201d asked the man.\n\n\u201cBy faith,\u201d God replied.\n\n\u201cI don\u2019t have faith. I don\u2019t believe. I am a sinner and a child of the devil,\u201d the man said.\n\n\u201cBut you are chosen,\u201d God said. \u201c"
+        },
+        {
+          "seed": 3,
+          "n_new_tokens": 300,
+          "continuation": " the 1999 episode \u201cDark and Stormy Night\u201d of <em>The X-Files</em> first aired. The episode was a departure from the usual formula for <em>The X-Files</em>, but it was also a departure from the usual formula for <em>The X-Files</em>. The episode was directed by David Nutter, who had directed episodes of <em>The X-Files</em> before, but this episode was his first episode as a director. The episode was also written by Chris Carter, who had written the first 23 episodes of the series. This episode was also a departure from the usual formula for <em>The X-Files</em> in that it was not a mystery. Instead, this episode was a horror story. The episode was also a departure from the usual formula for <em>The X-Files</em> in that it was not a horror story. Instead, this episode was a horror story.\n\nThe episode begins with a man named David having a conversation with a woman named Sarah. David is a scientist who has been working on a project to create a time machine. Sarah is skeptical of David\u2019s project and tells him that he is crazy. David tells her that he is not crazy and that he has been working on the project for years. Sarah tells him that he is crazy and that he is wasting his time. David tells her that he is not wasting his time and that he is going to make a time machine.\n\nThe episode then"
+        },
+        {
+          "seed": 4,
+          "n_new_tokens": 300,
+          "continuation": " you were driving home from work. Suddenly, a bright flash of light came from the sky. You looked up and saw a bright ball of fire falling from the sky.\n\nYou were scared, but you decided to go home and tell your friends about what you saw. When you got home, you told your friends what happened and they were scared too. They said that the ball of fire was a meteor shower.\n\nMeteor showers happen when meteors (pieces of space debris) hit Earth\u2019s atmosphere. When they hit, they make a bright flash of light.\n\nMeteor showers are named for the constellation in which they appear to be coming from. For example, the Perseid meteor shower comes from the constellation Perseus.\n\nMeteor showers are not dangerous. They are just beautiful to watch. If you want to see a meteor shower, you should look up at the sky at night when it is dark. You can see meteor showers in the summer and winter.\n\nSo next time you see a meteor shower, take a moment to appreciate the beauty of nature.\n\n<h2>What is a meteor shower?</h2>\n\nMeteor showers are a series of meteors that are visible in the night sky due to the Earth\u2019s rotation around the sun. The Earth passes through a cloud of debris left behind by comets, which are pieces of rock and ice that orbit the sun.\n\nWhen the Earth passes through this cloud, it drags some of the debris along with it, causing meteors to streak across the"
+        }
+      ]
+    }
+  ],
+  "partial": true
+}

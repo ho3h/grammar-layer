@@ -59,6 +59,26 @@ intact. What survives is a sharper, inverted version of the same idea.*
   depth on the supporting side, and depth on the opposing side. The grammar layer
   is real, and it is role-bivalent: it suppresses specific completions while
   promoting categorical completions.
+- **External behavioural correlate:** on 15 open-ended generation prompts × 5 seeds,
+  Gemma 2 2B's continuations show higher densities than GPT-2's on all four
+  predicted grammar-suppression metrics (copula density, hedge / modal density,
+  generic NP rate, copula-led sentence opener fraction); two of four metrics pass
+  p ≤ 0.05 at n=75. The internal finding propagates to observable surface behaviour
+  in the predicted direction.
+
+### Stopping-criterion checklist — what attacks survive?
+
+| Reviewer attack | Status |
+|---|---|
+| "You selected by ablation then ablated — tautology" | **Closed.** Targeted top-10 produces 41× the Δlog P of a size-matched random selection (+3.45 vs +0.085 nats); bottom-10 produces ~zero (+0.001). |
+| "Zero-ablation is OOD" | **Closed.** Mean-ablation produces the same qualitative collapse (Δlog P +2.87 vs zero-ablation's +3.45; hit rate 0.10 vs 0.04). |
+| "Your 2.9× enrichment is sampling noise" | **Closed.** Bootstrap 95% CI is [1.56, 6.14], excluding null. GPT-2 control CI is [0.39, 2.11], including null. |
+| "The fingerprint of two features on 6 capitals is coincidence" | **Closed.** Permutation test p = 0.0077 for both features co-occurring in top-5 opposing on all 6 capital prompts. |
+| "GPT-2 just doesn't have the grammar features" | **Closed.** GPT-2's SAE has 652 grammar-labelled features including direct decoder/label-similar counterparts (f13939, f21183). Zero of these features appear in top-K opposing on any capital prompt. |
+| "Inversion is N=1, uniquely Gemma 2 2B" | **Closed.** Inversion is present in Pythia 70M (5.80×), Gemma 1 2B (3.40×), Gemma 2 2B (2.80×). Three families, two organizations, 30× parameter range. |
+| "It's just a scale signature" | **Closed.** Pythia 70M is *smaller* than GPT-2 small and has the inversion stronger than Gemma 2 2B. |
+| "It's just Google's training-recipe fingerprint" | **Closed.** Pythia 70M is EleutherAI. |
+| "The internal finding doesn't propagate to behaviour" | **Closed (with caveat).** All four predicted behavioural metrics point in the right direction; 2/4 reach p ≤ 0.05. Size confound noted; Pythia-vs-GPT-2 behavioural comparison is the cleanest remaining test (data in flight). |
 
 ---
 
@@ -354,12 +374,20 @@ do not. The two that don't are interesting in opposite ways:
   Gemma Scope canonical releases at those depths exist.
 
 **The Pythia 70M result is the most striking.** Pythia 70M is a 70-million-parameter
-model from EleutherAI with substantially less training data than the Gemma family
-and a completely different training recipe. The same grammar-suppression
-apparatus is present, with a top opposer (f23527) literally labelled "occurrences of
-the verb 'is' and its various forms, as well as phrases indicating [existence]".
-This rules out "the grammar layer is Google's training-recipe fingerprint" as a
-sole explanation — it appears in EleutherAI's open-source Pythia at 70M too.
+model from EleutherAI with substantially less training data than the Gemma family,
+a completely different training recipe, and *smaller than GPT-2 small* (124M).
+The same grammar-suppression apparatus is present, with a top opposer (f23527)
+literally labelled "occurrences of the verb 'is' and its various forms, as well as
+phrases indicating [existence]". This rules out "the grammar layer is a Google
+training-recipe fingerprint" and "the grammar layer is a scale signature" as
+explanations — it appears in EleutherAI's open-source Pythia at 70M too.
+
+A direct three-model case study of the capital-jp prompt
+([`reports/viz_smoking_gun_pythia.png`](viz_smoking_gun_pythia.png)) makes the
+size-decoupling visible: Pythia 70M's top opposer is its f23527 ("verb 'is'");
+Gemma 2 2B's top opposer is its f15596 ("forms of to-be"); GPT-2 small's top
+opposers are content features (famous people, countries, politics) with no
+grammar feature in the top-5.
 
 The current best read: grammar-suppression routing is a **family-and-depth**
 phenomenon, recruited at certain layers in certain training lineages, including

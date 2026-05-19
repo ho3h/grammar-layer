@@ -1,0 +1,33 @@
+# Secrets
+.env
+.env.*
+!.env.example
+
+# Python environment / caches
+.venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.pytest_cache/
+
+# Local Neo4j install (8+ GB, reproducible via scripts/00_bootstrap_neo4j.sh)
+.neograph-db/
+
+# Regeneratable parquet caches (28 MB; rebuild with scripts/02_seed_corpus.py + 03_capture_activations.py)
+data/staging/
+data/cache/
+data/synthetic/*.parquet
+
+# Runtime artifacts
+logs/
+notebooks/.ipynb_checkpoints/
+
+# Dev iteration screenshots
+screenshots/
+
+# Editor / OS
+.DS_Store
+
+# Agent harness artifacts (Claude Code, Playwright MCP, etc.)
+.claude/
+.playwright-mcp/

@@ -1,0 +1,26 @@
+{
+  "concept": "rhyme:-ore",
+  "description": "Slant rhymes ending in '-ore'/'-or'/'-ire'/'-ear'/'-eer'/'-ower' sounds. The Goodfire banner manifold.",
+  "seeds": [
+    "door", "more", "before", "store", "score", "shore", "core", "bore", "lore", "ore",
+    "oar", "for", "four", "war", "wore", "tore", "snore", "swore", "explore", "ignore",
+    "restore", "adore", "implore", "deplore", "galore", "carnivore", "encore", "ashore",
+    "anymore", "furthermore",
+    "fire", "wire", "hire", "mire", "tire", "spire", "expire", "admire", "retire",
+    "inquire", "acquire", "require", "desire", "entire", "empire", "umpire", "satire",
+    "vampire", "attire", "perspire", "transpire",
+    "near", "dear", "fear", "hear", "year", "tear", "clear", "appear", "career", "career",
+    "engineer", "volunteer", "pioneer", "atmosphere", "sphere", "severe", "sincere",
+    "atmosphere", "pier", "tier",
+    "higher", "fryer", "buyer", "supplier", "denier", "occupier", "satisfier",
+    "tower", "power", "lower", "shower", "flower", "hour", "our", "sour", "scour"
+  ],
+  "templates": [
+    "The word that rhymes with {seed} is ",
+    "List words that rhyme with {seed}: ",
+    "{seed} rhymes with ",
+    "A word that has the same ending as {seed} is ",
+    "Find a rhyme for {seed}. The answer is ",
+    "Examples of words rhyming with {seed}:"
+  ]
+}

@@ -1,0 +1,14 @@
+[
+  {"id": "capital-fr",    "prompt": "The capital of France is",            "target": " Paris",     "category": "capital"},
+  {"id": "capital-jp",    "prompt": "The capital of Japan is",             "target": " Tokyo",     "category": "capital"},
+  {"id": "capital-de",    "prompt": "The capital of Germany is",           "target": " Berlin",    "category": "capital"},
+  {"id": "capital-it",    "prompt": "The capital of Italy is",             "target": " Rome",      "category": "capital"},
+  {"id": "weekday-mon-tue", "prompt": "Today is Monday. Tomorrow is",      "target": " Tuesday",   "category": "weekday"},
+  {"id": "weekday-wed-thu", "prompt": "Today is Wednesday. Tomorrow is",   "target": " Thursday",  "category": "weekday"},
+  {"id": "weekday-fri-sat", "prompt": "Today is Friday. Tomorrow is",      "target": " Saturday",  "category": "weekday"},
+  {"id": "math-2plus2",   "prompt": "Two plus two equals",                 "target": " four",      "category": "math"},
+  {"id": "math-3times3",  "prompt": "Three times three equals",            "target": " nine",      "category": "math"},
+  {"id": "named-einstein","prompt": "Albert Einstein was a famous",        "target": " physicist", "category": "named-entity"},
+  {"id": "named-shakespeare","prompt": "William Shakespeare was a famous", "target": " play",      "category": "named-entity"},
+  {"id": "syntax-dog",    "prompt": "The dog chased the",                  "target": " cat",       "category": "syntactic"}
+]

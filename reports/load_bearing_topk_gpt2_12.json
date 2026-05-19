@@ -1,0 +1,1133 @@
+{
+  "model": "gpt2",
+  "prompts_file": "data/causal_prompts.json",
+  "top_k": 10,
+  "results": [
+    {
+      "id": "capital-fr",
+      "category": "capital",
+      "prompt": "The capital of France is",
+      "target": " Paris",
+      "target_token_id": 6342,
+      "target_token_str": " Paris",
+      "n_active_features": 51,
+      "topk_features": [
+        {
+          "feature_index": 21000,
+          "single_log_p_drop": -1.1909246444702148,
+          "magnitude": 10.297727584838867,
+          "label": null
+        },
+        {
+          "feature_index": 18220,
+          "single_log_p_drop": 0.7146549224853516,
+          "magnitude": 8.40997314453125,
+          "label": null
+        },
+        {
+          "feature_index": 1442,
+          "single_log_p_drop": 0.6775989532470703,
+          "magnitude": 6.797188758850098,
+          "label": null
+        },
+        {
+          "feature_index": 12013,
+          "single_log_p_drop": -0.4138011932373047,
+          "magnitude": 5.084893703460693,
+          "label": null
+        },
+        {
+          "feature_index": 8628,
+          "single_log_p_drop": 0.35415029525756836,
+          "magnitude": 2.4682953357696533,
+          "label": null
+        },
+        {
+          "feature_index": 19182,
+          "single_log_p_drop": -0.2800140380859375,
+          "magnitude": 4.213950157165527,
+          "label": null
+        },
+        {
+          "feature_index": 19016,
+          "single_log_p_drop": -0.22188282012939453,
+          "magnitude": 3.227778196334839,
+          "label": null
+        },
+        {
+          "feature_index": 6863,
+          "single_log_p_drop": -0.22004318237304688,
+          "magnitude": 6.238954067230225,
+          "label": null
+        },
+        {
+          "feature_index": 7672,
+          "single_log_p_drop": -0.21216821670532227,
+          "magnitude": 2.5536978244781494,
+          "label": null
+        },
+        {
+          "feature_index": 19805,
+          "single_log_p_drop": -0.1872692108154297,
+          "magnitude": 6.31361198425293,
+          "label": null
+        }
+      ],
+      "baseline": {
+        "argmax_token_id": 257,
+        "log_p_target": -7.220827102661133,
+        "log_p_argmax": -2.9187734127044678,
+        "target_rank": 187,
+        "entropy": 5.986283302307129,
+        "hit": false,
+        "argmax_token_str": " a"
+      },
+      "joint_topk_ablated": {
+        "argmax_token_id": 257,
+        "log_p_target": -6.067875862121582,
+        "log_p_argmax": -2.658257484436035,
+        "target_rank": 55,
+        "entropy": 6.289856433868408,
+        "hit": false,
+        "argmax_token_str": " a"
+      },
+      "log_p_drop_vs_baseline": -1.1529512405395508
+    },
+    {
+      "id": "capital-jp",
+      "category": "capital",
+      "prompt": "The capital of Japan is",
+      "target": " Tokyo",
+      "target_token_id": 11790,
+      "target_token_str": " Tokyo",
+      "n_active_features": 48,
+      "topk_features": [
+        {
+          "feature_index": 21000,
+          "single_log_p_drop": -1.2990312576293945,
+          "magnitude": 10.04051685333252,
+          "label": null
+        },
+        {
+          "feature_index": 1442,
+          "single_log_p_drop": 0.7362909317016602,
+          "magnitude": 6.427639961242676,
+          "label": null
+        },
+        {
+          "feature_index": 18220,
+          "single_log_p_drop": 0.6978569030761719,
+          "magnitude": 7.985934734344482,
+          "label": null
+        },
+        {
+          "feature_index": 12013,
+          "single_log_p_drop": -0.4598522186279297,
+          "magnitude": 5.875074863433838,
+          "label": null
+        },
+        {
+          "feature_index": 6863,
+          "single_log_p_drop": -0.411834716796875,
+          "magnitude": 6.339977264404297,
+          "label": null
+        },
+        {
+          "feature_index": 8628,
+          "single_log_p_drop": 0.393801212310791,
+          "magnitude": 2.7185206413269043,
+          "label": null
+        },
+        {
+          "feature_index": 7672,
+          "single_log_p_drop": -0.2886834144592285,
+          "magnitude": 2.7833456993103027,
+          "label": null
+        },
+        {
+          "feature_index": 19182,
+          "single_log_p_drop": -0.28789806365966797,
+          "magnitude": 4.432408332824707,
+          "label": null
+        },
+        {
+          "feature_index": 14430,
+          "single_log_p_drop": 0.28075122833251953,
+          "magnitude": 8.359158515930176,
+          "label": null
+        },
+        {
+          "feature_index": 21496,
+          "single_log_p_drop": -0.27996253967285156,
+          "magnitude": 5.795146465301514,
+          "label": null
+        }
+      ],
+      "baseline": {
+        "argmax_token_id": 262,
+        "log_p_target": -6.919416427612305,
+        "log_p_argmax": -2.8429973125457764,
+        "target_rank": 142,
+        "entropy": 5.858329772949219,
+        "hit": false,
+        "argmax_token_str": " the"
+      },
+      "joint_topk_ablated": {
+        "argmax_token_id": 257,
+        "log_p_target": -5.995336055755615,
+        "log_p_argmax": -2.8767571449279785,
+        "target_rank": 54,
+        "entropy": 6.561964988708496,
+        "hit": false,
+        "argmax_token_str": " a"
+      },
+      "log_p_drop_vs_baseline": -0.9240803718566895
+    },
+    {
+      "id": "capital-de",
+      "category": "capital",
+      "prompt": "The capital of Germany is",
+      "target": " Berlin",
+      "target_token_id": 11307,
+      "target_token_str": " Berlin",
+      "n_active_features": 50,
+      "topk_features": [
+        {
+          "feature_index": 21000,
+          "single_log_p_drop": -1.2609376907348633,
+          "magnitude": 10.467890739440918,
+          "label": null
+        },
+        {
+          "feature_index": 1442,
+          "single_log_p_drop": 0.8677997589111328,
+          "magnitude": 7.073355197906494,
+          "label": null
+        },
+        {
+          "feature_index": 18220,
+          "single_log_p_drop": 0.7155580520629883,
+          "magnitude": 8.394548416137695,
+          "label": null
+        },
+        {
+          "feature_index": 8628,
+          "single_log_p_drop": 0.4023127555847168,
+          "magnitude": 2.8634085655212402,
+          "label": null
+        },
+        {
+          "feature_index": 12013,
+          "single_log_p_drop": -0.31346893310546875,
+          "magnitude": 5.199500560760498,
+          "label": null
+        },
+        {
+          "feature_index": 14430,
+          "single_log_p_drop": 0.3054189682006836,
+          "magnitude": 7.204402923583984,
+          "label": null
+        },
+        {
+          "feature_index": 6863,
+          "single_log_p_drop": -0.24898338317871094,
+          "magnitude": 6.29158353805542,
+          "label": null
+        },
+        {
+          "feature_index": 19016,
+          "single_log_p_drop": -0.2165980339050293,
+          "magnitude": 3.1068315505981445,
+          "label": null
+        },
+        {
+          "feature_index": 19182,
+          "single_log_p_drop": -0.19095659255981445,
+          "magnitude": 4.526116371154785,
+          "label": null
+        },
+        {
+          "feature_index": 19805,
+          "single_log_p_drop": -0.17955970764160156,
+          "magnitude": 6.696136474609375,
+          "label": null
+        }
+      ],
+      "baseline": {
+        "argmax_token_id": 257,
+        "log_p_target": -6.827983856201172,
+        "log_p_argmax": -2.8699615001678467,
+        "target_rank": 124,
+        "entropy": 5.916644096374512,
+        "hit": false,
+        "argmax_token_str": " a"
+      },
+      "joint_topk_ablated": {
+        "argmax_token_id": 257,
+        "log_p_target": -6.562735557556152,
+        "log_p_argmax": -2.7776145935058594,
+        "target_rank": 87,
+        "entropy": 6.586816310882568,
+        "hit": false,
+        "argmax_token_str": " a"
+      },
+      "log_p_drop_vs_baseline": -0.26524829864501953
+    },
+    {
+      "id": "capital-it",
+      "category": "capital",
+      "prompt": "The capital of Italy is",
+      "target": " Rome",
+      "target_token_id": 10598,
+      "target_token_str": " Rome",
+      "n_active_features": 53,
+      "topk_features": [
+        {
+          "feature_index": 21000,
+          "single_log_p_drop": -1.513746738433838,
+          "magnitude": 10.440465927124023,
+          "label": null
+        },
+        {
+          "feature_index": 1442,
+          "single_log_p_drop": 1.1551780700683594,
+          "magnitude": 7.672492980957031,
+          "label": null
+        },
+        {
+          "feature_index": 18220,
+          "single_log_p_drop": 0.8273911476135254,
+          "magnitude": 9.289270401000977,
+          "label": null
+        },
+        {
+          "feature_index": 8628,
+          "single_log_p_drop": 0.405611515045166,
+          "magnitude": 2.6362204551696777,
+          "label": null
+        },
+        {
+          "feature_index": 14430,
+          "single_log_p_drop": 0.34409379959106445,
+          "magnitude": 7.3899335861206055,
+          "label": null
+        },
+        {
+          "feature_index": 12013,
+          "single_log_p_drop": -0.3327040672302246,
+          "magnitude": 4.797785758972168,
+          "label": null
+        },
+        {
+          "feature_index": 6863,
+          "single_log_p_drop": -0.3119521141052246,
+          "magnitude": 6.087774753570557,
+          "label": null
+        },
+        {
+          "feature_index": 19805,
+          "single_log_p_drop": -0.309049129486084,
+          "magnitude": 6.266308307647705,
+          "label": null
+        },
+        {
+          "feature_index": 19016,
+          "single_log_p_drop": -0.26126575469970703,
+          "magnitude": 3.2385523319244385,
+          "label": null
+        },
+        {
+          "feature_index": 19182,
+          "single_log_p_drop": -0.24436473846435547,
+          "magnitude": 3.4069902896881104,
+          "label": null
+        }
+      ],
+      "baseline": {
+        "argmax_token_id": 257,
+        "log_p_target": -5.778438568115234,
+        "log_p_argmax": -2.8908872604370117,
+        "target_rank": 48,
+        "entropy": 5.9656291007995605,
+        "hit": false,
+        "argmax_token_str": " a"
+      },
+      "joint_topk_ablated": {
+        "argmax_token_id": 262,
+        "log_p_target": -6.153024673461914,
+        "log_p_argmax": -2.806156873703003,
+        "target_rank": 61,
+        "entropy": 6.648609161376953,
+        "hit": false,
+        "argmax_token_str": " the"
+      },
+      "log_p_drop_vs_baseline": 0.3745861053466797
+    },
+    {
+      "id": "weekday-mon-tue",
+      "category": "weekday",
+      "prompt": "Today is Monday. Tomorrow is",
+      "target": " Tuesday",
+      "target_token_id": 3431,
+      "target_token_str": " Tuesday",
+      "n_active_features": 100,
+      "topk_features": [
+        {
+          "feature_index": 2029,
+          "single_log_p_drop": -0.626429557800293,
+          "magnitude": 14.365523338317871,
+          "label": null
+        },
+        {
+          "feature_index": 13848,
+          "single_log_p_drop": -0.33861255645751953,
+          "magnitude": 8.702219009399414,
+          "label": null
+        },
+        {
+          "feature_index": 11565,
+          "single_log_p_drop": 0.27108049392700195,
+          "magnitude": 7.7084455490112305,
+          "label": null
+        },
+        {
+          "feature_index": 3196,
+          "single_log_p_drop": -0.25320327281951904,
+          "magnitude": 3.2601969242095947,
+          "label": null
+        },
+        {
+          "feature_index": 13420,
+          "single_log_p_drop": 0.23660016059875488,
+          "magnitude": 4.530296802520752,
+          "label": null
+        },
+        {
+          "feature_index": 11898,
+          "single_log_p_drop": -0.20052671432495117,
+          "magnitude": 2.600040912628174,
+          "label": null
+        },
+        {
+          "feature_index": 14359,
+          "single_log_p_drop": -0.19493436813354492,
+          "magnitude": 3.041065216064453,
+          "label": null
+        },
+        {
+          "feature_index": 5489,
+          "single_log_p_drop": -0.161565899848938,
+          "magnitude": 2.770092248916626,
+          "label": null
+        },
+        {
+          "feature_index": 13840,
+          "single_log_p_drop": -0.15459203720092773,
+          "magnitude": 7.795534610748291,
+          "label": null
+        },
+        {
+          "feature_index": 3270,
+          "single_log_p_drop": -0.14695370197296143,
+          "magnitude": 3.406184434890747,
+          "label": null
+        }
+      ],
+      "baseline": {
+        "argmax_token_id": 3431,
+        "log_p_target": -1.899784803390503,
+        "log_p_argmax": -1.899784803390503,
+        "target_rank": 0,
+        "entropy": 4.053400993347168,
+        "hit": true,
+        "argmax_token_str": " Tuesday"
+      },
+      "joint_topk_ablated": {
+        "argmax_token_id": 3431,
+        "log_p_target": -1.0700336694717407,
+        "log_p_argmax": -1.0700336694717407,
+        "target_rank": 0,
+        "entropy": 2.9112367630004883,
+        "hit": true,
+        "argmax_token_str": " Tuesday"
+      },
+      "log_p_drop_vs_baseline": -0.8297511339187622
+    },
+    {
+      "id": "weekday-wed-thu",
+      "category": "weekday",
+      "prompt": "Today is Wednesday. Tomorrow is",
+      "target": " Thursday",
+      "target_token_id": 3635,
+      "target_token_str": " Thursday",
+      "n_active_features": 107,
+      "topk_features": [
+        {
+          "feature_index": 2029,
+          "single_log_p_drop": -0.8999890089035034,
+          "magnitude": 16.15453338623047,
+          "label": null
+        },
+        {
+          "feature_index": 13848,
+          "single_log_p_drop": -0.38190460205078125,
+          "magnitude": 9.797687530517578,
+          "label": null
+        },
+        {
+          "feature_index": 22741,
+          "single_log_p_drop": -0.37276482582092285,
+          "magnitude": 9.227912902832031,
+          "label": null
+        },
+        {
+          "feature_index": 14359,
+          "single_log_p_drop": -0.3588528633117676,
+          "magnitude": 3.693026542663574,
+          "label": null
+        },
+        {
+          "feature_index": 11898,
+          "single_log_p_drop": -0.27346086502075195,
+          "magnitude": 2.9443938732147217,
+          "label": null
+        },
+        {
+          "feature_index": 13840,
+          "single_log_p_drop": -0.2528817653656006,
+          "magnitude": 7.769406795501709,
+          "label": null
+        },
+        {
+          "feature_index": 11565,
+          "single_log_p_drop": 0.22926664352416992,
+          "magnitude": 7.260003566741943,
+          "label": null
+        },
+        {
+          "feature_index": 3196,
+          "single_log_p_drop": -0.2263956069946289,
+          "magnitude": 2.0744571685791016,
+          "label": null
+        },
+        {
+          "feature_index": 13420,
+          "single_log_p_drop": 0.21573114395141602,
+          "magnitude": 4.524874210357666,
+          "label": null
+        },
+        {
+          "feature_index": 3270,
+          "single_log_p_drop": -0.1896815299987793,
+          "magnitude": 3.4702467918395996,
+          "label": null
+        }
+      ],
+      "baseline": {
+        "argmax_token_id": 262,
+        "log_p_target": -2.4857754707336426,
+        "log_p_argmax": -2.010648250579834,
+        "target_rank": 1,
+        "entropy": 4.41341495513916,
+        "hit": false,
+        "argmax_token_str": " the"
+      },
+      "joint_topk_ablated": {
+        "argmax_token_id": 3635,
+        "log_p_target": -1.1053766012191772,
+        "log_p_argmax": -1.1053766012191772,
+        "target_rank": 0,
+        "entropy": 3.3345417976379395,
+        "hit": true,
+        "argmax_token_str": " Thursday"
+      },
+      "log_p_drop_vs_baseline": -1.3803988695144653
+    },
+    {
+      "id": "weekday-fri-sat",
+      "category": "weekday",
+      "prompt": "Today is Friday. Tomorrow is",
+      "target": " Saturday",
+      "target_token_id": 3909,
+      "target_token_str": " Saturday",
+      "n_active_features": 112,
+      "topk_features": [
+        {
+          "feature_index": 2029,
+          "single_log_p_drop": -0.8315443992614746,
+          "magnitude": 15.489433288574219,
+          "label": null
+        },
+        {
+          "feature_index": 11565,
+          "single_log_p_drop": 0.3368675708770752,
+          "magnitude": 8.032234191894531,
+          "label": null
+        },
+        {
+          "feature_index": 13840,
+          "single_log_p_drop": -0.2852306365966797,
+          "magnitude": 8.234292030334473,
+          "label": null
+        },
+        {
+          "feature_index": 14359,
+          "single_log_p_drop": -0.24013161659240723,
+          "magnitude": 3.443969964981079,
+          "label": null
+        },
+        {
+          "feature_index": 3196,
+          "single_log_p_drop": -0.22690320014953613,
+          "magnitude": 3.668048858642578,
+          "label": null
+        },
+        {
+          "feature_index": 13420,
+          "single_log_p_drop": 0.2264697551727295,
+          "magnitude": 4.622961521148682,
+          "label": null
+        },
+        {
+          "feature_index": 14900,
+          "single_log_p_drop": 0.20268988609313965,
+          "magnitude": 6.515653610229492,
+          "label": null
+        },
+        {
+          "feature_index": 23990,
+          "single_log_p_drop": 0.19774079322814941,
+          "magnitude": 6.592011451721191,
+          "label": null
+        },
+        {
+          "feature_index": 13848,
+          "single_log_p_drop": -0.18759703636169434,
+          "magnitude": 8.827848434448242,
+          "label": null
+        },
+        {
+          "feature_index": 11898,
+          "single_log_p_drop": -0.1839597225189209,
+          "magnitude": 2.7438814640045166,
+          "label": null
+        }
+      ],
+      "baseline": {
+        "argmax_token_id": 262,
+        "log_p_target": -2.3624889850616455,
+        "log_p_argmax": -2.0003550052642822,
+        "target_rank": 2,
+        "entropy": 4.499198913574219,
+        "hit": false,
+        "argmax_token_str": " the"
+      },
+      "joint_topk_ablated": {
+        "argmax_token_id": 3909,
+        "log_p_target": -1.5537351369857788,
+        "log_p_argmax": -1.5537351369857788,
+        "target_rank": 0,
+        "entropy": 3.94731068611145,
+        "hit": true,
+        "argmax_token_str": " Saturday"
+      },
+      "log_p_drop_vs_baseline": -0.8087538480758667
+    },
+    {
+      "id": "math-2plus2",
+      "category": "math",
+      "prompt": "Two plus two equals",
+      "target": " four",
+      "target_token_id": 1440,
+      "target_token_str": " four",
+      "n_active_features": 114,
+      "topk_features": [
+        {
+          "feature_index": 21216,
+          "single_log_p_drop": 0.2770836353302002,
+          "magnitude": 13.364044189453125,
+          "label": null
+        },
+        {
+          "feature_index": 3514,
+          "single_log_p_drop": 0.11180567741394043,
+          "magnitude": 2.7562804222106934,
+          "label": null
+        },
+        {
+          "feature_index": 9416,
+          "single_log_p_drop": 0.10144352912902832,
+          "magnitude": 9.994629859924316,
+          "label": null
+        },
+        {
+          "feature_index": 12199,
+          "single_log_p_drop": -0.10072159767150879,
+          "magnitude": 20.420570373535156,
+          "label": null
+        },
+        {
+          "feature_index": 4658,
+          "single_log_p_drop": -0.09375238418579102,
+          "magnitude": 19.211421966552734,
+          "label": null
+        },
+        {
+          "feature_index": 14539,
+          "single_log_p_drop": -0.09235167503356934,
+          "magnitude": 5.626718997955322,
+          "label": null
+        },
+        {
+          "feature_index": 6002,
+          "single_log_p_drop": 0.06564497947692871,
+          "magnitude": 2.0899507999420166,
+          "label": null
+        },
+        {
+          "feature_index": 4882,
+          "single_log_p_drop": 0.06051158905029297,
+          "magnitude": 5.198676109313965,
+          "label": null
+        },
+        {
+          "feature_index": 23240,
+          "single_log_p_drop": -0.051355600357055664,
+          "magnitude": 4.893620014190674,
+          "label": null
+        },
+        {
+          "feature_index": 3144,
+          "single_log_p_drop": 0.04968619346618652,
+          "magnitude": 8.525872230529785,
+          "label": null
+        }
+      ],
+      "baseline": {
+        "argmax_token_id": 530,
+        "log_p_target": -2.919275999069214,
+        "log_p_argmax": -1.4268643856048584,
+        "target_rank": 4,
+        "entropy": 4.107028961181641,
+        "hit": false,
+        "argmax_token_str": " one"
+      },
+      "joint_topk_ablated": {
+        "argmax_token_id": 734,
+        "log_p_target": -3.5738871097564697,
+        "log_p_argmax": -1.973496675491333,
+        "target_rank": 7,
+        "entropy": 5.166607856750488,
+        "hit": false,
+        "argmax_token_str": " two"
+      },
+      "log_p_drop_vs_baseline": 0.6546111106872559
+    },
+    {
+      "id": "math-3times3",
+      "category": "math",
+      "prompt": "Three times three equals",
+      "target": " nine",
+      "target_token_id": 5193,
+      "target_token_str": " nine",
+      "n_active_features": 109,
+      "topk_features": [
+        {
+          "feature_index": 21216,
+          "single_log_p_drop": 0.3055844306945801,
+          "magnitude": 14.840110778808594,
+          "label": null
+        },
+        {
+          "feature_index": 4658,
+          "single_log_p_drop": -0.2194380760192871,
+          "magnitude": 17.06855010986328,
+          "label": null
+        },
+        {
+          "feature_index": 3144,
+          "single_log_p_drop": 0.14889192581176758,
+          "magnitude": 4.25938606262207,
+          "label": null
+        },
+        {
+          "feature_index": 4882,
+          "single_log_p_drop": 0.1314387321472168,
+          "magnitude": 6.348961353302002,
+          "label": null
+        },
+        {
+          "feature_index": 18408,
+          "single_log_p_drop": 0.09256696701049805,
+          "magnitude": 6.037930011749268,
+          "label": null
+        },
+        {
+          "feature_index": 11008,
+          "single_log_p_drop": 0.08200454711914062,
+          "magnitude": 5.153161525726318,
+          "label": null
+        },
+        {
+          "feature_index": 9416,
+          "single_log_p_drop": 0.06220674514770508,
+          "magnitude": 7.7870330810546875,
+          "label": null
+        },
+        {
+          "feature_index": 14539,
+          "single_log_p_drop": -0.05924177169799805,
+          "magnitude": 4.418993949890137,
+          "label": null
+        },
+        {
+          "feature_index": 4517,
+          "single_log_p_drop": -0.05704832077026367,
+          "magnitude": 5.143995761871338,
+          "label": null
+        },
+        {
+          "feature_index": 23688,
+          "single_log_p_drop": 0.05217170715332031,
+          "magnitude": 4.080244064331055,
+          "label": null
+        }
+      ],
+      "baseline": {
+        "argmax_token_id": 1115,
+        "log_p_target": -5.0876545906066895,
+        "log_p_argmax": -1.4031367301940918,
+        "target_rank": 18,
+        "entropy": 3.9396839141845703,
+        "hit": false,
+        "argmax_token_str": " three"
+      },
+      "joint_topk_ablated": {
+        "argmax_token_id": 1115,
+        "log_p_target": -6.157256603240967,
+        "log_p_argmax": -1.9983247518539429,
+        "target_rank": 45,
+        "entropy": 5.518627643585205,
+        "hit": false,
+        "argmax_token_str": " three"
+      },
+      "log_p_drop_vs_baseline": 1.0696020126342773
+    },
+    {
+      "id": "named-einstein",
+      "category": "named-entity",
+      "prompt": "Albert Einstein was a famous",
+      "target": " physicist",
+      "target_token_id": 33013,
+      "target_token_str": " physicist",
+      "n_active_features": 58,
+      "topk_features": [
+        {
+          "feature_index": 20286,
+          "single_log_p_drop": 0.7997623682022095,
+          "magnitude": 32.49354934692383,
+          "label": null
+        },
+        {
+          "feature_index": 4215,
+          "single_log_p_drop": -0.13132405281066895,
+          "magnitude": 12.931161880493164,
+          "label": null
+        },
+        {
+          "feature_index": 15300,
+          "single_log_p_drop": -0.12642395496368408,
+          "magnitude": 6.953675270080566,
+          "label": null
+        },
+        {
+          "feature_index": 16705,
+          "single_log_p_drop": -0.09061872959136963,
+          "magnitude": 2.1698930263519287,
+          "label": null
+        },
+        {
+          "feature_index": 8478,
+          "single_log_p_drop": 0.07643616199493408,
+          "magnitude": 3.071986675262451,
+          "label": null
+        },
+        {
+          "feature_index": 13644,
+          "single_log_p_drop": 0.052736520767211914,
+          "magnitude": 3.2116048336029053,
+          "label": null
+        },
+        {
+          "feature_index": 19448,
+          "single_log_p_drop": -0.05053591728210449,
+          "magnitude": 2.6507744789123535,
+          "label": null
+        },
+        {
+          "feature_index": 18284,
+          "single_log_p_drop": -0.046590209007263184,
+          "magnitude": 4.944502353668213,
+          "label": null
+        },
+        {
+          "feature_index": 5144,
+          "single_log_p_drop": 0.046424269676208496,
+          "magnitude": 3.2848565578460693,
+          "label": null
+        },
+        {
+          "feature_index": 21734,
+          "single_log_p_drop": -0.0402911901473999,
+          "magnitude": 5.164547443389893,
+          "label": null
+        }
+      ],
+      "baseline": {
+        "argmax_token_id": 33013,
+        "log_p_target": -1.7968963384628296,
+        "log_p_argmax": -1.7968963384628296,
+        "target_rank": 0,
+        "entropy": 5.193360328674316,
+        "hit": true,
+        "argmax_token_str": " physicist"
+      },
+      "joint_topk_ablated": {
+        "argmax_token_id": 33013,
+        "log_p_target": -2.468709945678711,
+        "log_p_argmax": -2.468709945678711,
+        "target_rank": 0,
+        "entropy": 6.054035663604736,
+        "hit": true,
+        "argmax_token_str": " physicist"
+      },
+      "log_p_drop_vs_baseline": 0.6718136072158813
+    },
+    {
+      "id": "named-shakespeare",
+      "category": "named-entity",
+      "prompt": "William Shakespeare was a famous",
+      "target": " play",
+      "target_token_id": 711,
+      "target_token_str": " play",
+      "n_active_features": 53,
+      "topk_features": [
+        {
+          "feature_index": 18284,
+          "single_log_p_drop": -0.27549123764038086,
+          "magnitude": 4.7625603675842285,
+          "label": null
+        },
+        {
+          "feature_index": 4215,
+          "single_log_p_drop": -0.256763219833374,
+          "magnitude": 12.881255149841309,
+          "label": null
+        },
+        {
+          "feature_index": 19448,
+          "single_log_p_drop": -0.23851871490478516,
+          "magnitude": 3.691864013671875,
+          "label": null
+        },
+        {
+          "feature_index": 16705,
+          "single_log_p_drop": -0.17900562286376953,
+          "magnitude": 2.564404010772705,
+          "label": null
+        },
+        {
+          "feature_index": 6,
+          "single_log_p_drop": -0.1568150520324707,
+          "magnitude": 3.5404553413391113,
+          "label": null
+        },
+        {
+          "feature_index": 20286,
+          "single_log_p_drop": 0.1547374725341797,
+          "magnitude": 31.275835037231445,
+          "label": null
+        },
+        {
+          "feature_index": 6863,
+          "single_log_p_drop": -0.12817621231079102,
+          "magnitude": 2.783078193664551,
+          "label": null
+        },
+        {
+          "feature_index": 3468,
+          "single_log_p_drop": -0.10479402542114258,
+          "magnitude": 2.007222890853882,
+          "label": null
+        },
+        {
+          "feature_index": 13505,
+          "single_log_p_drop": -0.10347771644592285,
+          "magnitude": 2.3851511478424072,
+          "label": null
+        },
+        {
+          "feature_index": 7276,
+          "single_log_p_drop": -0.09717917442321777,
+          "magnitude": 1.5001078844070435,
+          "label": null
+        }
+      ],
+      "baseline": {
+        "argmax_token_id": 21810,
+        "log_p_target": -2.8270344734191895,
+        "log_p_argmax": -2.4235024452209473,
+        "target_rank": 1,
+        "entropy": 5.675726890563965,
+        "hit": false,
+        "argmax_token_str": " poet"
+      },
+      "joint_topk_ablated": {
+        "argmax_token_id": 711,
+        "log_p_target": -1.6682393550872803,
+        "log_p_argmax": -1.6682393550872803,
+        "target_rank": 0,
+        "entropy": 5.462120056152344,
+        "hit": true,
+        "argmax_token_str": " play"
+      },
+      "log_p_drop_vs_baseline": -1.1587951183319092
+    },
+    {
+      "id": "syntax-dog",
+      "category": "syntactic",
+      "prompt": "The dog chased the",
+      "target": " cat",
+      "target_token_id": 3797,
+      "target_token_str": " cat",
+      "n_active_features": 88,
+      "topk_features": [
+        {
+          "feature_index": 24175,
+          "single_log_p_drop": 0.1646556854248047,
+          "magnitude": 7.067422866821289,
+          "label": null
+        },
+        {
+          "feature_index": 495,
+          "single_log_p_drop": -0.15147781372070312,
+          "magnitude": 9.965802192687988,
+          "label": null
+        },
+        {
+          "feature_index": 17119,
+          "single_log_p_drop": -0.10399818420410156,
+          "magnitude": 6.153204917907715,
+          "label": null
+        },
+        {
+          "feature_index": 10116,
+          "single_log_p_drop": 0.09769392013549805,
+          "magnitude": 5.123585224151611,
+          "label": null
+        },
+        {
+          "feature_index": 20999,
+          "single_log_p_drop": -0.07629871368408203,
+          "magnitude": 2.8052127361297607,
+          "label": null
+        },
+        {
+          "feature_index": 19600,
+          "single_log_p_drop": 0.07254695892333984,
+          "magnitude": 3.343634605407715,
+          "label": null
+        },
+        {
+          "feature_index": 11564,
+          "single_log_p_drop": -0.0682516098022461,
+          "magnitude": 2.7186474800109863,
+          "label": null
+        },
+        {
+          "feature_index": 21103,
+          "single_log_p_drop": 0.06459712982177734,
+          "magnitude": 3.7841291427612305,
+          "label": null
+        },
+        {
+          "feature_index": 2977,
+          "single_log_p_drop": 0.05845928192138672,
+          "magnitude": 6.350942611694336,
+          "label": null
+        },
+        {
+          "feature_index": 3860,
+          "single_log_p_drop": 0.05354571342468262,
+          "magnitude": 2.8440322875976562,
+          "label": null
+        }
+      ],
+      "baseline": {
+        "argmax_token_id": 3290,
+        "log_p_target": -3.863035202026367,
+        "log_p_argmax": -1.7379168272018433,
+        "target_rank": 2,
+        "entropy": 6.073320388793945,
+        "hit": false,
+        "argmax_token_str": " dog"
+      },
+      "joint_topk_ablated": {
+        "argmax_token_id": 3290,
+        "log_p_target": -3.8513312339782715,
+        "log_p_argmax": -1.962791919708252,
+        "target_rank": 3,
+        "entropy": 6.564046859741211,
+        "hit": false,
+        "argmax_token_str": " dog"
+      },
+      "log_p_drop_vs_baseline": -0.011703968048095703
+    }
+  ],
+  "summary": {
+    "per_category": {
+      "capital": {
+        "n": 4,
+        "baseline_hit_rate": 0.0,
+        "joint_hit_rate": 0.0,
+        "mean_log_p_drop": -0.491923451423645,
+        "mean_n_active_features": 50.5
+      },
+      "math": {
+        "n": 2,
+        "baseline_hit_rate": 0.0,
+        "joint_hit_rate": 0.0,
+        "mean_log_p_drop": 0.8621065616607666,
+        "mean_n_active_features": 111.5
+      },
+      "named-entity": {
+        "n": 2,
+        "baseline_hit_rate": 0.5,
+        "joint_hit_rate": 1.0,
+        "mean_log_p_drop": -0.24349075555801392,
+        "mean_n_active_features": 55.5
+      },
+      "syntactic": {
+        "n": 1,
+        "baseline_hit_rate": 0.0,
+        "joint_hit_rate": 0.0,
+        "mean_log_p_drop": -0.011703968048095703,
+        "mean_n_active_features": 88.0
+      },
+      "weekday": {
+        "n": 3,
+        "baseline_hit_rate": 0.3333333333333333,
+        "joint_hit_rate": 1.0,
+        "mean_log_p_drop": -1.0063012838363647,
+        "mean_n_active_features": 106.33333333333333
+      }
+    },
+    "overall": {
+      "n": 12,
+      "baseline_hit_rate": 0.16666666666666666,
+      "joint_hit_rate": 0.4166666666666667,
+      "mean_log_p_drop": -0.3134225010871887,
+      "mean_n_active_features": 78.58333333333333
+    }
+  }
+}

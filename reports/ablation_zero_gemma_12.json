@@ -1,0 +1,1175 @@
+{
+  "model": "gemma",
+  "sae": "gemma-scope-2b-pt-res-canonical/L20/16k/canonical",
+  "prompts_file": "data/causal_prompts.json",
+  "method": "zero",
+  "joint_features": [
+    6631,
+    9768,
+    13414
+  ],
+  "single_ablate_features": [
+    6631,
+    9768,
+    15596,
+    13414,
+    12927
+  ],
+  "conditions": [
+    "baseline",
+    "ablate_6631",
+    "ablate_9768",
+    "ablate_15596",
+    "ablate_13414",
+    "ablate_12927",
+    "joint_6631_9768_13414"
+  ],
+  "results": [
+    {
+      "id": "capital-fr",
+      "prompt": "The capital of France is",
+      "target": " Paris",
+      "category": "capital",
+      "target_token_id": 7127,
+      "target_token_str": " Paris",
+      "conditions": {
+        "baseline": {
+          "argmax_token_id": 476,
+          "log_p_target": -3.433220863342285,
+          "log_p_argmax": -1.7086610794067383,
+          "target_rank": 7,
+          "entropy": 3.4881553649902344,
+          "hit": false,
+          "argmax_token_str": " a"
+        },
+        "ablate_6631": {
+          "argmax_token_id": 476,
+          "log_p_target": -3.45257568359375,
+          "log_p_argmax": -1.7106305360794067,
+          "target_rank": 8,
+          "entropy": 3.4842782020568848,
+          "hit": false,
+          "argmax_token_str": " a"
+        },
+        "ablate_9768": {
+          "argmax_token_id": 476,
+          "log_p_target": -3.4663052558898926,
+          "log_p_argmax": -1.7087103128433228,
+          "target_rank": 8,
+          "entropy": 3.4657368659973145,
+          "hit": false,
+          "argmax_token_str": " a"
+        },
+        "ablate_15596": {
+          "argmax_token_id": 476,
+          "log_p_target": -2.466475009918213,
+          "log_p_argmax": -1.7792307138442993,
+          "target_rank": 3,
+          "entropy": 3.2817907333374023,
+          "hit": false,
+          "argmax_token_str": " a"
+        },
+        "ablate_13414": {
+          "argmax_token_id": 476,
+          "log_p_target": -3.2442922592163086,
+          "log_p_argmax": -1.6765507459640503,
+          "target_rank": 6,
+          "entropy": 3.453791379928589,
+          "hit": false,
+          "argmax_token_str": " a"
+        },
+        "ablate_12927": {
+          "argmax_token_id": 476,
+          "log_p_target": -3.526521682739258,
+          "log_p_argmax": -1.7422714233398438,
+          "target_rank": 8,
+          "entropy": 3.5172128677368164,
+          "hit": false,
+          "argmax_token_str": " a"
+        },
+        "joint_6631_9768_13414": {
+          "argmax_token_id": 476,
+          "log_p_target": -3.30314302444458,
+          "log_p_argmax": -1.6775461435317993,
+          "target_rank": 7,
+          "entropy": 3.430253267288208,
+          "hit": false,
+          "argmax_token_str": " a"
+        }
+      }
+    },
+    {
+      "id": "capital-jp",
+      "prompt": "The capital of Japan is",
+      "target": " Tokyo",
+      "category": "capital",
+      "target_token_id": 22099,
+      "target_token_str": " Tokyo",
+      "conditions": {
+        "baseline": {
+          "argmax_token_id": 22099,
+          "log_p_target": -1.7738127708435059,
+          "log_p_argmax": -1.7738127708435059,
+          "target_rank": 0,
+          "entropy": 3.460904121398926,
+          "hit": true,
+          "argmax_token_str": " Tokyo"
+        },
+        "ablate_6631": {
+          "argmax_token_id": 22099,
+          "log_p_target": -1.7323627471923828,
+          "log_p_argmax": -1.7323627471923828,
+          "target_rank": 0,
+          "entropy": 3.437441349029541,
+          "hit": true,
+          "argmax_token_str": " Tokyo"
+        },
+        "ablate_9768": {
+          "argmax_token_id": 22099,
+          "log_p_target": -1.7212239503860474,
+          "log_p_argmax": -1.7212239503860474,
+          "target_rank": 0,
+          "entropy": 3.418070077896118,
+          "hit": true,
+          "argmax_token_str": " Tokyo"
+        },
+        "ablate_15596": {
+          "argmax_token_id": 22099,
+          "log_p_target": -1.2860913276672363,
+          "log_p_argmax": -1.2860913276672363,
+          "target_rank": 0,
+          "entropy": 3.1913046836853027,
+          "hit": true,
+          "argmax_token_str": " Tokyo"
+        },
+        "ablate_13414": {
+          "argmax_token_id": 22099,
+          "log_p_target": -1.6221226453781128,
+          "log_p_argmax": -1.6221226453781128,
+          "target_rank": 0,
+          "entropy": 3.4273793697357178,
+          "hit": true,
+          "argmax_token_str": " Tokyo"
+        },
+        "ablate_12927": {
+          "argmax_token_id": 22099,
+          "log_p_target": -1.849760890007019,
+          "log_p_argmax": -1.849760890007019,
+          "target_rank": 0,
+          "entropy": 3.530512571334839,
+          "hit": true,
+          "argmax_token_str": " Tokyo"
+        },
+        "joint_6631_9768_13414": {
+          "argmax_token_id": 22099,
+          "log_p_target": -1.5197484493255615,
+          "log_p_argmax": -1.5197484493255615,
+          "target_rank": 0,
+          "entropy": 3.3439581394195557,
+          "hit": true,
+          "argmax_token_str": " Tokyo"
+        }
+      }
+    },
+    {
+      "id": "capital-de",
+      "prompt": "The capital of Germany is",
+      "target": " Berlin",
+      "category": "capital",
+      "target_token_id": 12514,
+      "target_token_str": " Berlin",
+      "conditions": {
+        "baseline": {
+          "argmax_token_id": 476,
+          "log_p_target": -3.7078607082366943,
+          "log_p_argmax": -1.9385392665863037,
+          "target_rank": 12,
+          "entropy": 3.5400516986846924,
+          "hit": false,
+          "argmax_token_str": " a"
+        },
+        "ablate_6631": {
+          "argmax_token_id": 476,
+          "log_p_target": -3.719087600708008,
+          "log_p_argmax": -1.9450855255126953,
+          "target_rank": 12,
+          "entropy": 3.5378031730651855,
+          "hit": false,
+          "argmax_token_str": " a"
+        },
+        "ablate_9768": {
+          "argmax_token_id": 476,
+          "log_p_target": -3.838289737701416,
+          "log_p_argmax": -1.9350266456604004,
+          "target_rank": 13,
+          "entropy": 3.5078611373901367,
+          "hit": false,
+          "argmax_token_str": " a"
+        },
+        "ablate_15596": {
+          "argmax_token_id": 573,
+          "log_p_target": -2.6348752975463867,
+          "log_p_argmax": -1.8662959337234497,
+          "target_rank": 3,
+          "entropy": 3.4445137977600098,
+          "hit": false,
+          "argmax_token_str": " the"
+        },
+        "ablate_13414": {
+          "argmax_token_id": 476,
+          "log_p_target": -3.5745596885681152,
+          "log_p_argmax": -1.923169493675232,
+          "target_rank": 11,
+          "entropy": 3.5512354373931885,
+          "hit": false,
+          "argmax_token_str": " a"
+        },
+        "ablate_12927": {
+          "argmax_token_id": 476,
+          "log_p_target": -3.8298089504241943,
+          "log_p_argmax": -2.0075490474700928,
+          "target_rank": 12,
+          "entropy": 3.5872278213500977,
+          "hit": false,
+          "argmax_token_str": " a"
+        },
+        "joint_6631_9768_13414": {
+          "argmax_token_id": 476,
+          "log_p_target": -3.7708959579467773,
+          "log_p_argmax": -1.9157534837722778,
+          "target_rank": 12,
+          "entropy": 3.5154147148132324,
+          "hit": false,
+          "argmax_token_str": " a"
+        }
+      }
+    },
+    {
+      "id": "capital-it",
+      "prompt": "The capital of Italy is",
+      "target": " Rome",
+      "category": "capital",
+      "target_token_id": 11344,
+      "target_token_str": " Rome",
+      "conditions": {
+        "baseline": {
+          "argmax_token_id": 476,
+          "log_p_target": -4.342904090881348,
+          "log_p_argmax": -1.828688383102417,
+          "target_rank": 13,
+          "entropy": 3.5718634128570557,
+          "hit": false,
+          "argmax_token_str": " a"
+        },
+        "ablate_6631": {
+          "argmax_token_id": 476,
+          "log_p_target": -4.396686553955078,
+          "log_p_argmax": -1.830469012260437,
+          "target_rank": 15,
+          "entropy": 3.563016653060913,
+          "hit": false,
+          "argmax_token_str": " a"
+        },
+        "ablate_9768": {
+          "argmax_token_id": 476,
+          "log_p_target": -4.443723201751709,
+          "log_p_argmax": -1.81853449344635,
+          "target_rank": 15,
+          "entropy": 3.5423800945281982,
+          "hit": false,
+          "argmax_token_str": " a"
+        },
+        "ablate_15596": {
+          "argmax_token_id": 476,
+          "log_p_target": -3.223367691040039,
+          "log_p_argmax": -1.895248532295227,
+          "target_rank": 5,
+          "entropy": 3.4414288997650146,
+          "hit": false,
+          "argmax_token_str": " a"
+        },
+        "ablate_13414": {
+          "argmax_token_id": 476,
+          "log_p_target": -3.9580087661743164,
+          "log_p_argmax": -1.8417023420333862,
+          "target_rank": 12,
+          "entropy": 3.567448854446411,
+          "hit": false,
+          "argmax_token_str": " a"
+        },
+        "ablate_12927": {
+          "argmax_token_id": 476,
+          "log_p_target": -4.467894077301025,
+          "log_p_argmax": -1.8791089057922363,
+          "target_rank": 15,
+          "entropy": 3.6007728576660156,
+          "hit": false,
+          "argmax_token_str": " a"
+        },
+        "joint_6631_9768_13414": {
+          "argmax_token_id": 476,
+          "log_p_target": -4.103875160217285,
+          "log_p_argmax": -1.8352324962615967,
+          "target_rank": 14,
+          "entropy": 3.5278210639953613,
+          "hit": false,
+          "argmax_token_str": " a"
+        }
+      }
+    },
+    {
+      "id": "weekday-mon-tue",
+      "prompt": "Today is Monday. Tomorrow is",
+      "target": " Tuesday",
+      "category": "weekday",
+      "target_token_id": 10111,
+      "target_token_str": " Tuesday",
+      "conditions": {
+        "baseline": {
+          "argmax_token_id": 10111,
+          "log_p_target": -0.6366687417030334,
+          "log_p_argmax": -0.6366687417030334,
+          "target_rank": 0,
+          "entropy": 2.127777338027954,
+          "hit": true,
+          "argmax_token_str": " Tuesday"
+        },
+        "ablate_6631": {
+          "argmax_token_id": 10111,
+          "log_p_target": -0.6178041100502014,
+          "log_p_argmax": -0.6178041100502014,
+          "target_rank": 0,
+          "entropy": 2.0933122634887695,
+          "hit": true,
+          "argmax_token_str": " Tuesday"
+        },
+        "ablate_9768": {
+          "argmax_token_id": 10111,
+          "log_p_target": -0.5660008192062378,
+          "log_p_argmax": -0.5660008192062378,
+          "target_rank": 0,
+          "entropy": 2.0025477409362793,
+          "hit": true,
+          "argmax_token_str": " Tuesday"
+        },
+        "ablate_15596": {
+          "argmax_token_id": 10111,
+          "log_p_target": -0.6126384139060974,
+          "log_p_argmax": -0.6126384139060974,
+          "target_rank": 0,
+          "entropy": 2.0730714797973633,
+          "hit": true,
+          "argmax_token_str": " Tuesday"
+        },
+        "ablate_13414": {
+          "argmax_token_id": 10111,
+          "log_p_target": -0.515468180179596,
+          "log_p_argmax": -0.515468180179596,
+          "target_rank": 0,
+          "entropy": 1.9118053913116455,
+          "hit": true,
+          "argmax_token_str": " Tuesday"
+        },
+        "ablate_12927": {
+          "argmax_token_id": 10111,
+          "log_p_target": -0.5848543047904968,
+          "log_p_argmax": -0.5848543047904968,
+          "target_rank": 0,
+          "entropy": 2.042433023452759,
+          "hit": true,
+          "argmax_token_str": " Tuesday"
+        },
+        "joint_6631_9768_13414": {
+          "argmax_token_id": 10111,
+          "log_p_target": -0.4300195574760437,
+          "log_p_argmax": -0.4300195574760437,
+          "target_rank": 0,
+          "entropy": 1.7195526361465454,
+          "hit": true,
+          "argmax_token_str": " Tuesday"
+        }
+      }
+    },
+    {
+      "id": "weekday-wed-thu",
+      "prompt": "Today is Wednesday. Tomorrow is",
+      "target": " Thursday",
+      "category": "weekday",
+      "target_token_id": 10282,
+      "target_token_str": " Thursday",
+      "conditions": {
+        "baseline": {
+          "argmax_token_id": 10282,
+          "log_p_target": -0.6281184554100037,
+          "log_p_argmax": -0.6281184554100037,
+          "target_rank": 0,
+          "entropy": 2.234889030456543,
+          "hit": true,
+          "argmax_token_str": " Thursday"
+        },
+        "ablate_6631": {
+          "argmax_token_id": 10282,
+          "log_p_target": -0.608876645565033,
+          "log_p_argmax": -0.608876645565033,
+          "target_rank": 0,
+          "entropy": 2.1968789100646973,
+          "hit": true,
+          "argmax_token_str": " Thursday"
+        },
+        "ablate_9768": {
+          "argmax_token_id": 10282,
+          "log_p_target": -0.570303201675415,
+          "log_p_argmax": -0.570303201675415,
+          "target_rank": 0,
+          "entropy": 2.1093506813049316,
+          "hit": true,
+          "argmax_token_str": " Thursday"
+        },
+        "ablate_15596": {
+          "argmax_token_id": 10282,
+          "log_p_target": -0.6095821857452393,
+          "log_p_argmax": -0.6095821857452393,
+          "target_rank": 0,
+          "entropy": 2.19100284576416,
+          "hit": true,
+          "argmax_token_str": " Thursday"
+        },
+        "ablate_13414": {
+          "argmax_token_id": 10282,
+          "log_p_target": -0.5200935006141663,
+          "log_p_argmax": -0.5200935006141663,
+          "target_rank": 0,
+          "entropy": 2.0568180084228516,
+          "hit": true,
+          "argmax_token_str": " Thursday"
+        },
+        "ablate_12927": {
+          "argmax_token_id": 10282,
+          "log_p_target": -0.5727167725563049,
+          "log_p_argmax": -0.5727167725563049,
+          "target_rank": 0,
+          "entropy": 2.1331562995910645,
+          "hit": true,
+          "argmax_token_str": " Thursday"
+        },
+        "joint_6631_9768_13414": {
+          "argmax_token_id": 10282,
+          "log_p_target": -0.4432922601699829,
+          "log_p_argmax": -0.4432922601699829,
+          "target_rank": 0,
+          "entropy": 1.8572094440460205,
+          "hit": true,
+          "argmax_token_str": " Thursday"
+        }
+      }
+    },
+    {
+      "id": "weekday-fri-sat",
+      "prompt": "Today is Friday. Tomorrow is",
+      "target": " Saturday",
+      "category": "weekday",
+      "target_token_id": 8733,
+      "target_token_str": " Saturday",
+      "conditions": {
+        "baseline": {
+          "argmax_token_id": 8733,
+          "log_p_target": -1.0323396921157837,
+          "log_p_argmax": -1.0323396921157837,
+          "target_rank": 0,
+          "entropy": 2.646268844604492,
+          "hit": true,
+          "argmax_token_str": " Saturday"
+        },
+        "ablate_6631": {
+          "argmax_token_id": 8733,
+          "log_p_target": -1.0009872913360596,
+          "log_p_argmax": -1.0009872913360596,
+          "target_rank": 0,
+          "entropy": 2.6079373359680176,
+          "hit": true,
+          "argmax_token_str": " Saturday"
+        },
+        "ablate_9768": {
+          "argmax_token_id": 8733,
+          "log_p_target": -0.9087005853652954,
+          "log_p_argmax": -0.9087005853652954,
+          "target_rank": 0,
+          "entropy": 2.496939182281494,
+          "hit": true,
+          "argmax_token_str": " Saturday"
+        },
+        "ablate_15596": {
+          "argmax_token_id": 8733,
+          "log_p_target": -0.9669556617736816,
+          "log_p_argmax": -0.9669556617736816,
+          "target_rank": 0,
+          "entropy": 2.582923173904419,
+          "hit": true,
+          "argmax_token_str": " Saturday"
+        },
+        "ablate_13414": {
+          "argmax_token_id": 8733,
+          "log_p_target": -0.9492769837379456,
+          "log_p_argmax": -0.9492769837379456,
+          "target_rank": 0,
+          "entropy": 2.596062183380127,
+          "hit": true,
+          "argmax_token_str": " Saturday"
+        },
+        "ablate_12927": {
+          "argmax_token_id": 8733,
+          "log_p_target": -0.9815008044242859,
+          "log_p_argmax": -0.9815008044242859,
+          "target_rank": 0,
+          "entropy": 2.5855681896209717,
+          "hit": true,
+          "argmax_token_str": " Saturday"
+        },
+        "joint_6631_9768_13414": {
+          "argmax_token_id": 8733,
+          "log_p_target": -0.8009410500526428,
+          "log_p_argmax": -0.8009410500526428,
+          "target_rank": 0,
+          "entropy": 2.379971504211426,
+          "hit": true,
+          "argmax_token_str": " Saturday"
+        }
+      }
+    },
+    {
+      "id": "math-2plus2",
+      "prompt": "Two plus two equals",
+      "target": " four",
+      "category": "math",
+      "target_token_id": 2785,
+      "target_token_str": " four",
+      "conditions": {
+        "baseline": {
+          "argmax_token_id": 2785,
+          "log_p_target": -0.2675345242023468,
+          "log_p_argmax": -0.2675345242023468,
+          "target_rank": 0,
+          "entropy": 1.3792771100997925,
+          "hit": true,
+          "argmax_token_str": " four"
+        },
+        "ablate_6631": {
+          "argmax_token_id": 2785,
+          "log_p_target": -0.24239061772823334,
+          "log_p_argmax": -0.24239061772823334,
+          "target_rank": 0,
+          "entropy": 1.2875274419784546,
+          "hit": true,
+          "argmax_token_str": " four"
+        },
+        "ablate_9768": {
+          "argmax_token_id": 2785,
+          "log_p_target": -0.2452758103609085,
+          "log_p_argmax": -0.2452758103609085,
+          "target_rank": 0,
+          "entropy": 1.2954251766204834,
+          "hit": true,
+          "argmax_token_str": " four"
+        },
+        "ablate_15596": {
+          "argmax_token_id": 2785,
+          "log_p_target": -0.2675345242023468,
+          "log_p_argmax": -0.2675345242023468,
+          "target_rank": 0,
+          "entropy": 1.3792771100997925,
+          "hit": true,
+          "argmax_token_str": " four"
+        },
+        "ablate_13414": {
+          "argmax_token_id": 2785,
+          "log_p_target": -0.2675345242023468,
+          "log_p_argmax": -0.2675345242023468,
+          "target_rank": 0,
+          "entropy": 1.3792771100997925,
+          "hit": true,
+          "argmax_token_str": " four"
+        },
+        "ablate_12927": {
+          "argmax_token_id": 2785,
+          "log_p_target": -0.2675345242023468,
+          "log_p_argmax": -0.2675345242023468,
+          "target_rank": 0,
+          "entropy": 1.3792771100997925,
+          "hit": true,
+          "argmax_token_str": " four"
+        },
+        "joint_6631_9768_13414": {
+          "argmax_token_id": 2785,
+          "log_p_target": -0.22126130759716034,
+          "log_p_argmax": -0.22126130759716034,
+          "target_rank": 0,
+          "entropy": 1.2036547660827637,
+          "hit": true,
+          "argmax_token_str": " four"
+        }
+      }
+    },
+    {
+      "id": "math-3times3",
+      "prompt": "Three times three equals",
+      "target": " nine",
+      "category": "math",
+      "target_token_id": 9981,
+      "target_token_str": " nine",
+      "conditions": {
+        "baseline": {
+          "argmax_token_id": 9981,
+          "log_p_target": -0.6876606345176697,
+          "log_p_argmax": -0.6876606345176697,
+          "target_rank": 0,
+          "entropy": 2.29671311378479,
+          "hit": true,
+          "argmax_token_str": " nine"
+        },
+        "ablate_6631": {
+          "argmax_token_id": 9981,
+          "log_p_target": -0.6584621071815491,
+          "log_p_argmax": -0.6584621071815491,
+          "target_rank": 0,
+          "entropy": 2.245447874069214,
+          "hit": true,
+          "argmax_token_str": " nine"
+        },
+        "ablate_9768": {
+          "argmax_token_id": 9981,
+          "log_p_target": -0.6541210412979126,
+          "log_p_argmax": -0.6541210412979126,
+          "target_rank": 0,
+          "entropy": 2.195427417755127,
+          "hit": true,
+          "argmax_token_str": " nine"
+        },
+        "ablate_15596": {
+          "argmax_token_id": 9981,
+          "log_p_target": -0.6876606345176697,
+          "log_p_argmax": -0.6876606345176697,
+          "target_rank": 0,
+          "entropy": 2.29671311378479,
+          "hit": true,
+          "argmax_token_str": " nine"
+        },
+        "ablate_13414": {
+          "argmax_token_id": 9981,
+          "log_p_target": -0.6876606345176697,
+          "log_p_argmax": -0.6876606345176697,
+          "target_rank": 0,
+          "entropy": 2.29671311378479,
+          "hit": true,
+          "argmax_token_str": " nine"
+        },
+        "ablate_12927": {
+          "argmax_token_id": 9981,
+          "log_p_target": -0.6876606345176697,
+          "log_p_argmax": -0.6876606345176697,
+          "target_rank": 0,
+          "entropy": 2.29671311378479,
+          "hit": true,
+          "argmax_token_str": " nine"
+        },
+        "joint_6631_9768_13414": {
+          "argmax_token_id": 9981,
+          "log_p_target": -0.6284964680671692,
+          "log_p_argmax": -0.6284964680671692,
+          "target_rank": 0,
+          "entropy": 2.148621082305908,
+          "hit": true,
+          "argmax_token_str": " nine"
+        }
+      }
+    },
+    {
+      "id": "named-einstein",
+      "prompt": "Albert Einstein was a famous",
+      "target": " physicist",
+      "category": "named-entity",
+      "target_token_id": 129796,
+      "target_token_str": " physicist",
+      "conditions": {
+        "baseline": {
+          "argmax_token_id": 38692,
+          "log_p_target": -1.827589988708496,
+          "log_p_argmax": -1.677231788635254,
+          "target_rank": 1,
+          "entropy": 3.0331907272338867,
+          "hit": false,
+          "argmax_token_str": " scientist"
+        },
+        "ablate_6631": {
+          "argmax_token_id": 38692,
+          "log_p_target": -1.8134506940841675,
+          "log_p_argmax": -1.6900051832199097,
+          "target_rank": 1,
+          "entropy": 3.019087314605713,
+          "hit": false,
+          "argmax_token_str": " scientist"
+        },
+        "ablate_9768": {
+          "argmax_token_id": 38692,
+          "log_p_target": -1.7528046369552612,
+          "log_p_argmax": -1.64329993724823,
+          "target_rank": 1,
+          "entropy": 2.948855400085449,
+          "hit": false,
+          "argmax_token_str": " scientist"
+        },
+        "ablate_15596": {
+          "argmax_token_id": 38692,
+          "log_p_target": -1.827589988708496,
+          "log_p_argmax": -1.677231788635254,
+          "target_rank": 1,
+          "entropy": 3.0331907272338867,
+          "hit": false,
+          "argmax_token_str": " scientist"
+        },
+        "ablate_13414": {
+          "argmax_token_id": 38692,
+          "log_p_target": -1.827589988708496,
+          "log_p_argmax": -1.677231788635254,
+          "target_rank": 1,
+          "entropy": 3.0331907272338867,
+          "hit": false,
+          "argmax_token_str": " scientist"
+        },
+        "ablate_12927": {
+          "argmax_token_id": 38692,
+          "log_p_target": -1.827589988708496,
+          "log_p_argmax": -1.677231788635254,
+          "target_rank": 1,
+          "entropy": 3.0331907272338867,
+          "hit": false,
+          "argmax_token_str": " scientist"
+        },
+        "joint_6631_9768_13414": {
+          "argmax_token_id": 38692,
+          "log_p_target": -1.7413694858551025,
+          "log_p_argmax": -1.6551706790924072,
+          "target_rank": 1,
+          "entropy": 2.9329452514648438,
+          "hit": false,
+          "argmax_token_str": " scientist"
+        }
+      }
+    },
+    {
+      "id": "named-shakespeare",
+      "prompt": "William Shakespeare was a famous",
+      "target": " play",
+      "category": "named-entity",
+      "target_token_id": 1554,
+      "target_token_str": " play",
+      "conditions": {
+        "baseline": {
+          "argmax_token_id": 4645,
+          "log_p_target": -5.11081600189209,
+          "log_p_argmax": -0.9192684292793274,
+          "target_rank": 16,
+          "entropy": 2.414870262145996,
+          "hit": false,
+          "argmax_token_str": " English"
+        },
+        "ablate_6631": {
+          "argmax_token_id": 4645,
+          "log_p_target": -5.334950923919678,
+          "log_p_argmax": -0.8569828271865845,
+          "target_rank": 17,
+          "entropy": 2.3405370712280273,
+          "hit": false,
+          "argmax_token_str": " English"
+        },
+        "ablate_9768": {
+          "argmax_token_id": 4645,
+          "log_p_target": -5.2393622398376465,
+          "log_p_argmax": -0.8843720555305481,
+          "target_rank": 15,
+          "entropy": 2.326005458831787,
+          "hit": false,
+          "argmax_token_str": " English"
+        },
+        "ablate_15596": {
+          "argmax_token_id": 4645,
+          "log_p_target": -5.11081600189209,
+          "log_p_argmax": -0.9192684292793274,
+          "target_rank": 16,
+          "entropy": 2.414870262145996,
+          "hit": false,
+          "argmax_token_str": " English"
+        },
+        "ablate_13414": {
+          "argmax_token_id": 4645,
+          "log_p_target": -5.11081600189209,
+          "log_p_argmax": -0.9192684292793274,
+          "target_rank": 16,
+          "entropy": 2.414870262145996,
+          "hit": false,
+          "argmax_token_str": " English"
+        },
+        "ablate_12927": {
+          "argmax_token_id": 4645,
+          "log_p_target": -5.11081600189209,
+          "log_p_argmax": -0.9192684292793274,
+          "target_rank": 16,
+          "entropy": 2.414870262145996,
+          "hit": false,
+          "argmax_token_str": " English"
+        },
+        "joint_6631_9768_13414": {
+          "argmax_token_id": 4645,
+          "log_p_target": -5.474435806274414,
+          "log_p_argmax": -0.8215997219085693,
+          "target_rank": 17,
+          "entropy": 2.249312400817871,
+          "hit": false,
+          "argmax_token_str": " English"
+        }
+      }
+    },
+    {
+      "id": "syntax-dog",
+      "prompt": "The dog chased the",
+      "target": " cat",
+      "category": "syntactic",
+      "target_token_id": 4401,
+      "target_token_str": " cat",
+      "conditions": {
+        "baseline": {
+          "argmax_token_id": 4401,
+          "log_p_target": -2.539412498474121,
+          "log_p_argmax": -2.539412498474121,
+          "target_rank": 0,
+          "entropy": 4.782806396484375,
+          "hit": true,
+          "argmax_token_str": " cat"
+        },
+        "ablate_6631": {
+          "argmax_token_id": 4401,
+          "log_p_target": -2.5684401988983154,
+          "log_p_argmax": -2.5684401988983154,
+          "target_rank": 0,
+          "entropy": 4.829348564147949,
+          "hit": true,
+          "argmax_token_str": " cat"
+        },
+        "ablate_9768": {
+          "argmax_token_id": 4401,
+          "log_p_target": -2.5125064849853516,
+          "log_p_argmax": -2.5125064849853516,
+          "target_rank": 0,
+          "entropy": 4.817495346069336,
+          "hit": true,
+          "argmax_token_str": " cat"
+        },
+        "ablate_15596": {
+          "argmax_token_id": 4401,
+          "log_p_target": -2.539412498474121,
+          "log_p_argmax": -2.539412498474121,
+          "target_rank": 0,
+          "entropy": 4.782806396484375,
+          "hit": true,
+          "argmax_token_str": " cat"
+        },
+        "ablate_13414": {
+          "argmax_token_id": 4401,
+          "log_p_target": -2.539412498474121,
+          "log_p_argmax": -2.539412498474121,
+          "target_rank": 0,
+          "entropy": 4.782806396484375,
+          "hit": true,
+          "argmax_token_str": " cat"
+        },
+        "ablate_12927": {
+          "argmax_token_id": 4401,
+          "log_p_target": -2.539412498474121,
+          "log_p_argmax": -2.539412498474121,
+          "target_rank": 0,
+          "entropy": 4.782806396484375,
+          "hit": true,
+          "argmax_token_str": " cat"
+        },
+        "joint_6631_9768_13414": {
+          "argmax_token_id": 4401,
+          "log_p_target": -2.51784348487854,
+          "log_p_argmax": -2.51784348487854,
+          "target_rank": 0,
+          "entropy": 4.8588409423828125,
+          "hit": true,
+          "argmax_token_str": " cat"
+        }
+      }
+    }
+  ],
+  "summary": {
+    "overall": {
+      "baseline": {
+        "n": 12,
+        "hit_rate": 0.5833333333333334,
+        "mean_log_p_target": -2.1656615808606148,
+        "mean_log_p_drop_vs_baseline": 0.0
+      },
+      "ablate_6631": {
+        "n": 12,
+        "hit_rate": 0.5833333333333334,
+        "mean_log_p_target": -2.178839597851038,
+        "mean_log_p_drop_vs_baseline": 0.013178016990423203
+      },
+      "ablate_9768": {
+        "n": 12,
+        "hit_rate": 0.5833333333333334,
+        "mean_log_p_target": -2.159884747117758,
+        "mean_log_p_drop_vs_baseline": -0.005776833742856979
+      },
+      "ablate_15596": {
+        "n": 12,
+        "hit_rate": 0.5833333333333334,
+        "mean_log_p_target": -1.8527499362826347,
+        "mean_log_p_drop_vs_baseline": -0.31291164457798004
+      },
+      "ablate_13414": {
+        "n": 12,
+        "hit_rate": 0.5833333333333334,
+        "mean_log_p_target": -2.0680696393052735,
+        "mean_log_p_drop_vs_baseline": -0.09759194155534108
+      },
+      "ablate_12927": {
+        "n": 12,
+        "hit_rate": 0.5833333333333334,
+        "mean_log_p_target": -2.1871725941697755,
+        "mean_log_p_drop_vs_baseline": 0.02151101330916087
+      },
+      "joint_6631_9768_13414": {
+        "n": 12,
+        "hit_rate": 0.5833333333333334,
+        "mean_log_p_target": -2.079610167692105,
+        "mean_log_p_drop_vs_baseline": -0.0860514131685098
+      }
+    },
+    "per_category": {
+      "capital": {
+        "baseline": {
+          "n": 4,
+          "hit_rate": 0.25,
+          "mean_log_p_target": -3.3144496083259583,
+          "mean_log_p_drop_vs_baseline": 0.0
+        },
+        "ablate_6631": {
+          "n": 4,
+          "hit_rate": 0.25,
+          "mean_log_p_target": -3.3251781463623047,
+          "mean_log_p_drop_vs_baseline": 0.010728538036346436
+        },
+        "ablate_9768": {
+          "n": 4,
+          "hit_rate": 0.25,
+          "mean_log_p_target": -3.3673855364322662,
+          "mean_log_p_drop_vs_baseline": 0.05293592810630798
+        },
+        "ablate_15596": {
+          "n": 4,
+          "hit_rate": 0.25,
+          "mean_log_p_target": -2.4027023315429688,
+          "mean_log_p_drop_vs_baseline": -0.9117472767829895
+        },
+        "ablate_13414": {
+          "n": 4,
+          "hit_rate": 0.25,
+          "mean_log_p_target": -3.0997458398342133,
+          "mean_log_p_drop_vs_baseline": -0.214703768491745
+        },
+        "ablate_12927": {
+          "n": 4,
+          "hit_rate": 0.25,
+          "mean_log_p_target": -3.418496400117874,
+          "mean_log_p_drop_vs_baseline": 0.1040467917919159
+        },
+        "joint_6631_9768_13414": {
+          "n": 4,
+          "hit_rate": 0.25,
+          "mean_log_p_target": -3.174415647983551,
+          "mean_log_p_drop_vs_baseline": -0.14003396034240723
+        }
+      },
+      "math": {
+        "baseline": {
+          "n": 2,
+          "hit_rate": 1.0,
+          "mean_log_p_target": -0.47759757936000824,
+          "mean_log_p_drop_vs_baseline": 0.0
+        },
+        "ablate_6631": {
+          "n": 2,
+          "hit_rate": 1.0,
+          "mean_log_p_target": -0.4504263624548912,
+          "mean_log_p_drop_vs_baseline": -0.027171216905117035
+        },
+        "ablate_9768": {
+          "n": 2,
+          "hit_rate": 1.0,
+          "mean_log_p_target": -0.44969842582941055,
+          "mean_log_p_drop_vs_baseline": -0.027899153530597687
+        },
+        "ablate_15596": {
+          "n": 2,
+          "hit_rate": 1.0,
+          "mean_log_p_target": -0.47759757936000824,
+          "mean_log_p_drop_vs_baseline": 0.0
+        },
+        "ablate_13414": {
+          "n": 2,
+          "hit_rate": 1.0,
+          "mean_log_p_target": -0.47759757936000824,
+          "mean_log_p_drop_vs_baseline": 0.0
+        },
+        "ablate_12927": {
+          "n": 2,
+          "hit_rate": 1.0,
+          "mean_log_p_target": -0.47759757936000824,
+          "mean_log_p_drop_vs_baseline": 0.0
+        },
+        "joint_6631_9768_13414": {
+          "n": 2,
+          "hit_rate": 1.0,
+          "mean_log_p_target": -0.42487888783216476,
+          "mean_log_p_drop_vs_baseline": -0.052718691527843475
+        }
+      },
+      "named-entity": {
+        "baseline": {
+          "n": 2,
+          "hit_rate": 0.0,
+          "mean_log_p_target": -3.469202995300293,
+          "mean_log_p_drop_vs_baseline": 0.0
+        },
+        "ablate_6631": {
+          "n": 2,
+          "hit_rate": 0.0,
+          "mean_log_p_target": -3.5742008090019226,
+          "mean_log_p_drop_vs_baseline": 0.10499781370162964
+        },
+        "ablate_9768": {
+          "n": 2,
+          "hit_rate": 0.0,
+          "mean_log_p_target": -3.496083438396454,
+          "mean_log_p_drop_vs_baseline": 0.02688044309616089
+        },
+        "ablate_15596": {
+          "n": 2,
+          "hit_rate": 0.0,
+          "mean_log_p_target": -3.469202995300293,
+          "mean_log_p_drop_vs_baseline": 0.0
+        },
+        "ablate_13414": {
+          "n": 2,
+          "hit_rate": 0.0,
+          "mean_log_p_target": -3.469202995300293,
+          "mean_log_p_drop_vs_baseline": 0.0
+        },
+        "ablate_12927": {
+          "n": 2,
+          "hit_rate": 0.0,
+          "mean_log_p_target": -3.469202995300293,
+          "mean_log_p_drop_vs_baseline": 0.0
+        },
+        "joint_6631_9768_13414": {
+          "n": 2,
+          "hit_rate": 0.0,
+          "mean_log_p_target": -3.6079026460647583,
+          "mean_log_p_drop_vs_baseline": 0.13869965076446533
+        }
+      },
+      "syntactic": {
+        "baseline": {
+          "n": 1,
+          "hit_rate": 1.0,
+          "mean_log_p_target": -2.539412498474121,
+          "mean_log_p_drop_vs_baseline": 0.0
+        },
+        "ablate_6631": {
+          "n": 1,
+          "hit_rate": 1.0,
+          "mean_log_p_target": -2.5684401988983154,
+          "mean_log_p_drop_vs_baseline": 0.029027700424194336
+        },
+        "ablate_9768": {
+          "n": 1,
+          "hit_rate": 1.0,
+          "mean_log_p_target": -2.5125064849853516,
+          "mean_log_p_drop_vs_baseline": -0.02690601348876953
+        },
+        "ablate_15596": {
+          "n": 1,
+          "hit_rate": 1.0,
+          "mean_log_p_target": -2.539412498474121,
+          "mean_log_p_drop_vs_baseline": 0.0
+        },
+        "ablate_13414": {
+          "n": 1,
+          "hit_rate": 1.0,
+          "mean_log_p_target": -2.539412498474121,
+          "mean_log_p_drop_vs_baseline": 0.0
+        },
+        "ablate_12927": {
+          "n": 1,
+          "hit_rate": 1.0,
+          "mean_log_p_target": -2.539412498474121,
+          "mean_log_p_drop_vs_baseline": 0.0
+        },
+        "joint_6631_9768_13414": {
+          "n": 1,
+          "hit_rate": 1.0,
+          "mean_log_p_target": -2.51784348487854,
+          "mean_log_p_drop_vs_baseline": -0.021569013595581055
+        }
+      },
+      "weekday": {
+        "baseline": {
+          "n": 3,
+          "hit_rate": 1.0,
+          "mean_log_p_target": -0.7657089630762736,
+          "mean_log_p_drop_vs_baseline": 0.0
+        },
+        "ablate_6631": {
+          "n": 3,
+          "hit_rate": 1.0,
+          "mean_log_p_target": -0.7425560156504313,
+          "mean_log_p_drop_vs_baseline": -0.023152947425842285
+        },
+        "ablate_9768": {
+          "n": 3,
+          "hit_rate": 1.0,
+          "mean_log_p_target": -0.681668202082316,
+          "mean_log_p_drop_vs_baseline": -0.08404076099395752
+        },
+        "ablate_15596": {
+          "n": 3,
+          "hit_rate": 1.0,
+          "mean_log_p_target": -0.7297254204750061,
+          "mean_log_p_drop_vs_baseline": -0.035983542601267494
+        },
+        "ablate_13414": {
+          "n": 3,
+          "hit_rate": 1.0,
+          "mean_log_p_target": -0.661612888177236,
+          "mean_log_p_drop_vs_baseline": -0.10409607489903767
+        },
+        "ablate_12927": {
+          "n": 3,
+          "hit_rate": 1.0,
+          "mean_log_p_target": -0.7130239605903625,
+          "mean_log_p_drop_vs_baseline": -0.05268500248591105
+        },
+        "joint_6631_9768_13414": {
+          "n": 3,
+          "hit_rate": 1.0,
+          "mean_log_p_target": -0.5580842892328898,
+          "mean_log_p_drop_vs_baseline": -0.2076246738433838
+        }
+      }
+    },
+    "load_bearing_index": 0.0,
+    "uniform_drop": false
+  }
+}

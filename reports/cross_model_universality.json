@@ -1,0 +1,416 @@
+{
+  "hungarian_assignment": [
+    {
+      "gemma_cid": 15,
+      "gpt2_cid": 12,
+      "centroid_cosine": 0.9509732127189636,
+      "gemma_size": 305,
+      "gpt2_size": 766,
+      "gemma_density": 0.11722389991371872,
+      "gpt2_density": 0.04077714636768546,
+      "gemma_top_labels": [
+        "numerical statistics and data points related to sports outcomes",
+        "numerical statistics and player performance metrics connected to sports",
+        "references to game expansion content and unique gameplay features"
+      ],
+      "gpt2_top_labels": [
+        "geographical locations, proper nouns, and possibly sports references",
+        "information related to competitions or submissions",
+        "mentions of American football teams and related events"
+      ]
+    },
+    {
+      "gemma_cid": 19,
+      "gpt2_cid": 4,
+      "centroid_cosine": 0.9455316066741943,
+      "gemma_size": 432,
+      "gpt2_size": 2115,
+      "gemma_density": 0.07258636246455272,
+      "gpt2_density": 0.016727166184683444,
+      "gemma_top_labels": [
+        "references to specific days of the week and notable figures",
+        "phrases indicating conditions or considerations in various contexts, particularly focused on timing and planning",
+        "instances of the word \"Today\" and its variations"
+      ],
+      "gpt2_top_labels": [
+        "dates and locations",
+        "dates in a specific format",
+        "dates and months"
+      ]
+    },
+    {
+      "gemma_cid": 16,
+      "gpt2_cid": 8,
+      "centroid_cosine": 0.9311715364456177,
+      "gemma_size": 1252,
+      "gpt2_size": 1264,
+      "gemma_density": 0.027563252912047358,
+      "gpt2_density": 0.022313509125349528,
+      "gemma_top_labels": [
+        "legal and technical terminology related to statutes and inventions",
+        "terms related to control and authority, particularly in political or systemic contexts",
+        "technical and legal terminology related to claims and evidence in discussions or arguments"
+      ],
+      "gpt2_top_labels": [
+        "baking instructions or recipes",
+        "references to numerical and financial data",
+        "data patterns such as percentages and common indicators"
+      ]
+    },
+    {
+      "gemma_cid": 12,
+      "gpt2_cid": 13,
+      "centroid_cosine": 0.9249271750450134,
+      "gemma_size": 2059,
+      "gpt2_size": 2205,
+      "gemma_density": 0.017122439067904966,
+      "gpt2_density": 0.013555851862826195,
+      "gemma_top_labels": [
+        "references to user instructions and personalization in guidance",
+        "elements related to guidance and recommendations in a procedural context",
+        "instances where terms or phrases denote actions, events, or entities occurring in specific contexts"
+      ],
+      "gpt2_top_labels": [
+        "phrases related to physical actions or processes",
+        "information related to statistical data and programming codes",
+        "phrases related to troubleshooting or problem-solving in tech contexts"
+      ]
+    },
+    {
+      "gemma_cid": 14,
+      "gpt2_cid": 2,
+      "centroid_cosine": 0.9207724928855896,
+      "gemma_size": 514,
+      "gpt2_size": 1144,
+      "gemma_density": 0.06347797726048801,
+      "gpt2_density": 0.025937754284210978,
+      "gemma_top_labels": [
+        "quantitative data related to accommodation capacity in various settings",
+        "references to specific cities or locations",
+        "names of trails, paths, or routes, particularly those related to recreation or transportation."
+      ],
+      "gpt2_top_labels": [
+        "names of universities or educational institutions",
+        "mentions of specific locations or events",
+        "mentions of universities and colleges"
+      ]
+    },
+    {
+      "gemma_cid": 3,
+      "gpt2_cid": 9,
+      "centroid_cosine": 0.8911430835723877,
+      "gemma_size": 125,
+      "gpt2_size": 714,
+      "gemma_density": 0.24148387096774193,
+      "gpt2_density": 0.04007212983370066,
+      "gemma_top_labels": [
+        "relative pronouns and their associated clauses",
+        "references to the word \"we\"",
+        "French connective and referential pronouns"
+      ],
+      "gpt2_top_labels": [
+        "phrases related to teamwork and collaboration",
+        "references to individual people or entities",
+        "age-related criteria in legal or official contexts"
+      ]
+    },
+    {
+      "gemma_cid": 2,
+      "gpt2_cid": 0,
+      "centroid_cosine": 0.8408177495002747,
+      "gemma_size": 694,
+      "gpt2_size": 1589,
+      "gemma_density": 0.04277854710131367,
+      "gpt2_density": 0.016606613794776112,
+      "gemma_top_labels": [
+        "technical details related to ability and functions associated with equipment or machinery",
+        "technical terminology related to computer networks and probabilistic models",
+        "information related to services and products, particularly in finance and app development"
+      ],
+      "gpt2_top_labels": [
+        "technical terms related to data analysis and technology",
+        "technical terms related to computer programming and syntax",
+        "Words related to computer programming and technology terms"
+      ]
+    },
+    {
+      "gemma_cid": 20,
+      "gpt2_cid": 1,
+      "centroid_cosine": 0.827225923538208,
+      "gemma_size": 772,
+      "gpt2_size": 875,
+      "gemma_density": 0.048708695389205865,
+      "gpt2_density": 0.03745406995750245,
+      "gemma_top_labels": [
+        "the beginning of a document or section, likely signaling the start of significant content",
+        "elements of structured formatting or organization in text, particularly in tables or lists",
+        "tokens that signify the beginning of a document or section"
+      ],
+      "gpt2_top_labels": [
+        "paragraphs or sentences with the phrase \"we must also address the elephant in the room.\"",
+        "indicators for the end of the text, most likely content separation symbols such as",
+        "patterns or sequences of special characters"
+      ]
+    },
+    {
+      "gemma_cid": 11,
+      "gpt2_cid": 14,
+      "centroid_cosine": 0.8258688449859619,
+      "gemma_size": 703,
+      "gpt2_size": 3042,
+      "gemma_density": 0.04260130575920049,
+      "gpt2_density": 0.012200885509260791,
+      "gemma_top_labels": [
+        "proper nouns and specific terms related to people or entities",
+        "names of individuals and their titles or positions in various contexts",
+        "references to individuals, groups, or collective actions and their implications"
+      ],
+      "gpt2_top_labels": [
+        "proper nouns related to public figures and organizations",
+        "proper nouns and numerical values",
+        "common surnames"
+      ]
+    },
+    {
+      "gemma_cid": 6,
+      "gpt2_cid": 3,
+      "centroid_cosine": 0.8239494562149048,
+      "gemma_size": 438,
+      "gpt2_size": 1561,
+      "gemma_density": 0.07175323657565594,
+      "gpt2_density": 0.018442730662461604,
+      "gemma_top_labels": [
+        "phrases related to e-commerce platforms and their features",
+        "terms related to local search marketing and SEO strategies",
+        "statements about financial implications and consequences"
+      ],
+      "gpt2_top_labels": [
+        "numbers or mathematical expressions",
+        "phrases related to numerical figures and measurements",
+        "references to numbers or statistics"
+      ]
+    },
+    {
+      "gemma_cid": 22,
+      "gpt2_cid": 15,
+      "centroid_cosine": 0.7994208335876465,
+      "gemma_size": 761,
+      "gpt2_size": 1570,
+      "gemma_density": 0.04005290822325196,
+      "gpt2_density": 0.019898267791972655,
+      "gemma_top_labels": [
+        "references to authors and their work",
+        "references to scientific journals and articles",
+        "URLs and image paths"
+      ],
+      "gpt2_top_labels": [
+        "descriptions related to news articles",
+        "URLs",
+        "instances of Sequences of abbreviations separated by dots"
+      ]
+    },
+    {
+      "gemma_cid": 0,
+      "gpt2_cid": 7,
+      "centroid_cosine": 0.7886764407157898,
+      "gemma_size": 1206,
+      "gpt2_size": 3396,
+      "gemma_density": 0.028758696145826882,
+      "gpt2_density": 0.009770482817002069,
+      "gemma_top_labels": [
+        "references to specific characters, particularly related to shows or narratives involving Dinah and Cassidy",
+        "references to specific items, individuals, or characteristics within a narrative",
+        "terms related to family structures and health initiatives"
+      ],
+      "gpt2_top_labels": [
+        "programming-related keywords and syntactical elements within code snippets",
+        "phrases related to learning or teaching concepts",
+        "phrases that introduce examples or samples"
+      ]
+    },
+    {
+      "gemma_cid": 4,
+      "gpt2_cid": 5,
+      "centroid_cosine": 0.7872843742370605,
+      "gemma_size": 1426,
+      "gpt2_size": 2530,
+      "gemma_density": 0.02495755517826825,
+      "gpt2_density": 0.011441351469202313,
+      "gemma_top_labels": [
+        "terms related to medical and biological testing and analysis",
+        "technical and scientific terms related to cellular biology and histology",
+        "words related to warnings, disclaimers, and formal instructional language (such as \"do not,\" \"errors,\" \"yet,\" and \"All\")."
+      ],
+      "gpt2_top_labels": [
+        "terms related to neurotransmitters and behavioral changes",
+        "technical terms related to microscopy and immunostaining procedures",
+        "descriptions related to cooking times and ingredients in recipes"
+      ]
+    },
+    {
+      "gemma_cid": 1,
+      "gpt2_cid": 6,
+      "centroid_cosine": 0.6473575830459595,
+      "gemma_size": 683,
+      "gpt2_size": 1805,
+      "gemma_density": 0.035074687745542135,
+      "gpt2_density": 0.016686526094674192,
+      "gemma_top_labels": [
+        "terms related to scientific methodologies and experimental techniques",
+        "terms and phrases related to scientific or technical specifications",
+        "terms related to academic fields, particularly in the sciences and social sciences"
+      ],
+      "gpt2_top_labels": [
+        "words related to politics and government institutions",
+        "information related to ethical and environmental activism",
+        "information related to historical events or political figures"
+      ]
+    }
+  ],
+  "concept_match": [
+    {
+      "concept": "weekday",
+      "gemma_top": [
+        [
+          19,
+          3
+        ]
+      ],
+      "gpt2_top": [
+        [
+          4,
+          11
+        ]
+      ]
+    },
+    {
+      "concept": "money",
+      "gemma_top": [
+        [
+          6,
+          240
+        ],
+        [
+          16,
+          15
+        ],
+        [
+          11,
+          4
+        ]
+      ],
+      "gpt2_top": [
+        [
+          3,
+          362
+        ],
+        [
+          8,
+          9
+        ],
+        [
+          15,
+          6
+        ]
+      ]
+    },
+    {
+      "concept": "programming",
+      "gemma_top": [
+        [
+          8,
+          2456
+        ],
+        [
+          17,
+          150
+        ],
+        [
+          18,
+          120
+        ]
+      ],
+      "gpt2_top": [
+        [
+          0,
+          301
+        ],
+        [
+          7,
+          105
+        ],
+        [
+          1,
+          50
+        ]
+      ]
+    },
+    {
+      "concept": "word_prefix",
+      "gemma_top": [
+        [
+          1,
+          11
+        ],
+        [
+          12,
+          6
+        ],
+        [
+          11,
+          6
+        ]
+      ],
+      "gpt2_top": [
+        [
+          7,
+          79
+        ],
+        [
+          14,
+          57
+        ],
+        [
+          1,
+          21
+        ]
+      ]
+    }
+  ],
+  "concept_alignment": [
+    {
+      "concept": "weekday",
+      "gemma_concept_community": 19,
+      "gpt2_concept_community": 4,
+      "hungarian_says": 4,
+      "aligned": true,
+      "hungarian_centroid_cos": 0.9455316066741943
+    },
+    {
+      "concept": "money",
+      "gemma_concept_community": 6,
+      "gpt2_concept_community": 3,
+      "hungarian_says": 3,
+      "aligned": true,
+      "hungarian_centroid_cos": 0.8239494562149048
+    },
+    {
+      "concept": "programming",
+      "gemma_concept_community": 8,
+      "gpt2_concept_community": 0,
+      "hungarian_says": null,
+      "aligned": false,
+      "hungarian_centroid_cos": null
+    },
+    {
+      "concept": "word_prefix",
+      "gemma_concept_community": 1,
+      "gpt2_concept_community": 7,
+      "hungarian_says": 6,
+      "aligned": false,
+      "hungarian_centroid_cos": 0.6473575830459595
+    }
+  ],
+  "n_gemma_communities": 18,
+  "n_gpt2_communities": 14
+}

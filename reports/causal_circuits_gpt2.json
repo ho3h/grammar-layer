@@ -1,0 +1,14 @@
+[
+  "circuit/gpt2/capital-fr/Paris",
+  "circuit/gpt2/capital-jp/Tokyo",
+  "circuit/gpt2/capital-de/Berlin",
+  "circuit/gpt2/capital-it/Rome",
+  "circuit/gpt2/weekday-mon-tue/Tuesday",
+  "circuit/gpt2/weekday-wed-thu/Thursday",
+  "circuit/gpt2/weekday-fri-sat/Saturday",
+  "circuit/gpt2/math-2plus2/four",
+  "circuit/gpt2/math-3times3/nine",
+  "circuit/gpt2/named-einstein/physicist",
+  "circuit/gpt2/named-shakespeare/play",
+  "circuit/gpt2/syntax-dog/cat"
+]

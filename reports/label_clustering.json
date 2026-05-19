@@ -1,0 +1,138 @@
+{
+  "word_prefix": {
+    "name": "word_prefix",
+    "expected": "Goodfire's shattered-rhyme analog: 'words beginning with Hor/Por/Marg' style",
+    "n_features": 24,
+    "n_distinct_communities": 7,
+    "top_communities": [
+      [
+        1,
+        10
+      ],
+      [
+        11,
+        6
+      ],
+      [
+        4,
+        2
+      ],
+      [
+        12,
+        2
+      ],
+      [
+        20,
+        2
+      ]
+    ],
+    "concentration_top1": 0.4166666666666667,
+    "concentration_top2": 0.6666666666666666,
+    "nmi": 0.0015668568694191393,
+    "example_labels": [
+      "words or names beginning with the letter \"Z\".",
+      "mentions of the letter \"F\" or words starting with \"F.\"",
+      "names or words starting with \"Shi\", particularly in scientific or academic contexts.",
+      "references to chemical or biological substances, specifically those beginning with \"ph.\"",
+      "words related to \"pri,\" indicating a focus on terms starting with or containing this prefi"
+    ]
+  },
+  "weekday_time": {
+    "name": "weekday_time",
+    "expected": "Engels-style day-of-week manifold",
+    "n_features": 7,
+    "n_distinct_communities": 1,
+    "top_communities": [
+      [
+        19,
+        7
+      ]
+    ],
+    "concentration_top1": 1.0,
+    "concentration_top2": 1.0,
+    "nmi": 0.001175471319923607,
+    "example_labels": [
+      "phrases expressing specific time durations or periods (like \"three days,\" \"two weeks,\" \"fi",
+      "content related to weekends and Sunday activities",
+      "reference to a specific day of the week, particularly Saturday",
+      "references to specific days of the week and notable figures",
+      "references to days of the week and their associated schedules"
+    ]
+  },
+  "money_financial": {
+    "name": "money_financial",
+    "expected": "Positive control \u2014 strongly clustered concept",
+    "n_features": 281,
+    "n_distinct_communities": 13,
+    "top_communities": [
+      [
+        6,
+        240
+      ],
+      [
+        16,
+        15
+      ],
+      [
+        11,
+        4
+      ],
+      [
+        8,
+        4
+      ],
+      [
+        9,
+        4
+      ]
+    ],
+    "concentration_top1": 0.8540925266903915,
+    "concentration_top2": 0.9074733096085409,
+    "nmi": 0.03839551792708931,
+    "example_labels": [
+      "terms related to insurance coverage and financial obligations",
+      "financial terms and conditions related to credit cards and payments",
+      "detailed information about financial disclosures and company performances",
+      "keywords related to trading strategies and market conditions in cryptocurrency",
+      "terms related to trading and financial instruments"
+    ]
+  },
+  "programming_code": {
+    "name": "programming_code",
+    "expected": "Positive control \u2014 strongly clustered concept",
+    "n_features": 3092,
+    "n_distinct_communities": 17,
+    "top_communities": [
+      [
+        8,
+        2456
+      ],
+      [
+        17,
+        150
+      ],
+      [
+        18,
+        120
+      ],
+      [
+        20,
+        100
+      ],
+      [
+        9,
+        62
+      ]
+    ],
+    "concentration_top1": 0.7943078913324709,
+    "concentration_top2": 0.8428201811125485,
+    "nmi": 0.16321804944987853,
+    "example_labels": [
+      "programming-related constructs and structures",
+      "import statements in programming code",
+      "structured data or programming code elements",
+      "references to programming and code-related operations or functions",
+      "keywords related to access modifiers in programming"
+    ]
+  }
+}

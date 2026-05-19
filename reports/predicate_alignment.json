@@ -1,0 +1,2184 @@
+{
+  "gemma_predicate_features": [
+    {
+      "feature": 6631,
+      "fid": "gemma-scope-2b-pt-res-canonical/L20/16k/canonical/F06631",
+      "n_circuits": 12,
+      "circuits": [
+        "circuit/gemma/capital-fr/Paris",
+        "circuit/gemma/capital-jp/Tokyo",
+        "circuit/gemma/capital-de/Berlin",
+        "circuit/gemma/capital-it/Rome",
+        "circuit/gemma/weekday-mon-tue/Tuesday",
+        "circuit/gemma/weekday-wed-thu/Thursday",
+        "circuit/gemma/weekday-fri-sat/Saturday",
+        "circuit/gemma/math-2plus2/four",
+        "circuit/gemma/math-3times3/nine",
+        "circuit/gemma/named-einstein/physicist",
+        "circuit/gemma/named-shakespeare/play",
+        "circuit/gemma/syntax-dog/cat"
+      ],
+      "total_attr": 2.226808547973633,
+      "mean_abs_attr": 0.18556737899780273,
+      "label": "the beginning of a text or important markers in a document"
+    },
+    {
+      "feature": 9768,
+      "fid": "gemma-scope-2b-pt-res-canonical/L20/16k/canonical/F09768",
+      "n_circuits": 11,
+      "circuits": [
+        "circuit/gemma/capital-fr/Paris",
+        "circuit/gemma/capital-de/Berlin",
+        "circuit/gemma/capital-it/Rome",
+        "circuit/gemma/weekday-mon-tue/Tuesday",
+        "circuit/gemma/weekday-wed-thu/Thursday",
+        "circuit/gemma/weekday-fri-sat/Saturday",
+        "circuit/gemma/math-2plus2/four",
+        "circuit/gemma/math-3times3/nine",
+        "circuit/gemma/named-einstein/physicist",
+        "circuit/gemma/named-shakespeare/play",
+        "circuit/gemma/syntax-dog/cat"
+      ],
+      "total_attr": 1.2057819366455078,
+      "mean_abs_attr": 0.11655582081187855,
+      "label": "terms related to control and authority, particularly in political or systemic contexts"
+    },
+    {
+      "feature": 15596,
+      "fid": "gemma-scope-2b-pt-res-canonical/L20/16k/canonical/F15596",
+      "n_circuits": 7,
+      "circuits": [
+        "circuit/gemma/capital-fr/Paris",
+        "circuit/gemma/capital-jp/Tokyo",
+        "circuit/gemma/capital-de/Berlin",
+        "circuit/gemma/capital-it/Rome",
+        "circuit/gemma/weekday-mon-tue/Tuesday",
+        "circuit/gemma/weekday-wed-thu/Thursday",
+        "circuit/gemma/weekday-fri-sat/Saturday"
+      ],
+      "total_attr": -1.8622169494628906,
+      "mean_abs_attr": 0.34564099993024555,
+      "label": "past and present tense forms of the verb \"to be\" in various contexts"
+    },
+    {
+      "feature": 13414,
+      "fid": "gemma-scope-2b-pt-res-canonical/L20/16k/canonical/F13414",
+      "n_circuits": 7,
+      "circuits": [
+        "circuit/gemma/capital-fr/Paris",
+        "circuit/gemma/capital-jp/Tokyo",
+        "circuit/gemma/capital-de/Berlin",
+        "circuit/gemma/capital-it/Rome",
+        "circuit/gemma/weekday-mon-tue/Tuesday",
+        "circuit/gemma/weekday-wed-thu/Thursday",
+        "circuit/gemma/weekday-fri-sat/Saturday"
+      ],
+      "total_attr": 1.2932872772216797,
+      "mean_abs_attr": 0.2189044952392578,
+      "label": "statements of existence or presence"
+    },
+    {
+      "feature": 12927,
+      "fid": "gemma-scope-2b-pt-res-canonical/L20/16k/canonical/F12927",
+      "n_circuits": 7,
+      "circuits": [
+        "circuit/gemma/capital-fr/Paris",
+        "circuit/gemma/capital-jp/Tokyo",
+        "circuit/gemma/capital-de/Berlin",
+        "circuit/gemma/capital-it/Rome",
+        "circuit/gemma/weekday-mon-tue/Tuesday",
+        "circuit/gemma/weekday-wed-thu/Thursday",
+        "circuit/gemma/weekday-fri-sat/Saturday"
+      ],
+      "total_attr": 1.140726089477539,
+      "mean_abs_attr": 0.16296086992536274,
+      "label": "statements of existence or presence"
+    },
+    {
+      "feature": 1692,
+      "fid": "gemma-scope-2b-pt-res-canonical/L20/16k/canonical/F01692",
+      "n_circuits": 7,
+      "circuits": [
+        "circuit/gemma/capital-fr/Paris",
+        "circuit/gemma/capital-jp/Tokyo",
+        "circuit/gemma/capital-de/Berlin",
+        "circuit/gemma/capital-it/Rome",
+        "circuit/gemma/math-2plus2/four",
+        "circuit/gemma/named-einstein/physicist",
+        "circuit/gemma/named-shakespeare/play"
+      ],
+      "total_attr": -0.7917804718017578,
+      "mean_abs_attr": 0.11311149597167969,
+      "label": "legal and technical terminology related to statutes and inventions"
+    },
+    {
+      "feature": 6143,
+      "fid": "gemma-scope-2b-pt-res-canonical/L20/16k/canonical/F06143",
+      "n_circuits": 6,
+      "circuits": [
+        "circuit/gemma/capital-fr/Paris",
+        "circuit/gemma/capital-jp/Tokyo",
+        "circuit/gemma/capital-de/Berlin",
+        "circuit/gemma/capital-it/Rome",
+        "circuit/gemma/math-2plus2/four",
+        "circuit/gemma/math-3times3/nine"
+      ],
+      "total_attr": 2.1313247680664062,
+      "mean_abs_attr": 0.3552207946777344,
+      "label": "phrases related to medical conditions and treatments"
+    },
+    {
+      "feature": 2021,
+      "fid": "gemma-scope-2b-pt-res-canonical/L20/16k/canonical/F02021",
+      "n_circuits": 6,
+      "circuits": [
+        "circuit/gemma/capital-jp/Tokyo",
+        "circuit/gemma/capital-de/Berlin",
+        "circuit/gemma/capital-it/Rome",
+        "circuit/gemma/math-3times3/nine",
+        "circuit/gemma/named-einstein/physicist",
+        "circuit/gemma/named-shakespeare/play"
+      ],
+      "total_attr": -1.6753425598144531,
+      "mean_abs_attr": 0.2792237599690755,
+      "label": "topics related to political events and elections"
+    },
+    {
+      "feature": 15149,
+      "fid": "gemma-scope-2b-pt-res-canonical/L20/16k/canonical/F15149",
+      "n_circuits": 6,
+      "circuits": [
+        "circuit/gemma/capital-fr/Paris",
+        "circuit/gemma/capital-jp/Tokyo",
+        "circuit/gemma/capital-de/Berlin",
+        "circuit/gemma/capital-it/Rome",
+        "circuit/gemma/weekday-mon-tue/Tuesday",
+        "circuit/gemma/weekday-wed-thu/Thursday"
+      ],
+      "total_attr": -0.8231983184814453,
+      "mean_abs_attr": 0.15470027923583984,
+      "label": "sentences that describe the characteristics or functionalities of structures or systems"
+    },
+    {
+      "feature": 1583,
+      "fid": "gemma-scope-2b-pt-res-canonical/L20/16k/canonical/F01583",
+      "n_circuits": 6,
+      "circuits": [
+        "circuit/gemma/capital-jp/Tokyo",
+        "circuit/gemma/weekday-mon-tue/Tuesday",
+        "circuit/gemma/weekday-wed-thu/Thursday",
+        "circuit/gemma/weekday-fri-sat/Saturday",
+        "circuit/gemma/math-2plus2/four",
+        "circuit/gemma/math-3times3/nine"
+      ],
+      "total_attr": 0.31571006774902344,
+      "mean_abs_attr": 0.08431784311930339,
+      "label": "words related to administrative or technical tasks and issues"
+    },
+    {
+      "feature": 3019,
+      "fid": "gemma-scope-2b-pt-res-canonical/L20/16k/canonical/F03019",
+      "n_circuits": 6,
+      "circuits": [
+        "circuit/gemma/capital-fr/Paris",
+        "circuit/gemma/capital-de/Berlin",
+        "circuit/gemma/capital-it/Rome",
+        "circuit/gemma/named-einstein/physicist",
+        "circuit/gemma/named-shakespeare/play",
+        "circuit/gemma/syntax-dog/cat"
+      ],
+      "total_attr": -0.190155029296875,
+      "mean_abs_attr": 0.060265858968098954,
+      "label": "elements related to operational or procedural contexts in a structured format"
+    },
+    {
+      "feature": 6793,
+      "fid": "gemma-scope-2b-pt-res-canonical/L20/16k/canonical/F06793",
+      "n_circuits": 5,
+      "circuits": [
+        "circuit/gemma/weekday-mon-tue/Tuesday",
+        "circuit/gemma/weekday-wed-thu/Thursday",
+        "circuit/gemma/weekday-fri-sat/Saturday",
+        "circuit/gemma/math-2plus2/four",
+        "circuit/gemma/math-3times3/nine"
+      ],
+      "total_attr": 1.0307464599609375,
+      "mean_abs_attr": 0.2061492919921875,
+      "label": "elements that resemble structured data or identifiers, likely in a list or JSON format"
+    },
+    {
+      "feature": 10419,
+      "fid": "gemma-scope-2b-pt-res-canonical/L20/16k/canonical/F10419",
+      "n_circuits": 5,
+      "circuits": [
+        "circuit/gemma/weekday-mon-tue/Tuesday",
+        "circuit/gemma/weekday-wed-thu/Thursday",
+        "circuit/gemma/weekday-fri-sat/Saturday",
+        "circuit/gemma/named-einstein/physicist",
+        "circuit/gemma/named-shakespeare/play"
+      ],
+      "total_attr": 0.03836631774902344,
+      "mean_abs_attr": 0.033736801147460936,
+      "label": "technical terms and specific concepts related to scientific research and modeling"
+    },
+    {
+      "feature": 3031,
+      "fid": "gemma-scope-2b-pt-res-canonical/L20/16k/canonical/F03031",
+      "n_circuits": 4,
+      "circuits": [
+        "circuit/gemma/capital-fr/Paris",
+        "circuit/gemma/capital-jp/Tokyo",
+        "circuit/gemma/capital-de/Berlin",
+        "circuit/gemma/capital-it/Rome"
+      ],
+      "total_attr": 3.159900665283203,
+      "mean_abs_attr": 0.7899751663208008,
+      "label": "references to significant documents or publications, especially in academic or legal contexts"
+    },
+    {
+      "feature": 4314,
+      "fid": "gemma-scope-2b-pt-res-canonical/L20/16k/canonical/F04314",
+      "n_circuits": 4,
+      "circuits": [
+        "circuit/gemma/capital-fr/Paris",
+        "circuit/gemma/capital-jp/Tokyo",
+        "circuit/gemma/capital-de/Berlin",
+        "circuit/gemma/capital-it/Rome"
+      ],
+      "total_attr": 1.6552848815917969,
+      "mean_abs_attr": 0.4138212203979492,
+      "label": "references to churches, bishops, and geographical locations related to religious contexts"
+    },
+    {
+      "feature": 15935,
+      "fid": "gemma-scope-2b-pt-res-canonical/L20/16k/canonical/F15935",
+      "n_circuits": 4,
+      "circuits": [
+        "circuit/gemma/capital-fr/Paris",
+        "circuit/gemma/capital-jp/Tokyo",
+        "circuit/gemma/capital-de/Berlin",
+        "circuit/gemma/capital-it/Rome"
+      ],
+      "total_attr": -1.5309925079345703,
+      "mean_abs_attr": 0.3827481269836426,
+      "label": "references to countries and their significant characteristics or roles in a global context"
+    },
+    {
+      "feature": 9461,
+      "fid": "gemma-scope-2b-pt-res-canonical/L20/16k/canonical/F09461",
+      "n_circuits": 4,
+      "circuits": [
+        "circuit/gemma/capital-fr/Paris",
+        "circuit/gemma/capital-jp/Tokyo",
+        "circuit/gemma/capital-de/Berlin",
+        "circuit/gemma/capital-it/Rome"
+      ],
+      "total_attr": 1.398468017578125,
+      "mean_abs_attr": 0.34961700439453125,
+      "label": "references to educational institutions and their locations"
+    },
+    {
+      "feature": 5486,
+      "fid": "gemma-scope-2b-pt-res-canonical/L20/16k/canonical/F05486",
+      "n_circuits": 4,
+      "circuits": [
+        "circuit/gemma/capital-fr/Paris",
+        "circuit/gemma/capital-jp/Tokyo",
+        "circuit/gemma/capital-de/Berlin",
+        "circuit/gemma/capital-it/Rome"
+      ],
+      "total_attr": 1.375925064086914,
+      "mean_abs_attr": 0.3439812660217285,
+      "label": "interrogative and rhetorical questions related to historical events or entities"
+    },
+    {
+      "feature": 10540,
+      "fid": "gemma-scope-2b-pt-res-canonical/L20/16k/canonical/F10540",
+      "n_circuits": 4,
+      "circuits": [
+        "circuit/gemma/capital-fr/Paris",
+        "circuit/gemma/capital-jp/Tokyo",
+        "circuit/gemma/capital-de/Berlin",
+        "circuit/gemma/capital-it/Rome"
+      ],
+      "total_attr": -1.147430419921875,
+      "mean_abs_attr": 0.28685760498046875,
+      "label": "references to sociopolitical issues and violence in different regions"
+    },
+    {
+      "feature": 15853,
+      "fid": "gemma-scope-2b-pt-res-canonical/L20/16k/canonical/F15853",
+      "n_circuits": 4,
+      "circuits": [
+        "circuit/gemma/capital-fr/Paris",
+        "circuit/gemma/capital-jp/Tokyo",
+        "circuit/gemma/capital-de/Berlin",
+        "circuit/gemma/capital-it/Rome"
+      ],
+      "total_attr": -1.1207828521728516,
+      "mean_abs_attr": 0.2801957130432129,
+      "label": "references to socio-economic conditions and changes"
+    },
+    {
+      "feature": 3022,
+      "fid": "gemma-scope-2b-pt-res-canonical/L20/16k/canonical/F03022",
+      "n_circuits": 4,
+      "circuits": [
+        "circuit/gemma/capital-fr/Paris",
+        "circuit/gemma/capital-jp/Tokyo",
+        "circuit/gemma/capital-de/Berlin",
+        "circuit/gemma/capital-it/Rome"
+      ],
+      "total_attr": -0.84979248046875,
+      "mean_abs_attr": 0.2124481201171875,
+      "label": "references to geographical locations and their characteristics"
+    },
+    {
+      "feature": 11700,
+      "fid": "gemma-scope-2b-pt-res-canonical/L20/16k/canonical/F11700",
+      "n_circuits": 4,
+      "circuits": [
+        "circuit/gemma/capital-fr/Paris",
+        "circuit/gemma/capital-jp/Tokyo",
+        "circuit/gemma/capital-de/Berlin",
+        "circuit/gemma/capital-it/Rome"
+      ],
+      "total_attr": 0.7756099700927734,
+      "mean_abs_attr": 0.19390249252319336,
+      "label": "references to programming concepts and technical terms related to software development"
+    },
+    {
+      "feature": 14610,
+      "fid": "gemma-scope-2b-pt-res-canonical/L20/16k/canonical/F14610",
+      "n_circuits": 4,
+      "circuits": [
+        "circuit/gemma/capital-fr/Paris",
+        "circuit/gemma/capital-jp/Tokyo",
+        "circuit/gemma/capital-de/Berlin",
+        "circuit/gemma/capital-it/Rome"
+      ],
+      "total_attr": 0.6899852752685547,
+      "mean_abs_attr": 0.17249631881713867,
+      "label": "references to specific countries and their roles in various contexts"
+    },
+    {
+      "feature": 10142,
+      "fid": "gemma-scope-2b-pt-res-canonical/L20/16k/canonical/F10142",
+      "n_circuits": 4,
+      "circuits": [
+        "circuit/gemma/capital-fr/Paris",
+        "circuit/gemma/capital-jp/Tokyo",
+        "circuit/gemma/capital-de/Berlin",
+        "circuit/gemma/capital-it/Rome"
+      ],
+      "total_attr": -0.6623287200927734,
+      "mean_abs_attr": 0.16558218002319336,
+      "label": "instances of the word \"is\" in various contexts"
+    },
+    {
+      "feature": 8997,
+      "fid": "gemma-scope-2b-pt-res-canonical/L20/16k/canonical/F08997",
+      "n_circuits": 4,
+      "circuits": [
+        "circuit/gemma/capital-fr/Paris",
+        "circuit/gemma/capital-jp/Tokyo",
+        "circuit/gemma/capital-de/Berlin",
+        "circuit/gemma/capital-it/Rome"
+      ],
+      "total_attr": 0.35486412048339844,
+      "mean_abs_attr": 0.1027674674987793,
+      "label": "references to political figures in the context of social issues"
+    },
+    {
+      "feature": 13646,
+      "fid": "gemma-scope-2b-pt-res-canonical/L20/16k/canonical/F13646",
+      "n_circuits": 4,
+      "circuits": [
+        "circuit/gemma/capital-fr/Paris",
+        "circuit/gemma/capital-jp/Tokyo",
+        "circuit/gemma/capital-de/Berlin",
+        "circuit/gemma/capital-it/Rome"
+      ],
+      "total_attr": -0.4085407257080078,
+      "mean_abs_attr": 0.10213518142700195,
+      "label": "references to geographical locations and historical contexts"
+    },
+    {
+      "feature": 523,
+      "fid": "gemma-scope-2b-pt-res-canonical/L20/16k/canonical/F00523",
+      "n_circuits": 4,
+      "circuits": [
+        "circuit/gemma/capital-fr/Paris",
+        "circuit/gemma/capital-jp/Tokyo",
+        "circuit/gemma/capital-de/Berlin",
+        "circuit/gemma/capital-it/Rome"
+      ],
+      "total_attr": -0.39438438415527344,
+      "mean_abs_attr": 0.09859609603881836,
+      "label": "descriptions of geographical locations and administrative divisions"
+    },
+    {
+      "feature": 10354,
+      "fid": "gemma-scope-2b-pt-res-canonical/L20/16k/canonical/F10354",
+      "n_circuits": 4,
+      "circuits": [
+        "circuit/gemma/capital-fr/Paris",
+        "circuit/gemma/capital-jp/Tokyo",
+        "circuit/gemma/capital-de/Berlin",
+        "circuit/gemma/capital-it/Rome"
+      ],
+      "total_attr": -0.3768596649169922,
+      "mean_abs_attr": 0.09421491622924805,
+      "label": "locations and geographic details related to communities and regions"
+    },
+    {
+      "feature": 7869,
+      "fid": "gemma-scope-2b-pt-res-canonical/L20/16k/canonical/F07869",
+      "n_circuits": 4,
+      "circuits": [
+        "circuit/gemma/capital-fr/Paris",
+        "circuit/gemma/capital-jp/Tokyo",
+        "circuit/gemma/capital-de/Berlin",
+        "circuit/gemma/capital-it/Rome"
+      ],
+      "total_attr": -0.3760242462158203,
+      "mean_abs_attr": 0.09400606155395508,
+      "label": "references to specific geographical locations and political actions"
+    },
+    {
+      "feature": 8366,
+      "fid": "gemma-scope-2b-pt-res-canonical/L20/16k/canonical/F08366",
+      "n_circuits": 4,
+      "circuits": [
+        "circuit/gemma/capital-fr/Paris",
+        "circuit/gemma/capital-de/Berlin",
+        "circuit/gemma/capital-it/Rome",
+        "circuit/gemma/math-3times3/nine"
+      ],
+      "total_attr": 0.11444282531738281,
+      "mean_abs_attr": 0.08914709091186523,
+      "label": "verbs and their related forms, often related to medical or technical contexts"
+    }
+  ],
+  "gpt2_predicate_features": [
+    {
+      "feature": 6863,
+      "fid": "gpt2-small-res-jb/L8/F06863",
+      "n_circuits": 9,
+      "circuits": [
+        "circuit/gpt2/capital-fr/Paris",
+        "circuit/gpt2/capital-jp/Tokyo",
+        "circuit/gpt2/capital-de/Berlin",
+        "circuit/gpt2/capital-it/Rome",
+        "circuit/gpt2/math-2plus2/four",
+        "circuit/gpt2/math-3times3/nine",
+        "circuit/gpt2/named-einstein/physicist",
+        "circuit/gpt2/named-shakespeare/play",
+        "circuit/gpt2/syntax-dog/cat"
+      ],
+      "total_attr": -1.4908370971679688,
+      "mean_abs_attr": 0.16564856635199654,
+      "label": "words related to politics and government institutions"
+    },
+    {
+      "feature": 13420,
+      "fid": "gpt2-small-res-jb/L8/F13420",
+      "n_circuits": 7,
+      "circuits": [
+        "circuit/gpt2/capital-fr/Paris",
+        "circuit/gpt2/capital-jp/Tokyo",
+        "circuit/gpt2/capital-de/Berlin",
+        "circuit/gpt2/capital-it/Rome",
+        "circuit/gpt2/weekday-mon-tue/Tuesday",
+        "circuit/gpt2/weekday-wed-thu/Thursday",
+        "circuit/gpt2/weekday-fri-sat/Saturday"
+      ],
+      "total_attr": 1.8194141387939453,
+      "mean_abs_attr": 0.2599163055419922,
+      "label": "numbers representing specific statistics or measurements"
+    },
+    {
+      "feature": 5858,
+      "fid": "gpt2-small-res-jb/L8/F05858",
+      "n_circuits": 7,
+      "circuits": [
+        "circuit/gpt2/capital-fr/Paris",
+        "circuit/gpt2/capital-jp/Tokyo",
+        "circuit/gpt2/capital-de/Berlin",
+        "circuit/gpt2/capital-it/Rome",
+        "circuit/gpt2/named-einstein/physicist",
+        "circuit/gpt2/named-shakespeare/play",
+        "circuit/gpt2/syntax-dog/cat"
+      ],
+      "total_attr": 0.1529827117919922,
+      "mean_abs_attr": 0.03063637869698661,
+      "label": "information related to events or releases"
+    },
+    {
+      "feature": 18220,
+      "fid": "gpt2-small-res-jb/L8/F18220",
+      "n_circuits": 6,
+      "circuits": [
+        "circuit/gpt2/capital-fr/Paris",
+        "circuit/gpt2/capital-jp/Tokyo",
+        "circuit/gpt2/capital-de/Berlin",
+        "circuit/gpt2/capital-it/Rome",
+        "circuit/gpt2/weekday-mon-tue/Tuesday",
+        "circuit/gpt2/weekday-fri-sat/Saturday"
+      ],
+      "total_attr": 2.3402109146118164,
+      "mean_abs_attr": 0.39003515243530273,
+      "label": "phrases related to personal preferences or favorites"
+    },
+    {
+      "feature": 13505,
+      "fid": "gpt2-small-res-jb/L8/F13505",
+      "n_circuits": 6,
+      "circuits": [
+        "circuit/gpt2/capital-fr/Paris",
+        "circuit/gpt2/capital-jp/Tokyo",
+        "circuit/gpt2/capital-de/Berlin",
+        "circuit/gpt2/capital-it/Rome",
+        "circuit/gpt2/named-einstein/physicist",
+        "circuit/gpt2/named-shakespeare/play"
+      ],
+      "total_attr": -0.8641824722290039,
+      "mean_abs_attr": 0.1440304120381673,
+      "label": "mentions of international political figures and events"
+    },
+    {
+      "feature": 7451,
+      "fid": "gpt2-small-res-jb/L8/F07451",
+      "n_circuits": 6,
+      "circuits": [
+        "circuit/gpt2/capital-fr/Paris",
+        "circuit/gpt2/capital-jp/Tokyo",
+        "circuit/gpt2/capital-de/Berlin",
+        "circuit/gpt2/capital-it/Rome",
+        "circuit/gpt2/named-einstein/physicist",
+        "circuit/gpt2/named-shakespeare/play"
+      ],
+      "total_attr": -0.30432701110839844,
+      "mean_abs_attr": 0.050721168518066406,
+      "label": "phrases related to energy companies and advancements in renewable energy"
+    },
+    {
+      "feature": 22852,
+      "fid": "gpt2-small-res-jb/L8/F22852",
+      "n_circuits": 6,
+      "circuits": [
+        "circuit/gpt2/capital-fr/Paris",
+        "circuit/gpt2/capital-jp/Tokyo",
+        "circuit/gpt2/capital-de/Berlin",
+        "circuit/gpt2/capital-it/Rome",
+        "circuit/gpt2/weekday-wed-thu/Thursday",
+        "circuit/gpt2/weekday-fri-sat/Saturday"
+      ],
+      "total_attr": -0.05964851379394531,
+      "mean_abs_attr": 0.034083048502604164,
+      "label": "URLs"
+    },
+    {
+      "feature": 676,
+      "fid": "gpt2-small-res-jb/L8/F00676",
+      "n_circuits": 6,
+      "circuits": [
+        "circuit/gpt2/capital-fr/Paris",
+        "circuit/gpt2/capital-jp/Tokyo",
+        "circuit/gpt2/capital-de/Berlin",
+        "circuit/gpt2/capital-it/Rome",
+        "circuit/gpt2/math-3times3/nine",
+        "circuit/gpt2/syntax-dog/cat"
+      ],
+      "total_attr": -0.04766559600830078,
+      "mean_abs_attr": 0.018299579620361328,
+      "label": "descriptions of actions or events in a narrative style"
+    },
+    {
+      "feature": 19805,
+      "fid": "gpt2-small-res-jb/L8/F19805",
+      "n_circuits": 5,
+      "circuits": [
+        "circuit/gpt2/capital-fr/Paris",
+        "circuit/gpt2/capital-jp/Tokyo",
+        "circuit/gpt2/capital-de/Berlin",
+        "circuit/gpt2/capital-it/Rome",
+        "circuit/gpt2/weekday-mon-tue/Tuesday"
+      ],
+      "total_attr": -0.23848247528076172,
+      "mean_abs_attr": 0.08942737579345703,
+      "label": "phrases describing the state or condition of the world"
+    },
+    {
+      "feature": 10852,
+      "fid": "gpt2-small-res-jb/L8/F10852",
+      "n_circuits": 5,
+      "circuits": [
+        "circuit/gpt2/capital-fr/Paris",
+        "circuit/gpt2/capital-jp/Tokyo",
+        "circuit/gpt2/capital-de/Berlin",
+        "circuit/gpt2/capital-it/Rome",
+        "circuit/gpt2/weekday-mon-tue/Tuesday"
+      ],
+      "total_attr": -0.2295064926147461,
+      "mean_abs_attr": 0.062207603454589845,
+      "label": "locations or entities under investigation"
+    },
+    {
+      "feature": 21000,
+      "fid": "gpt2-small-res-jb/L8/F21000",
+      "n_circuits": 4,
+      "circuits": [
+        "circuit/gpt2/capital-fr/Paris",
+        "circuit/gpt2/capital-jp/Tokyo",
+        "circuit/gpt2/capital-de/Berlin",
+        "circuit/gpt2/capital-it/Rome"
+      ],
+      "total_attr": -4.46812629699707,
+      "mean_abs_attr": 1.1170315742492676,
+      "label": "names of famous individuals"
+    },
+    {
+      "feature": 1442,
+      "fid": "gpt2-small-res-jb/L8/F01442",
+      "n_circuits": 4,
+      "circuits": [
+        "circuit/gpt2/capital-fr/Paris",
+        "circuit/gpt2/capital-jp/Tokyo",
+        "circuit/gpt2/capital-de/Berlin",
+        "circuit/gpt2/capital-it/Rome"
+      ],
+      "total_attr": 3.771059989929199,
+      "mean_abs_attr": 0.9427649974822998,
+      "label": "locations or cities specifically denoted as \"capital\" in the text"
+    },
+    {
+      "feature": 14430,
+      "fid": "gpt2-small-res-jb/L8/F14430",
+      "n_circuits": 4,
+      "circuits": [
+        "circuit/gpt2/capital-fr/Paris",
+        "circuit/gpt2/capital-jp/Tokyo",
+        "circuit/gpt2/capital-de/Berlin",
+        "circuit/gpt2/capital-it/Rome"
+      ],
+      "total_attr": 1.6302547454833984,
+      "mean_abs_attr": 0.4075636863708496,
+      "label": "specific locations or regions described in the text"
+    },
+    {
+      "feature": 8628,
+      "fid": "gpt2-small-res-jb/L8/F08628",
+      "n_circuits": 4,
+      "circuits": [
+        "circuit/gpt2/capital-fr/Paris",
+        "circuit/gpt2/capital-jp/Tokyo",
+        "circuit/gpt2/capital-de/Berlin",
+        "circuit/gpt2/capital-it/Rome"
+      ],
+      "total_attr": 1.5644540786743164,
+      "mean_abs_attr": 0.3911135196685791,
+      "label": "cities and locations"
+    },
+    {
+      "feature": 21496,
+      "fid": "gpt2-small-res-jb/L8/F21496",
+      "n_circuits": 4,
+      "circuits": [
+        "circuit/gpt2/capital-fr/Paris",
+        "circuit/gpt2/capital-jp/Tokyo",
+        "circuit/gpt2/capital-de/Berlin",
+        "circuit/gpt2/capital-it/Rome"
+      ],
+      "total_attr": -1.1388635635375977,
+      "mean_abs_attr": 0.2847158908843994,
+      "label": "phrases related to uncertainty or questioning"
+    },
+    {
+      "feature": 12013,
+      "fid": "gpt2-small-res-jb/L8/F12013",
+      "n_circuits": 4,
+      "circuits": [
+        "circuit/gpt2/capital-fr/Paris",
+        "circuit/gpt2/capital-jp/Tokyo",
+        "circuit/gpt2/capital-de/Berlin",
+        "circuit/gpt2/capital-it/Rome"
+      ],
+      "total_attr": -0.9662981033325195,
+      "mean_abs_attr": 0.24157452583312988,
+      "label": "countries and locations"
+    },
+    {
+      "feature": 19016,
+      "fid": "gpt2-small-res-jb/L8/F19016",
+      "n_circuits": 4,
+      "circuits": [
+        "circuit/gpt2/capital-fr/Paris",
+        "circuit/gpt2/capital-jp/Tokyo",
+        "circuit/gpt2/capital-de/Berlin",
+        "circuit/gpt2/capital-it/Rome"
+      ],
+      "total_attr": -0.7976751327514648,
+      "mean_abs_attr": 0.1994187831878662,
+      "label": "proper nouns related to organizations, people, and places"
+    },
+    {
+      "feature": 7672,
+      "fid": "gpt2-small-res-jb/L8/F07672",
+      "n_circuits": 4,
+      "circuits": [
+        "circuit/gpt2/capital-fr/Paris",
+        "circuit/gpt2/capital-jp/Tokyo",
+        "circuit/gpt2/capital-de/Berlin",
+        "circuit/gpt2/capital-it/Rome"
+      ],
+      "total_attr": -0.753361701965332,
+      "mean_abs_attr": 0.188340425491333,
+      "label": "information related to different countries and regions"
+    },
+    {
+      "feature": 7497,
+      "fid": "gpt2-small-res-jb/L8/F07497",
+      "n_circuits": 4,
+      "circuits": [
+        "circuit/gpt2/capital-fr/Paris",
+        "circuit/gpt2/capital-jp/Tokyo",
+        "circuit/gpt2/capital-de/Berlin",
+        "circuit/gpt2/capital-it/Rome"
+      ],
+      "total_attr": -0.5223932266235352,
+      "mean_abs_attr": 0.1305983066558838,
+      "label": "technical terms and facts in the field of technology or economics"
+    },
+    {
+      "feature": 19182,
+      "fid": "gpt2-small-res-jb/L8/F19182",
+      "n_circuits": 4,
+      "circuits": [
+        "circuit/gpt2/capital-fr/Paris",
+        "circuit/gpt2/capital-jp/Tokyo",
+        "circuit/gpt2/capital-de/Berlin",
+        "circuit/gpt2/capital-it/Rome"
+      ],
+      "total_attr": -0.5070285797119141,
+      "mean_abs_attr": 0.12675714492797852,
+      "label": "phrases containing names of organizations or companies"
+    },
+    {
+      "feature": 14371,
+      "fid": "gpt2-small-res-jb/L8/F14371",
+      "n_circuits": 4,
+      "circuits": [
+        "circuit/gpt2/capital-fr/Paris",
+        "circuit/gpt2/capital-jp/Tokyo",
+        "circuit/gpt2/capital-de/Berlin",
+        "circuit/gpt2/capital-it/Rome"
+      ],
+      "total_attr": -0.34145545959472656,
+      "mean_abs_attr": 0.08536386489868164,
+      "label": "statements about social, economic, and political circumstances and trends"
+    },
+    {
+      "feature": 23177,
+      "fid": "gpt2-small-res-jb/L8/F23177",
+      "n_circuits": 4,
+      "circuits": [
+        "circuit/gpt2/capital-fr/Paris",
+        "circuit/gpt2/capital-jp/Tokyo",
+        "circuit/gpt2/capital-de/Berlin",
+        "circuit/gpt2/capital-it/Rome"
+      ],
+      "total_attr": 0.2288217544555664,
+      "mean_abs_attr": 0.0572054386138916,
+      "label": "geopolitical references and political decisions related to recognizing territories"
+    },
+    {
+      "feature": 13033,
+      "fid": "gpt2-small-res-jb/L8/F13033",
+      "n_circuits": 4,
+      "circuits": [
+        "circuit/gpt2/capital-fr/Paris",
+        "circuit/gpt2/capital-jp/Tokyo",
+        "circuit/gpt2/capital-de/Berlin",
+        "circuit/gpt2/capital-it/Rome"
+      ],
+      "total_attr": 0.20920848846435547,
+      "mean_abs_attr": 0.05230212211608887,
+      "label": "countries being discussed or mentioned in the text"
+    },
+    {
+      "feature": 7645,
+      "fid": "gpt2-small-res-jb/L8/F07645",
+      "n_circuits": 4,
+      "circuits": [
+        "circuit/gpt2/capital-fr/Paris",
+        "circuit/gpt2/capital-jp/Tokyo",
+        "circuit/gpt2/capital-de/Berlin",
+        "circuit/gpt2/capital-it/Rome"
+      ],
+      "total_attr": 0.1506633758544922,
+      "mean_abs_attr": 0.03766584396362305,
+      "label": "references to the founding or construction of buildings or facilities"
+    },
+    {
+      "feature": 8448,
+      "fid": "gpt2-small-res-jb/L8/F08448",
+      "n_circuits": 4,
+      "circuits": [
+        "circuit/gpt2/capital-fr/Paris",
+        "circuit/gpt2/capital-jp/Tokyo",
+        "circuit/gpt2/capital-de/Berlin",
+        "circuit/gpt2/capital-it/Rome"
+      ],
+      "total_attr": 0.1130819320678711,
+      "mean_abs_attr": 0.03562426567077637,
+      "label": "verbs related to the state of being or actions taking place"
+    },
+    {
+      "feature": 2242,
+      "fid": "gpt2-small-res-jb/L8/F02242",
+      "n_circuits": 4,
+      "circuits": [
+        "circuit/gpt2/capital-fr/Paris",
+        "circuit/gpt2/capital-jp/Tokyo",
+        "circuit/gpt2/capital-de/Berlin",
+        "circuit/gpt2/capital-it/Rome"
+      ],
+      "total_attr": 0.14186859130859375,
+      "mean_abs_attr": 0.03546714782714844,
+      "label": "references to the human body and physical characteristics"
+    },
+    {
+      "feature": 19841,
+      "fid": "gpt2-small-res-jb/L8/F19841",
+      "n_circuits": 4,
+      "circuits": [
+        "circuit/gpt2/capital-fr/Paris",
+        "circuit/gpt2/capital-jp/Tokyo",
+        "circuit/gpt2/capital-de/Berlin",
+        "circuit/gpt2/capital-it/Rome"
+      ],
+      "total_attr": -0.13254451751708984,
+      "mean_abs_attr": 0.03313612937927246,
+      "label": "mentions of significant events or incidents"
+    },
+    {
+      "feature": 3732,
+      "fid": "gpt2-small-res-jb/L8/F03732",
+      "n_circuits": 4,
+      "circuits": [
+        "circuit/gpt2/capital-fr/Paris",
+        "circuit/gpt2/capital-jp/Tokyo",
+        "circuit/gpt2/capital-de/Berlin",
+        "circuit/gpt2/capital-it/Rome"
+      ],
+      "total_attr": -0.023651123046875,
+      "mean_abs_attr": 0.0325474739074707,
+      "label": "mentions of specific geographic locations like states, countries, and homelands"
+    },
+    {
+      "feature": 15547,
+      "fid": "gpt2-small-res-jb/L8/F15547",
+      "n_circuits": 4,
+      "circuits": [
+        "circuit/gpt2/capital-fr/Paris",
+        "circuit/gpt2/capital-jp/Tokyo",
+        "circuit/gpt2/capital-de/Berlin",
+        "circuit/gpt2/capital-it/Rome"
+      ],
+      "total_attr": 0.10533809661865234,
+      "mean_abs_attr": 0.03170323371887207,
+      "label": "information related to destructive events like fires, bombings, closures, evacuations, and robberies in various locations"
+    },
+    {
+      "feature": 4133,
+      "fid": "gpt2-small-res-jb/L8/F04133",
+      "n_circuits": 4,
+      "circuits": [
+        "circuit/gpt2/capital-fr/Paris",
+        "circuit/gpt2/capital-jp/Tokyo",
+        "circuit/gpt2/capital-de/Berlin",
+        "circuit/gpt2/capital-it/Rome"
+      ],
+      "total_attr": -0.1228017807006836,
+      "mean_abs_attr": 0.0307004451751709,
+      "label": "locations and international references"
+    }
+  ],
+  "alignment": [
+    {
+      "gemma_feature": 6631,
+      "gemma_label": "the beginning of a text or important markers in a document",
+      "gemma_n_circuits": 12,
+      "gemma_circuits": [
+        "circuit/gemma/capital-fr/Paris",
+        "circuit/gemma/capital-jp/Tokyo",
+        "circuit/gemma/capital-de/Berlin",
+        "circuit/gemma/capital-it/Rome",
+        "circuit/gemma/weekday-mon-tue/Tuesday",
+        "circuit/gemma/weekday-wed-thu/Thursday",
+        "circuit/gemma/weekday-fri-sat/Saturday",
+        "circuit/gemma/math-2plus2/four",
+        "circuit/gemma/math-3times3/nine",
+        "circuit/gemma/named-einstein/physicist",
+        "circuit/gemma/named-shakespeare/play",
+        "circuit/gemma/syntax-dog/cat"
+      ],
+      "gemma_mean_abs_attr": 0.18556737899780273,
+      "n_gpt2_candidates": 0,
+      "n_gpt2_predicate_candidates": 0,
+      "best_gpt2_counterpart": null,
+      "all_gpt2_candidates": []
+    },
+    {
+      "gemma_feature": 9768,
+      "gemma_label": "terms related to control and authority, particularly in political or systemic contexts",
+      "gemma_n_circuits": 11,
+      "gemma_circuits": [
+        "circuit/gemma/capital-fr/Paris",
+        "circuit/gemma/capital-de/Berlin",
+        "circuit/gemma/capital-it/Rome",
+        "circuit/gemma/weekday-mon-tue/Tuesday",
+        "circuit/gemma/weekday-wed-thu/Thursday",
+        "circuit/gemma/weekday-fri-sat/Saturday",
+        "circuit/gemma/math-2plus2/four",
+        "circuit/gemma/math-3times3/nine",
+        "circuit/gemma/named-einstein/physicist",
+        "circuit/gemma/named-shakespeare/play",
+        "circuit/gemma/syntax-dog/cat"
+      ],
+      "gemma_mean_abs_attr": 0.11655582081187855,
+      "n_gpt2_candidates": 4,
+      "n_gpt2_predicate_candidates": 0,
+      "best_gpt2_counterpart": null,
+      "all_gpt2_candidates": [
+        {
+          "gpt2_feature": 17182,
+          "gpt2_fid": "gpt2-small-res-jb/L8/F17182",
+          "gpt2_label": "political terms related to control and power",
+          "label_cosine": 0.9319512844085693,
+          "gpt2_n_circuits": 0,
+          "gpt2_circuits": [],
+          "total_attr": 0
+        },
+        {
+          "gpt2_feature": 22079,
+          "gpt2_fid": "gpt2-small-res-jb/L8/F22079",
+          "gpt2_label": "words related to control and authority",
+          "label_cosine": 0.9177994728088379,
+          "gpt2_n_circuits": 0,
+          "gpt2_circuits": [],
+          "total_attr": 0
+        },
+        {
+          "gpt2_feature": 23015,
+          "gpt2_fid": "gpt2-small-res-jb/L8/F23015",
+          "gpt2_label": "words related to politics, control, and authority",
+          "label_cosine": 0.9144947528839111,
+          "gpt2_n_circuits": 0,
+          "gpt2_circuits": [],
+          "total_attr": 0
+        },
+        {
+          "gpt2_feature": 23602,
+          "gpt2_fid": "gpt2-small-res-jb/L8/F23602",
+          "gpt2_label": "words related to authority, control, and power",
+          "label_cosine": 0.907630443572998,
+          "gpt2_n_circuits": 0,
+          "gpt2_circuits": [],
+          "total_attr": 0
+        }
+      ]
+    },
+    {
+      "gemma_feature": 15596,
+      "gemma_label": "past and present tense forms of the verb \"to be\" in various contexts",
+      "gemma_n_circuits": 7,
+      "gemma_circuits": [
+        "circuit/gemma/capital-fr/Paris",
+        "circuit/gemma/capital-jp/Tokyo",
+        "circuit/gemma/capital-de/Berlin",
+        "circuit/gemma/capital-it/Rome",
+        "circuit/gemma/weekday-mon-tue/Tuesday",
+        "circuit/gemma/weekday-wed-thu/Thursday",
+        "circuit/gemma/weekday-fri-sat/Saturday"
+      ],
+      "gemma_mean_abs_attr": 0.34564099993024555,
+      "n_gpt2_candidates": 0,
+      "n_gpt2_predicate_candidates": 0,
+      "best_gpt2_counterpart": null,
+      "all_gpt2_candidates": []
+    },
+    {
+      "gemma_feature": 13414,
+      "gemma_label": "statements of existence or presence",
+      "gemma_n_circuits": 7,
+      "gemma_circuits": [
+        "circuit/gemma/capital-fr/Paris",
+        "circuit/gemma/capital-jp/Tokyo",
+        "circuit/gemma/capital-de/Berlin",
+        "circuit/gemma/capital-it/Rome",
+        "circuit/gemma/weekday-mon-tue/Tuesday",
+        "circuit/gemma/weekday-wed-thu/Thursday",
+        "circuit/gemma/weekday-fri-sat/Saturday"
+      ],
+      "gemma_mean_abs_attr": 0.2189044952392578,
+      "n_gpt2_candidates": 4,
+      "n_gpt2_predicate_candidates": 0,
+      "best_gpt2_counterpart": null,
+      "all_gpt2_candidates": [
+        {
+          "gpt2_feature": 18741,
+          "gpt2_fid": "gpt2-small-res-jb/L8/F18741",
+          "gpt2_label": "sentences discussing the existence or presence of something",
+          "label_cosine": 0.9341871738433838,
+          "gpt2_n_circuits": 0,
+          "gpt2_circuits": [],
+          "total_attr": 0
+        },
+        {
+          "gpt2_feature": 21721,
+          "gpt2_fid": "gpt2-small-res-jb/L8/F21721",
+          "gpt2_label": "references to existence or presence",
+          "label_cosine": 0.921339750289917,
+          "gpt2_n_circuits": 0,
+          "gpt2_circuits": [],
+          "total_attr": 0
+        },
+        {
+          "gpt2_feature": 5261,
+          "gpt2_fid": "gpt2-small-res-jb/L8/F05261",
+          "gpt2_label": "phrases related to existence or presence",
+          "label_cosine": 0.9176852703094482,
+          "gpt2_n_circuits": 0,
+          "gpt2_circuits": [],
+          "total_attr": 0
+        },
+        {
+          "gpt2_feature": 9836,
+          "gpt2_fid": "gpt2-small-res-jb/L8/F09836",
+          "gpt2_label": "phrases related to existence or presence",
+          "label_cosine": 0.91768479347229,
+          "gpt2_n_circuits": 0,
+          "gpt2_circuits": [],
+          "total_attr": 0
+        }
+      ]
+    },
+    {
+      "gemma_feature": 12927,
+      "gemma_label": "statements of existence or presence",
+      "gemma_n_circuits": 7,
+      "gemma_circuits": [
+        "circuit/gemma/capital-fr/Paris",
+        "circuit/gemma/capital-jp/Tokyo",
+        "circuit/gemma/capital-de/Berlin",
+        "circuit/gemma/capital-it/Rome",
+        "circuit/gemma/weekday-mon-tue/Tuesday",
+        "circuit/gemma/weekday-wed-thu/Thursday",
+        "circuit/gemma/weekday-fri-sat/Saturday"
+      ],
+      "gemma_mean_abs_attr": 0.16296086992536274,
+      "n_gpt2_candidates": 4,
+      "n_gpt2_predicate_candidates": 0,
+      "best_gpt2_counterpart": null,
+      "all_gpt2_candidates": [
+        {
+          "gpt2_feature": 18741,
+          "gpt2_fid": "gpt2-small-res-jb/L8/F18741",
+          "gpt2_label": "sentences discussing the existence or presence of something",
+          "label_cosine": 0.9341871738433838,
+          "gpt2_n_circuits": 0,
+          "gpt2_circuits": [],
+          "total_attr": 0
+        },
+        {
+          "gpt2_feature": 21721,
+          "gpt2_fid": "gpt2-small-res-jb/L8/F21721",
+          "gpt2_label": "references to existence or presence",
+          "label_cosine": 0.921339750289917,
+          "gpt2_n_circuits": 0,
+          "gpt2_circuits": [],
+          "total_attr": 0
+        },
+        {
+          "gpt2_feature": 5261,
+          "gpt2_fid": "gpt2-small-res-jb/L8/F05261",
+          "gpt2_label": "phrases related to existence or presence",
+          "label_cosine": 0.9176852703094482,
+          "gpt2_n_circuits": 0,
+          "gpt2_circuits": [],
+          "total_attr": 0
+        },
+        {
+          "gpt2_feature": 9836,
+          "gpt2_fid": "gpt2-small-res-jb/L8/F09836",
+          "gpt2_label": "phrases related to existence or presence",
+          "label_cosine": 0.91768479347229,
+          "gpt2_n_circuits": 0,
+          "gpt2_circuits": [],
+          "total_attr": 0
+        }
+      ]
+    },
+    {
+      "gemma_feature": 1692,
+      "gemma_label": "legal and technical terminology related to statutes and inventions",
+      "gemma_n_circuits": 7,
+      "gemma_circuits": [
+        "circuit/gemma/capital-fr/Paris",
+        "circuit/gemma/capital-jp/Tokyo",
+        "circuit/gemma/capital-de/Berlin",
+        "circuit/gemma/capital-it/Rome",
+        "circuit/gemma/math-2plus2/four",
+        "circuit/gemma/named-einstein/physicist",
+        "circuit/gemma/named-shakespeare/play"
+      ],
+      "gemma_mean_abs_attr": 0.11311149597167969,
+      "n_gpt2_candidates": 2,
+      "n_gpt2_predicate_candidates": 0,
+      "best_gpt2_counterpart": null,
+      "all_gpt2_candidates": [
+        {
+          "gpt2_feature": 5664,
+          "gpt2_fid": "gpt2-small-res-jb/L8/F05664",
+          "gpt2_label": "terms related to laws, regulations, and technology",
+          "label_cosine": 0.8800997734069824,
+          "gpt2_n_circuits": 0,
+          "gpt2_circuits": [],
+          "total_attr": 0
+        },
+        {
+          "gpt2_feature": 6260,
+          "gpt2_fid": "gpt2-small-res-jb/L8/F06260",
+          "gpt2_label": "legislative and legal terminology related to laws and regulations",
+          "label_cosine": 0.8576967716217041,
+          "gpt2_n_circuits": 0,
+          "gpt2_circuits": [],
+          "total_attr": 0
+        }
+      ]
+    },
+    {
+      "gemma_feature": 6143,
+      "gemma_label": "phrases related to medical conditions and treatments",
+      "gemma_n_circuits": 6,
+      "gemma_circuits": [
+        "circuit/gemma/capital-fr/Paris",
+        "circuit/gemma/capital-jp/Tokyo",
+        "circuit/gemma/capital-de/Berlin",
+        "circuit/gemma/capital-it/Rome",
+        "circuit/gemma/math-2plus2/four",
+        "circuit/gemma/math-3times3/nine"
+      ],
+      "gemma_mean_abs_attr": 0.3552207946777344,
+      "n_gpt2_candidates": 4,
+      "n_gpt2_predicate_candidates": 0,
+      "best_gpt2_counterpart": null,
+      "all_gpt2_candidates": [
+        {
+          "gpt2_feature": 17601,
+          "gpt2_fid": "gpt2-small-res-jb/L8/F17601",
+          "gpt2_label": "phrases related to medical conditions or specific medical procedures",
+          "label_cosine": 0.9599716663360596,
+          "gpt2_n_circuits": 0,
+          "gpt2_circuits": [],
+          "total_attr": 0
+        },
+        {
+          "gpt2_feature": 12886,
+          "gpt2_fid": "gpt2-small-res-jb/L8/F12886",
+          "gpt2_label": "phrases related to medical conditions and health",
+          "label_cosine": 0.9567749500274658,
+          "gpt2_n_circuits": 0,
+          "gpt2_circuits": [],
+          "total_attr": 0
+        },
+        {
+          "gpt2_feature": 14771,
+          "gpt2_fid": "gpt2-small-res-jb/L8/F14771",
+          "gpt2_label": "phrases related to physical or medical conditions",
+          "label_cosine": 0.9355943202972412,
+          "gpt2_n_circuits": 0,
+          "gpt2_circuits": [],
+          "total_attr": 0
+        },
+        {
+          "gpt2_feature": 18140,
+          "gpt2_fid": "gpt2-small-res-jb/L8/F18140",
+          "gpt2_label": "phrases related to suffering from medical conditions",
+          "label_cosine": 0.9296178817749023,
+          "gpt2_n_circuits": 0,
+          "gpt2_circuits": [],
+          "total_attr": 0
+        }
+      ]
+    },
+    {
+      "gemma_feature": 2021,
+      "gemma_label": "topics related to political events and elections",
+      "gemma_n_circuits": 6,
+      "gemma_circuits": [
+        "circuit/gemma/capital-jp/Tokyo",
+        "circuit/gemma/capital-de/Berlin",
+        "circuit/gemma/capital-it/Rome",
+        "circuit/gemma/math-3times3/nine",
+        "circuit/gemma/named-einstein/physicist",
+        "circuit/gemma/named-shakespeare/play"
+      ],
+      "gemma_mean_abs_attr": 0.2792237599690755,
+      "n_gpt2_candidates": 4,
+      "n_gpt2_predicate_candidates": 0,
+      "best_gpt2_counterpart": null,
+      "all_gpt2_candidates": [
+        {
+          "gpt2_feature": 1836,
+          "gpt2_fid": "gpt2-small-res-jb/L8/F01836",
+          "gpt2_label": "mentions of political events and elections",
+          "label_cosine": 0.9221880435943604,
+          "gpt2_n_circuits": 0,
+          "gpt2_circuits": [],
+          "total_attr": 0
+        },
+        {
+          "gpt2_feature": 11738,
+          "gpt2_fid": "gpt2-small-res-jb/L8/F11738",
+          "gpt2_label": "topics related to history and political events",
+          "label_cosine": 0.9132859706878662,
+          "gpt2_n_circuits": 0,
+          "gpt2_circuits": [],
+          "total_attr": 0
+        },
+        {
+          "gpt2_feature": 2681,
+          "gpt2_fid": "gpt2-small-res-jb/L8/F02681",
+          "gpt2_label": "topics related to political parties and historical events",
+          "label_cosine": 0.9041545391082764,
+          "gpt2_n_circuits": 0,
+          "gpt2_circuits": [],
+          "total_attr": 0
+        },
+        {
+          "gpt2_feature": 19336,
+          "gpt2_fid": "gpt2-small-res-jb/L8/F19336",
+          "gpt2_label": "text related to political elections, candidates, and outcomes",
+          "label_cosine": 0.8902661800384521,
+          "gpt2_n_circuits": 0,
+          "gpt2_circuits": [],
+          "total_attr": 0
+        }
+      ]
+    },
+    {
+      "gemma_feature": 15149,
+      "gemma_label": "sentences that describe the characteristics or functionalities of structures or systems",
+      "gemma_n_circuits": 6,
+      "gemma_circuits": [
+        "circuit/gemma/capital-fr/Paris",
+        "circuit/gemma/capital-jp/Tokyo",
+        "circuit/gemma/capital-de/Berlin",
+        "circuit/gemma/capital-it/Rome",
+        "circuit/gemma/weekday-mon-tue/Tuesday",
+        "circuit/gemma/weekday-wed-thu/Thursday"
+      ],
+      "gemma_mean_abs_attr": 0.15470027923583984,
+      "n_gpt2_candidates": 4,
+      "n_gpt2_predicate_candidates": 0,
+      "best_gpt2_counterpart": null,
+      "all_gpt2_candidates": [
+        {
+          "gpt2_feature": 7049,
+          "gpt2_fid": "gpt2-small-res-jb/L8/F07049",
+          "gpt2_label": "phrases related to hierarchical structures or systems",
+          "label_cosine": 0.8491675853729248,
+          "gpt2_n_circuits": 0,
+          "gpt2_circuits": [],
+          "total_attr": 0
+        },
+        {
+          "gpt2_feature": 12187,
+          "gpt2_fid": "gpt2-small-res-jb/L8/F12187",
+          "gpt2_label": "phrases related to different types of systems and models",
+          "label_cosine": 0.8444786071777344,
+          "gpt2_n_circuits": 0,
+          "gpt2_circuits": [],
+          "total_attr": 0
+        },
+        {
+          "gpt2_feature": 13886,
+          "gpt2_fid": "gpt2-small-res-jb/L8/F13886",
+          "gpt2_label": "words related to systems, structures, and organization",
+          "label_cosine": 0.8227114677429199,
+          "gpt2_n_circuits": 0,
+          "gpt2_circuits": [],
+          "total_attr": 0
+        },
+        {
+          "gpt2_feature": 478,
+          "gpt2_fid": "gpt2-small-res-jb/L8/F00478",
+          "gpt2_label": "descriptions of physical structures or objects",
+          "label_cosine": 0.82254958152771,
+          "gpt2_n_circuits": 0,
+          "gpt2_circuits": [],
+          "total_attr": 0
+        }
+      ]
+    },
+    {
+      "gemma_feature": 1583,
+      "gemma_label": "words related to administrative or technical tasks and issues",
+      "gemma_n_circuits": 6,
+      "gemma_circuits": [
+        "circuit/gemma/capital-jp/Tokyo",
+        "circuit/gemma/weekday-mon-tue/Tuesday",
+        "circuit/gemma/weekday-wed-thu/Thursday",
+        "circuit/gemma/weekday-fri-sat/Saturday",
+        "circuit/gemma/math-2plus2/four",
+        "circuit/gemma/math-3times3/nine"
+      ],
+      "gemma_mean_abs_attr": 0.08431784311930339,
+      "n_gpt2_candidates": 6,
+      "n_gpt2_predicate_candidates": 0,
+      "best_gpt2_counterpart": null,
+      "all_gpt2_candidates": [
+        {
+          "gpt2_feature": 8442,
+          "gpt2_fid": "gpt2-small-res-jb/L8/F08442",
+          "gpt2_label": "terms related to administrative tasks or processes",
+          "label_cosine": 0.8985142707824707,
+          "gpt2_n_circuits": 0,
+          "gpt2_circuits": [],
+          "total_attr": 0
+        },
+        {
+          "gpt2_feature": 8644,
+          "gpt2_fid": "gpt2-small-res-jb/L8/F08644",
+          "gpt2_label": "technical terms or phrases related to administrative or procedural matters",
+          "label_cosine": 0.8655025959014893,
+          "gpt2_n_circuits": 0,
+          "gpt2_circuits": [],
+          "total_attr": 0
+        },
+        {
+          "gpt2_feature": 23406,
+          "gpt2_fid": "gpt2-small-res-jb/L8/F23406",
+          "gpt2_label": "terms related to technical or organizational activities",
+          "label_cosine": 0.8654038906097412,
+          "gpt2_n_circuits": 0,
+          "gpt2_circuits": [],
+          "total_attr": 0
+        },
+        {
+          "gpt2_feature": 3355,
+          "gpt2_fid": "gpt2-small-res-jb/L8/F03355",
+          "gpt2_label": "words related to tasks or responsibilities",
+          "label_cosine": 0.8592286109924316,
+          "gpt2_n_circuits": 0,
+          "gpt2_circuits": [],
+          "total_attr": 0
+        },
+        {
+          "gpt2_feature": 12728,
+          "gpt2_fid": "gpt2-small-res-jb/L8/F12728",
+          "gpt2_label": "words related to workplace-related topics and issues",
+          "label_cosine": 0.858788251876831,
+          "gpt2_n_circuits": 0,
+          "gpt2_circuits": [],
+          "total_attr": 0
+        }
+      ]
+    },
+    {
+      "gemma_feature": 3019,
+      "gemma_label": "elements related to operational or procedural contexts in a structured format",
+      "gemma_n_circuits": 6,
+      "gemma_circuits": [
+        "circuit/gemma/capital-fr/Paris",
+        "circuit/gemma/capital-de/Berlin",
+        "circuit/gemma/capital-it/Rome",
+        "circuit/gemma/named-einstein/physicist",
+        "circuit/gemma/named-shakespeare/play",
+        "circuit/gemma/syntax-dog/cat"
+      ],
+      "gemma_mean_abs_attr": 0.060265858968098954,
+      "n_gpt2_candidates": 0,
+      "n_gpt2_predicate_candidates": 0,
+      "best_gpt2_counterpart": null,
+      "all_gpt2_candidates": []
+    },
+    {
+      "gemma_feature": 6793,
+      "gemma_label": "elements that resemble structured data or identifiers, likely in a list or JSON format",
+      "gemma_n_circuits": 5,
+      "gemma_circuits": [
+        "circuit/gemma/weekday-mon-tue/Tuesday",
+        "circuit/gemma/weekday-wed-thu/Thursday",
+        "circuit/gemma/weekday-fri-sat/Saturday",
+        "circuit/gemma/math-2plus2/four",
+        "circuit/gemma/math-3times3/nine"
+      ],
+      "gemma_mean_abs_attr": 0.2061492919921875,
+      "n_gpt2_candidates": 0,
+      "n_gpt2_predicate_candidates": 0,
+      "best_gpt2_counterpart": null,
+      "all_gpt2_candidates": []
+    },
+    {
+      "gemma_feature": 10419,
+      "gemma_label": "technical terms and specific concepts related to scientific research and modeling",
+      "gemma_n_circuits": 5,
+      "gemma_circuits": [
+        "circuit/gemma/weekday-mon-tue/Tuesday",
+        "circuit/gemma/weekday-wed-thu/Thursday",
+        "circuit/gemma/weekday-fri-sat/Saturday",
+        "circuit/gemma/named-einstein/physicist",
+        "circuit/gemma/named-shakespeare/play"
+      ],
+      "gemma_mean_abs_attr": 0.033736801147460936,
+      "n_gpt2_candidates": 5,
+      "n_gpt2_predicate_candidates": 0,
+      "best_gpt2_counterpart": null,
+      "all_gpt2_candidates": [
+        {
+          "gpt2_feature": 8271,
+          "gpt2_fid": "gpt2-small-res-jb/L8/F08271",
+          "gpt2_label": "terms related to scientific research and technical processes",
+          "label_cosine": 0.9003770351409912,
+          "gpt2_n_circuits": 0,
+          "gpt2_circuits": [],
+          "total_attr": 0
+        },
+        {
+          "gpt2_feature": 12578,
+          "gpt2_fid": "gpt2-small-res-jb/L8/F12578",
+          "gpt2_label": "technical terms related to research and studies",
+          "label_cosine": 0.8985927104949951,
+          "gpt2_n_circuits": 0,
+          "gpt2_circuits": [],
+          "total_attr": 0
+        },
+        {
+          "gpt2_feature": 8125,
+          "gpt2_fid": "gpt2-small-res-jb/L8/F08125",
+          "gpt2_label": "scientific or technical terms and concepts, possibly related to research or academia",
+          "label_cosine": 0.897636890411377,
+          "gpt2_n_circuits": 0,
+          "gpt2_circuits": [],
+          "total_attr": 0
+        },
+        {
+          "gpt2_feature": 15457,
+          "gpt2_fid": "gpt2-small-res-jb/L8/F15457",
+          "gpt2_label": "technical terms related to science, research, and experiments",
+          "label_cosine": 0.8915917873382568,
+          "gpt2_n_circuits": 0,
+          "gpt2_circuits": [],
+          "total_attr": 0
+        },
+        {
+          "gpt2_feature": 14654,
+          "gpt2_fid": "gpt2-small-res-jb/L8/F14654",
+          "gpt2_label": "scientific and technical terms related to research and experiments",
+          "label_cosine": 0.8913280963897705,
+          "gpt2_n_circuits": 0,
+          "gpt2_circuits": [],
+          "total_attr": 0
+        }
+      ]
+    },
+    {
+      "gemma_feature": 3031,
+      "gemma_label": "references to significant documents or publications, especially in academic or legal contexts",
+      "gemma_n_circuits": 4,
+      "gemma_circuits": [
+        "circuit/gemma/capital-fr/Paris",
+        "circuit/gemma/capital-jp/Tokyo",
+        "circuit/gemma/capital-de/Berlin",
+        "circuit/gemma/capital-it/Rome"
+      ],
+      "gemma_mean_abs_attr": 0.7899751663208008,
+      "n_gpt2_candidates": 0,
+      "n_gpt2_predicate_candidates": 0,
+      "best_gpt2_counterpart": null,
+      "all_gpt2_candidates": []
+    },
+    {
+      "gemma_feature": 4314,
+      "gemma_label": "references to churches, bishops, and geographical locations related to religious contexts",
+      "gemma_n_circuits": 4,
+      "gemma_circuits": [
+        "circuit/gemma/capital-fr/Paris",
+        "circuit/gemma/capital-jp/Tokyo",
+        "circuit/gemma/capital-de/Berlin",
+        "circuit/gemma/capital-it/Rome"
+      ],
+      "gemma_mean_abs_attr": 0.4138212203979492,
+      "n_gpt2_candidates": 2,
+      "n_gpt2_predicate_candidates": 0,
+      "best_gpt2_counterpart": null,
+      "all_gpt2_candidates": [
+        {
+          "gpt2_feature": 4241,
+          "gpt2_fid": "gpt2-small-res-jb/L8/F04241",
+          "gpt2_label": "mentions of places of worship, particularly churches",
+          "label_cosine": 0.8556525707244873,
+          "gpt2_n_circuits": 0,
+          "gpt2_circuits": [],
+          "total_attr": 0
+        },
+        {
+          "gpt2_feature": 4082,
+          "gpt2_fid": "gpt2-small-res-jb/L8/F04082",
+          "gpt2_label": "phrases related to religious institutions, particularly the Church",
+          "label_cosine": 0.841073751449585,
+          "gpt2_n_circuits": 0,
+          "gpt2_circuits": [],
+          "total_attr": 0
+        }
+      ]
+    },
+    {
+      "gemma_feature": 15935,
+      "gemma_label": "references to countries and their significant characteristics or roles in a global context",
+      "gemma_n_circuits": 4,
+      "gemma_circuits": [
+        "circuit/gemma/capital-fr/Paris",
+        "circuit/gemma/capital-jp/Tokyo",
+        "circuit/gemma/capital-de/Berlin",
+        "circuit/gemma/capital-it/Rome"
+      ],
+      "gemma_mean_abs_attr": 0.3827481269836426,
+      "n_gpt2_candidates": 4,
+      "n_gpt2_predicate_candidates": 0,
+      "best_gpt2_counterpart": null,
+      "all_gpt2_candidates": [
+        {
+          "gpt2_feature": 8200,
+          "gpt2_fid": "gpt2-small-res-jb/L8/F08200",
+          "gpt2_label": "references to countries and international relations",
+          "label_cosine": 0.895857572555542,
+          "gpt2_n_circuits": 0,
+          "gpt2_circuits": [],
+          "total_attr": 0
+        },
+        {
+          "gpt2_feature": 11815,
+          "gpt2_fid": "gpt2-small-res-jb/L8/F11815",
+          "gpt2_label": "references to a nation or country",
+          "label_cosine": 0.8818497657775879,
+          "gpt2_n_circuits": 0,
+          "gpt2_circuits": [],
+          "total_attr": 0
+        },
+        {
+          "gpt2_feature": 21994,
+          "gpt2_fid": "gpt2-small-res-jb/L8/F21994",
+          "gpt2_label": "references to countries and regions, specifically focusing on Asian countries",
+          "label_cosine": 0.8788928985595703,
+          "gpt2_n_circuits": 0,
+          "gpt2_circuits": [],
+          "total_attr": 0
+        },
+        {
+          "gpt2_feature": 10492,
+          "gpt2_fid": "gpt2-small-res-jb/L8/F10492",
+          "gpt2_label": "mentions of specific countries and international relations",
+          "label_cosine": 0.8767504692077637,
+          "gpt2_n_circuits": 0,
+          "gpt2_circuits": [],
+          "total_attr": 0
+        }
+      ]
+    },
+    {
+      "gemma_feature": 9461,
+      "gemma_label": "references to educational institutions and their locations",
+      "gemma_n_circuits": 4,
+      "gemma_circuits": [
+        "circuit/gemma/capital-fr/Paris",
+        "circuit/gemma/capital-jp/Tokyo",
+        "circuit/gemma/capital-de/Berlin",
+        "circuit/gemma/capital-it/Rome"
+      ],
+      "gemma_mean_abs_attr": 0.34961700439453125,
+      "n_gpt2_candidates": 1,
+      "n_gpt2_predicate_candidates": 0,
+      "best_gpt2_counterpart": null,
+      "all_gpt2_candidates": [
+        {
+          "gpt2_feature": 9439,
+          "gpt2_fid": "gpt2-small-res-jb/L8/F09439",
+          "gpt2_label": "references to specific educational institutions, particularly universities",
+          "label_cosine": 0.9248359203338623,
+          "gpt2_n_circuits": 0,
+          "gpt2_circuits": [],
+          "total_attr": 0
+        }
+      ]
+    },
+    {
+      "gemma_feature": 5486,
+      "gemma_label": "interrogative and rhetorical questions related to historical events or entities",
+      "gemma_n_circuits": 4,
+      "gemma_circuits": [
+        "circuit/gemma/capital-fr/Paris",
+        "circuit/gemma/capital-jp/Tokyo",
+        "circuit/gemma/capital-de/Berlin",
+        "circuit/gemma/capital-it/Rome"
+      ],
+      "gemma_mean_abs_attr": 0.3439812660217285,
+      "n_gpt2_candidates": 3,
+      "n_gpt2_predicate_candidates": 0,
+      "best_gpt2_counterpart": null,
+      "all_gpt2_candidates": [
+        {
+          "gpt2_feature": 12662,
+          "gpt2_fid": "gpt2-small-res-jb/L8/F12662",
+          "gpt2_label": "interrogative sentences asking about a specific topic or situation",
+          "label_cosine": 0.8127977848052979,
+          "gpt2_n_circuits": 0,
+          "gpt2_circuits": [],
+          "total_attr": 0
+        },
+        {
+          "gpt2_feature": 11648,
+          "gpt2_fid": "gpt2-small-res-jb/L8/F11648",
+          "gpt2_label": "interrogative sentences asking someone's reasons for their actions or beliefs",
+          "label_cosine": 0.810528039932251,
+          "gpt2_n_circuits": 0,
+          "gpt2_circuits": [],
+          "total_attr": 0
+        },
+        {
+          "gpt2_feature": 22333,
+          "gpt2_fid": "gpt2-small-res-jb/L8/F22333",
+          "gpt2_label": "interrogative sentences or statements, potentially related to economic or social issues",
+          "label_cosine": 0.8067045211791992,
+          "gpt2_n_circuits": 0,
+          "gpt2_circuits": [],
+          "total_attr": 0
+        }
+      ]
+    },
+    {
+      "gemma_feature": 10540,
+      "gemma_label": "references to sociopolitical issues and violence in different regions",
+      "gemma_n_circuits": 4,
+      "gemma_circuits": [
+        "circuit/gemma/capital-fr/Paris",
+        "circuit/gemma/capital-jp/Tokyo",
+        "circuit/gemma/capital-de/Berlin",
+        "circuit/gemma/capital-it/Rome"
+      ],
+      "gemma_mean_abs_attr": 0.28685760498046875,
+      "n_gpt2_candidates": 5,
+      "n_gpt2_predicate_candidates": 0,
+      "best_gpt2_counterpart": null,
+      "all_gpt2_candidates": [
+        {
+          "gpt2_feature": 20017,
+          "gpt2_fid": "gpt2-small-res-jb/L8/F20017",
+          "gpt2_label": "mentions of violence in various contexts",
+          "label_cosine": 0.8462743759155273,
+          "gpt2_n_circuits": 0,
+          "gpt2_circuits": [],
+          "total_attr": 0
+        },
+        {
+          "gpt2_feature": 16485,
+          "gpt2_fid": "gpt2-small-res-jb/L8/F16485",
+          "gpt2_label": "descriptions of violent clashes or conflicts",
+          "label_cosine": 0.8364365100860596,
+          "gpt2_n_circuits": 0,
+          "gpt2_circuits": [],
+          "total_attr": 0
+        },
+        {
+          "gpt2_feature": 10200,
+          "gpt2_fid": "gpt2-small-res-jb/L8/F10200",
+          "gpt2_label": "phrases related to violence and conflict",
+          "label_cosine": 0.8222317695617676,
+          "gpt2_n_circuits": 0,
+          "gpt2_circuits": [],
+          "total_attr": 0
+        },
+        {
+          "gpt2_feature": 9323,
+          "gpt2_fid": "gpt2-small-res-jb/L8/F09323",
+          "gpt2_label": "instances of physical violence or conflict",
+          "label_cosine": 0.8193404674530029,
+          "gpt2_n_circuits": 0,
+          "gpt2_circuits": [],
+          "total_attr": 0
+        },
+        {
+          "gpt2_feature": 4186,
+          "gpt2_fid": "gpt2-small-res-jb/L8/F04186",
+          "gpt2_label": "references related to political conflict and international relations, particularly involving military actions in specific regions",
+          "label_cosine": 0.8128848075866699,
+          "gpt2_n_circuits": 0,
+          "gpt2_circuits": [],
+          "total_attr": 0
+        }
+      ]
+    },
+    {
+      "gemma_feature": 15853,
+      "gemma_label": "references to socio-economic conditions and changes",
+      "gemma_n_circuits": 4,
+      "gemma_circuits": [
+        "circuit/gemma/capital-fr/Paris",
+        "circuit/gemma/capital-jp/Tokyo",
+        "circuit/gemma/capital-de/Berlin",
+        "circuit/gemma/capital-it/Rome"
+      ],
+      "gemma_mean_abs_attr": 0.2801957130432129,
+      "n_gpt2_candidates": 2,
+      "n_gpt2_predicate_candidates": 0,
+      "best_gpt2_counterpart": null,
+      "all_gpt2_candidates": [
+        {
+          "gpt2_feature": 2295,
+          "gpt2_fid": "gpt2-small-res-jb/L8/F02295",
+          "gpt2_label": "phrases related to economic and social conditions in developing and developed countries",
+          "label_cosine": 0.8619379997253418,
+          "gpt2_n_circuits": 0,
+          "gpt2_circuits": [],
+          "total_attr": 0
+        },
+        {
+          "gpt2_feature": 1114,
+          "gpt2_fid": "gpt2-small-res-jb/L8/F01114",
+          "gpt2_label": "phrases describing socio-economic struggles",
+          "label_cosine": 0.838843584060669,
+          "gpt2_n_circuits": 0,
+          "gpt2_circuits": [],
+          "total_attr": 0
+        }
+      ]
+    },
+    {
+      "gemma_feature": 3022,
+      "gemma_label": "references to geographical locations and their characteristics",
+      "gemma_n_circuits": 4,
+      "gemma_circuits": [
+        "circuit/gemma/capital-fr/Paris",
+        "circuit/gemma/capital-jp/Tokyo",
+        "circuit/gemma/capital-de/Berlin",
+        "circuit/gemma/capital-it/Rome"
+      ],
+      "gemma_mean_abs_attr": 0.2124481201171875,
+      "n_gpt2_candidates": 4,
+      "n_gpt2_predicate_candidates": 0,
+      "best_gpt2_counterpart": null,
+      "all_gpt2_candidates": [
+        {
+          "gpt2_feature": 16405,
+          "gpt2_fid": "gpt2-small-res-jb/L8/F16405",
+          "gpt2_label": "references to specific geographical locations",
+          "label_cosine": 0.9628996849060059,
+          "gpt2_n_circuits": 0,
+          "gpt2_circuits": [],
+          "total_attr": 0
+        },
+        {
+          "gpt2_feature": 19345,
+          "gpt2_fid": "gpt2-small-res-jb/L8/F19345",
+          "gpt2_label": "references to specific geographical locations",
+          "label_cosine": 0.9628996849060059,
+          "gpt2_n_circuits": 0,
+          "gpt2_circuits": [],
+          "total_attr": 0
+        },
+        {
+          "gpt2_feature": 2540,
+          "gpt2_fid": "gpt2-small-res-jb/L8/F02540",
+          "gpt2_label": "references to specific geographical locations",
+          "label_cosine": 0.96274733543396,
+          "gpt2_n_circuits": 0,
+          "gpt2_circuits": [],
+          "total_attr": 0
+        },
+        {
+          "gpt2_feature": 18924,
+          "gpt2_fid": "gpt2-small-res-jb/L8/F18924",
+          "gpt2_label": "references to geography or locations",
+          "label_cosine": 0.9555308818817139,
+          "gpt2_n_circuits": 0,
+          "gpt2_circuits": [],
+          "total_attr": 0
+        }
+      ]
+    },
+    {
+      "gemma_feature": 11700,
+      "gemma_label": "references to programming concepts and technical terms related to software development",
+      "gemma_n_circuits": 4,
+      "gemma_circuits": [
+        "circuit/gemma/capital-fr/Paris",
+        "circuit/gemma/capital-jp/Tokyo",
+        "circuit/gemma/capital-de/Berlin",
+        "circuit/gemma/capital-it/Rome"
+      ],
+      "gemma_mean_abs_attr": 0.19390249252319336,
+      "n_gpt2_candidates": 0,
+      "n_gpt2_predicate_candidates": 0,
+      "best_gpt2_counterpart": null,
+      "all_gpt2_candidates": []
+    },
+    {
+      "gemma_feature": 14610,
+      "gemma_label": "references to specific countries and their roles in various contexts",
+      "gemma_n_circuits": 4,
+      "gemma_circuits": [
+        "circuit/gemma/capital-fr/Paris",
+        "circuit/gemma/capital-jp/Tokyo",
+        "circuit/gemma/capital-de/Berlin",
+        "circuit/gemma/capital-it/Rome"
+      ],
+      "gemma_mean_abs_attr": 0.17249631881713867,
+      "n_gpt2_candidates": 5,
+      "n_gpt2_predicate_candidates": 0,
+      "best_gpt2_counterpart": null,
+      "all_gpt2_candidates": [
+        {
+          "gpt2_feature": 8200,
+          "gpt2_fid": "gpt2-small-res-jb/L8/F08200",
+          "gpt2_label": "references to countries and international relations",
+          "label_cosine": 0.9083206653594971,
+          "gpt2_n_circuits": 0,
+          "gpt2_circuits": [],
+          "total_attr": 0
+        },
+        {
+          "gpt2_feature": 11815,
+          "gpt2_fid": "gpt2-small-res-jb/L8/F11815",
+          "gpt2_label": "references to a nation or country",
+          "label_cosine": 0.9054627418518066,
+          "gpt2_n_circuits": 0,
+          "gpt2_circuits": [],
+          "total_attr": 0
+        },
+        {
+          "gpt2_feature": 10170,
+          "gpt2_fid": "gpt2-small-res-jb/L8/F10170",
+          "gpt2_label": "references to countries and governmental actions",
+          "label_cosine": 0.8978090286254883,
+          "gpt2_n_circuits": 0,
+          "gpt2_circuits": [],
+          "total_attr": 0
+        },
+        {
+          "gpt2_feature": 21994,
+          "gpt2_fid": "gpt2-small-res-jb/L8/F21994",
+          "gpt2_label": "references to countries and regions, specifically focusing on Asian countries",
+          "label_cosine": 0.8955497741699219,
+          "gpt2_n_circuits": 0,
+          "gpt2_circuits": [],
+          "total_attr": 0
+        },
+        {
+          "gpt2_feature": 10492,
+          "gpt2_fid": "gpt2-small-res-jb/L8/F10492",
+          "gpt2_label": "mentions of specific countries and international relations",
+          "label_cosine": 0.8881397247314453,
+          "gpt2_n_circuits": 0,
+          "gpt2_circuits": [],
+          "total_attr": 0
+        }
+      ]
+    },
+    {
+      "gemma_feature": 10142,
+      "gemma_label": "instances of the word \"is\" in various contexts",
+      "gemma_n_circuits": 4,
+      "gemma_circuits": [
+        "circuit/gemma/capital-fr/Paris",
+        "circuit/gemma/capital-jp/Tokyo",
+        "circuit/gemma/capital-de/Berlin",
+        "circuit/gemma/capital-it/Rome"
+      ],
+      "gemma_mean_abs_attr": 0.16558218002319336,
+      "n_gpt2_candidates": 2,
+      "n_gpt2_predicate_candidates": 0,
+      "best_gpt2_counterpart": null,
+      "all_gpt2_candidates": [
+        {
+          "gpt2_feature": 13939,
+          "gpt2_fid": "gpt2-small-res-jb/L8/F13939",
+          "gpt2_label": "instances of the word \"are\"",
+          "label_cosine": 0.8944518566131592,
+          "gpt2_n_circuits": 0,
+          "gpt2_circuits": [],
+          "total_attr": 0
+        },
+        {
+          "gpt2_feature": 21183,
+          "gpt2_fid": "gpt2-small-res-jb/L8/F21183",
+          "gpt2_label": "the verb \"is\" followed by descriptions or statements",
+          "label_cosine": 0.8814036846160889,
+          "gpt2_n_circuits": 0,
+          "gpt2_circuits": [],
+          "total_attr": 0
+        }
+      ]
+    },
+    {
+      "gemma_feature": 8997,
+      "gemma_label": "references to political figures in the context of social issues",
+      "gemma_n_circuits": 4,
+      "gemma_circuits": [
+        "circuit/gemma/capital-fr/Paris",
+        "circuit/gemma/capital-jp/Tokyo",
+        "circuit/gemma/capital-de/Berlin",
+        "circuit/gemma/capital-it/Rome"
+      ],
+      "gemma_mean_abs_attr": 0.1027674674987793,
+      "n_gpt2_candidates": 7,
+      "n_gpt2_predicate_candidates": 0,
+      "best_gpt2_counterpart": null,
+      "all_gpt2_candidates": [
+        {
+          "gpt2_feature": 8233,
+          "gpt2_fid": "gpt2-small-res-jb/L8/F08233",
+          "gpt2_label": "references to political figures",
+          "label_cosine": 0.949044942855835,
+          "gpt2_n_circuits": 0,
+          "gpt2_circuits": [],
+          "total_attr": 0
+        },
+        {
+          "gpt2_feature": 11552,
+          "gpt2_fid": "gpt2-small-res-jb/L8/F11552",
+          "gpt2_label": "references to political figures or entities",
+          "label_cosine": 0.9342484474182129,
+          "gpt2_n_circuits": 0,
+          "gpt2_circuits": [],
+          "total_attr": 0
+        },
+        {
+          "gpt2_feature": 5307,
+          "gpt2_fid": "gpt2-small-res-jb/L8/F05307",
+          "gpt2_label": "references to a specific political figure",
+          "label_cosine": 0.9252257347106934,
+          "gpt2_n_circuits": 0,
+          "gpt2_circuits": [],
+          "total_attr": 0
+        },
+        {
+          "gpt2_feature": 17595,
+          "gpt2_fid": "gpt2-small-res-jb/L8/F17595",
+          "gpt2_label": "references to political parties and figures, as well as societal issues",
+          "label_cosine": 0.9222652912139893,
+          "gpt2_n_circuits": 0,
+          "gpt2_circuits": [],
+          "total_attr": 0
+        },
+        {
+          "gpt2_feature": 23884,
+          "gpt2_fid": "gpt2-small-res-jb/L8/F23884",
+          "gpt2_label": "references to political figures and events",
+          "label_cosine": 0.9218769073486328,
+          "gpt2_n_circuits": 0,
+          "gpt2_circuits": [],
+          "total_attr": 0
+        }
+      ]
+    },
+    {
+      "gemma_feature": 13646,
+      "gemma_label": "references to geographical locations and historical contexts",
+      "gemma_n_circuits": 4,
+      "gemma_circuits": [
+        "circuit/gemma/capital-fr/Paris",
+        "circuit/gemma/capital-jp/Tokyo",
+        "circuit/gemma/capital-de/Berlin",
+        "circuit/gemma/capital-it/Rome"
+      ],
+      "gemma_mean_abs_attr": 0.10213518142700195,
+      "n_gpt2_candidates": 3,
+      "n_gpt2_predicate_candidates": 0,
+      "best_gpt2_counterpart": null,
+      "all_gpt2_candidates": [
+        {
+          "gpt2_feature": 18924,
+          "gpt2_fid": "gpt2-small-res-jb/L8/F18924",
+          "gpt2_label": "references to geography or locations",
+          "label_cosine": 0.9477958679199219,
+          "gpt2_n_circuits": 0,
+          "gpt2_circuits": [],
+          "total_attr": 0
+        },
+        {
+          "gpt2_feature": 2540,
+          "gpt2_fid": "gpt2-small-res-jb/L8/F02540",
+          "gpt2_label": "references to specific geographical locations",
+          "label_cosine": 0.941502571105957,
+          "gpt2_n_circuits": 0,
+          "gpt2_circuits": [],
+          "total_attr": 0
+        },
+        {
+          "gpt2_feature": 16405,
+          "gpt2_fid": "gpt2-small-res-jb/L8/F16405",
+          "gpt2_label": "references to specific geographical locations",
+          "label_cosine": 0.941361665725708,
+          "gpt2_n_circuits": 0,
+          "gpt2_circuits": [],
+          "total_attr": 0
+        }
+      ]
+    },
+    {
+      "gemma_feature": 523,
+      "gemma_label": "descriptions of geographical locations and administrative divisions",
+      "gemma_n_circuits": 4,
+      "gemma_circuits": [
+        "circuit/gemma/capital-fr/Paris",
+        "circuit/gemma/capital-jp/Tokyo",
+        "circuit/gemma/capital-de/Berlin",
+        "circuit/gemma/capital-it/Rome"
+      ],
+      "gemma_mean_abs_attr": 0.09859609603881836,
+      "n_gpt2_candidates": 0,
+      "n_gpt2_predicate_candidates": 0,
+      "best_gpt2_counterpart": null,
+      "all_gpt2_candidates": []
+    },
+    {
+      "gemma_feature": 10354,
+      "gemma_label": "locations and geographic details related to communities and regions",
+      "gemma_n_circuits": 4,
+      "gemma_circuits": [
+        "circuit/gemma/capital-fr/Paris",
+        "circuit/gemma/capital-jp/Tokyo",
+        "circuit/gemma/capital-de/Berlin",
+        "circuit/gemma/capital-it/Rome"
+      ],
+      "gemma_mean_abs_attr": 0.09421491622924805,
+      "n_gpt2_candidates": 3,
+      "n_gpt2_predicate_candidates": 0,
+      "best_gpt2_counterpart": null,
+      "all_gpt2_candidates": [
+        {
+          "gpt2_feature": 23211,
+          "gpt2_fid": "gpt2-small-res-jb/L8/F23211",
+          "gpt2_label": "mentions of geographic locations, particularly towns and cities",
+          "label_cosine": 0.902087926864624,
+          "gpt2_n_circuits": 0,
+          "gpt2_circuits": [],
+          "total_attr": 0
+        },
+        {
+          "gpt2_feature": 23223,
+          "gpt2_fid": "gpt2-small-res-jb/L8/F23223",
+          "gpt2_label": "mention of geographical locations, particularly villages",
+          "label_cosine": 0.8993477821350098,
+          "gpt2_n_circuits": 0,
+          "gpt2_circuits": [],
+          "total_attr": 0
+        },
+        {
+          "gpt2_feature": 2272,
+          "gpt2_fid": "gpt2-small-res-jb/L8/F02272",
+          "gpt2_label": "locations and geographical information",
+          "label_cosine": 0.893622875213623,
+          "gpt2_n_circuits": 0,
+          "gpt2_circuits": [],
+          "total_attr": 0
+        }
+      ]
+    },
+    {
+      "gemma_feature": 7869,
+      "gemma_label": "references to specific geographical locations and political actions",
+      "gemma_n_circuits": 4,
+      "gemma_circuits": [
+        "circuit/gemma/capital-fr/Paris",
+        "circuit/gemma/capital-jp/Tokyo",
+        "circuit/gemma/capital-de/Berlin",
+        "circuit/gemma/capital-it/Rome"
+      ],
+      "gemma_mean_abs_attr": 0.09400606155395508,
+      "n_gpt2_candidates": 3,
+      "n_gpt2_predicate_candidates": 0,
+      "best_gpt2_counterpart": null,
+      "all_gpt2_candidates": [
+        {
+          "gpt2_feature": 9988,
+          "gpt2_fid": "gpt2-small-res-jb/L8/F09988",
+          "gpt2_label": "references to geopolitical locations in relation to political events",
+          "label_cosine": 0.9247581958770752,
+          "gpt2_n_circuits": 0,
+          "gpt2_circuits": [],
+          "total_attr": 0
+        },
+        {
+          "gpt2_feature": 729,
+          "gpt2_fid": "gpt2-small-res-jb/L8/F00729",
+          "gpt2_label": "references to specific locations or geopolitical entities",
+          "label_cosine": 0.9069802761077881,
+          "gpt2_n_circuits": 0,
+          "gpt2_circuits": [],
+          "total_attr": 0
+        },
+        {
+          "gpt2_feature": 13058,
+          "gpt2_fid": "gpt2-small-res-jb/L8/F13058",
+          "gpt2_label": "mentions of specific locations, particularly related to political events or conflicts",
+          "label_cosine": 0.899402379989624,
+          "gpt2_n_circuits": 0,
+          "gpt2_circuits": [],
+          "total_attr": 0
+        }
+      ]
+    },
+    {
+      "gemma_feature": 8366,
+      "gemma_label": "verbs and their related forms, often related to medical or technical contexts",
+      "gemma_n_circuits": 4,
+      "gemma_circuits": [
+        "circuit/gemma/capital-fr/Paris",
+        "circuit/gemma/capital-de/Berlin",
+        "circuit/gemma/capital-it/Rome",
+        "circuit/gemma/math-3times3/nine"
+      ],
+      "gemma_mean_abs_attr": 0.08914709091186523,
+      "n_gpt2_candidates": 3,
+      "n_gpt2_predicate_candidates": 0,
+      "best_gpt2_counterpart": null,
+      "all_gpt2_candidates": [
+        {
+          "gpt2_feature": 7917,
+          "gpt2_fid": "gpt2-small-res-jb/L8/F07917",
+          "gpt2_label": "phrases related to medical terminology and technical descriptions",
+          "label_cosine": 0.8243112564086914,
+          "gpt2_n_circuits": 0,
+          "gpt2_circuits": [],
+          "total_attr": 0
+        },
+        {
+          "gpt2_feature": 9327,
+          "gpt2_fid": "gpt2-small-res-jb/L8/F09327",
+          "gpt2_label": "verbs related to the actions of objects or subjects",
+          "label_cosine": 0.8237302303314209,
+          "gpt2_n_circuits": 0,
+          "gpt2_circuits": [],
+          "total_attr": 0
+        },
+        {
+          "gpt2_feature": 3227,
+          "gpt2_fid": "gpt2-small-res-jb/L8/F03227",
+          "gpt2_label": "verbs related to actions or abilities",
+          "label_cosine": 0.8196563720703125,
+          "gpt2_n_circuits": 0,
+          "gpt2_circuits": [],
+          "total_attr": 0
+        }
+      ]
+    }
+  ],
+  "n_gemma_predicates": 30,
+  "n_gpt2_predicates": 30,
+  "n_aligned": 0
+}

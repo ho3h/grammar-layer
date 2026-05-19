@@ -1,0 +1,65 @@
+[
+  {"id": "capital-fr",        "prompt": "The capital of France is",                                "target": " Paris",     "category": "capital"},
+  {"id": "capital-jp",        "prompt": "The capital of Japan is",                                 "target": " Tokyo",     "category": "capital"},
+  {"id": "capital-de",        "prompt": "The capital of Germany is",                               "target": " Berlin",    "category": "capital"},
+  {"id": "capital-it",        "prompt": "The capital of Italy is",                                 "target": " Rome",      "category": "capital"},
+  {"id": "capital-es",        "prompt": "The capital of Spain is",                                 "target": " Madrid",    "category": "capital"},
+  {"id": "capital-ru",        "prompt": "The capital of Russia is",                                "target": " Moscow",    "category": "capital"},
+
+  {"id": "weekday-mon-tue",   "prompt": "Today is Monday. Tomorrow is",                            "target": " Tuesday",   "category": "weekday"},
+  {"id": "weekday-wed-thu",   "prompt": "Today is Wednesday. Tomorrow is",                         "target": " Thursday",  "category": "weekday"},
+  {"id": "weekday-fri-sat",   "prompt": "Today is Friday. Tomorrow is",                            "target": " Saturday",  "category": "weekday"},
+  {"id": "weekday-sun-mon",   "prompt": "Today is Sunday. Tomorrow is",                            "target": " Monday",    "category": "weekday"},
+  {"id": "weekday-2days-mon", "prompt": "Two days after Monday is",                                "target": " Wednesday", "category": "weekday"},
+
+  {"id": "math-2plus2",       "prompt": "Two plus two equals",                                     "target": " four",      "category": "math"},
+  {"id": "math-3times3",      "prompt": "Three times three equals",                                "target": " nine",      "category": "math"},
+  {"id": "math-5plus5",       "prompt": "Five plus five equals",                                   "target": " ten",       "category": "math"},
+  {"id": "math-10minus3",     "prompt": "Ten minus three equals",                                  "target": " seven",     "category": "math"},
+  {"id": "math-6times2",      "prompt": "Six times two equals",                                    "target": " twelve",    "category": "math"},
+
+  {"id": "named-einstein",    "prompt": "Albert Einstein was a famous",                            "target": " physicist", "category": "named-entity"},
+  {"id": "named-curie",       "prompt": "Marie Curie was a famous",                                "target": " scientist", "category": "named-entity"},
+  {"id": "named-mozart",      "prompt": "Wolfgang Amadeus Mozart was a famous",                    "target": " composer",  "category": "named-entity"},
+  {"id": "named-picasso",     "prompt": "Pablo Picasso was a famous",                              "target": " painter",   "category": "named-entity"},
+
+  {"id": "syntax-dog-cat",    "prompt": "The dog chased the",                                      "target": " cat",       "category": "syntactic"},
+  {"id": "syntax-cat-mouse",  "prompt": "The cat caught the",                                      "target": " mouse",     "category": "syntactic"},
+  {"id": "syntax-bird-sky",   "prompt": "The bird flew across the",                                "target": " sky",       "category": "syntactic"},
+  {"id": "syntax-key-door",   "prompt": "She turned the key in the",                               "target": " door",      "category": "syntactic"},
+
+  {"id": "reason-syllogism",  "prompt": "All birds are animals. A robin is a bird. A robin is an", "target": " animal",    "category": "reasoning"},
+  {"id": "reason-transitive", "prompt": "If A is greater than B, and B is greater than C, then A is greater than", "target": " C", "category": "reasoning"},
+  {"id": "reason-contrap",    "prompt": "Every dog has fur. Fluffy has no fur. Therefore, Fluffy is not a", "target": " dog", "category": "reasoning"},
+  {"id": "reason-set",        "prompt": "A square is a rectangle. A rectangle has four sides. A square has four", "target": " sides", "category": "reasoning"},
+
+  {"id": "instr-yesno",       "prompt": "Please answer with just 'yes' or 'no'. Is the sky blue? Answer:", "target": " yes", "category": "instruction"},
+  {"id": "instr-color",       "prompt": "Name a primary color. Answer with one word:",             "target": " red",       "category": "instruction"},
+  {"id": "instr-greeting",    "prompt": "Respond with a single word greeting:",                    "target": " Hello",     "category": "instruction"},
+  {"id": "instr-cap-letter",  "prompt": "The first letter of the alphabet is",                     "target": " A",         "category": "instruction"},
+
+  {"id": "fact-water",        "prompt": "Water is composed of hydrogen and",                       "target": " oxygen",    "category": "factual-recall"},
+  {"id": "fact-sun",          "prompt": "The Earth revolves around the",                           "target": " Sun",       "category": "factual-recall"},
+  {"id": "fact-moon",         "prompt": "The natural satellite of Earth is the",                   "target": " Moon",      "category": "factual-recall"},
+  {"id": "fact-currency-uk",  "prompt": "The currency of the United Kingdom is the",               "target": " pound",     "category": "factual-recall"},
+
+  {"id": "code-print",        "prompt": "In Python, the function to print to console is",          "target": " print",     "category": "code"},
+  {"id": "code-len",          "prompt": "To get the number of items in a Python list, use the function", "target": " len", "category": "code"},
+  {"id": "code-true-false",   "prompt": "In Python, the opposite of True is",                      "target": " False",     "category": "code"},
+  {"id": "code-if-else",      "prompt": "An if statement in Python is followed by an",             "target": " else",      "category": "code"},
+
+  {"id": "multi-arith-1",     "prompt": "Two plus three plus four equals",                         "target": " nine",      "category": "multi-step-arithmetic"},
+  {"id": "multi-arith-2",     "prompt": "Five times two minus three equals",                       "target": " seven",     "category": "multi-step-arithmetic"},
+  {"id": "multi-arith-3",     "prompt": "Half of twenty equals",                                   "target": " ten",       "category": "multi-step-arithmetic"},
+  {"id": "multi-arith-4",     "prompt": "One hundred divided by ten equals",                       "target": " ten",       "category": "multi-step-arithmetic"},
+
+  {"id": "pronoun-she",       "prompt": "Alice went to the store. After she finished shopping,",   "target": " she",       "category": "pronoun"},
+  {"id": "pronoun-he",        "prompt": "Bob took the train to work. When he arrived at the office,", "target": " he",     "category": "pronoun"},
+  {"id": "pronoun-it",        "prompt": "The package arrived on Monday. By Tuesday, it was already",   "target": " open",   "category": "pronoun"},
+  {"id": "pronoun-they",      "prompt": "The children played outside. After lunch, they all went",     "target": " inside", "category": "pronoun"},
+
+  {"id": "summary-intro-1",   "prompt": "This article discusses the importance of regular exercise. In summary, exercise is", "target": " important", "category": "summarization-opener"},
+  {"id": "summary-intro-2",   "prompt": "The report describes the company's quarterly performance. Overall, the company has", "target": " performed", "category": "summarization-opener"},
+  {"id": "summary-intro-3",   "prompt": "The study examined the effects of sleep on memory. The main finding is that sleep", "target": " improves",  "category": "summarization-opener"},
+  {"id": "summary-intro-4",   "prompt": "The paper presents new research on climate change. The authors conclude that the planet is", "target": " warming", "category": "summarization-opener"}
+]

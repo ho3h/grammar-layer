@@ -1,0 +1,14 @@
+[
+  "circuit/gemma/capital-fr/Paris",
+  "circuit/gemma/capital-jp/Tokyo",
+  "circuit/gemma/capital-de/Berlin",
+  "circuit/gemma/capital-it/Rome",
+  "circuit/gemma/weekday-mon-tue/Tuesday",
+  "circuit/gemma/weekday-wed-thu/Thursday",
+  "circuit/gemma/weekday-fri-sat/Saturday",
+  "circuit/gemma/math-2plus2/four",
+  "circuit/gemma/math-3times3/nine",
+  "circuit/gemma/named-einstein/physicist",
+  "circuit/gemma/named-shakespeare/play",
+  "circuit/gemma/syntax-dog/cat"
+]

@@ -1,0 +1,95 @@
+{
+  "p1_neo4j": {
+    "gds": "2026.04.0",
+    "apoc": "2026.03.1"
+  },
+  "p1_vector_indexes": {
+    "n": 4
+  },
+  "p2_features": {
+    "nf": 16384,
+    "na": 16383,
+    "np": 10526,
+    "nact": 4645883
+  },
+  "p3_relations": {
+    "n_co": 271854,
+    "n_dec": 524288,
+    "n_lab": 524256,
+    "n_communities": 18
+  },
+  "p4_manifolds": {
+    "n_mf": 18,
+    "n_wp": 288,
+    "avg_resid": 0.23516189708606197,
+    "n_concepts": 18
+  },
+  "p4_rhyme": {
+    "nmi": 0.0003352593239849409,
+    "matched": 12,
+    "total_in_sae": 12,
+    "n_features_scored": 16383,
+    "goodfire_community_counts": {
+      "8": 3,
+      "22": 2,
+      "1": 1,
+      "3": 1,
+      "4": 1
+    },
+    "top_community_id": 8,
+    "top_community_labels": [
+      "technical jargon and programming-related terms",
+      "keywords and terms related to functionality and usability in various contexts",
+      "phrases and code snippets related to programming errors and exceptions",
+      "concepts related to technical implementations and structures in programming",
+      "programming language keywords and import statements",
+      "references to programming concepts and structures, particularly in the context of coding and software development",
+      "references to programming concepts and structure in the context of a library or framework",
+      "keywords related to tools, specifically those associated with creation and automation",
+      "references to the structure and functionality of programming constructs in code",
+      "API-related terms and references in technical documentation",
+      "technical terms related to data analysis or programming",
+      "terms related to data management and analysis approaches",
+      "structure in programming code or documentation",
+      "instances and definitions related to the 'delete' function in programming, particularly in JavaScript",
+      "identifiers and references commonly used in programming, particularly related to data structures and formats",
+      "conditional statements and function definitions in programming code",
+      "terms related to technical programming or markup syntax",
+      "specific syntax or variable patterns typically found in programming or data structures",
+      "elements related to logging and testing code structures",
+      "programming elements related to structures or syntax",
+      "specific programming language constructs or code snippets",
+      "output statements and prompts in a program",
+      "components of code related to Java and C++ imports and class declarations",
+      "instances of formal tokens or tags often used in programming or markup languages",
+      "occurrences of function calls in programming syntax",
+      "programming syntax related to conditional statements and functions",
+      "programming language syntax and structure, particularly related to methods and types",
+      "instances of loop constructs in code, particularly 'foreach' statements",
+      "methods related to converting data types to strings",
+      "text formatted as code or programming language syntax"
+    ]
+  },
+  "p6_steering": {
+    "baseline": {
+      "target_hit_rate": 0.42857142857142855,
+      "avg_log_p_target": -2.4950050164442286,
+      "avg_log_p_day_total": -0.5146161489923968,
+      "n": 7
+    },
+    "linear": {
+      "target_hit_rate": 1.0,
+      "avg_log_p_target": -0.42930168562874677,
+      "avg_log_p_day_total": -0.3973578331225661,
+      "n": 7
+    },
+    "manifold": {
+      "target_hit_rate": 1.0,
+      "avg_log_p_target": -0.6629294230365848,
+      "avg_log_p_day_total": -0.38640588198959813,
+      "n": 7
+    },
+    "manifold_vs_linear_hit_ratio": 1.0,
+    "entropy_delta_nat": 0.010951951132967985
+  }
+}

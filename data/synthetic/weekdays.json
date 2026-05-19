@@ -1,0 +1,20 @@
+{
+  "concept": "temporal:days-of-week",
+  "description": "Days-of-week manifold (Engels et al. 2024) — cyclic 7-point structure.",
+  "days": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
+  "templates": [
+    "Two days from {day} is ",
+    "Three days from {day} is ",
+    "Four days from {day} is ",
+    "Five days from {day} is ",
+    "One day after {day} is ",
+    "The day before {day} is ",
+    "What day comes after {day}? ",
+    "What day comes before {day}? ",
+    "What day comes 2 days after {day}? ",
+    "What day comes 5 days after {day}? ",
+    "Today is {day}. Tomorrow is ",
+    "If today is {day}, then in 3 days it will be ",
+    "Yesterday was {day}, today is "
+  ]
+}

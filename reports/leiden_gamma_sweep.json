@@ -1,0 +1,72 @@
+[
+  {
+    "gamma": 1.0,
+    "n_communities": 18,
+    "anchors_in_range": 12,
+    "anchor_communities_distinct": 8,
+    "anchor_top_community": [
+      7,
+      3
+    ],
+    "anchor_in_top_community": 3,
+    "nmi": 0.00037369409850975,
+    "modularity": 0.4693113986796591,
+    "leiden_community_count": 17
+  },
+  {
+    "gamma": 2.0,
+    "n_communities": 71,
+    "anchors_in_range": 12,
+    "anchor_communities_distinct": 9,
+    "anchor_top_community": [
+      3,
+      2
+    ],
+    "anchor_in_top_community": 2,
+    "nmi": 0.0005645845628940738,
+    "modularity": 0.42394610651278414,
+    "leiden_community_count": 50
+  },
+  {
+    "gamma": 3.0,
+    "n_communities": 106,
+    "anchors_in_range": 12,
+    "anchor_communities_distinct": 9,
+    "anchor_top_community": [
+      24,
+      2
+    ],
+    "anchor_in_top_community": 2,
+    "nmi": 0.0006681625889064059,
+    "modularity": 0.400730892853886,
+    "leiden_community_count": 83
+  },
+  {
+    "gamma": 4.0,
+    "n_communities": 112,
+    "anchors_in_range": 12,
+    "anchor_communities_distinct": 11,
+    "anchor_top_community": [
+      1,
+      2
+    ],
+    "anchor_in_top_community": 2,
+    "nmi": 0.0006484200768426959,
+    "modularity": 0.38256955567228973,
+    "leiden_community_count": 103
+  },
+  {
+    "gamma": 6.0,
+    "n_communities": 147,
+    "anchors_in_range": 12,
+    "anchor_communities_distinct": 11,
+    "anchor_top_community": [
+      137,
+      2
+    ],
+    "anchor_in_top_community": 2,
+    "nmi": 0.0006670809907891754,
+    "modularity": 0.3548911462185937,
+    "leiden_community_count": 136
+  }
+]

@@ -1,0 +1,170 @@
+[
+  {
+    "direction": "Monday\u2192Tuesday",
+    "method": "baseline",
+    "target": "Tuesday",
+    "log_p_target": -0.6130442464989949,
+    "log_p_day_total": -0.43019560114563443,
+    "target_hit": true
+  },
+  {
+    "direction": "Monday\u2192Tuesday",
+    "method": "linear",
+    "target": "Tuesday",
+    "log_p_target": -0.5888997094337294,
+    "log_p_day_total": -0.5564869326951164,
+    "target_hit": true
+  },
+  {
+    "direction": "Monday\u2192Tuesday",
+    "method": "manifold",
+    "target": "Tuesday",
+    "log_p_target": -0.4818498716519454,
+    "log_p_day_total": -0.32820342469039393,
+    "target_hit": true
+  },
+  {
+    "direction": "Monday\u2192Wednesday",
+    "method": "baseline",
+    "target": "Wednesday",
+    "log_p_target": -3.510571893821738,
+    "log_p_day_total": -0.43019560114563443,
+    "target_hit": false
+  },
+  {
+    "direction": "Monday\u2192Wednesday",
+    "method": "linear",
+    "target": "Wednesday",
+    "log_p_target": -0.19656159430523015,
+    "log_p_day_total": -0.12569314224235426,
+    "target_hit": true
+  },
+  {
+    "direction": "Monday\u2192Wednesday",
+    "method": "manifold",
+    "target": "Wednesday",
+    "log_p_target": -0.8390449965677969,
+    "log_p_day_total": -0.37938192069387333,
+    "target_hit": true
+  },
+  {
+    "direction": "Monday\u2192Friday",
+    "method": "baseline",
+    "target": "Friday",
+    "log_p_target": -4.36792518604086,
+    "log_p_day_total": -0.43019560114563443,
+    "target_hit": false
+  },
+  {
+    "direction": "Monday\u2192Friday",
+    "method": "linear",
+    "target": "Friday",
+    "log_p_target": -0.12413619762898412,
+    "log_p_day_total": -0.12400789595116628,
+    "target_hit": true
+  },
+  {
+    "direction": "Monday\u2192Friday",
+    "method": "manifold",
+    "target": "Friday",
+    "log_p_target": -0.7855044460203575,
+    "log_p_day_total": -0.3598975588469895,
+    "target_hit": true
+  },
+  {
+    "direction": "Tuesday\u2192Wednesday",
+    "method": "baseline",
+    "target": "Wednesday",
+    "log_p_target": -0.6227836426745141,
+    "log_p_day_total": -0.40618220251477855,
+    "target_hit": true
+  },
+  {
+    "direction": "Tuesday\u2192Wednesday",
+    "method": "linear",
+    "target": "Wednesday",
+    "log_p_target": -0.3289553030745632,
+    "log_p_day_total": -0.21835937616347995,
+    "target_hit": true
+  },
+  {
+    "direction": "Tuesday\u2192Wednesday",
+    "method": "manifold",
+    "target": "Wednesday",
+    "log_p_target": -0.5396226817524367,
+    "log_p_day_total": -0.3161228558742338,
+    "target_hit": true
+  },
+  {
+    "direction": "Wednesday\u2192Friday",
+    "method": "baseline",
+    "target": "Friday",
+    "log_p_target": -2.9913042873488,
+    "log_p_day_total": -0.5359221282895229,
+    "target_hit": false
+  },
+  {
+    "direction": "Wednesday\u2192Friday",
+    "method": "linear",
+    "target": "Friday",
+    "log_p_target": -0.518391338018994,
+    "log_p_day_total": -0.5135884417031362,
+    "target_hit": true
+  },
+  {
+    "direction": "Wednesday\u2192Friday",
+    "method": "manifold",
+    "target": "Friday",
+    "log_p_target": -0.6318714672899439,
+    "log_p_day_total": -0.3605258372916662,
+    "target_hit": true
+  },
+  {
+    "direction": "Friday\u2192Monday",
+    "method": "baseline",
+    "target": "Monday",
+    "log_p_target": -4.596508438779086,
+    "log_p_day_total": -0.7227641074291921,
+    "target_hit": false
+  },
+  {
+    "direction": "Friday\u2192Monday",
+    "method": "linear",
+    "target": "Monday",
+    "log_p_target": -0.4779925327524355,
+    "log_p_day_total": -0.4776558455774893,
+    "target_hit": true
+  },
+  {
+    "direction": "Friday\u2192Monday",
+    "method": "manifold",
+    "target": "Monday",
+    "log_p_target": -0.8829373876948772,
+    "log_p_day_total": -0.5517755614507261,
+    "target_hit": true
+  },
+  {
+    "direction": "Sunday\u2192Monday",
+    "method": "baseline",
+    "target": "Monday",
+    "log_p_target": -0.7628974199456108,
+    "log_p_day_total": -0.6468578012763809,
+    "target_hit": true
+  },
+  {
+    "direction": "Sunday\u2192Monday",
+    "method": "linear",
+    "target": "Monday",
+    "log_p_target": -0.7701751241872913,
+    "log_p_day_total": -0.7657131975252206,
+    "target_hit": true
+  },
+  {
+    "direction": "Sunday\u2192Monday",
+    "method": "manifold",
+    "target": "Monday",
+    "log_p_target": -0.47967511027873616,
+    "log_p_day_total": -0.40893401507930405,
+    "target_hit": true
+  }
+]

@@ -1,0 +1,1328 @@
+{
+  "L4": {
+    "multi_circuit": [
+      {
+        "feature": 20731,
+        "n_circuits": 11,
+        "total_attr": -0.14817523956298828,
+        "mean_abs_attr": 0.1325145201249556,
+        "circuits": [
+          "capital-fr",
+          "capital-jp",
+          "capital-de",
+          "capital-it",
+          "weekday-mon-tue",
+          "weekday-wed-thu",
+          "weekday-fri-sat",
+          "math-2plus2",
+          "math-3times3",
+          "named-einstein",
+          "named-shakespeare"
+        ],
+        "max_magnitude": 2.376619338989258,
+        "label": "numerical information such as dates, statistics, and rankings"
+      },
+      {
+        "feature": 24272,
+        "n_circuits": 9,
+        "total_attr": -0.5267200469970703,
+        "mean_abs_attr": 0.1507502661810981,
+        "circuits": [
+          "capital-fr",
+          "capital-jp",
+          "capital-de",
+          "capital-it",
+          "weekday-mon-tue",
+          "weekday-wed-thu",
+          "weekday-fri-sat",
+          "math-2plus2",
+          "math-3times3"
+        ],
+        "max_magnitude": 3.821319818496704,
+        "label": "words related to specific activities and tasks performed voluntarily and without pay"
+      },
+      {
+        "feature": 17808,
+        "n_circuits": 9,
+        "total_attr": 0.31868457794189453,
+        "mean_abs_attr": 0.03815322452121311,
+        "circuits": [
+          "capital-fr",
+          "capital-jp",
+          "capital-de",
+          "capital-it",
+          "weekday-mon-tue",
+          "weekday-wed-thu",
+          "weekday-fri-sat",
+          "named-einstein",
+          "named-shakespeare"
+        ],
+        "max_magnitude": 0.7175122499465942,
+        "label": "information related to events and happenings"
+      },
+      {
+        "feature": 19673,
+        "n_circuits": 7,
+        "total_attr": 4.008623123168945,
+        "mean_abs_attr": 0.5726604461669922,
+        "circuits": [
+          "capital-fr",
+          "capital-jp",
+          "capital-de",
+          "capital-it",
+          "weekday-mon-tue",
+          "weekday-wed-thu",
+          "weekday-fri-sat"
+        ],
+        "max_magnitude": 7.674427509307861,
+        "label": "phrases indicating certainty or assurance"
+      },
+      {
+        "feature": 5424,
+        "n_circuits": 7,
+        "total_attr": 3.739349365234375,
+        "mean_abs_attr": 0.5382289886474609,
+        "circuits": [
+          "capital-fr",
+          "capital-jp",
+          "capital-de",
+          "capital-it",
+          "weekday-mon-tue",
+          "weekday-wed-thu",
+          "weekday-fri-sat"
+        ],
+        "max_magnitude": 6.894533634185791,
+        "label": "important or notable events or accomplishments"
+      },
+      {
+        "feature": 11499,
+        "n_circuits": 7,
+        "total_attr": -2.03800106048584,
+        "mean_abs_attr": 0.29114300864083426,
+        "circuits": [
+          "capital-fr",
+          "capital-jp",
+          "capital-de",
+          "capital-it",
+          "weekday-mon-tue",
+          "weekday-wed-thu",
+          "weekday-fri-sat"
+        ],
+        "max_magnitude": 5.69280481338501,
+        "label": "names of people and locations"
+      },
+      {
+        "feature": 1486,
+        "n_circuits": 7,
+        "total_attr": 1.1398811340332031,
+        "mean_abs_attr": 0.2552462986537388,
+        "circuits": [
+          "capital-fr",
+          "capital-jp",
+          "capital-de",
+          "capital-it",
+          "weekday-mon-tue",
+          "weekday-wed-thu",
+          "weekday-fri-sat"
+        ],
+        "max_magnitude": 6.643216133117676,
+        "label": "phrases related to personal names and titles"
+      },
+      {
+        "feature": 12121,
+        "n_circuits": 7,
+        "total_attr": 1.3567352294921875,
+        "mean_abs_attr": 0.19797570364815847,
+        "circuits": [
+          "capital-fr",
+          "capital-jp",
+          "capital-de",
+          "capital-it",
+          "weekday-mon-tue",
+          "weekday-wed-thu",
+          "weekday-fri-sat"
+        ],
+        "max_magnitude": 2.2890851497650146,
+        "label": "phrases related to moral judgment or evaluation"
+      },
+      {
+        "feature": 19299,
+        "n_circuits": 7,
+        "total_attr": -0.2899503707885742,
+        "mean_abs_attr": 0.17367512839181082,
+        "circuits": [
+          "capital-fr",
+          "capital-jp",
+          "capital-de",
+          "capital-it",
+          "math-2plus2",
+          "math-3times3",
+          "syntax-dog"
+        ],
+        "max_magnitude": 1.6401114463806152,
+        "label": "reasons or justifications for various actions or situations"
+      },
+      {
+        "feature": 23303,
+        "n_circuits": 7,
+        "total_attr": 0.7942085266113281,
+        "mean_abs_attr": 0.11345836094447545,
+        "circuits": [
+          "capital-fr",
+          "capital-jp",
+          "capital-de",
+          "capital-it",
+          "weekday-mon-tue",
+          "weekday-wed-thu",
+          "weekday-fri-sat"
+        ],
+        "max_magnitude": 4.229604721069336,
+        "label": "passive verbs combined with objects or actions"
+      },
+      {
+        "feature": 6171,
+        "n_circuits": 7,
+        "total_attr": -0.025289535522460938,
+        "mean_abs_attr": 0.07321221487862724,
+        "circuits": [
+          "capital-fr",
+          "capital-jp",
+          "capital-de",
+          "capital-it",
+          "named-einstein",
+          "named-shakespeare",
+          "syntax-dog"
+        ],
+        "max_magnitude": 2.6875336170196533,
+        "label": "terms related to government actions and policies"
+      },
+      {
+        "feature": 7872,
+        "n_circuits": 7,
+        "total_attr": -0.1367483139038086,
+        "mean_abs_attr": 0.02705097198486328,
+        "circuits": [
+          "capital-fr",
+          "capital-jp",
+          "capital-de",
+          "capital-it",
+          "named-einstein",
+          "named-shakespeare",
+          "syntax-dog"
+        ],
+        "max_magnitude": 1.398586630821228,
+        "label": "phrases related to crime and legal proceedings"
+      },
+      {
+        "feature": 13285,
+        "n_circuits": 6,
+        "total_attr": -0.06580448150634766,
+        "mean_abs_attr": 0.01885048548380534,
+        "circuits": [
+          "capital-fr",
+          "capital-jp",
+          "capital-de",
+          "weekday-mon-tue",
+          "weekday-wed-thu",
+          "weekday-fri-sat"
+        ],
+        "max_magnitude": 0.6734111905097961,
+        "label": "statements that are affirming or assertive"
+      },
+      {
+        "feature": 5610,
+        "n_circuits": 6,
+        "total_attr": -0.006934165954589844,
+        "mean_abs_attr": 0.008662064870198568,
+        "circuits": [
+          "weekday-mon-tue",
+          "weekday-wed-thu",
+          "weekday-fri-sat",
+          "math-2plus2",
+          "math-3times3",
+          "syntax-dog"
+        ],
+        "max_magnitude": 0.6971909403800964,
+        "label": "words related to technical terms or programming syntax"
+      },
+      {
+        "feature": 21400,
+        "n_circuits": 5,
+        "total_attr": -0.2356090545654297,
+        "mean_abs_attr": 0.17873802185058593,
+        "circuits": [
+          "weekday-mon-tue",
+          "weekday-wed-thu",
+          "weekday-fri-sat",
+          "math-2plus2",
+          "math-3times3"
+        ],
+        "max_magnitude": 2.754575252532959,
+        "label": "copyright and legal terms"
+      },
+      {
+        "feature": 16105,
+        "n_circuits": 5,
+        "total_attr": 0.07281494140625,
+        "mean_abs_attr": 0.028247833251953125,
+        "circuits": [
+          "capital-fr",
+          "capital-jp",
+          "capital-de",
+          "capital-it",
+          "syntax-dog"
+        ],
+        "max_magnitude": 0.8910337686538696,
+        "label": "information related to crime and violence"
+      },
+      {
+        "feature": 3567,
+        "n_circuits": 5,
+        "total_attr": -0.011391639709472656,
+        "mean_abs_attr": 0.006665611267089843,
+        "circuits": [
+          "weekday-mon-tue",
+          "weekday-wed-thu",
+          "weekday-fri-sat",
+          "named-einstein",
+          "named-shakespeare"
+        ],
+        "max_magnitude": 0.20843234658241272,
+        "label": "prepositions followed by verbs related to actions or processes"
+      },
+      {
+        "feature": 21793,
+        "n_circuits": 4,
+        "total_attr": -1.8966560363769531,
+        "mean_abs_attr": 0.4741640090942383,
+        "circuits": [
+          "capital-fr",
+          "capital-jp",
+          "capital-de",
+          "capital-it"
+        ],
+        "max_magnitude": 2.5772199630737305,
+        "label": "news-related sentences containing verbs indicating actions or events"
+      },
+      {
+        "feature": 5614,
+        "n_circuits": 4,
+        "total_attr": -1.8891868591308594,
+        "mean_abs_attr": 0.47229671478271484,
+        "circuits": [
+          "capital-fr",
+          "capital-jp",
+          "capital-de",
+          "capital-it"
+        ],
+        "max_magnitude": 4.407215118408203,
+        "label": "references to the United States and its actions or characteristics"
+      },
+      {
+        "feature": 8464,
+        "n_circuits": 4,
+        "total_attr": 1.3636817932128906,
+        "mean_abs_attr": 0.34092044830322266,
+        "circuits": [
+          "capital-fr",
+          "capital-jp",
+          "capital-de",
+          "capital-it"
+        ],
+        "max_magnitude": 2.8833181858062744,
+        "label": "financial terms related to capital"
+      },
+      {
+        "feature": 3815,
+        "n_circuits": 4,
+        "total_attr": -1.0807981491088867,
+        "mean_abs_attr": 0.2701995372772217,
+        "circuits": [
+          "math-2plus2",
+          "math-3times3",
+          "named-einstein",
+          "named-shakespeare"
+        ],
+        "max_magnitude": 5.298682689666748
+      },
+      {
+        "feature": 14103,
+        "n_circuits": 4,
+        "total_attr": -0.6688804626464844,
+        "mean_abs_attr": 0.1672201156616211,
+        "circuits": [
+          "capital-fr",
+          "capital-jp",
+          "capital-de",
+          "capital-it"
+        ],
+        "max_magnitude": 1.5289082527160645
+      },
+      {
+        "feature": 18653,
+        "n_circuits": 4,
+        "total_attr": -0.661046028137207,
+        "mean_abs_attr": 0.16526150703430176,
+        "circuits": [
+          "math-2plus2",
+          "math-3times3",
+          "named-einstein",
+          "named-shakespeare"
+        ],
+        "max_magnitude": 2.302294969558716
+      },
+      {
+        "feature": 16808,
+        "n_circuits": 4,
+        "total_attr": 0.24613189697265625,
+        "mean_abs_attr": 0.08614826202392578,
+        "circuits": [
+          "weekday-mon-tue",
+          "weekday-wed-thu",
+          "weekday-fri-sat",
+          "math-3times3"
+        ],
+        "max_magnitude": 2.1402275562286377
+      },
+      {
+        "feature": 7407,
+        "n_circuits": 4,
+        "total_attr": -0.2707490921020508,
+        "mean_abs_attr": 0.0676872730255127,
+        "circuits": [
+          "capital-fr",
+          "capital-jp",
+          "capital-de",
+          "capital-it"
+        ],
+        "max_magnitude": 3.45890212059021
+      },
+      {
+        "feature": 19948,
+        "n_circuits": 4,
+        "total_attr": -0.1640462875366211,
+        "mean_abs_attr": 0.04101157188415527,
+        "circuits": [
+          "math-3times3",
+          "named-einstein",
+          "named-shakespeare",
+          "syntax-dog"
+        ],
+        "max_magnitude": 2.2073936462402344
+      },
+      {
+        "feature": 23668,
+        "n_circuits": 4,
+        "total_attr": 0.1340789794921875,
+        "mean_abs_attr": 0.033519744873046875,
+        "circuits": [
+          "capital-fr",
+          "capital-jp",
+          "capital-de",
+          "capital-it"
+        ],
+        "max_magnitude": 1.0236351490020752
+      },
+      {
+        "feature": 12040,
+        "n_circuits": 4,
+        "total_attr": 0.12345409393310547,
+        "mean_abs_attr": 0.030863523483276367,
+        "circuits": [
+          "capital-fr",
+          "capital-jp",
+          "capital-de",
+          "capital-it"
+        ],
+        "max_magnitude": 0.6006906032562256
+      },
+      {
+        "feature": 20502,
+        "n_circuits": 4,
+        "total_attr": -0.11996078491210938,
+        "mean_abs_attr": 0.029990196228027344,
+        "circuits": [
+          "capital-fr",
+          "capital-jp",
+          "capital-de",
+          "capital-it"
+        ],
+        "max_magnitude": 0.7472413182258606
+      },
+      {
+        "feature": 22710,
+        "n_circuits": 4,
+        "total_attr": -0.025193214416503906,
+        "mean_abs_attr": 0.027159929275512695,
+        "circuits": [
+          "capital-fr",
+          "capital-jp",
+          "capital-de",
+          "capital-it"
+        ],
+        "max_magnitude": 1.4240745306015015
+      }
+    ]
+  },
+  "L10": {
+    "multi_circuit": [
+      {
+        "feature": 23638,
+        "n_circuits": 9,
+        "total_attr": 0.10175514221191406,
+        "mean_abs_attr": 0.035704718695746526,
+        "circuits": [
+          "capital-fr",
+          "capital-jp",
+          "capital-de",
+          "capital-it",
+          "math-2plus2",
+          "math-3times3",
+          "named-einstein",
+          "named-shakespeare",
+          "syntax-dog"
+        ],
+        "max_magnitude": 8.32170581817627,
+        "label": "brand names and technical terms"
+      },
+      {
+        "feature": 15338,
+        "n_circuits": 7,
+        "total_attr": 0.39587879180908203,
+        "mean_abs_attr": 0.12292821066720146,
+        "circuits": [
+          "capital-fr",
+          "capital-jp",
+          "capital-de",
+          "capital-it",
+          "weekday-mon-tue",
+          "weekday-wed-thu",
+          "weekday-fri-sat"
+        ],
+        "max_magnitude": 15.320114135742188,
+        "label": "mentions of preferences or favorites"
+      },
+      {
+        "feature": 18643,
+        "n_circuits": 5,
+        "total_attr": -0.5112266540527344,
+        "mean_abs_attr": 0.10224533081054688,
+        "circuits": [
+          "weekday-mon-tue",
+          "weekday-wed-thu",
+          "weekday-fri-sat",
+          "math-2plus2",
+          "math-3times3"
+        ],
+        "max_magnitude": 6.737560272216797,
+        "label": "phrases related to legal matters and codes"
+      },
+      {
+        "feature": 13867,
+        "n_circuits": 5,
+        "total_attr": -0.2663002014160156,
+        "mean_abs_attr": 0.05326004028320312,
+        "circuits": [
+          "weekday-mon-tue",
+          "weekday-wed-thu",
+          "weekday-fri-sat",
+          "math-2plus2",
+          "math-3times3"
+        ],
+        "max_magnitude": 3.3178884983062744,
+        "label": "numbered lists or sequences"
+      },
+      {
+        "feature": 4198,
+        "n_circuits": 5,
+        "total_attr": -0.060957908630371094,
+        "mean_abs_attr": 0.012191581726074218,
+        "circuits": [
+          "capital-fr",
+          "capital-jp",
+          "capital-it",
+          "math-2plus2",
+          "math-3times3"
+        ],
+        "max_magnitude": 2.1579368114471436,
+        "label": "phrases indicating factual information or discussions"
+      },
+      {
+        "feature": 20371,
+        "n_circuits": 4,
+        "total_attr": -3.1449575424194336,
+        "mean_abs_attr": 0.7862393856048584,
+        "circuits": [
+          "capital-fr",
+          "capital-jp",
+          "capital-de",
+          "capital-it"
+        ],
+        "max_magnitude": 19.175460815429688,
+        "label": "news headlines related to people being urged, considering, suing, speaking out, issuing warnings, resigning, getting burned, calling on governments, undergoing pressure to resign, expecting to take action, being sued, and refusing to support"
+      },
+      {
+        "feature": 16834,
+        "n_circuits": 4,
+        "total_attr": -1.775395393371582,
+        "mean_abs_attr": 0.4438488483428955,
+        "circuits": [
+          "capital-fr",
+          "capital-jp",
+          "capital-de",
+          "capital-it"
+        ],
+        "max_magnitude": 9.975847244262695,
+        "label": "proper nouns and names"
+      },
+      {
+        "feature": 614,
+        "n_circuits": 4,
+        "total_attr": 1.187662124633789,
+        "mean_abs_attr": 0.29691553115844727,
+        "circuits": [
+          "capital-fr",
+          "capital-jp",
+          "capital-de",
+          "capital-it"
+        ],
+        "max_magnitude": 19.284589767456055,
+        "label": "specific locations and geographical features"
+      },
+      {
+        "feature": 14185,
+        "n_circuits": 4,
+        "total_attr": 1.0446395874023438,
+        "mean_abs_attr": 0.26115989685058594,
+        "circuits": [
+          "capital-fr",
+          "capital-jp",
+          "capital-de",
+          "capital-it"
+        ],
+        "max_magnitude": 4.13306999206543,
+        "label": "locations, specifically capital cities"
+      },
+      {
+        "feature": 659,
+        "n_circuits": 4,
+        "total_attr": 0.8940544128417969,
+        "mean_abs_attr": 0.22351360321044922,
+        "circuits": [
+          "capital-fr",
+          "capital-jp",
+          "capital-de",
+          "capital-it"
+        ],
+        "max_magnitude": 3.4923670291900635,
+        "label": "locations and destinations"
+      },
+      {
+        "feature": 13490,
+        "n_circuits": 4,
+        "total_attr": -0.860499382019043,
+        "mean_abs_attr": 0.21512484550476074,
+        "circuits": [
+          "capital-fr",
+          "capital-jp",
+          "capital-de",
+          "capital-it"
+        ],
+        "max_magnitude": 4.842739105224609,
+        "label": "words related to economic conditions and changes"
+      },
+      {
+        "feature": 6628,
+        "n_circuits": 4,
+        "total_attr": -0.810551643371582,
+        "mean_abs_attr": 0.2026379108428955,
+        "circuits": [
+          "capital-fr",
+          "capital-jp",
+          "capital-de",
+          "capital-it"
+        ],
+        "max_magnitude": 6.530150413513184,
+        "label": "sentences related to societal or industrial observations"
+      },
+      {
+        "feature": 5825,
+        "n_circuits": 4,
+        "total_attr": -0.6197547912597656,
+        "mean_abs_attr": 0.1549386978149414,
+        "circuits": [
+          "capital-fr",
+          "capital-jp",
+          "capital-de",
+          "capital-it"
+        ],
+        "max_magnitude": 5.971284866333008,
+        "label": "references to historical events, countries, and international political relations"
+      },
+      {
+        "feature": 20973,
+        "n_circuits": 4,
+        "total_attr": -0.556675910949707,
+        "mean_abs_attr": 0.13916897773742676,
+        "circuits": [
+          "capital-fr",
+          "capital-jp",
+          "capital-de",
+          "capital-it"
+        ],
+        "max_magnitude": 16.512147903442383,
+        "label": "countries and the specific entities that are situated in these countries"
+      },
+      {
+        "feature": 17023,
+        "n_circuits": 4,
+        "total_attr": -0.40923213958740234,
+        "mean_abs_attr": 0.10230803489685059,
+        "circuits": [
+          "capital-fr",
+          "capital-jp",
+          "capital-de",
+          "capital-it"
+        ],
+        "max_magnitude": 3.6932132244110107,
+        "label": "phrases related to government actions or investigations"
+      },
+      {
+        "feature": 17446,
+        "n_circuits": 4,
+        "total_attr": 0.3700227737426758,
+        "mean_abs_attr": 0.09250569343566895,
+        "circuits": [
+          "capital-fr",
+          "capital-jp",
+          "capital-de",
+          "capital-it"
+        ],
+        "max_magnitude": 4.946186065673828,
+        "label": "locations and geographic features"
+      },
+      {
+        "feature": 14717,
+        "n_circuits": 4,
+        "total_attr": -0.22369956970214844,
+        "mean_abs_attr": 0.05592489242553711,
+        "circuits": [
+          "capital-fr",
+          "capital-jp",
+          "capital-de",
+          "capital-it"
+        ],
+        "max_magnitude": 2.3484368324279785,
+        "label": "locations or cities"
+      },
+      {
+        "feature": 5221,
+        "n_circuits": 4,
+        "total_attr": -0.20987892150878906,
+        "mean_abs_attr": 0.052469730377197266,
+        "circuits": [
+          "weekday-mon-tue",
+          "weekday-wed-thu",
+          "weekday-fri-sat",
+          "math-3times3"
+        ],
+        "max_magnitude": 4.216220378875732,
+        "label": "references to technology components and specifications"
+      },
+      {
+        "feature": 12658,
+        "n_circuits": 4,
+        "total_attr": 0.1642313003540039,
+        "mean_abs_attr": 0.04105782508850098,
+        "circuits": [
+          "capital-fr",
+          "capital-jp",
+          "capital-de",
+          "capital-it"
+        ],
+        "max_magnitude": 2.932203531265259,
+        "label": "descriptions of urban development projects"
+      },
+      {
+        "feature": 8434,
+        "n_circuits": 4,
+        "total_attr": -0.14325904846191406,
+        "mean_abs_attr": 0.035814762115478516,
+        "circuits": [
+          "capital-fr",
+          "capital-jp",
+          "capital-de",
+          "capital-it"
+        ],
+        "max_magnitude": 1.873678207397461,
+        "label": "phrases that indicate investigation or evaluation of a situation"
+      },
+      {
+        "feature": 14810,
+        "n_circuits": 4,
+        "total_attr": 0.11211585998535156,
+        "mean_abs_attr": 0.02802896499633789,
+        "circuits": [
+          "capital-fr",
+          "capital-jp",
+          "capital-de",
+          "capital-it"
+        ],
+        "max_magnitude": 2.6544933319091797
+      },
+      {
+        "feature": 14923,
+        "n_circuits": 4,
+        "total_attr": 0.0986776351928711,
+        "mean_abs_attr": 0.024669408798217773,
+        "circuits": [
+          "capital-fr",
+          "capital-jp",
+          "capital-de",
+          "capital-it"
+        ],
+        "max_magnitude": 3.565498113632202
+      },
+      {
+        "feature": 9640,
+        "n_circuits": 4,
+        "total_attr": 0.06158447265625,
+        "mean_abs_attr": 0.021881580352783203,
+        "circuits": [
+          "capital-fr",
+          "capital-jp",
+          "capital-de",
+          "capital-it"
+        ],
+        "max_magnitude": 4.207906723022461
+      },
+      {
+        "feature": 8791,
+        "n_circuits": 4,
+        "total_attr": -0.0715789794921875,
+        "mean_abs_attr": 0.021631717681884766,
+        "circuits": [
+          "capital-fr",
+          "capital-jp",
+          "capital-de",
+          "capital-it"
+        ],
+        "max_magnitude": 4.214345455169678
+      },
+      {
+        "feature": 9117,
+        "n_circuits": 4,
+        "total_attr": -0.07444572448730469,
+        "mean_abs_attr": 0.018611431121826172,
+        "circuits": [
+          "capital-fr",
+          "capital-jp",
+          "capital-de",
+          "capital-it"
+        ],
+        "max_magnitude": 1.972166657447815
+      },
+      {
+        "feature": 4715,
+        "n_circuits": 4,
+        "total_attr": -0.047347068786621094,
+        "mean_abs_attr": 0.011836767196655273,
+        "circuits": [
+          "capital-fr",
+          "capital-jp",
+          "capital-de",
+          "capital-it"
+        ],
+        "max_magnitude": 4.293048858642578
+      },
+      {
+        "feature": 23502,
+        "n_circuits": 4,
+        "total_attr": 0.04049968719482422,
+        "mean_abs_attr": 0.010124921798706055,
+        "circuits": [
+          "capital-fr",
+          "capital-jp",
+          "capital-de",
+          "capital-it"
+        ],
+        "max_magnitude": 1.2332780361175537
+      },
+      {
+        "feature": 16963,
+        "n_circuits": 4,
+        "total_attr": -0.024329185485839844,
+        "mean_abs_attr": 0.009260892868041992,
+        "circuits": [
+          "capital-fr",
+          "capital-jp",
+          "capital-de",
+          "capital-it"
+        ],
+        "max_magnitude": 2.9611332416534424
+      },
+      {
+        "feature": 14774,
+        "n_circuits": 4,
+        "total_attr": -0.019249916076660156,
+        "mean_abs_attr": 0.004812479019165039,
+        "circuits": [
+          "capital-fr",
+          "capital-jp",
+          "capital-de",
+          "capital-it"
+        ],
+        "max_magnitude": 0.9844523072242737
+      },
+      {
+        "feature": 7294,
+        "n_circuits": 3,
+        "total_attr": 4.42677116394043,
+        "mean_abs_attr": 1.4755903879801433,
+        "circuits": [
+          "weekday-mon-tue",
+          "weekday-wed-thu",
+          "weekday-fri-sat"
+        ],
+        "max_magnitude": 23.674640655517578
+      }
+    ]
+  },
+  "L11": {
+    "multi_circuit": [
+      {
+        "feature": 7055,
+        "n_circuits": 11,
+        "total_attr": -1.0138092041015625,
+        "mean_abs_attr": 0.09216447310014204,
+        "circuits": [
+          "capital-fr",
+          "capital-jp",
+          "capital-de",
+          "capital-it",
+          "weekday-mon-tue",
+          "weekday-fri-sat",
+          "math-2plus2",
+          "math-3times3",
+          "named-einstein",
+          "named-shakespeare",
+          "syntax-dog"
+        ],
+        "max_magnitude": 12.041009902954102,
+        "label": "language related to coding, especially error messaging"
+      },
+      {
+        "feature": 7013,
+        "n_circuits": 10,
+        "total_attr": 0.3146324157714844,
+        "mean_abs_attr": 0.031463241577148436,
+        "circuits": [
+          "capital-fr",
+          "capital-jp",
+          "capital-de",
+          "capital-it",
+          "weekday-mon-tue",
+          "weekday-wed-thu",
+          "weekday-fri-sat",
+          "math-2plus2",
+          "math-3times3",
+          "named-einstein"
+        ],
+        "max_magnitude": 8.316051483154297,
+        "label": "The main thing this neuron does is find mentions of specific dates related to news events or announcements"
+      },
+      {
+        "feature": 15004,
+        "n_circuits": 7,
+        "total_attr": 0.25263500213623047,
+        "mean_abs_attr": 0.03609071459089007,
+        "circuits": [
+          "capital-fr",
+          "capital-jp",
+          "capital-de",
+          "capital-it",
+          "weekday-mon-tue",
+          "named-einstein",
+          "named-shakespeare"
+        ],
+        "max_magnitude": 3.863274335861206,
+        "label": "phrases related to personal experiences and coping mechanisms"
+      },
+      {
+        "feature": 2440,
+        "n_circuits": 7,
+        "total_attr": 0.1008310317993164,
+        "mean_abs_attr": 0.014404433114188058,
+        "circuits": [
+          "capital-fr",
+          "capital-jp",
+          "capital-de",
+          "capital-it",
+          "named-einstein",
+          "named-shakespeare",
+          "syntax-dog"
+        ],
+        "max_magnitude": 3.5263915061950684,
+        "label": "numbers and locations in texts"
+      },
+      {
+        "feature": 8877,
+        "n_circuits": 6,
+        "total_attr": -0.10333919525146484,
+        "mean_abs_attr": 0.017223199208577473,
+        "circuits": [
+          "weekday-mon-tue",
+          "weekday-wed-thu",
+          "weekday-fri-sat",
+          "math-2plus2",
+          "math-3times3",
+          "syntax-dog"
+        ],
+        "max_magnitude": 4.819798469543457,
+        "label": "phrases related to computing and data technology"
+      },
+      {
+        "feature": 21508,
+        "n_circuits": 5,
+        "total_attr": 0.06543445587158203,
+        "mean_abs_attr": 0.030729103088378906,
+        "circuits": [
+          "capital-fr",
+          "capital-de",
+          "capital-it",
+          "math-2plus2",
+          "math-3times3"
+        ],
+        "max_magnitude": 7.431258201599121,
+        "label": "quantitative comparisons of quantities"
+      },
+      {
+        "feature": 1379,
+        "n_circuits": 5,
+        "total_attr": 0.025162696838378906,
+        "mean_abs_attr": 0.009858512878417968,
+        "circuits": [
+          "capital-fr",
+          "capital-jp",
+          "capital-de",
+          "capital-it",
+          "weekday-wed-thu"
+        ],
+        "max_magnitude": 7.048755645751953,
+        "label": "instances where something is described as the best or most valuable of its kind"
+      },
+      {
+        "feature": 891,
+        "n_circuits": 4,
+        "total_attr": -2.4529247283935547,
+        "mean_abs_attr": 0.6132311820983887,
+        "circuits": [
+          "capital-fr",
+          "capital-jp",
+          "capital-de",
+          "capital-it"
+        ],
+        "max_magnitude": 21.84406852722168,
+        "label": "names of individuals or entities being involved with certain actions or events"
+      },
+      {
+        "feature": 18127,
+        "n_circuits": 4,
+        "total_attr": -2.0503902435302734,
+        "mean_abs_attr": 0.5125975608825684,
+        "circuits": [
+          "capital-fr",
+          "capital-jp",
+          "capital-de",
+          "capital-it"
+        ],
+        "max_magnitude": 26.29918098449707,
+        "label": "information related to companies and events that could affect them"
+      },
+      {
+        "feature": 3168,
+        "n_circuits": 4,
+        "total_attr": 1.541550636291504,
+        "mean_abs_attr": 0.385387659072876,
+        "circuits": [
+          "capital-fr",
+          "capital-jp",
+          "capital-de",
+          "capital-it"
+        ],
+        "max_magnitude": 27.864553451538086,
+        "label": "places or locations"
+      },
+      {
+        "feature": 3341,
+        "n_circuits": 4,
+        "total_attr": -0.8844623565673828,
+        "mean_abs_attr": 0.2211155891418457,
+        "circuits": [
+          "capital-fr",
+          "capital-jp",
+          "capital-de",
+          "capital-it"
+        ],
+        "max_magnitude": 11.359225273132324,
+        "label": "verbs or phrases depicting a sense of urgency or critical situations"
+      },
+      {
+        "feature": 1892,
+        "n_circuits": 4,
+        "total_attr": 0.7075290679931641,
+        "mean_abs_attr": 0.17688226699829102,
+        "circuits": [
+          "capital-fr",
+          "capital-jp",
+          "capital-de",
+          "capital-it"
+        ],
+        "max_magnitude": 3.754465341567993,
+        "label": "phrases related to urban settings and city activities"
+      },
+      {
+        "feature": 17671,
+        "n_circuits": 4,
+        "total_attr": 0.6396827697753906,
+        "mean_abs_attr": 0.15992069244384766,
+        "circuits": [
+          "capital-fr",
+          "capital-jp",
+          "capital-de",
+          "capital-it"
+        ],
+        "max_magnitude": 4.250812530517578,
+        "label": "locations or regions around the world"
+      },
+      {
+        "feature": 11157,
+        "n_circuits": 4,
+        "total_attr": 0.5530366897583008,
+        "mean_abs_attr": 0.1382591724395752,
+        "circuits": [
+          "capital-fr",
+          "capital-jp",
+          "capital-de",
+          "capital-it"
+        ],
+        "max_magnitude": 11.231691360473633,
+        "label": "locations or entities along with information related to those places or organizations"
+      },
+      {
+        "feature": 5603,
+        "n_circuits": 4,
+        "total_attr": -0.30295562744140625,
+        "mean_abs_attr": 0.07573890686035156,
+        "circuits": [
+          "capital-fr",
+          "capital-jp",
+          "capital-de",
+          "capital-it"
+        ],
+        "max_magnitude": 5.283924102783203,
+        "label": "phrases related to government actions and policies"
+      },
+      {
+        "feature": 2208,
+        "n_circuits": 4,
+        "total_attr": 0.291748046875,
+        "mean_abs_attr": 0.07293701171875,
+        "circuits": [
+          "capital-fr",
+          "capital-jp",
+          "capital-de",
+          "capital-it"
+        ],
+        "max_magnitude": 7.597256660461426,
+        "label": "words related to buildings, locations, and real estate"
+      },
+      {
+        "feature": 7678,
+        "n_circuits": 4,
+        "total_attr": -0.23736286163330078,
+        "mean_abs_attr": 0.059340715408325195,
+        "circuits": [
+          "capital-fr",
+          "capital-jp",
+          "capital-de",
+          "capital-it"
+        ],
+        "max_magnitude": 6.389580726623535,
+        "label": "mentions of different countries and their relationships or characteristics"
+      },
+      {
+        "feature": 265,
+        "n_circuits": 4,
+        "total_attr": 0.23163795471191406,
+        "mean_abs_attr": 0.057909488677978516,
+        "circuits": [
+          "capital-fr",
+          "capital-jp",
+          "capital-de",
+          "capital-it"
+        ],
+        "max_magnitude": 6.446544647216797,
+        "label": "proper nouns, such as names of people and places"
+      },
+      {
+        "feature": 18425,
+        "n_circuits": 4,
+        "total_attr": 0.22455120086669922,
+        "mean_abs_attr": 0.056137800216674805,
+        "circuits": [
+          "capital-fr",
+          "capital-jp",
+          "capital-de",
+          "capital-it"
+        ],
+        "max_magnitude": 4.267421245574951,
+        "label": "topics related to political conflicts and military actions"
+      },
+      {
+        "feature": 16478,
+        "n_circuits": 4,
+        "total_attr": -0.2193460464477539,
+        "mean_abs_attr": 0.05483651161193848,
+        "circuits": [
+          "capital-fr",
+          "capital-jp",
+          "capital-de",
+          "capital-it"
+        ],
+        "max_magnitude": 5.402020454406738,
+        "label": "passages related to legal or regulatory matters"
+      },
+      {
+        "feature": 12129,
+        "n_circuits": 4,
+        "total_attr": 0.16738128662109375,
+        "mean_abs_attr": 0.04830598831176758,
+        "circuits": [
+          "capital-fr",
+          "capital-jp",
+          "capital-de",
+          "capital-it"
+        ],
+        "max_magnitude": 14.769003868103027
+      },
+      {
+        "feature": 10044,
+        "n_circuits": 4,
+        "total_attr": 0.1832103729248047,
+        "mean_abs_attr": 0.04580259323120117,
+        "circuits": [
+          "capital-fr",
+          "capital-jp",
+          "capital-de",
+          "capital-it"
+        ],
+        "max_magnitude": 8.091791152954102
+      },
+      {
+        "feature": 21154,
+        "n_circuits": 4,
+        "total_attr": -0.16578292846679688,
+        "mean_abs_attr": 0.04144573211669922,
+        "circuits": [
+          "capital-fr",
+          "capital-jp",
+          "capital-de",
+          "capital-it"
+        ],
+        "max_magnitude": 8.174080848693848
+      },
+      {
+        "feature": 189,
+        "n_circuits": 4,
+        "total_attr": 0.15520954132080078,
+        "mean_abs_attr": 0.038802385330200195,
+        "circuits": [
+          "capital-fr",
+          "capital-jp",
+          "capital-de",
+          "capital-it"
+        ],
+        "max_magnitude": 2.376166343688965
+      },
+      {
+        "feature": 12023,
+        "n_circuits": 4,
+        "total_attr": 0.1485128402709961,
+        "mean_abs_attr": 0.03712821006774902,
+        "circuits": [
+          "capital-fr",
+          "capital-de",
+          "capital-it",
+          "weekday-mon-tue"
+        ],
+        "max_magnitude": 1.5080995559692383
+      },
+      {
+        "feature": 8498,
+        "n_circuits": 4,
+        "total_attr": 0.07197284698486328,
+        "mean_abs_attr": 0.03261399269104004,
+        "circuits": [
+          "capital-fr",
+          "capital-jp",
+          "capital-de",
+          "capital-it"
+        ],
+        "max_magnitude": 8.718925476074219
+      },
+      {
+        "feature": 1195,
+        "n_circuits": 4,
+        "total_attr": 0.11943340301513672,
+        "mean_abs_attr": 0.02985835075378418,
+        "circuits": [
+          "capital-fr",
+          "capital-jp",
+          "capital-de",
+          "capital-it"
+        ],
+        "max_magnitude": 3.544191837310791
+      },
+      {
+        "feature": 20734,
+        "n_circuits": 4,
+        "total_attr": -0.11397838592529297,
+        "mean_abs_attr": 0.028494596481323242,
+        "circuits": [
+          "capital-fr",
+          "capital-jp",
+          "capital-de",
+          "capital-it"
+        ],
+        "max_magnitude": 5.222609043121338
+      },
+      {
+        "feature": 20064,
+        "n_circuits": 4,
+        "total_attr": 0.10730266571044922,
+        "mean_abs_attr": 0.026825666427612305,
+        "circuits": [
+          "capital-fr",
+          "capital-jp",
+          "capital-de",
+          "capital-it"
+        ],
+        "max_magnitude": 1.4076716899871826
+      },
+      {
+        "feature": 3097,
+        "n_circuits": 4,
+        "total_attr": -0.09569644927978516,
+        "mean_abs_attr": 0.02392411231994629,
+        "circuits": [
+          "capital-fr",
+          "capital-jp",
+          "capital-de",
+          "capital-it"
+        ],
+        "max_magnitude": 4.4495697021484375
+      }
+    ]
+  }
+}

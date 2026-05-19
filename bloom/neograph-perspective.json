@@ -1,0 +1,69 @@
+{
+  "id": "neograph-default",
+  "name": "Neograph default",
+  "categories": [
+    {
+      "id": "saefeature",
+      "name": "SAEFeature",
+      "labels": ["SAEFeature"],
+      "size": {"property": "activation_density", "scale": "log"},
+      "color": {"property": "communityId", "scheme": "categorical"},
+      "captions": [
+        {"property": "index", "show": true},
+        {"property": "activation_density", "show": false}
+      ]
+    },
+    {
+      "id": "manifold",
+      "name": "Manifold",
+      "labels": ["Manifold"],
+      "size": 36,
+      "color": "#d62728",
+      "captions": [{"property": "id", "show": true}]
+    },
+    {
+      "id": "waypoint",
+      "name": "Waypoint",
+      "labels": ["Waypoint"],
+      "size": 18,
+      "color": "#ff7f0e",
+      "captions": [{"property": "arc_position", "show": true}]
+    },
+    {
+      "id": "label",
+      "name": "AutoInterpLabel",
+      "labels": ["AutoInterpLabel"],
+      "size": 12,
+      "color": "#7f7f7f",
+      "captions": [{"property": "text", "show": true}]
+    },
+    {
+      "id": "concept",
+      "name": "Concept",
+      "labels": ["Concept"],
+      "size": 28,
+      "color": "#9467bd",
+      "captions": [{"property": "name", "show": true}]
+    }
+  ],
+  "relationships": [
+    {"type": "CO_ACTIVATES_WITH", "color": "#aec7e8", "width": {"property": "pmi", "scale": "linear"}},
+    {"type": "DECODER_SIMILAR", "color": "#98df8a", "width": {"property": "cosine", "scale": "linear"}},
+    {"type": "LABEL_SIMILAR", "color": "#ffbb78", "width": {"property": "cosine", "scale": "linear"}},
+    {"type": "LIES_ON", "color": "#d62728", "width": 2},
+    {"type": "HAS_WAYPOINT", "color": "#ff7f0e", "width": 1.5},
+    {"type": "NEXT", "color": "#ff9896", "width": 2},
+    {"type": "LABELED_AS", "color": "#7f7f7f", "width": 0.5},
+    {"type": "DESCRIBES", "color": "#9467bd", "width": 2}
+  ],
+  "scenes": [
+    {
+      "name": "Rhyme manifold",
+      "query": "MATCH (m:Manifold)-[:DESCRIBES]->(c:Concept) WHERE toLower(c.name) CONTAINS 'rhyme' OR toLower(m.id) CONTAINS 'rhyme' OPTIONAL MATCH (m)-[:HAS_WAYPOINT]->(w:Waypoint) OPTIONAL MATCH (f:SAEFeature)-[:LIES_ON]->(m) OPTIONAL MATCH (f)-[:LABELED_AS]->(a:AutoInterpLabel) RETURN m, c, w, f, a LIMIT 200"
+    },
+    {
+      "name": "Weekday manifold",
+      "query": "MATCH (m:Manifold) WHERE toLower(m.id) CONTAINS 'weekday' OR toLower(m.id) CONTAINS 'community' OPTIONAL MATCH (m)-[:HAS_WAYPOINT]->(w:Waypoint) OPTIONAL MATCH (f:SAEFeature)-[:LIES_ON]->(m) RETURN m, w, f LIMIT 200"
+    }
+  ]
+}

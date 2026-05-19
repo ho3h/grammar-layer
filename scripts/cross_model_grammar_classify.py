@@ -25,11 +25,12 @@ GRAMMAR_PAT = re.compile(
 )
 
 MODELS = [
-    ("Pythia 70M",   "pythia_70m",  "reports/load_bearing_pos10_pythia_70m_50.json",  "data/labels_cache_pythia_70m.json"),
-    ("GPT-2 small",  "gpt2",        "reports/load_bearing_pos10_gpt2_50.json",         "data/labels_cache_gpt2.json"),
-    ("Gemma 1 2B",   "gemma_1_2b",  "reports/load_bearing_pos10_gemma_1_2b_50.json",  "data/labels_cache_gemma_1_2b.json"),
-    ("Gemma 2 2B",   "gemma_2b",    "reports/load_bearing_pos10_gemma_50.json",       "data/labels_cache.json"),
-    ("Gemma 2 9B",   "gemma_9b",    "reports/load_bearing_pos10_gemma_9b_50.json",    "data/labels_cache_gemma_9b.json"),
+    ("Pythia 70M",        "pythia_70m",  "reports/load_bearing_pos10_pythia_70m_50.json",  "data/labels_cache_pythia_70m.json"),
+    ("GPT-2 small",       "gpt2",        "reports/load_bearing_pos10_gpt2_50.json",         "data/labels_cache_gpt2.json"),
+    ("Gemma 1 2B",        "gemma_1_2b",  "reports/load_bearing_pos10_gemma_1_2b_50.json",  "data/labels_cache_gemma_1_2b.json"),
+    ("Gemma 2 2B (16k)",  "gemma_2b",    "reports/load_bearing_pos10_gemma_50.json",       "data/labels_cache.json"),
+    ("Gemma 2 2B (65k)",  "gemma_w65k",  "reports/load_bearing_pos10_gemma_w65k_50.json",  "data/labels_cache_gemma_w65k.json"),
+    ("Gemma 2 9B",        "gemma_9b",    "reports/load_bearing_pos10_gemma_9b_50.json",    "data/labels_cache_gemma_9b.json"),
 ]
 
 

@@ -28,12 +28,14 @@ SLUGS = {
     "gemma_9b":   ("gemma-2-9b",          "20-gemmascope-res-16k"),
     "gemma_1_2b": ("gemma-2b",            "12-res-jb"),
     "pythia_70m": ("pythia-70m-deduped",  "5-res-sm"),
+    "gemma_w65k": ("gemma-2-2b",          "20-gemmascope-res-65k"),
 }
 
 LOAD_BEARING_PATHS = {
     "gemma_9b":   "reports/load_bearing_pos10_gemma_9b_50.json",
     "gemma_1_2b": "reports/load_bearing_pos10_gemma_1_2b_50.json",
     "pythia_70m": "reports/load_bearing_pos10_pythia_70m_50.json",
+    "gemma_w65k": "reports/load_bearing_pos10_gemma_w65k_50.json",
 }
 
 

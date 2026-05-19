@@ -1,0 +1,125 @@
+{
+  "vocabulary": {
+    "gemma_n_features_total": 16383,
+    "gemma_n_grammar_labelled": 352,
+    "gpt2_n_features_total": 24570,
+    "gpt2_n_grammar_labelled": 652
+  },
+  "fingerprint_label_neighbors": {
+    "15596": [],
+    "10142": [
+      {
+        "gpt2_feature": 13939,
+        "label": "instances of the word \"are\"",
+        "label_cosine": 0.8944518566131592
+      },
+      {
+        "gpt2_feature": 21183,
+        "label": "the verb \"is\" followed by descriptions or statements",
+        "label_cosine": 0.8814036846160889
+      }
+    ]
+  },
+  "gpt2_capital_prompts_n": 6,
+  "gpt2_capital_per_prompt": [
+    {
+      "id": "capital-fr",
+      "target": " Paris",
+      "n_grammar_in_opp5": 0,
+      "n_grammar_in_opp10": 0,
+      "n_grammar_in_sup5": 0,
+      "n_decoder_neighbors_in_opp10": 0
+    },
+    {
+      "id": "capital-jp",
+      "target": " Tokyo",
+      "n_grammar_in_opp5": 0,
+      "n_grammar_in_opp10": 0,
+      "n_grammar_in_sup5": 0,
+      "n_decoder_neighbors_in_opp10": 0
+    },
+    {
+      "id": "capital-de",
+      "target": " Berlin",
+      "n_grammar_in_opp5": 0,
+      "n_grammar_in_opp10": 0,
+      "n_grammar_in_sup5": 0,
+      "n_decoder_neighbors_in_opp10": 0
+    },
+    {
+      "id": "capital-it",
+      "target": " Rome",
+      "n_grammar_in_opp5": 0,
+      "n_grammar_in_opp10": 0,
+      "n_grammar_in_sup5": 0,
+      "n_decoder_neighbors_in_opp10": 0
+    },
+    {
+      "id": "capital-es",
+      "target": " Madrid",
+      "n_grammar_in_opp5": 0,
+      "n_grammar_in_opp10": 0,
+      "n_grammar_in_sup5": 0,
+      "n_decoder_neighbors_in_opp10": 0
+    },
+    {
+      "id": "capital-ru",
+      "target": " Moscow",
+      "n_grammar_in_opp5": 0,
+      "n_grammar_in_opp10": 0,
+      "n_grammar_in_sup5": 0,
+      "n_decoder_neighbors_in_opp10": 0
+    }
+  ],
+  "gpt2_capital_aggregates": {
+    "grammar_in_opp5_total": 0,
+    "grammar_in_opp10_total": 0,
+    "grammar_in_sup5_total": 0,
+    "decoder_neighbors_in_opp10_total": 0,
+    "n_capital_prompts": 6
+  },
+  "gemma_capital_per_prompt": [
+    {
+      "id": "capital-fr",
+      "target": " Paris",
+      "n_grammar_in_opp5": 2,
+      "n_grammar_in_opp10": 2
+    },
+    {
+      "id": "capital-jp",
+      "target": " Tokyo",
+      "n_grammar_in_opp5": 2,
+      "n_grammar_in_opp10": 2
+    },
+    {
+      "id": "capital-de",
+      "target": " Berlin",
+      "n_grammar_in_opp5": 2,
+      "n_grammar_in_opp10": 2
+    },
+    {
+      "id": "capital-it",
+      "target": " Rome",
+      "n_grammar_in_opp5": 1,
+      "n_grammar_in_opp10": 2
+    },
+    {
+      "id": "capital-es",
+      "target": " Madrid",
+      "n_grammar_in_opp5": 2,
+      "n_grammar_in_opp10": 2
+    },
+    {
+      "id": "capital-ru",
+      "target": " Moscow",
+      "n_grammar_in_opp5": 2,
+      "n_grammar_in_opp10": 2
+    }
+  ],
+  "gemma_capital_aggregates": {
+    "grammar_in_opp5_total": 11,
+    "grammar_in_opp10_total": 12,
+    "n_capital_prompts": 6
+  },
+  "interpretation": "GPT-2 small has 652 grammar-labelled features in its 24570-feature SAE vocabulary, including multiple decoder/label-similar counterparts of Gemma's fingerprint features (e.g., f13939 'instances of the word are' at label-cosine 0.89, f21183 'the verb is followed by descriptions' at 0.88). On the 6 capital-completion prompts, 0/6 prompts recruit ANY of these grammar features in top-5 opposing. Same vocabulary exists, no grammar layer is recruited."
+}

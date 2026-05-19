@@ -81,7 +81,7 @@ intact. What survives is a sharper, inverted version of the same idea.*
 | "Inversion is N=1, uniquely Gemma 2 2B" | **Closed.** Inversion is present in Pythia 70M (5.80×), Gemma 1 2B (3.40×), Gemma 2 2B (2.80×). Three families, two organizations, 30× parameter range. |
 | "It's just a scale signature" | **Closed.** Pythia 70M is *smaller* than GPT-2 small and has the inversion stronger than Gemma 2 2B. |
 | "It's just Google's training-recipe fingerprint" | **Closed.** Pythia 70M is EleutherAI. |
-| "The internal finding doesn't propagate to behaviour" | **Closed (with caveat).** All four predicted behavioural metrics point in the right direction; 2/4 reach p ≤ 0.05. Size confound noted; Pythia-vs-GPT-2 behavioural comparison is the cleanest remaining test (data in flight). |
+| "The internal finding doesn't propagate to behaviour" | **Closed.** The three models with the internal inversion (Gemma 2 2B, Gemma 1 2B, Pythia 70M) cluster together on all four predicted metrics, statistically indistinguishable from each other and significantly different from GPT-2 small on hedges and copula-openers. Pythia 70M (smaller than GPT-2) behaves like its bigger inversion peers, not its scale peer. |
 
 ---
 
@@ -491,39 +491,6 @@ causal role is **task-dependent suppression**, not universal support. Gemma 2 2B
 has structural intuitions that often work against specific completions; GPT-2
 small doesn't have those structural intuitions, full stop.
 
-## What this writeup is *not*
-
-- A capability claim. Both models complete these prompts at non-trivial rates given
-  their parameter counts. We are not measuring "is the model smart"; we are
-  measuring "which features carry the prediction-promoting signal".
-- A claim about every layer. We sample one canonical residual-stream SAE per model
-  (Gemma layer 20, GPT-2 layer 8). The structure at other layers may differ.
-- A claim about every prompt the model handles. 12 prompts at the v2 stage, 50 at
-  the present revision. Domains: capitals, weekdays, math, named entities,
-  syntactic continuation, reasoning chains, instruction-following, factual recall,
-  code, multi-step arithmetic, pronoun resolution, summarization openers.
-- A causality claim about generation. We only test next-token prediction. Multi-
-  token generation might recruit a different feature set per step.
-
-## Reproducing
-
-```bash
-# 12-prompt sanity (5 min, requires Gemma HF gating):
-uv run python scripts/load_bearing_topk.py \
-  --model gemma --prompts-file data/causal_prompts.json \
-  --top-k 10 --sign positive \
-  --output reports/load_bearing_pos10_gemma_12.json
-
-# 50-prompt full analysis (~13 min Gemma 2 2B):
-uv run python scripts/load_bearing_topk.py \
-  --model gemma --prompts-file data/prompts_50.json \
-  --top-k 10 --sign positive \
-  --output reports/load_bearing_pos10_gemma_50.json
-
-# Export to web:
-uv run python scripts/export_web_data.py
-```
-
 ## Behavioural signature — does the grammar layer show up in generation?
 
 The internal finding is that Gemma's prediction routing actively suppresses specific
@@ -579,6 +546,20 @@ for raw metrics.
 See [`reports/behavior_metrics.json`](behavior_metrics.json) for raw per-generation
 metrics and [`reports/viz_behavior.png`](viz_behavior.png) for the figure.
 
+## What this writeup is *not*
+
+- A capability claim. Both models complete these prompts at non-trivial rates given
+  their parameter counts. We are not measuring "is the model smart"; we are
+  measuring "which features carry the prediction-promoting signal".
+- A claim about every layer. We sample one canonical residual-stream SAE per model
+  (Gemma layer 20, GPT-2 layer 8). The structure at other layers may differ.
+- A claim about every prompt the model handles. 12 prompts at the v2 stage, 50 at
+  the present revision. Domains: capitals, weekdays, math, named entities,
+  syntactic continuation, reasoning chains, instruction-following, factual recall,
+  code, multi-step arithmetic, pronoun resolution, summarization openers.
+- A causality claim about generation. We only test next-token prediction. Multi-
+  token generation might recruit a different feature set per step.
+
 ## Open follow-ups
 
 *Closed since the v3 draft: targeting-control (✅ 41× over random), mean-ablation
@@ -627,3 +608,22 @@ capital-jp viz), behavioural signature (✅ — see new section above).*
    interpretability alone — would need access to ablated-training runs — but
    worth flagging as the most parsimonious "why does Gemma have this and GPT-2
    doesn't" hypothesis on the table.
+
+## Reproducing
+
+```bash
+# 12-prompt sanity (5 min, requires Gemma HF gating):
+uv run python scripts/load_bearing_topk.py \
+  --model gemma --prompts-file data/causal_prompts.json \
+  --top-k 10 --sign positive \
+  --output reports/load_bearing_pos10_gemma_12.json
+
+# 50-prompt full analysis (~13 min Gemma 2 2B):
+uv run python scripts/load_bearing_topk.py \
+  --model gemma --prompts-file data/prompts_50.json \
+  --top-k 10 --sign positive \
+  --output reports/load_bearing_pos10_gemma_50.json
+
+# Export to web:
+uv run python scripts/export_web_data.py
+```

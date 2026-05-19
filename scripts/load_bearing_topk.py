@@ -126,15 +126,28 @@ GEMMA_27B = {
     "activation_threshold": 1e-3,
 }
 
+# Gemma 2 2B at width 65k — the width-stability check for the v3 fingerprint.
+# Same model, same layer, larger SAE — tests whether the f15596/f10142 fingerprint
+# survives at higher SAE width or fragments into finer features.
+GEMMA_W65K = {
+    "nickname": "gemma_w65k",
+    "hf_name": "gemma-2-2b",
+    "sae_release": "gemma-scope-2b-pt-res-canonical",
+    "sae_id_attr": "layer_20/width_65k/canonical",
+    "hook_name": "blocks.20.hook_resid_post",
+    "activation_threshold": 1e-3,
+}
+
 MODEL_SPECS = {
-    "gemma":      GEMMA,
-    "gemma_9b":   GEMMA_9B,
-    "gemma_27b":  GEMMA_27B,
-    "gemma_1_2b": GEMMA_1_2B,
-    "gpt2":       GPT2,
-    "pythia_70m": PYTHIA_70M,
-    "qwen3_1_7b": QWEN3_1_7B,
-    "mistral_7b": MISTRAL_7B,
+    "gemma":       GEMMA,
+    "gemma_w65k":  GEMMA_W65K,
+    "gemma_9b":    GEMMA_9B,
+    "gemma_27b":   GEMMA_27B,
+    "gemma_1_2b":  GEMMA_1_2B,
+    "gpt2":        GPT2,
+    "pythia_70m":  PYTHIA_70M,
+    "qwen3_1_7b":  QWEN3_1_7B,
+    "mistral_7b":  MISTRAL_7B,
 }
 
 

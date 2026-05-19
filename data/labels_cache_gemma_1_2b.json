@@ -1,0 +1,1913 @@
+{
+"17": {
+"text": " references to letters and their corresponding positions in various contexts",
+"source": "neuronpedia:gemma-2b/12-res-jb"
+},
+"21": {
+"text": " mentions of cats and related terms",
+"source": "neuronpedia:gemma-2b/12-res-jb"
+},
+"42": {
+"text": "mathematical concepts and operations related to solving equations",
+"source": "neuronpedia:gemma-2b/12-res-jb"
+},
+"56": {
+"text": " phrases related to relationships and personal connections",
+"source": "neuronpedia:gemma-2b/12-res-jb"
+},
+"126": {
+"text": " occurrences of the word \"the\" and references to sport, particularly rugby achievements",
+"source": "neuronpedia:gemma-2b/12-res-jb"
+},
+"164": {
+"text": "expressions of personal feelings and progress",
+"source": "neuronpedia:gemma-2b/12-res-jb"
+},
+"166": {
+"text": " references to language proficiency and translation",
+"source": "neuronpedia:gemma-2b/12-res-jb"
+},
+"223": {
+"text": "references to famous individuals or the concept of fame",
+"source": "neuronpedia:gemma-2b/12-res-jb"
+},
+"244": {
+"text": "references to player statistics and performance in sports contexts",
+"source": "neuronpedia:gemma-2b/12-res-jb"
+},
+"261": {
+"text": "phrases related to opinions on food and service quality",
+"source": "neuronpedia:gemma-2b/12-res-jb"
+},
+"293": {
+"text": " geographical descriptors related to landscapes and environments",
+"source": "neuronpedia:gemma-2b/12-res-jb"
+},
+"370": {
+"text": " references to travel destinations and attractions",
+"source": "neuronpedia:gemma-2b/12-res-jb"
+},
+"387": {
+"text": " words and phrases related to writing and productivity",
+"source": "neuronpedia:gemma-2b/12-res-jb"
+},
+"420": {
+"text": " the presence of conjunctions and the color red",
+"source": "neuronpedia:gemma-2b/12-res-jb"
+},
+"436": {
+"text": " occurrences of the verb \"has\" and its variations",
+"source": "neuronpedia:gemma-2b/12-res-jb"
+},
+"466": {
+"text": " mentions of late-night activities or experiences after social events",
+"source": "neuronpedia:gemma-2b/12-res-jb"
+},
+"514": {
+"text": "specific instructions or guidelines related to crafting or sewing",
+"source": "neuronpedia:gemma-2b/12-res-jb"
+},
+"546": {
+"text": "phrases indicating partnership or collaboration",
+"source": "neuronpedia:gemma-2b/12-res-jb"
+},
+"573": {
+"text": "words and phrases related to data and specifications",
+"source": "neuronpedia:gemma-2b/12-res-jb"
+},
+"632": {
+"text": " significant metrics and data points regarding business performance and strategies",
+"source": "neuronpedia:gemma-2b/12-res-jb"
+},
+"661": {
+"text": "quantitative information regarding statistics and trends",
+"source": "neuronpedia:gemma-2b/12-res-jb"
+},
+"668": {
+"text": " phrases indicating skepticism or critical questioning",
+"source": "neuronpedia:gemma-2b/12-res-jb"
+},
+"677": {
+"text": "elements related to personal stories and experiences",
+"source": "neuronpedia:gemma-2b/12-res-jb"
+},
+"856": {
+"text": " phrases indicating respect and individuality in personal choices",
+"source": "neuronpedia:gemma-2b/12-res-jb"
+},
+"920": {
+"text": "references to artistic or musical collaborations and influences",
+"source": "neuronpedia:gemma-2b/12-res-jb"
+},
+"956": {
+"text": " references to job opportunities and locations",
+"source": "neuronpedia:gemma-2b/12-res-jb"
+},
+"992": {
+"text": "references to significant events and celebrations",
+"source": "neuronpedia:gemma-2b/12-res-jb"
+},
+"1071": {
+"text": " mentions of the number four in various contexts",
+"source": "neuronpedia:gemma-2b/12-res-jb"
+},
+"1143": {
+"text": " structured elements or formats, often related to numbers and steps in a process",
+"source": "neuronpedia:gemma-2b/12-res-jb"
+},
+"1206": {
+"text": "descriptions of piloting actions and aviation procedures",
+"source": "neuronpedia:gemma-2b/12-res-jb"
+},
+"1208": {
+"text": " expressions related to personal milestones and celebrations",
+"source": "neuronpedia:gemma-2b/12-res-jb"
+},
+"1234": {
+"text": "expressions of personal reflection and gratitude",
+"source": "neuronpedia:gemma-2b/12-res-jb"
+},
+"1289": {
+"text": " references to soccer and football as topics of discussion or debate",
+"source": "neuronpedia:gemma-2b/12-res-jb"
+},
+"1290": {
+"text": "structured elements and components of a text, particularly in an educational or instructional context",
+"source": "neuronpedia:gemma-2b/12-res-jb"
+},
+"1298": {
+"text": " advice related to healthy lifestyle choices",
+"source": "neuronpedia:gemma-2b/12-res-jb"
+},
+"1352": {
+"text": " phrases related to iconic film and celebrity culture",
+"source": "neuronpedia:gemma-2b/12-res-jb"
+},
+"1442": {
+"text": "comparative phrases that emphasize being \"better than\" something else",
+"source": "neuronpedia:gemma-2b/12-res-jb"
+},
+"1454": {
+"text": "terms related to game outcomes and opportunities for success",
+"source": "neuronpedia:gemma-2b/12-res-jb"
+},
+"1475": {
+"text": " details related to vehicle functionality and performance",
+"source": "neuronpedia:gemma-2b/12-res-jb"
+},
+"1494": {
+"text": "phrases related to instructional or promotional content, especially for classes or events",
+"source": "neuronpedia:gemma-2b/12-res-jb"
+},
+"1580": {
+"text": " references to the original posting of content",
+"source": "neuronpedia:gemma-2b/12-res-jb"
+},
+"1629": {
+"text": " financial and numerical data, particularly related to income and taxes",
+"source": "neuronpedia:gemma-2b/12-res-jb"
+},
+"1649": {
+"text": " mentions of responsibility and warnings about content",
+"source": "neuronpedia:gemma-2b/12-res-jb"
+},
+"1688": {
+"text": "specific mechanical components related to tools and their properties",
+"source": "neuronpedia:gemma-2b/12-res-jb"
+},
+"1690": {
+"text": " overall evaluations or summaries of experiences",
+"source": "neuronpedia:gemma-2b/12-res-jb"
+},
+"1718": {
+"text": " instances of the verb \"is\" and related forms",
+"source": "neuronpedia:gemma-2b/12-res-jb"
+},
+"1766": {
+"text": "references to creation and divine acts within a religious context",
+"source": "neuronpedia:gemma-2b/12-res-jb"
+},
+"1769": {
+"text": " patterns related to sports terminology, particularly focusing on roles and actions in baseball",
+"source": "neuronpedia:gemma-2b/12-res-jb"
+},
+"1819": {
+"text": "references to the number of books or awards",
+"source": "neuronpedia:gemma-2b/12-res-jb"
+},
+"1856": {
+"text": " phrases indicating rankings or notable achievements",
+"source": "neuronpedia:gemma-2b/12-res-jb"
+},
+"1870": {
+"text": " references to people and their actions in a narrative context",
+"source": "neuronpedia:gemma-2b/12-res-jb"
+},
+"1873": {
+"text": "present tense verbs indicating existence or condition",
+"source": "neuronpedia:gemma-2b/12-res-jb"
+},
+"1906": {
+"text": "expressions related to personal activities and hobbies",
+"source": "neuronpedia:gemma-2b/12-res-jb"
+},
+"1923": {
+"text": " adjectives that describe quality or state",
+"source": "neuronpedia:gemma-2b/12-res-jb"
+},
+"1950": {
+"text": " call-to-action phrases related to contacting or engaging with a service",
+"source": "neuronpedia:gemma-2b/12-res-jb"
+},
+"1966": {
+"text": "attributes related to size and types of properties or parks",
+"source": "neuronpedia:gemma-2b/12-res-jb"
+},
+"1975": {
+"text": "",
+"source": "neuronpedia:gemma-2b/12-res-jb"
+},
+"1984": {
+"text": "phrases related to security and assurance in a political context",
+"source": "neuronpedia:gemma-2b/12-res-jb"
+},
+"1986": {
+"text": " numerical data and statistics related to advertising metrics",
+"source": "neuronpedia:gemma-2b/12-res-jb"
+},
+"1991": {
+"text": "connections and relationships between individuals and communities",
+"source": "neuronpedia:gemma-2b/12-res-jb"
+},
+"2027": {
+"text": " occurrences of the word \"the.\"",
+"source": "neuronpedia:gemma-2b/12-res-jb"
+},
+"2065": {
+"text": "chemical elements, particularly those with specific properties or origins",
+"source": "neuronpedia:gemma-2b/12-res-jb"
+},
+"2087": {
+"text": "instances of the verb \"to be\" in various forms",
+"source": "neuronpedia:gemma-2b/12-res-jb"
+},
+"2110": {
+"text": "references to personal backgrounds and professional roles",
+"source": "neuronpedia:gemma-2b/12-res-jb"
+},
+"2127": {
+"text": " phrases related to downloading and enjoying music",
+"source": "neuronpedia:gemma-2b/12-res-jb"
+},
+"2170": {
+"text": " references to parking availability and related terms",
+"source": "neuronpedia:gemma-2b/12-res-jb"
+},
+"2195": {
+"text": " instances of dialogue and descriptions of actions related to conflict",
+"source": "neuronpedia:gemma-2b/12-res-jb"
+},
+"2275": {
+"text": " phrases related to scheduled events or court proceedings",
+"source": "neuronpedia:gemma-2b/12-res-jb"
+},
+"2415": {
+"text": "technical terms related to networking and server configurations",
+"source": "neuronpedia:gemma-2b/12-res-jb"
+},
+"2459": null,
+"2467": {
+"text": "elements that relate to numbers and questions",
+"source": "neuronpedia:gemma-2b/12-res-jb"
+},
+"2494": {
+"text": " occurrences of the verb \"have\" and its conjugations",
+"source": "neuronpedia:gemma-2b/12-res-jb"
+},
+"2558": {
+"text": " comparisons involving age and financial thresholds",
+"source": "neuronpedia:gemma-2b/12-res-jb"
+},
+"2606": {
+"text": " references to international relations or partnerships",
+"source": "neuronpedia:gemma-2b/12-res-jb"
+},
+"2638": {
+"text": " descriptions of personal improvement and self-assessment",
+"source": "neuronpedia:gemma-2b/12-res-jb"
+},
+"2640": {
+"text": " quantitative data and statistics regarding consumption and distribution",
+"source": "neuronpedia:gemma-2b/12-res-jb"
+},
+"2644": {
+"text": "historical figures or events described in a narrative context",
+"source": "neuronpedia:gemma-2b/12-res-jb"
+},
+"2764": {
+"text": " terms related to data processing and input/output operations",
+"source": "neuronpedia:gemma-2b/12-res-jb"
+},
+"2786": {
+"text": " phrases related to operational hours and closures",
+"source": "neuronpedia:gemma-2b/12-res-jb"
+},
+"2947": {
+"text": " discussions about jobs and employment-related concepts",
+"source": "neuronpedia:gemma-2b/12-res-jb"
+},
+"3018": {
+"text": " expressions related to openness and vulnerability",
+"source": "neuronpedia:gemma-2b/12-res-jb"
+},
+"3022": {
+"text": "references to the concept of God and the nature of spirituality",
+"source": "neuronpedia:gemma-2b/12-res-jb"
+},
+"3081": {
+"text": " concepts related to societal issues and cultural dynamics",
+"source": "neuronpedia:gemma-2b/12-res-jb"
+},
+"3095": {
+"text": "connections and classifications related to scientific or biological concepts, especially in relation to organisms and their behaviors",
+"source": "neuronpedia:gemma-2b/12-res-jb"
+},
+"3107": {
+"text": " references to health oversight committees and their responsibilities",
+"source": "neuronpedia:gemma-2b/12-res-jb"
+},
+"3110": {
+"text": " elements related to user account registration and information input",
+"source": "neuronpedia:gemma-2b/12-res-jb"
+},
+"3116": {
+"text": "expressions of expertise and professional capability",
+"source": "neuronpedia:gemma-2b/12-res-jb"
+},
+"3128": {
+"text": "references to mathematical concepts and achievements",
+"source": "neuronpedia:gemma-2b/12-res-jb"
+},
+"3240": {
+"text": "parameters and details related to internship applications",
+"source": "neuronpedia:gemma-2b/12-res-jb"
+},
+"3249": {
+"text": " colons used in various contexts",
+"source": "neuronpedia:gemma-2b/12-res-jb"
+},
+"3368": {
+"text": " instances of familial relationships and activities involving family members",
+"source": "neuronpedia:gemma-2b/12-res-jb"
+},
+"3383": {
+"text": " code-related terms and functions associated with data storage and retrieval in programming",
+"source": "neuronpedia:gemma-2b/12-res-jb"
+},
+"3389": {
+"text": " references to well-known cultural celebrations and their related terminology",
+"source": "neuronpedia:gemma-2b/12-res-jb"
+},
+"3429": {
+"text": "elements relating to picturesque scenery and backgrounds",
+"source": "neuronpedia:gemma-2b/12-res-jb"
+},
+"3434": {
+"text": " financial metrics and administrative data related to healthcare facilities",
+"source": "neuronpedia:gemma-2b/12-res-jb"
+},
+"3435": {
+"text": "structured formats or specifications related to regulations and guidelines",
+"source": "neuronpedia:gemma-2b/12-res-jb"
+},
+"3454": {
+"text": " references to different types of painting and artistic techniques",
+"source": "neuronpedia:gemma-2b/12-res-jb"
+},
+"3529": {
+"text": " various forms of punctuation, particularly colons",
+"source": "neuronpedia:gemma-2b/12-res-jb"
+},
+"3547": {
+"text": " patterns and structures in instructions or processes",
+"source": "neuronpedia:gemma-2b/12-res-jb"
+},
+"3565": {
+"text": " phrases related to committees and organizational structures",
+"source": "neuronpedia:gemma-2b/12-res-jb"
+},
+"3679": {
+"text": " key phrases related to equipment and setup in decision-making contexts",
+"source": "neuronpedia:gemma-2b/12-res-jb"
+},
+"3716": {
+"text": " occurrences of the verb \"have\" and its variations in different contexts",
+"source": "neuronpedia:gemma-2b/12-res-jb"
+},
+"3743": {
+"text": " phrases related to leadership and organizational structure",
+"source": "neuronpedia:gemma-2b/12-res-jb"
+},
+"3792": {
+"text": "specific references to individuals or their roles in various contexts",
+"source": "neuronpedia:gemma-2b/12-res-jb"
+},
+"3820": {
+"text": "details regarding law enforcement actions, particularly search warrants and the execution of those warrants",
+"source": "neuronpedia:gemma-2b/12-res-jb"
+},
+"3856": {
+"text": " scientific terminology related to research and mechanisms",
+"source": "neuronpedia:gemma-2b/12-res-jb"
+},
+"3862": {
+"text": "scientific and technical terminology related to physics, particularly particle physics and antivirus software",
+"source": "neuronpedia:gemma-2b/12-res-jb"
+},
+"3870": {
+"text": "negations or expressions of disagreement",
+"source": "neuronpedia:gemma-2b/12-res-jb"
+},
+"3884": {
+"text": " concepts related to scientific research and education",
+"source": "neuronpedia:gemma-2b/12-res-jb"
+},
+"3894": {
+"text": "references to significant companies and their market positions",
+"source": "neuronpedia:gemma-2b/12-res-jb"
+},
+"3937": {
+"text": "references to countries and their global context, particularly in relation to economic discussions",
+"source": "neuronpedia:gemma-2b/12-res-jb"
+},
+"3945": {
+"text": "references to financial considerations and costs",
+"source": "neuronpedia:gemma-2b/12-res-jb"
+},
+"3966": {
+"text": "mentions of brands and their characteristics related to fashion",
+"source": "neuronpedia:gemma-2b/12-res-jb"
+},
+"3998": {
+"text": "mentions of specific individuals or notable references in a context that suggests recognition or significance",
+"source": "neuronpedia:gemma-2b/12-res-jb"
+},
+"3999": {
+"text": "mentions of immigration laws and related debates",
+"source": "neuronpedia:gemma-2b/12-res-jb"
+},
+"4000": {
+"text": " information related to purchasing and buying health-related products",
+"source": "neuronpedia:gemma-2b/12-res-jb"
+},
+"4026": {
+"text": "terms related to methods and data structures in programming contexts",
+"source": "neuronpedia:gemma-2b/12-res-jb"
+},
+"4045": {
+"text": " punctuation and special characters indicating formatting or emphasis",
+"source": "neuronpedia:gemma-2b/12-res-jb"
+},
+"4046": {
+"text": "keywords related to technology and software systems",
+"source": "neuronpedia:gemma-2b/12-res-jb"
+},
+"4072": {
+"text": " details about company financial performance and leadership changes",
+"source": "neuronpedia:gemma-2b/12-res-jb"
+},
+"4150": {
+"text": " references to seasonal events or changes",
+"source": "neuronpedia:gemma-2b/12-res-jb"
+},
+"4182": {
+"text": "financial figures or numerical data, particularly in a context related to property or transactions",
+"source": "neuronpedia:gemma-2b/12-res-jb"
+},
+"4214": {
+"text": "the definite article \"the\" in various contexts",
+"source": "neuronpedia:gemma-2b/12-res-jb"
+},
+"4271": {
+"text": " phrases indicating voting trends or shifts in demographic participation",
+"source": "neuronpedia:gemma-2b/12-res-jb"
+},
+"4291": {
+"text": " rhetorical questions or expressions of uncertainty",
+"source": "neuronpedia:gemma-2b/12-res-jb"
+},
+"4292": {
+"text": " terms related to medical conditions and procedures",
+"source": "neuronpedia:gemma-2b/12-res-jb"
+},
+"4301": {
+"text": "phrases indicating feelings of assurance or doubt regarding opportunities",
+"source": "neuronpedia:gemma-2b/12-res-jb"
+},
+"4318": {
+"text": "action-oriented phrases related to combat and conflict",
+"source": "neuronpedia:gemma-2b/12-res-jb"
+},
+"4404": {
+"text": " actions related to confirming preferences or settings, particularly in the context of data privacy",
+"source": "neuronpedia:gemma-2b/12-res-jb"
+},
+"4487": {
+"text": "occurrences of the verb \"is\" in various contexts",
+"source": "neuronpedia:gemma-2b/12-res-jb"
+},
+"4490": {
+"text": " references to unique substances or compounds and their effects on the body",
+"source": "neuronpedia:gemma-2b/12-res-jb"
+},
+"4493": {
+"text": "references to notable individuals and their achievements",
+"source": "neuronpedia:gemma-2b/12-res-jb"
+},
+"4527": {
+"text": "narrative elements that suggest past personal experiences",
+"source": "neuronpedia:gemma-2b/12-res-jb"
+},
+"4535": {
+"text": "references to religions and allergen regulations",
+"source": "neuronpedia:gemma-2b/12-res-jb"
+},
+"4554": {
+"text": " numerical expressions and quantifiers",
+"source": "neuronpedia:gemma-2b/12-res-jb"
+},
+"4635": {
+"text": "references to notable films or works related to popular culture",
+"source": "neuronpedia:gemma-2b/12-res-jb"
+},
+"4665": {
+"text": " numerical sequences and patterns",
+"source": "neuronpedia:gemma-2b/12-res-jb"
+},
+"4702": {
+"text": " instances of retaining or discarding unwanted items",
+"source": "neuronpedia:gemma-2b/12-res-jb"
+},
+"4731": {
+"text": "elements related to personal experiences and relationships",
+"source": "neuronpedia:gemma-2b/12-res-jb"
+},
+"4780": {
+"text": " colons and dialogue formatting, indicating conversations or quotations",
+"source": "neuronpedia:gemma-2b/12-res-jb"
+},
+"4802": {
+"text": " instructions related to cooking techniques and food preparation methods",
+"source": "neuronpedia:gemma-2b/12-res-jb"
+},
+"4808": {
+"text": " phrases related to relationships and connections",
+"source": "neuronpedia:gemma-2b/12-res-jb"
+},
+"4819": {
+"text": " discussions about personal experiences and life journeys",
+"source": "neuronpedia:gemma-2b/12-res-jb"
+},
+"4842": {
+"text": " references to cultural stereotypes and comparisons between different nationalities",
+"source": "neuronpedia:gemma-2b/12-res-jb"
+},
+"4874": {
+"text": " significant historical dates and events",
+"source": "neuronpedia:gemma-2b/12-res-jb"
+},
+"4875": null,
+"4877": {
+"text": " references to head injuries and physical impact",
+"source": "neuronpedia:gemma-2b/12-res-jb"
+},
+"4878": {
+"text": "references to classical music compositions and their details",
+"source": "neuronpedia:gemma-2b/12-res-jb"
+},
+"4886": {
+"text": "emotional expressions and relationships with pets",
+"source": "neuronpedia:gemma-2b/12-res-jb"
+},
+"4900": {
+"text": "phrases related to the concept of pursuit, particularly of goals or ideals",
+"source": "neuronpedia:gemma-2b/12-res-jb"
+},
+"4930": {
+"text": " phrases emphasizing the word \"the\" in various contexts",
+"source": "neuronpedia:gemma-2b/12-res-jb"
+},
+"4943": {
+"text": "actions related to breaking barriers or overcoming obstacles",
+"source": "neuronpedia:gemma-2b/12-res-jb"
+},
+"5087": {
+"text": " technical terms related to programming and software functionality",
+"source": "neuronpedia:gemma-2b/12-res-jb"
+},
+"5106": {
+"text": "instances of the word \"across\" and its variations in various contexts",
+"source": "neuronpedia:gemma-2b/12-res-jb"
+},
+"5137": {
+"text": " phrases indicating participation or involvement in events",
+"source": "neuronpedia:gemma-2b/12-res-jb"
+},
+"5162": {
+"text": "statements of identity or existence",
+"source": "neuronpedia:gemma-2b/12-res-jb"
+},
+"5226": {
+"text": " phrases related to the effectiveness and scientific backing of health-related claims",
+"source": "neuronpedia:gemma-2b/12-res-jb"
+},
+"5266": {
+"text": " procedural language related to progress reports and updates",
+"source": "neuronpedia:gemma-2b/12-res-jb"
+},
+"5274": {
+"text": " phrases indicating status or classification",
+"source": "neuronpedia:gemma-2b/12-res-jb"
+},
+"5349": {
+"text": "punctuation marks, specifically commas",
+"source": "neuronpedia:gemma-2b/12-res-jb"
+},
+"5541": {
+"text": "instances of the verb \"is\" and other related forms indicating existence or state",
+"source": "neuronpedia:gemma-2b/12-res-jb"
+},
+"5576": {
+"text": "references to countries and their qualities or characteristics",
+"source": "neuronpedia:gemma-2b/12-res-jb"
+},
+"5581": {
+"text": "elements that denote dates and locations",
+"source": "neuronpedia:gemma-2b/12-res-jb"
+},
+"5589": {
+"text": " references to love and personal relationships",
+"source": "neuronpedia:gemma-2b/12-res-jb"
+},
+"5606": {
+"text": " instructions related to turning off or dimming lights",
+"source": "neuronpedia:gemma-2b/12-res-jb"
+},
+"5659": {
+"text": " punctuation marks at the end of sentences",
+"source": "neuronpedia:gemma-2b/12-res-jb"
+},
+"5690": {
+"text": " instances of the word \"classic\" and its variations in various contexts",
+"source": "neuronpedia:gemma-2b/12-res-jb"
+},
+"5705": {
+"text": "punctuation marks, specifically commas",
+"source": "neuronpedia:gemma-2b/12-res-jb"
+},
+"5723": {
+"text": " components of dining experiences, including menu items and their descriptions",
+"source": "neuronpedia:gemma-2b/12-res-jb"
+},
+"5807": {
+"text": " negations and expressions of disappointment or failure",
+"source": "neuronpedia:gemma-2b/12-res-jb"
+},
+"5822": {
+"text": "expressions of greetings and reassurances in communication",
+"source": "neuronpedia:gemma-2b/12-res-jb"
+},
+"5824": {
+"text": "information regarding sizes and characteristics of species, particularly in a biological context",
+"source": "neuronpedia:gemma-2b/12-res-jb"
+},
+"5857": {
+"text": " descriptions related to color",
+"source": "neuronpedia:gemma-2b/12-res-jb"
+},
+"5876": {
+"text": " instances of speech or phrases marked by punctuation",
+"source": "neuronpedia:gemma-2b/12-res-jb"
+},
+"5900": {
+"text": "sentences that express a critique or evaluation of movies",
+"source": "neuronpedia:gemma-2b/12-res-jb"
+},
+"5943": {
+"text": "the verb \"is\" in various contexts",
+"source": "neuronpedia:gemma-2b/12-res-jb"
+},
+"5964": {
+"text": " phrases related to monitoring patient rights in Europe",
+"source": "neuronpedia:gemma-2b/12-res-jb"
+},
+"5965": {
+"text": "dramatic confrontations and conflicts in relationships",
+"source": "neuronpedia:gemma-2b/12-res-jb"
+},
+"6008": {
+"text": " expressions related to online shopping and personal preferences",
+"source": "neuronpedia:gemma-2b/12-res-jb"
+},
+"6017": {
+"text": "assertive statements about the presence of qualities or conditions",
+"source": "neuronpedia:gemma-2b/12-res-jb"
+},
+"6023": {
+"text": " punctuation marks and specific markers of emphasis",
+"source": "neuronpedia:gemma-2b/12-res-jb"
+},
+"6025": {
+"text": " statements or answers to questions",
+"source": "neuronpedia:gemma-2b/12-res-jb"
+},
+"6056": {
+"text": "quantitative comparisons and measurements",
+"source": "neuronpedia:gemma-2b/12-res-jb"
+},
+"6079": {
+"text": " expressions of existence or presence, particularly in relation to systems and protocols",
+"source": "neuronpedia:gemma-2b/12-res-jb"
+},
+"6123": {
+"text": "references to medical conditions and their implications for individuals",
+"source": "neuronpedia:gemma-2b/12-res-jb"
+},
+"6142": {
+"text": " phrases related to processes and transitions",
+"source": "neuronpedia:gemma-2b/12-res-jb"
+},
+"6148": {
+"text": " references to national symbols and emblems",
+"source": "neuronpedia:gemma-2b/12-res-jb"
+},
+"6149": {
+"text": " technical issues related to engine performance and components",
+"source": "neuronpedia:gemma-2b/12-res-jb"
+},
+"6237": {
+"text": "features related to safety and functionality in design systems",
+"source": "neuronpedia:gemma-2b/12-res-jb"
+},
+"6242": {
+"text": "keywords related to transformation and emotional journeys within storytelling",
+"source": "neuronpedia:gemma-2b/12-res-jb"
+},
+"6262": {
+"text": " punctuation marks and specific minor descriptors in sentences",
+"source": "neuronpedia:gemma-2b/12-res-jb"
+},
+"6336": {
+"text": " specific historical events and notable figures related to the founding of the United States",
+"source": "neuronpedia:gemma-2b/12-res-jb"
+},
+"6366": {
+"text": "references to classic literature and notable authors",
+"source": "neuronpedia:gemma-2b/12-res-jb"
+},
+"6398": {
+"text": "instances of dialogue or conversational speech",
+"source": "neuronpedia:gemma-2b/12-res-jb"
+},
+"6403": {
+"text": " conjunctions and prepositions related to legal contexts",
+"source": "neuronpedia:gemma-2b/12-res-jb"
+},
+"6421": {
+"text": " references to climate change and associated scientific discussions",
+"source": "neuronpedia:gemma-2b/12-res-jb"
+},
+"6432": {
+"text": "phrases related to the act of catching or pursuit",
+"source": "neuronpedia:gemma-2b/12-res-jb"
+},
+"6469": null,
+"6516": {
+"text": " forms of the verb \"to be\" and their various usages in context",
+"source": "neuronpedia:gemma-2b/12-res-jb"
+},
+"6576": {
+"text": " occurrences of the word \"the\" and related phrases",
+"source": "neuronpedia:gemma-2b/12-res-jb"
+},
+"6578": {
+"text": " forms of the verb \"to be\" or phrases that express existence or state",
+"source": "neuronpedia:gemma-2b/12-res-jb"
+},
+"6592": {
+"text": "the word \"you\" and its variations, indicating a focus on addressing the reader directly",
+"source": "neuronpedia:gemma-2b/12-res-jb"
+},
+"6598": {
+"text": "references to existential conditions and states of being",
+"source": "neuronpedia:gemma-2b/12-res-jb"
+},
+"6647": {
+"text": " monetary values and numerical information related to fees or payments",
+"source": "neuronpedia:gemma-2b/12-res-jb"
+},
+"6684": {
+"text": "scientific measurements and expressions related to decay and attenuation",
+"source": "neuronpedia:gemma-2b/12-res-jb"
+},
+"6709": {
+"text": " negations and references to absence or lack of control",
+"source": "neuronpedia:gemma-2b/12-res-jb"
+},
+"6741": {
+"text": "terms related to the concept of 'function' and its various forms and implications",
+"source": "neuronpedia:gemma-2b/12-res-jb"
+},
+"6742": {
+"text": " phrases related to the act of covering or wrapping",
+"source": "neuronpedia:gemma-2b/12-res-jb"
+},
+"6748": {
+"text": "terms related to medications and their effects on the body",
+"source": "neuronpedia:gemma-2b/12-res-jb"
+},
+"6750": {
+"text": "descriptions of remote and mystical locations or settings",
+"source": "neuronpedia:gemma-2b/12-res-jb"
+},
+"6780": {
+"text": "adjectives describing physical appearance and character traits",
+"source": "neuronpedia:gemma-2b/12-res-jb"
+},
+"6954": {
+"text": " phrases that indicate association or connection",
+"source": "neuronpedia:gemma-2b/12-res-jb"
+},
+"6967": {
+"text": "biographical information about individuals",
+"source": "neuronpedia:gemma-2b/12-res-jb"
+},
+"6973": {
+"text": " numerical data and statistics",
+"source": "neuronpedia:gemma-2b/12-res-jb"
+},
+"6976": {
+"text": "references to mythical or supernatural entities and events",
+"source": "neuronpedia:gemma-2b/12-res-jb"
+},
+"6977": {
+"text": " references to psychological distress and anxiety",
+"source": "neuronpedia:gemma-2b/12-res-jb"
+},
+"6982": {
+"text": "references to specific numbers and quantities",
+"source": "neuronpedia:gemma-2b/12-res-jb"
+},
+"7011": {
+"text": "descriptions of physical spaces, particularly their condition or occupancy",
+"source": "neuronpedia:gemma-2b/12-res-jb"
+},
+"7069": {
+"text": " phrases indicating theoretical concepts or conditions",
+"source": "neuronpedia:gemma-2b/12-res-jb"
+},
+"7078": {
+"text": " incidents involving vehicular accidents",
+"source": "neuronpedia:gemma-2b/12-res-jb"
+},
+"7103": {
+"text": "characteristics and attributes of characters, particularly in a social or relational context",
+"source": "neuronpedia:gemma-2b/12-res-jb"
+},
+"7157": {
+"text": "forms of the verb \"to be\"",
+"source": "neuronpedia:gemma-2b/12-res-jb"
+},
+"7159": {
+"text": " specific days of the week and operating hours",
+"source": "neuronpedia:gemma-2b/12-res-jb"
+},
+"7171": {
+"text": " punctuation marks, specifically commas",
+"source": "neuronpedia:gemma-2b/12-res-jb"
+},
+"7229": {
+"text": "the preposition \"in.\"",
+"source": "neuronpedia:gemma-2b/12-res-jb"
+},
+"7276": {
+"text": "phrases related to perception and judgment formation",
+"source": "neuronpedia:gemma-2b/12-res-jb"
+},
+"7309": null,
+"7328": {
+"text": " expressions of curiosity or inquiry",
+"source": "neuronpedia:gemma-2b/12-res-jb"
+},
+"7361": {
+"text": "dialogue and interactions involving children and family dynamics",
+"source": "neuronpedia:gemma-2b/12-res-jb"
+},
+"7369": {
+"text": "phrases related to socioeconomic issues and challenges, particularly in Muslim countries",
+"source": "neuronpedia:gemma-2b/12-res-jb"
+},
+"7372": {
+"text": "terms related to crossing or transitioning between locations",
+"source": "neuronpedia:gemma-2b/12-res-jb"
+},
+"7383": {
+"text": "present tense forms of the verb \"to be\"",
+"source": "neuronpedia:gemma-2b/12-res-jb"
+},
+"7406": {
+"text": "references to historical figures and their contributions",
+"source": "neuronpedia:gemma-2b/12-res-jb"
+},
+"7425": {
+"text": "references to data processing techniques and suggestions for improvement",
+"source": "neuronpedia:gemma-2b/12-res-jb"
+},
+"7483": {
+"text": "terms related to maternal health issues and military deployment",
+"source": "neuronpedia:gemma-2b/12-res-jb"
+},
+"7530": {
+"text": " references to locations and containers",
+"source": "neuronpedia:gemma-2b/12-res-jb"
+},
+"7540": {
+"text": "phrases related to challenges and obstacles",
+"source": "neuronpedia:gemma-2b/12-res-jb"
+},
+"7630": {
+"text": "mentions of the word \"tomorrow\" and related phrases indicating future events",
+"source": "neuronpedia:gemma-2b/12-res-jb"
+},
+"7667": {
+"text": "specific days of the week and related expressions",
+"source": "neuronpedia:gemma-2b/12-res-jb"
+},
+"7690": {
+"text": " expressions of disbelief or incredulity",
+"source": "neuronpedia:gemma-2b/12-res-jb"
+},
+"7725": {
+"text": "phrases describing beneficial or positive actions related to pets, particularly about neutering and spaying",
+"source": "neuronpedia:gemma-2b/12-res-jb"
+},
+"7814": {
+"text": " concepts related to play and its significance",
+"source": "neuronpedia:gemma-2b/12-res-jb"
+},
+"7848": {
+"text": " questions and discussions related to learning and introspection",
+"source": "neuronpedia:gemma-2b/12-res-jb"
+},
+"7874": {
+"text": " phrases indicating a problem or issue being overlooked or ignored",
+"source": "neuronpedia:gemma-2b/12-res-jb"
+},
+"7887": {
+"text": "instances of copyright and legal terminology",
+"source": "neuronpedia:gemma-2b/12-res-jb"
+},
+"7916": {
+"text": "phrases related to flying or elevated perspectives",
+"source": "neuronpedia:gemma-2b/12-res-jb"
+},
+"7924": {
+"text": " monetary values and financial figures",
+"source": "neuronpedia:gemma-2b/12-res-jb"
+},
+"7961": {
+"text": " mentions of political leaders and their affiliations",
+"source": "neuronpedia:gemma-2b/12-res-jb"
+},
+"7970": {
+"text": "commands and expressions of urgency or caution",
+"source": "neuronpedia:gemma-2b/12-res-jb"
+},
+"8037": {
+"text": " phrases related to cost or pricing",
+"source": "neuronpedia:gemma-2b/12-res-jb"
+},
+"8038": {
+"text": " phrases that indicate a change in condition or state",
+"source": "neuronpedia:gemma-2b/12-res-jb"
+},
+"8072": {
+"text": "terms related to political power dynamics and regime characteristics",
+"source": "neuronpedia:gemma-2b/12-res-jb"
+},
+"8116": {
+"text": " instances of the word \"the\"",
+"source": "neuronpedia:gemma-2b/12-res-jb"
+},
+"8131": {
+"text": " organized lists of lessons or points",
+"source": "neuronpedia:gemma-2b/12-res-jb"
+},
+"8174": {
+"text": " terminology related to medical procedures and their necessity",
+"source": "neuronpedia:gemma-2b/12-res-jb"
+},
+"8314": {
+"text": "questions and answers related to tracking shipments and handling order issues",
+"source": "neuronpedia:gemma-2b/12-res-jb"
+},
+"8349": {
+"text": " specifications related to a multifunction printing device",
+"source": "neuronpedia:gemma-2b/12-res-jb"
+},
+"8350": {
+"text": " key cities in various geographical contexts",
+"source": "neuronpedia:gemma-2b/12-res-jb"
+},
+"8356": {
+"text": "concepts related to hydration and water consumption",
+"source": "neuronpedia:gemma-2b/12-res-jb"
+},
+"8367": {
+"text": " concepts related to frameworks and their integrations",
+"source": "neuronpedia:gemma-2b/12-res-jb"
+},
+"8378": {
+"text": " references to time or events related to cycles or repetition",
+"source": "neuronpedia:gemma-2b/12-res-jb"
+},
+"8390": {
+"text": "terms related to government funding for research and development",
+"source": "neuronpedia:gemma-2b/12-res-jb"
+},
+"8400": {
+"text": "elements related to legal discussions and legislative processes",
+"source": "neuronpedia:gemma-2b/12-res-jb"
+},
+"8477": {
+"text": "specific numeric values associated with prices",
+"source": "neuronpedia:gemma-2b/12-res-jb"
+},
+"8624": {
+"text": " technical terms related to specifications and measurements",
+"source": "neuronpedia:gemma-2b/12-res-jb"
+},
+"8626": {
+"text": " the use of the verb \"to be\" in various forms",
+"source": "neuronpedia:gemma-2b/12-res-jb"
+},
+"8639": {
+"text": " expressions related to comparative analyses of conditions or states",
+"source": "neuronpedia:gemma-2b/12-res-jb"
+},
+"8643": {
+"text": " references to online media platforms and their associated content",
+"source": "neuronpedia:gemma-2b/12-res-jb"
+},
+"8696": {
+"text": "guidelines for creating complex passwords",
+"source": "neuronpedia:gemma-2b/12-res-jb"
+},
+"8706": {
+"text": "events and notable achievements related to leadership and decision-making",
+"source": "neuronpedia:gemma-2b/12-res-jb"
+},
+"8713": {
+"text": " commands and settings related to system configurations or updates",
+"source": "neuronpedia:gemma-2b/12-res-jb"
+},
+"8716": {
+"text": " instances of notable sports achievements and historical records",
+"source": "neuronpedia:gemma-2b/12-res-jb"
+},
+"8751": {
+"text": " references to individual accountability and action in relation to a group",
+"source": "neuronpedia:gemma-2b/12-res-jb"
+},
+"8768": null,
+"8773": {
+"text": "transitions between actions and moments of tension or resolution",
+"source": "neuronpedia:gemma-2b/12-res-jb"
+},
+"8794": {
+"text": " references to divinity and spiritual concepts",
+"source": "neuronpedia:gemma-2b/12-res-jb"
+},
+"8864": {
+"text": " past tense verbs related to going or movement",
+"source": "neuronpedia:gemma-2b/12-res-jb"
+},
+"8896": {
+"text": " phrases related to media and communication dynamics",
+"source": "neuronpedia:gemma-2b/12-res-jb"
+},
+"8922": {
+"text": "phrases related to economic crises and their impacts",
+"source": "neuronpedia:gemma-2b/12-res-jb"
+},
+"8964": {
+"text": " key phrases related to the state and dynamics of the world",
+"source": "neuronpedia:gemma-2b/12-res-jb"
+},
+"8968": {
+"text": " phrases that qualify or define specific terms and conditions related to rules or regulations",
+"source": "neuronpedia:gemma-2b/12-res-jb"
+},
+"9004": {
+"text": "situations involving emotional distress or anxiety",
+"source": "neuronpedia:gemma-2b/12-res-jb"
+},
+"9075": {
+"text": " occurrences of the word \"and\" in contexts that involve groups, particularly in relation to services for both boys and girls",
+"source": "neuronpedia:gemma-2b/12-res-jb"
+},
+"9079": {
+"text": " the indefinite article \"an.\"",
+"source": "neuronpedia:gemma-2b/12-res-jb"
+},
+"9188": {
+"text": " mentions of scientific research findings and discoveries",
+"source": "neuronpedia:gemma-2b/12-res-jb"
+},
+"9204": {
+"text": " key events and significant progress in economic discussions or reforms",
+"source": "neuronpedia:gemma-2b/12-res-jb"
+},
+"9341": {
+"text": "phrases related to upcoming events or seasonal changes",
+"source": "neuronpedia:gemma-2b/12-res-jb"
+},
+"9613": {
+"text": " verbs and quantifiable actions related to city governance and administrative processes",
+"source": "neuronpedia:gemma-2b/12-res-jb"
+},
+"9640": {
+"text": " references to celestial bodies and their distances from the sun",
+"source": "neuronpedia:gemma-2b/12-res-jb"
+},
+"9647": {
+"text": " actions and behaviors related to companionship and routine",
+"source": "neuronpedia:gemma-2b/12-res-jb"
+},
+"9648": {
+"text": " mentions of significant events or phenomena",
+"source": "neuronpedia:gemma-2b/12-res-jb"
+},
+"9695": {
+"text": " elements related to programming and code structure",
+"source": "neuronpedia:gemma-2b/12-res-jb"
+},
+"9700": {
+"text": " statistical data and figures",
+"source": "neuronpedia:gemma-2b/12-res-jb"
+},
+"9702": {
+"text": " phrases indicating exclusivity or limitation",
+"source": "neuronpedia:gemma-2b/12-res-jb"
+},
+"9720": {
+"text": " specific job roles and positions",
+"source": "neuronpedia:gemma-2b/12-res-jb"
+},
+"9734": null,
+"9738": {
+"text": " references to safety regulations and incident reports",
+"source": "neuronpedia:gemma-2b/12-res-jb"
+},
+"9742": {
+"text": " concepts related to relationships and connections between people",
+"source": "neuronpedia:gemma-2b/12-res-jb"
+},
+"9744": {
+"text": "phrases about vision and visual recognition abilities",
+"source": "neuronpedia:gemma-2b/12-res-jb"
+},
+"9749": {
+"text": " terms related to imaging techniques and their descriptions",
+"source": "neuronpedia:gemma-2b/12-res-jb"
+},
+"9756": {
+"text": " financial and stock market terminology",
+"source": "neuronpedia:gemma-2b/12-res-jb"
+},
+"9780": {
+"text": " phrases that indicate comparisons or contrasts",
+"source": "neuronpedia:gemma-2b/12-res-jb"
+},
+"9857": {
+"text": " phrases related to future predictions or outcomes",
+"source": "neuronpedia:gemma-2b/12-res-jb"
+},
+"9858": {
+"text": " occurrences of the word \"word\" and its variants in various contexts",
+"source": "neuronpedia:gemma-2b/12-res-jb"
+},
+"9866": {
+"text": " verbs related to movement or travel",
+"source": "neuronpedia:gemma-2b/12-res-jb"
+},
+"9954": {
+"text": " punctuation marks and their patterns in sentences",
+"source": "neuronpedia:gemma-2b/12-res-jb"
+},
+"9988": {
+"text": " narrative elements related to personal experiences",
+"source": "neuronpedia:gemma-2b/12-res-jb"
+},
+"10083": {
+"text": " emotional states and descriptions of experiences",
+"source": "neuronpedia:gemma-2b/12-res-jb"
+},
+"10205": {
+"text": " key ideas related to the importance of education and essential tools in daily life",
+"source": "neuronpedia:gemma-2b/12-res-jb"
+},
+"10216": {
+"text": "references to the word \"the\" and its context in the text",
+"source": "neuronpedia:gemma-2b/12-res-jb"
+},
+"10291": {
+"text": "references to cultural traditions and practices",
+"source": "neuronpedia:gemma-2b/12-res-jb"
+},
+"10323": {
+"text": "elements related to technology and online resources",
+"source": "neuronpedia:gemma-2b/12-res-jb"
+},
+"10390": {
+"text": " references to event logistics or details such as timelines and access information",
+"source": "neuronpedia:gemma-2b/12-res-jb"
+},
+"10489": {
+"text": " financial data and metrics related to market performance and statistics",
+"source": "neuronpedia:gemma-2b/12-res-jb"
+},
+"10505": {
+"text": "scientific terminology related to cellular biology and genetics",
+"source": "neuronpedia:gemma-2b/12-res-jb"
+},
+"10510": {
+"text": " monetary values and calculations related to costs and profits",
+"source": "neuronpedia:gemma-2b/12-res-jb"
+},
+"10540": {
+"text": " concepts related to spirituality and inner places or states of being",
+"source": "neuronpedia:gemma-2b/12-res-jb"
+},
+"10541": {
+"text": " references to measurements or quantities within a context",
+"source": "neuronpedia:gemma-2b/12-res-jb"
+},
+"10554": {
+"text": "greetings and expressions of introduction",
+"source": "neuronpedia:gemma-2b/12-res-jb"
+},
+"10607": {
+"text": "problematic situations or confusion related to decision-making processes",
+"source": "neuronpedia:gemma-2b/12-res-jb"
+},
+"10762": {
+"text": "punctuation marks and their significance in context",
+"source": "neuronpedia:gemma-2b/12-res-jb"
+},
+"10783": {
+"text": " references to event organization and consumer gift shopping",
+"source": "neuronpedia:gemma-2b/12-res-jb"
+},
+"10808": {
+"text": " long-term projects and research initiatives",
+"source": "neuronpedia:gemma-2b/12-res-jb"
+},
+"10852": {
+"text": " references to variable definitions and types in programming contexts",
+"source": "neuronpedia:gemma-2b/12-res-jb"
+},
+"10879": {
+"text": "negative numerical values related to penalties or infractions in the context of sports",
+"source": "neuronpedia:gemma-2b/12-res-jb"
+},
+"10880": {
+"text": " phrases indicating time progression and future planning",
+"source": "neuronpedia:gemma-2b/12-res-jb"
+},
+"10894": {
+"text": " terms related to legal definitions of marriage and domestic partnership benefits",
+"source": "neuronpedia:gemma-2b/12-res-jb"
+},
+"10901": {
+"text": " instances of actions related to waiting or preparation",
+"source": "neuronpedia:gemma-2b/12-res-jb"
+},
+"10930": {
+"text": " mentions of investigations and legal proceedings",
+"source": "neuronpedia:gemma-2b/12-res-jb"
+},
+"10932": {
+"text": "phrases related to dietary effects on health, particularly in relation to zinc and testosterone levels",
+"source": "neuronpedia:gemma-2b/12-res-jb"
+},
+"10943": {
+"text": " themes related to unity and connection among individuals",
+"source": "neuronpedia:gemma-2b/12-res-jb"
+},
+"11042": {
+"text": "the frequency or popularity of particular topics or themes",
+"source": "neuronpedia:gemma-2b/12-res-jb"
+},
+"11055": {
+"text": " activities related to swimming and knitting",
+"source": "neuronpedia:gemma-2b/12-res-jb"
+},
+"11098": {
+"text": " routines related to daily personal health activities",
+"source": "neuronpedia:gemma-2b/12-res-jb"
+},
+"11143": {
+"text": " phrases related to scheduling and posting information",
+"source": "neuronpedia:gemma-2b/12-res-jb"
+},
+"11154": {
+"text": " concepts related to quantities and their significance",
+"source": "neuronpedia:gemma-2b/12-res-jb"
+},
+"11174": {
+"text": "references to health-related issues and emotional responses",
+"source": "neuronpedia:gemma-2b/12-res-jb"
+},
+"11175": {
+"text": "specific software and computer-related terminology",
+"source": "neuronpedia:gemma-2b/12-res-jb"
+},
+"11287": {
+"text": " phrases related to maintenance and repairs",
+"source": "neuronpedia:gemma-2b/12-res-jb"
+},
+"11325": {
+"text": "nutritional information related to specific foods and their health benefits",
+"source": "neuronpedia:gemma-2b/12-res-jb"
+},
+"11334": {
+"text": "the verb \"is\" in various forms and contexts",
+"source": "neuronpedia:gemma-2b/12-res-jb"
+},
+"11361": {
+"text": "references to health, fitness, and well-being",
+"source": "neuronpedia:gemma-2b/12-res-jb"
+},
+"11415": {
+"text": "financially related contexts and discussions",
+"source": "neuronpedia:gemma-2b/12-res-jb"
+},
+"11430": {
+"text": "questions and inquiries about personal experiences and opinions",
+"source": "neuronpedia:gemma-2b/12-res-jb"
+},
+"11513": {
+"text": "phrases related to sustainability and environmental concerns",
+"source": "neuronpedia:gemma-2b/12-res-jb"
+},
+"11553": {
+"text": "terms related to sleep and sleeping disorders",
+"source": "neuronpedia:gemma-2b/12-res-jb"
+},
+"11576": {
+"text": " phrases related to equal opportunities and equality",
+"source": "neuronpedia:gemma-2b/12-res-jb"
+},
+"11625": {
+"text": "phrases related to consequences and causal relationships in complex situations",
+"source": "neuronpedia:gemma-2b/12-res-jb"
+},
+"11669": {
+"text": "phrases related to sports statistics and game events",
+"source": "neuronpedia:gemma-2b/12-res-jb"
+},
+"11737": {
+"text": " occurrences of the article \"a\" in various contexts",
+"source": "neuronpedia:gemma-2b/12-res-jb"
+},
+"11745": {
+"text": " phrases related to experiences or occurrences that have happened over time",
+"source": "neuronpedia:gemma-2b/12-res-jb"
+},
+"11751": {
+"text": " financial amounts related to county programs",
+"source": "neuronpedia:gemma-2b/12-res-jb"
+},
+"11775": {
+"text": "phrases that aim to summarize or encapsulate complex ideas",
+"source": "neuronpedia:gemma-2b/12-res-jb"
+},
+"11820": {
+"text": "references to the concept of a \"capital\" city",
+"source": "neuronpedia:gemma-2b/12-res-jb"
+},
+"11839": {
+"text": "terms related to political attacks and social issues",
+"source": "neuronpedia:gemma-2b/12-res-jb"
+},
+"11853": {
+"text": "content related to personal experiences and reflections on identity",
+"source": "neuronpedia:gemma-2b/12-res-jb"
+},
+"11860": {
+"text": "references to urban settings or contrasts within a city environment",
+"source": "neuronpedia:gemma-2b/12-res-jb"
+},
+"11872": {
+"text": " references to groups of individuals engaged in activities or experiences",
+"source": "neuronpedia:gemma-2b/12-res-jb"
+},
+"11876": {
+"text": "adverbs indicating rapid actions or processes",
+"source": "neuronpedia:gemma-2b/12-res-jb"
+},
+"11877": {
+"text": " information and statistics related to sports awards and achievements",
+"source": "neuronpedia:gemma-2b/12-res-jb"
+},
+"11920": {
+"text": " temporal and numerical references in contexts related to significant events and ceremonies",
+"source": "neuronpedia:gemma-2b/12-res-jb"
+},
+"11942": {
+"text": " instances of the verb \"is\" and its variations to denote availability or state of being",
+"source": "neuronpedia:gemma-2b/12-res-jb"
+},
+"12001": {
+"text": " elements related to conditional statements and choices",
+"source": "neuronpedia:gemma-2b/12-res-jb"
+},
+"12029": {
+"text": " economic indicators related to currency values",
+"source": "neuronpedia:gemma-2b/12-res-jb"
+},
+"12045": {
+"text": "notable achievements or accolades related to artists in the entertainment industry",
+"source": "neuronpedia:gemma-2b/12-res-jb"
+},
+"12063": {
+"text": "performance evaluation and assessment in a competitive context",
+"source": "neuronpedia:gemma-2b/12-res-jb"
+},
+"12080": {
+"text": " terms related to measurement units",
+"source": "neuronpedia:gemma-2b/12-res-jb"
+},
+"12098": {
+"text": " detailed descriptions of shopping experiences",
+"source": "neuronpedia:gemma-2b/12-res-jb"
+},
+"12118": {
+"text": " concepts related to the uniqueness and moral nature of humanity",
+"source": "neuronpedia:gemma-2b/12-res-jb"
+},
+"12153": {
+"text": "phrases related to comparison and contrasting ideas",
+"source": "neuronpedia:gemma-2b/12-res-jb"
+},
+"12187": {
+"text": "quotes and references to personal relationships or decisions",
+"source": "neuronpedia:gemma-2b/12-res-jb"
+},
+"12201": {
+"text": " characters involved in comedic situations",
+"source": "neuronpedia:gemma-2b/12-res-jb"
+},
+"12223": {
+"text": " words related to predictions and future expectations",
+"source": "neuronpedia:gemma-2b/12-res-jb"
+},
+"12230": {
+"text": "terms relating to religious worship and spiritual healing",
+"source": "neuronpedia:gemma-2b/12-res-jb"
+},
+"12250": {
+"text": "critical terms related to sleep and health assessment",
+"source": "neuronpedia:gemma-2b/12-res-jb"
+},
+"12287": {
+"text": "references to animals and their interactions",
+"source": "neuronpedia:gemma-2b/12-res-jb"
+},
+"12288": {
+"text": " words related to construction and project timelines",
+"source": "neuronpedia:gemma-2b/12-res-jb"
+},
+"12321": {
+"text": "instances of the word \"where\" indicating locations or contexts within a narrative",
+"source": "neuronpedia:gemma-2b/12-res-jb"
+},
+"12341": {
+"text": " strategies for managing anger and promoting relaxation techniques",
+"source": "neuronpedia:gemma-2b/12-res-jb"
+},
+"12383": {
+"text": " expressions related to effectiveness and safety in medical treatments and research",
+"source": "neuronpedia:gemma-2b/12-res-jb"
+},
+"12410": {
+"text": " programming-related syntax and structure",
+"source": "neuronpedia:gemma-2b/12-res-jb"
+},
+"12430": {
+"text": "references to specific cities and their characteristics",
+"source": "neuronpedia:gemma-2b/12-res-jb"
+},
+"12464": {
+"text": "the word \"went\" and its variations in context",
+"source": "neuronpedia:gemma-2b/12-res-jb"
+},
+"12472": {
+"text": "terms related to chromatography techniques and processes",
+"source": "neuronpedia:gemma-2b/12-res-jb"
+},
+"12485": {
+"text": " thoughts and perceptions about Oregon's climate, particularly rain",
+"source": "neuronpedia:gemma-2b/12-res-jb"
+},
+"12499": {
+"text": " phrases indicating locations or settings",
+"source": "neuronpedia:gemma-2b/12-res-jb"
+},
+"12601": {
+"text": "references to legal claims or actions regarding medical conditions",
+"source": "neuronpedia:gemma-2b/12-res-jb"
+},
+"12676": {
+"text": " interrogative phrases and references to governing bodies and authority",
+"source": "neuronpedia:gemma-2b/12-res-jb"
+},
+"12696": {
+"text": " sequences of directional and movement-related actions",
+"source": "neuronpedia:gemma-2b/12-res-jb"
+},
+"12710": {
+"text": " phrases indicating unity or collectiveness",
+"source": "neuronpedia:gemma-2b/12-res-jb"
+},
+"12869": {
+"text": " rhetorical questions and inquiries",
+"source": "neuronpedia:gemma-2b/12-res-jb"
+},
+"12895": {
+"text": "situations that involve ongoing or past actions, particularly in the context of questions or dialogues",
+"source": "neuronpedia:gemma-2b/12-res-jb"
+},
+"12903": {
+"text": " numerical data related to medical measurements or patient records",
+"source": "neuronpedia:gemma-2b/12-res-jb"
+},
+"12930": {
+"text": "references to various health topics and their implications",
+"source": "neuronpedia:gemma-2b/12-res-jb"
+},
+"12942": {
+"text": " phrases related to quests or search-like situations",
+"source": "neuronpedia:gemma-2b/12-res-jb"
+},
+"12993": {
+"text": " references to standing or being upright",
+"source": "neuronpedia:gemma-2b/12-res-jb"
+},
+"13002": {
+"text": " descriptive adjectives related to colors and visual richness",
+"source": "neuronpedia:gemma-2b/12-res-jb"
+},
+"13009": {
+"text": " instances of the word \"to\" and conjunctions indicating choices or alternatives",
+"source": "neuronpedia:gemma-2b/12-res-jb"
+},
+"13092": {
+"text": " references to academic or professional topics",
+"source": "neuronpedia:gemma-2b/12-res-jb"
+},
+"13122": {
+"text": "phrases related to probability and chance in scientific contexts",
+"source": "neuronpedia:gemma-2b/12-res-jb"
+},
+"13133": {
+"text": " instances of the word \"a\" along with variations of its usage in different contexts",
+"source": "neuronpedia:gemma-2b/12-res-jb"
+},
+"13149": {
+"text": " mentions of economic conditions and trends over a series of years",
+"source": "neuronpedia:gemma-2b/12-res-jb"
+},
+"13222": {
+"text": " references to doors and their states, particularly opening and closing",
+"source": "neuronpedia:gemma-2b/12-res-jb"
+},
+"13228": {
+"text": " phrases that indicate a list or enumeration of items or ideas",
+"source": "neuronpedia:gemma-2b/12-res-jb"
+},
+"13247": {
+"text": " numerical data related to licensing and patent statuses",
+"source": "neuronpedia:gemma-2b/12-res-jb"
+},
+"13269": {
+"text": "details related to bathroom features and amenities",
+"source": "neuronpedia:gemma-2b/12-res-jb"
+},
+"13402": {
+"text": " references to purchasing options without prescription requirements",
+"source": "neuronpedia:gemma-2b/12-res-jb"
+},
+"13419": {
+"text": "references to composers and their musical works",
+"source": "neuronpedia:gemma-2b/12-res-jb"
+},
+"13443": {
+"text": "instances of the verb \"is\" related to conditions or statuses",
+"source": "neuronpedia:gemma-2b/12-res-jb"
+},
+"13665": {
+"text": " occurrences of the verb \"is\"",
+"source": "neuronpedia:gemma-2b/12-res-jb"
+},
+"13693": {
+"text": "references to notable individuals and their achievements",
+"source": "neuronpedia:gemma-2b/12-res-jb"
+},
+"13714": {
+"text": "information about international airports in Istanbul",
+"source": "neuronpedia:gemma-2b/12-res-jb"
+},
+"13733": {
+"text": "future plans or intentions",
+"source": "neuronpedia:gemma-2b/12-res-jb"
+},
+"13755": {
+"text": " references to past activities or purchases",
+"source": "neuronpedia:gemma-2b/12-res-jb"
+},
+"13798": {
+"text": "references to international diplomatic relations and cooperation",
+"source": "neuronpedia:gemma-2b/12-res-jb"
+},
+"13840": {
+"text": " technical terms related to electrical components and connections",
+"source": "neuronpedia:gemma-2b/12-res-jb"
+},
+"13846": {
+"text": " phrases related to bidding farewell or saying goodbye",
+"source": "neuronpedia:gemma-2b/12-res-jb"
+},
+"13858": {
+"text": "instances of personal narratives or experiences",
+"source": "neuronpedia:gemma-2b/12-res-jb"
+},
+"13890": {
+"text": " references to political structures and governmental entities",
+"source": "neuronpedia:gemma-2b/12-res-jb"
+},
+"13904": {
+"text": " the verb \"is\" and its different usages in sentences",
+"source": "neuronpedia:gemma-2b/12-res-jb"
+},
+"13906": {
+"text": " references to musical instruments and playing techniques",
+"source": "neuronpedia:gemma-2b/12-res-jb"
+},
+"14014": {
+"text": "email addresses and phone numbers",
+"source": "neuronpedia:gemma-2b/12-res-jb"
+},
+"14017": {
+"text": "phrases indicating leadership roles and accomplishments",
+"source": "neuronpedia:gemma-2b/12-res-jb"
+},
+"14085": {
+"text": "specific references to locations and people",
+"source": "neuronpedia:gemma-2b/12-res-jb"
+},
+"14100": {
+"text": " terms related to sleep issues",
+"source": "neuronpedia:gemma-2b/12-res-jb"
+},
+"14117": {
+"text": " phrases related to forms and requests for information or advertising services",
+"source": "neuronpedia:gemma-2b/12-res-jb"
+},
+"14120": {
+"text": "the definite article \"the.\"",
+"source": "neuronpedia:gemma-2b/12-res-jb"
+},
+"14151": {
+"text": "references to local delivery cities and their listings",
+"source": "neuronpedia:gemma-2b/12-res-jb"
+},
+"14200": {
+"text": " references to books, games, and storytelling elements",
+"source": "neuronpedia:gemma-2b/12-res-jb"
+},
+"14293": {
+"text": "references to the number seven and its variations in different contexts",
+"source": "neuronpedia:gemma-2b/12-res-jb"
+},
+"14351": {
+"text": " instances of the article \"a\" in various contexts",
+"source": "neuronpedia:gemma-2b/12-res-jb"
+},
+"14366": {
+"text": "concepts related to visual phenomena and holographic imagery",
+"source": "neuronpedia:gemma-2b/12-res-jb"
+},
+"14375": {
+"text": " expressions of personal growth and experience",
+"source": "neuronpedia:gemma-2b/12-res-jb"
+},
+"14426": {
+"text": " instances of the verb \"go\" and its variations",
+"source": "neuronpedia:gemma-2b/12-res-jb"
+},
+"14469": {
+"text": " time durations associated with processes or procedures",
+"source": "neuronpedia:gemma-2b/12-res-jb"
+},
+"14547": null,
+"14572": {
+"text": "repetitive mentions of the word \"the.\"",
+"source": "neuronpedia:gemma-2b/12-res-jb"
+},
+"14575": {
+"text": "references to events and activities related to political proceedings or public addresses",
+"source": "neuronpedia:gemma-2b/12-res-jb"
+},
+"14581": {
+"text": " key phrases related to questions about historical events and economic data",
+"source": "neuronpedia:gemma-2b/12-res-jb"
+},
+"14592": {
+"text": "specific product names and brands",
+"source": "neuronpedia:gemma-2b/12-res-jb"
+},
+"14660": {
+"text": "terms related to programming and technical processes",
+"source": "neuronpedia:gemma-2b/12-res-jb"
+},
+"14668": {
+"text": " monetary values and financial statistics related to giveaways or awards",
+"source": "neuronpedia:gemma-2b/12-res-jb"
+},
+"14709": {
+"text": "terms related to religious affiliations and practices",
+"source": "neuronpedia:gemma-2b/12-res-jb"
+},
+"14772": {
+"text": " phrases indicating the absence or lack of published content",
+"source": "neuronpedia:gemma-2b/12-res-jb"
+},
+"14798": {
+"text": "references to influential historical figures and their contributions",
+"source": "neuronpedia:gemma-2b/12-res-jb"
+},
+"14901": {
+"text": "references to business practices and terms related to market conditions",
+"source": "neuronpedia:gemma-2b/12-res-jb"
+},
+"14963": {
+"text": "references related to molecular interactions and reactions",
+"source": "neuronpedia:gemma-2b/12-res-jb"
+},
+"15058": {
+"text": " expressions of desire or want related to interactions and relationships",
+"source": "neuronpedia:gemma-2b/12-res-jb"
+},
+"15159": {
+"text": " elements related to comparisons and contrasts in performance or actions",
+"source": "neuronpedia:gemma-2b/12-res-jb"
+},
+"15186": {
+"text": " terms related to optimization and searching for optimal conditions or results",
+"source": "neuronpedia:gemma-2b/12-res-jb"
+},
+"15199": {
+"text": " aspects of fitness and wellness facilities",
+"source": "neuronpedia:gemma-2b/12-res-jb"
+},
+"15203": {
+"text": " elements of information or context within structured formats",
+"source": "neuronpedia:gemma-2b/12-res-jb"
+},
+"15248": {
+"text": " phrases related to requests and actions in competitive contexts",
+"source": "neuronpedia:gemma-2b/12-res-jb"
+},
+"15251": {
+"text": " instances of the conjunction \"and\" along with references to specific characters or titles",
+"source": "neuronpedia:gemma-2b/12-res-jb"
+},
+"15272": null,
+"15276": {
+"text": "references to specific items or categories within a context",
+"source": "neuronpedia:gemma-2b/12-res-jb"
+},
+"15279": {
+"text": "terms related to restrictions, injuries, and the challenges faced in contexts such as copyright, health, and sports",
+"source": "neuronpedia:gemma-2b/12-res-jb"
+},
+"15310": {
+"text": " elements of punctuation and formatting instructions",
+"source": "neuronpedia:gemma-2b/12-res-jb"
+},
+"15349": {
+"text": " instances of numerical data or statistics related to performance metrics",
+"source": "neuronpedia:gemma-2b/12-res-jb"
+},
+"15351": {
+"text": " moments of realization or change in narrative",
+"source": "neuronpedia:gemma-2b/12-res-jb"
+},
+"15437": {
+"text": " numerical specifications related to product listings",
+"source": "neuronpedia:gemma-2b/12-res-jb"
+},
+"15459": {
+"text": " instances of the word \"and.\"",
+"source": "neuronpedia:gemma-2b/12-res-jb"
+},
+"15488": {
+"text": " references to numerical data or structured information",
+"source": "neuronpedia:gemma-2b/12-res-jb"
+},
+"15601": {
+"text": " mathematical and geometrical concepts related to shapes and structures",
+"source": "neuronpedia:gemma-2b/12-res-jb"
+},
+"15640": {
+"text": " actions related to movement",
+"source": "neuronpedia:gemma-2b/12-res-jb"
+},
+"15711": null,
+"15723": {
+"text": "parts of text that indicate availability and inquiries about booking",
+"source": "neuronpedia:gemma-2b/12-res-jb"
+},
+"15728": {
+"text": " references to traffic violations and their consequences",
+"source": "neuronpedia:gemma-2b/12-res-jb"
+},
+"15765": {
+"text": "chemical properties and behavior of volatile and non-volatile substances in mixtures",
+"source": "neuronpedia:gemma-2b/12-res-jb"
+},
+"15828": null,
+"15841": {
+"text": " key terms related to technology and digital services",
+"source": "neuronpedia:gemma-2b/12-res-jb"
+},
+"15868": {
+"text": "steps or instructions related to cooking",
+"source": "neuronpedia:gemma-2b/12-res-jb"
+},
+"15980": {
+"text": "phrases related to unemployment and labor issues",
+"source": "neuronpedia:gemma-2b/12-res-jb"
+},
+"16007": {
+"text": " the usage of the word \"that\" in various contexts",
+"source": "neuronpedia:gemma-2b/12-res-jb"
+},
+"16022": {
+"text": " references to scientific disciplines and methodologies",
+"source": "neuronpedia:gemma-2b/12-res-jb"
+},
+"16143": {
+"text": "the conjunction \"and\" used in various contexts",
+"source": "neuronpedia:gemma-2b/12-res-jb"
+},
+"16158": {
+"text": "instances of the article \"a.\"",
+"source": "neuronpedia:gemma-2b/12-res-jb"
+},
+"16240": {
+"text": "terms related to biological and chemical processes, particularly in the context of vaccines and chromatography",
+"source": "neuronpedia:gemma-2b/12-res-jb"
+},
+"16285": {
+"text": " occurrences of the word \"the.\"",
+"source": "neuronpedia:gemma-2b/12-res-jb"
+},
+"16315": {
+"text": " references to quantities and configurations of components or devices",
+"source": "neuronpedia:gemma-2b/12-res-jb"
+},
+"16326": {
+"text": "key statistical terms and phrases related to popular subjects and illnesses",
+"source": "neuronpedia:gemma-2b/12-res-jb"
+},
+"16341": {
+"text": "terms related to brain function and diseases, particularly Alzheimer's disease",
+"source": "neuronpedia:gemma-2b/12-res-jb"
+},
+"16342": {
+"text": "phrases related to mechanical items and their conditions",
+"source": "neuronpedia:gemma-2b/12-res-jb"
+},
+"16344": {
+"text": "references to pricing and ticket details",
+"source": "neuronpedia:gemma-2b/12-res-jb"
+},
+"16346": {
+"text": " various forms of the verb \"to be\" combined with adjectives or descriptors",
+"source": "neuronpedia:gemma-2b/12-res-jb"
+},
+"16359": null
+}

@@ -1,0 +1,2230 @@
+{
+"8": {
+"text": "references to places and experiences related to visits",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"174": {
+"text": " words related to species identification and classification",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"185": {
+"text": "instances of professional and social interactions involving consequences",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"247": {
+"text": " syntax and structure related to programming or programming languages",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"279": {
+"text": "references to clothing and fashion items",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"332": {
+"text": " concepts related to sleep and its effects on memory and metabolism",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"505": {
+"text": "components and elements of electronic circuits or assemblies",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"543": {
+"text": " references to violent actions or weapons",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"591": {
+"text": "attributes and feelings related to colors and their effects",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"615": {
+"text": " recurrent uses of the definite article \"the\"",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"652": {
+"text": "verbs that indicate existence or state",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"697": {
+"text": "text related to recommendations for careful decision-making in purchasing or service contexts",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"736": {
+"text": "verb forms indicating possession or ownership",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"815": {
+"text": "numerical values and related attributes in data structures",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"870": {
+"text": " phrases related to Christmas traditions and consumer behavior",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"1028": {
+"text": "cultural references and discussions around societal values and norms",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"1062": {
+"text": " code-related terms and variable definitions in programming contexts",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"1084": {
+"text": " punctuation and structure in code snippets and textual data",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"1158": {
+"text": "specific items or components related to accessories and their characteristics",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"1219": {
+"text": "terms and phrases related to massage therapy and its benefits",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"1241": {
+"text": " references to locks and security systems",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"1296": {
+"text": "instances of the word \"sit\" or its variations in different contexts",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"1315": {
+"text": "phrases related to programming and error handling in code",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"1333": {
+"text": " phrases related to changes or developments in technology and their impact",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"1338": {
+"text": " negative indicators related to financial or legal matters",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"1348": {
+"text": "concepts related to decision-making and taking control of circumstances",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"1414": {
+"text": " programming syntax and structure, particularly related to function definitions and commands",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"1448": {
+"text": "references to skiing and the associated equipment or experiences",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"1460": {
+"text": " numerical data and identifiers",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"1609": {
+"text": " words associated with rarity or infrequency",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"1711": {
+"text": " references to structural issues within civil society",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"1867": {
+"text": " phrases that indicate timelines and significant dates or events in a person's life",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"1869": {
+"text": " references to societal norms and issues surrounding identity and discrimination",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"1922": {
+"text": "expressions of excitement and positive emotions",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"1992": {
+"text": "phrases that convey strong emotional or evaluative sentiments",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"2075": {
+"text": " text related to market analysis and strategic planning",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"2091": {
+"text": " references to names and organizations",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"2154": {
+"text": "phrases related to financial transactions and economic implications",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"2163": {
+"text": "references to personal and relational interactions in various contexts",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"2274": {
+"text": " phrases indicating evaluation or judgement",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"2278": {
+"text": " phrases related to molecular structures and biological processes",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"2333": {
+"text": "aspects of class structures and their relationships in a code context",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"2336": {
+"text": " phrases related to financial endeavors or business opportunities",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"2378": {
+"text": "conversations about social media engagement and its impact on society",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"2458": {
+"text": " references to programming concepts and parameters",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"2506": {
+"text": "information related to statistics and data analysis",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"2669": {
+"text": "mathematical operations and numerical relationships in the text",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"2680": {
+"text": "queries or requests related to technical implementation and functionality in coding or software development",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"2720": {
+"text": "phrases and expressions that indicate order or position, particularly focusing on \"first,\" \"last,\" and \"second.\"",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"2752": {
+"text": " locations and personal characteristics of the individuals mentioned",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"2839": {
+"text": "technical descriptions and details related to technology and its applications",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"2871": {
+"text": " phrases related to positive outcomes or achievements",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"2873": {
+"text": " occurrences of the word \"begin\" or its variations and events related to the start of significant initiatives or historical moments",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"2911": {
+"text": " programming-related concepts and operations",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"2992": {
+"text": "terms related to radiation and its effects",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"3035": {
+"text": "scientific classifications and diversity of species in ecological contexts",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"3053": {
+"text": " terms indicating suitability or perfection in various contexts",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"3200": {
+"text": "keywords and phrases related to business strategies and services for startup ventures",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"3275": {
+"text": "present tense forms of the verb \"have\"",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"3366": {
+"text": "instances of the word \"it\" and related references",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"3412": {
+"text": "phrases involving the word \"go.\"",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"3457": {
+"text": "technical terms and various forms of the article \"a\"",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"3511": {
+"text": " aspects related to food texture and flavor",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"3578": {
+"text": "phrases indicating contrasting or opposing relationships",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"3584": {
+"text": "concepts related to dark energy and cosmological phenomena",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"3587": {
+"text": "references to physical locations or spatial relationships",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"3702": {
+"text": "patterns and structures in programming-related content",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"3853": {
+"text": "nationalities and their associated terms within the context of people",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"3958": {
+"text": " phrases and elements related to programming or defining tasks",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"3992": {
+"text": " phrases emphasizing the significance or value of concepts, experiences, or events",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"4299": {
+"text": " phrases related to technical specifications and systems",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"4333": {
+"text": " references to walking or movement through various environments",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"4337": {
+"text": " references to sports and athletic activities",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"4364": {
+"text": " descriptions of objects or entities with notable attributes or characteristics",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"4379": {
+"text": " function calls and the associated parameters in code",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"4483": {
+"text": " references to significant life events or transitions",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"4614": {
+"text": "quantitative inquiries or expressions related to cost and value",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"4645": {
+"text": "mentions of financial concepts and entities",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"4663": {
+"text": "concepts related to nuclear power and its associated risks",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"4664": {
+"text": " references to cultural or traditional crafting techniques",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"4716": {
+"text": " expressions of affection and emotional connections to family",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"4725": {
+"text": " positive sentiments and expressions of enjoyment",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"4764": {
+"text": " descriptive phrases and features related to products",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"4845": {
+"text": " topics related to health and well-being, particularly the impact of social media and psychosocial factors on mental and physical health",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"4853": {
+"text": "references to self-reported alcohol consumption and its associations with clinical outcomes",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"4909": {
+"text": " numerical values associated with ratings and measurements",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"4919": {
+"text": " key actions and events related to sports plays",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"4962": {
+"text": "the presence of verbs indicating possession or existence",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"4965": {
+"text": " phrases related to economic reports and statistics",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"5010": {
+"text": " phrases indicating experience and professional qualifications",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"5295": {
+"text": "terms and phrases related to success and achievement",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"5496": {
+"text": "references to scientific discoveries or breakthroughs",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"5559": {
+"text": "repeated phrases or expressions indicating choices",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"5562": {
+"text": "verbs related to movement or actions of going",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"5575": {
+"text": " content related to security or threat assessments",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"5692": {
+"text": " steps or instructions related to technical processes or setups",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"5729": {
+"text": "technical terms related to survey methodologies and data collection",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"5931": {
+"text": "information related to organizational or administrative tasks",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"5946": {
+"text": "references to historical figures and events",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"6043": {
+"text": " patterns and structures in data, particularly relating to specifications and characteristics of items",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"6360": {
+"text": "scientific terms related to energy generation from specific materials",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"6363": {
+"text": "the article \"an\" in varying contexts",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"6480": {
+"text": "references to shader creation and uniform parameters in graphics programming",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"6512": {
+"text": " pairs of phrases that indicate performance and achievements in a sports context",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"6555": {
+"text": " concepts related to comparison and contrast between different ideas or entities",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"6586": {
+"text": "phrases related to directions or navigation",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"6659": {
+"text": "the indefinite article \"an\" and its variations in text",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"6677": {
+"text": "terms indicating recognition, prestige, and acclaim in various contexts",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"6691": {
+"text": "environmental and geological features and their interactions",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"6696": {
+"text": "elements related to personal journeys and experiences that inspire cultural understanding and exploration",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"6742": {
+"text": "terms related to environmental policies and climate change impacts",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"6833": {
+"text": "references to programming functions and methods",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"6943": {
+"text": "references to game setups and performance metrics",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"6971": {
+"text": "phrases that indicate the influence of factors on outcomes related to public health and treatment effectiveness",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"6988": {
+"text": "terms related to financial performance and operational assessments",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"7023": {
+"text": "verbs that indicate actions or states in various contexts",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"7055": {
+"text": " questions related to conditions or specifications in various contexts",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"7116": {
+"text": "phrases related to expected actions and behaviors in programming contexts",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"7119": {
+"text": "numerical statistics and data related to population and financial trends",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"7208": {
+"text": " phrases related to healthcare and human services",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"7305": {
+"text": "phrases related to time management and scheduling",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"7404": {
+"text": " references to locations and accommodations in a travel context",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"7439": {
+"text": " conjunctive phrases or options indicating alternatives",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"7468": {
+"text": "terms related to product specifications and conditions of sales",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"7541": {
+"text": " references to legal and government proceedings",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"7552": {
+"text": " statements that include metrics, evaluations, and analytical observations",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"7556": {
+"text": " references to legal proceedings and government actions",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"7613": {
+"text": " references to elements and their interactions, specifically focusing on chemistry and environmental implications",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"7641": {
+"text": "forms of the verb \"have\"",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"7975": {
+"text": "patterns related to social inequalities and discrimination",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"8149": {
+"text": " phrases related to cell signaling and cancer research",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"8254": {
+"text": " references to medical terms and conditions",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"8264": {
+"text": " dates and numerical information related to events",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"8317": {
+"text": " instances of completion and achievement in narratives",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"8530": {
+"text": "references to geographic locations, particularly countries and regions",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"8559": {
+"text": " patterns or structures in programming-related data manipulations",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"8642": {
+"text": " ideas related to musical creativity and expression",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"8674": {
+"text": "phrases related to rules, guidance, or protocols",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"8763": {
+"text": "phrases related to acquiring or encouraging participation in events or activities",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"8849": {
+"text": " expressions or phrases beginning with \"a\" and their contextual significance",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"8870": {
+"text": "references to video game development and terminology",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"8878": {
+"text": " code-related terms and exceptions in programming contexts",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"8902": {
+"text": " information related to pet health, particularly regarding dogs and cats",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"8948": {
+"text": "verbs indicating movement or action",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"8973": {
+"text": "technical terms related to programming packages and their attributes",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"9007": {
+"text": " themes related to disappointment and resilience in the face of adversity",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"9011": {
+"text": " instances of locations or settings",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"9183": {
+"text": "phrases emphasizing superiority or excellence of entities or services",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"9212": {
+"text": " elements related to measurements and evaluations of various kinds",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"9228": {
+"text": "references to legal or official processes and the roles of government entities",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"9302": {
+"text": "statements related to inventions and their descriptions",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"9383": {
+"text": "concerns and considerations related to children's safety and well-being",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"9390": {
+"text": " percentages and statistical rates in the text",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"9609": {
+"text": "phrases related to urban development and infrastructure",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"9631": {
+"text": " references to specific products or brands in a technical context",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"9754": {
+"text": " occurrences of the article \"a\" and variations of indefinite articles or descriptors",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"9803": {
+"text": " occurrences of the word \"recently\" and related verbs",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"9975": {
+"text": "technical terms related to machine learning processes",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"10285": {
+"text": "terms and phrases related to software behavior and system state changes",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"10392": {
+"text": "instances of structured data and programming syntax",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"10499": {
+"text": " elements related to technical specifications and configurations",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"10643": {
+"text": "individuals with strong emotional and motivational qualities",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"10692": {
+"text": " technical terms and dependencies related to Python programming",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"10715": {
+"text": "terms related to poultry breeding and production statistics",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"10770": {
+"text": " references to quantities and numerical expressions",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"10772": {
+"text": "references to jewelry and its attributes",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"10801": {
+"text": "a variety of punctuation marks and structure in the text",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"10846": {
+"text": "words and phrases related to celebrations and commemorations",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"10858": {
+"text": " references to family and relationships",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"10893": {
+"text": "terms related to fluid dynamics and containment in various contexts",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"10961": {
+"text": " phrases that indicate reasons for actions or legal considerations",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"11007": {
+"text": "technical terms and components related to programming and computer science",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"11059": {
+"text": " the occurrence of specific words and phrases in a technical context",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"11235": {
+"text": "terminology related to biological classifications and characteristics of organisms",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"11255": {
+"text": "instances of the verb \"to be\" in various forms",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"11271": {
+"text": " verbs that signify existence or state",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"11392": {
+"text": " requirements and specifications related to room or space design",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"11431": {
+"text": "dialogue and conversational interactions between characters",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"11492": {
+"text": "terms related to chemical processes and catalysts involved in combustion and conversion reactions",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"11504": {
+"text": " references to user interface actions involving buttons and mouse movements",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"11507": {
+"text": " verbs indicating actions or states regarding laws and regulations",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"11508": {
+"text": " discussions involving official statements or documented procedures",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"11539": {
+"text": "references to nuclear energy and its political implications",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"11567": {
+"text": "phrases indicating possession or ownership",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"11816": {
+"text": "references to specific entities or common nouns within texts",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"11838": {
+"text": "instances of specific variable declarations and their types in code",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"11921": {
+"text": "descriptions related to legislative actions on weapons or firearm regulations",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"11942": {
+"text": "references to techniques or recommendations for performance improvement",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"11992": {
+"text": "attributes and properties of materials, particularly in a scientific context",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"12012": {
+"text": "assert statements used in testing frameworks",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"12139": {
+"text": "terms and phrases related to religious practices and beliefs",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"12148": {
+"text": " references to product care and maintenance",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"12173": {
+"text": " references to specific data or factual information",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"12243": {
+"text": " updates and changes related to software or system bugs and fixes",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"12247": {
+"text": "statements about the state or condition of various subjects, particularly focusing on the verb \"is\"",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"12260": {
+"text": "references to significant events or concepts in different contexts",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"12265": {
+"text": "code-related elements and structures within the text",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"12282": {
+"text": "negative qualifiers associated with personal opinions or experiences",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"12326": {
+"text": "references to divine concepts and biblical themes",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"12441": {
+"text": " terminology related to legal and ethical concepts",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"12448": {
+"text": " references to characters involved in complex relationships",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"12582": {
+"text": " specific details related to legal agreements and their implications",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"12600": {
+"text": "descriptions of physical attributes and qualities related to objects or experiences",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"12638": {
+"text": "actions and reactions related to emotional or social responses",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"12819": {
+"text": "cooking instructions and measurements in recipes",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"12823": {
+"text": " expressions related to evaluation and assessment",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"12891": {
+"text": " various programming and data structure elements, particularly focusing on character types, fields, and their properties",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"13066": {
+"text": " verbs and modal verbs that indicate possibility or capability",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"13085": {
+"text": " terms related to numerical operations and data types in programming",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"13114": {
+"text": "terms and phrases associated with risk or potential consequences",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"13191": {
+"text": " variations of the verb \"to be\" in various tenses",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"13295": {
+"text": "statements of existence or affirmation",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"13314": {
+"text": "references to celestial bodies and astronomical phenomena",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"13374": {
+"text": " topics related to power systems and energy management",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"13681": {
+"text": "details related to schedules and deadlines",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"13691": {
+"text": "terms associated with medical conditions and anatomical references",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"13692": {
+"text": "order fulfillment and shipping details",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"13725": {
+"text": "phrases related to reading and literature",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"13930": {
+"text": "dialogue and quotations within text",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"13972": {
+"text": " comparisons and distinctions between different categories or terms",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"14005": {
+"text": "expressions of time management and productivity in daily routines",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"14018": {
+"text": " phrases indicating rising mortality rates and economic challenges",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"14055": {
+"text": "references to artistic processes and styles",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"14384": {
+"text": "descriptions of food properties and health benefits",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"14440": {
+"text": " references to PDF technology and related printing services",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"14491": {
+"text": " mentions of publications, literary works, and artistic endeavors",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"14492": {
+"text": "expressions of personal experiences or feelings related to anxiety and discomfort",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"14497": {
+"text": "terms related to transportation of goods or materials",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"14666": {
+"text": " terms indicating names or labels of entities",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"14671": {
+"text": " references to mathematical or computational structures",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"14732": {
+"text": "references to environmental threats and their impacts on health and society",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"14990": {
+"text": "content related to media adaptations and notable works",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"15029": {
+"text": "phrases indicating negation or denial",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"15226": {
+"text": "key attributes or roles associated with significant entities or events",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"15240": {
+"text": " active verbs related to movement or progression in a narrative context",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"15247": {
+"text": "numerical representations and fractions",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"15288": {
+"text": "scientific terms and phrases related to biological mechanisms and cellular functions",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"15299": {
+"text": " instances related to professional sports and athlete misconduct",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"15434": {
+"text": "terms related to medical and health insurance contexts",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"15504": {
+"text": "phrases related to historical figures' achievements and contributions",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"15545": {
+"text": " patterns of numeric sequences and repeated characters",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"15630": {
+"text": " phrases related to cost evaluation and financial metrics",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"15673": {
+"text": " components and modifications in user interface elements",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"15717": {
+"text": " the question \"Is it possible?\" and related phrases",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"15733": {
+"text": "financial metrics and performance indicators in economic contexts",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"15760": {
+"text": "terms related to healthcare, particularly aspects involving assessments and surgeries",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"15814": {
+"text": " phrases related to health interventions and their evaluation",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"15832": {
+"text": "references to personal histories and backgrounds",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"15950": {
+"text": "questions related to personal relationships and self-reflection",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"15989": {
+"text": "specific terms related to real estate and property transactions",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"16001": {
+"text": "mathematical operations and numerical representations",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"16003": {
+"text": " data and statistics related to financial performance and market analysis",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"16077": {
+"text": " references to historical figures and events related to real estate and slavery",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"16160": {
+"text": "references to limitations and constraints in the context of governance or regulations",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"16266": {
+"text": " numerical sequences and their contexts within the text",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"16268": {
+"text": "descriptive and vivid imagery in narratives",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"16337": {
+"text": "references to community and togetherness in various forms",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"16440": {
+"text": " descriptive elements related to location and accommodations in travel contexts",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"16473": {
+"text": "terms related to aircraft safety and operational procedures",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"16511": {
+"text": "sentences that assert facts or provide information",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"16596": {
+"text": " phrases related to general evaluations and summaries",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"16601": {
+"text": " cooking instructions and ingredient combinations",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"16676": {
+"text": " references to legal and investigative contexts",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"16680": {
+"text": " phrases related to traffic management and regulation",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"16726": {
+"text": " programming or coding structures and elements related to UI components",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"16799": {
+"text": "references to genetic diversity and its impact on research and health",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"16888": {
+"text": " phrases related to organized events and their details",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"16905": {
+"text": " descriptions of natural landscapes and environments",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"16911": {
+"text": " instances of the verb \"is\" in various forms or related variations",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"16933": {
+"text": "instances of legal issues or crimes related to minors",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"16936": {
+"text": " phrases that express emotion and affection",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"17082": {
+"text": " instances of the word \"the\" and phrases indicating significant actions or roles",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"17094": {
+"text": " phrases related to exercise and physical fitness",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"17150": {
+"text": " key points related to trade agreements and economic relationships involving the UK and EU",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"17174": {
+"text": " locations or settings within narratives",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"17218": {
+"text": " phrases related to chemical compounds, specifically cannabinoids",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"17316": {
+"text": "references to prominent individuals and their achievements",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"17349": {
+"text": " references to historical events related to World War II and its aftermath",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"17378": {
+"text": "attributes and descriptions of objects or items",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"17385": {
+"text": "references to quantity or ranking in relation to entities",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"17467": {
+"text": "phrases indicating the existence or presence of entities",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"17494": {
+"text": "conditional phrases and questions indicating uncertainty or speculation",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"17500": {
+"text": " concepts related to religious beliefs and the divine",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"17558": {
+"text": " references to significant historical events or figures in relation to societal or technological development",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"17618": {
+"text": "emotional expressions and sentiments related to past experiences",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"17632": {
+"text": " conjunctions and their connections within sentences",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"17704": {
+"text": "elements related to physical actions or objects in narratives",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"17746": {
+"text": "references to notable individuals with diverse backgrounds and accomplishments",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"17767": {
+"text": " words related to identity and professional qualifications",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"17856": {
+"text": "terms related to climate change and its effects",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"17910": {
+"text": "references to programming variables and their properties",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"17997": {
+"text": " dates and temporal indicators",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"18042": {
+"text": "references to numerical values and their corresponding magnitudes or classifications",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"18193": {
+"text": "terms related to dietary habits and nutritional guidance",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"18267": {
+"text": " references to financial assistance programs or benefits related to health insurance and social services",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"18281": {
+"text": "tokens related to mathematical operations and concepts",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"18410": {
+"text": "product descriptions emphasizing materials and craftsmanship",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"18458": {
+"text": "phrases related to comparisons and contrasts",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"18471": {
+"text": "content related to film promotions and entertainment updates",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"18483": {
+"text": " technical terms and phrases related to mechanical and electrical systems",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"18517": {
+"text": " technical terms or concepts related to connections and electrical systems",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"18566": {
+"text": " information related to events and schedules",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"18576": {
+"text": "direct speech and dialogues within the text",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"18595": {
+"text": "temperature-related terms and measurements",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"18639": {
+"text": "discussions related to medical conditions that affect speech and communication",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"18897": {
+"text": "parameters related to business partnerships and promotions",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"18926": {
+"text": " instances of the word \"been\" in various contexts",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"18943": {
+"text": " specific identifiers and titles in formal communication or documentation",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"19050": {
+"text": " technical terms related to environmental and engineering processes",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"19057": {
+"text": "references to notable accomplishments and characteristics of individuals",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"19106": {
+"text": "references to the Latin language and its related terms",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"19125": {
+"text": "references to astronomical structures and phenomena",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"19143": {
+"text": "references to popular culture and its various influences",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"19253": {
+"text": " punctuation marks",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"19267": {
+"text": " mentions of political entities and organizations",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"19300": {
+"text": "elements related to character descriptions and relationships",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"19345": {
+"text": "references to political issues and concepts related to national identity and statehood",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"19370": {
+"text": "phrases and words related to questioning or uncertainty",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"19408": {
+"text": "environmental indicators and their significance in ecological studies",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"19423": {
+"text": "pronouns and possessive adjectives",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"19433": {
+"text": "phrases related to successful implementation of safety measures and hazard management",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"19440": {
+"text": "phrases related to the dynamics and trends of financial markets",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"19452": {
+"text": "descriptions of fantastical creatures and their characteristics",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"19481": {
+"text": "details about species classification and characteristics",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"19562": {
+"text": " discussions about location or origin in relation to experiences or events",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"19622": {
+"text": "function declarations and related keywords in programming code",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"19638": {
+"text": "terms related to biochemical processes and elements",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"19640": {
+"text": "keywords and phrases related to climate change and sustainability",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"19681": {
+"text": " patterns involving comparisons and conditions in various contexts",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"19695": {
+"text": " references to specific conferences and professional gatherings",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"19827": {
+"text": "references to previews and performance contexts in entertainment or events",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"19892": {
+"text": " references to public transportation, specifically railways and their attributes",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"19903": {
+"text": "questions related to scientific concepts and understanding of natural phenomena",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"19922": {
+"text": " code-related terminology and structures, particularly within programming and data types",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"19949": {
+"text": " connections between actions and consequences related to social or community issues",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"19978": {
+"text": "references to specific events or special occasions",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"19979": {
+"text": "references to training and preparation in sports or activities, particularly in the context of ice skating",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"20019": {
+"text": " references to geographical locations or areas",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"20023": {
+"text": " phrases related to awards and achievements",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"20137": {
+"text": " phrases related to reading, learning, and information dissemination",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"20170": {
+"text": "references to the concept of \"life.\"",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"20181": {
+"text": "references to historical events or individuals",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"20327": {
+"text": " descriptions of the physical characteristics and reproductive behaviors of species",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"20436": {
+"text": " references to concepts of authority or control dynamics",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"20446": {
+"text": "legal terminology and concepts related to regulations and statutes",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"20465": {
+"text": "concepts related to memory and its processes, particularly in the context of sleep and emotional recall",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"20496": {
+"text": "technical specifications and details related to products or software",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"20506": {
+"text": "psychological concepts and their connections to artistic and cultural themes",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"20544": {
+"text": "arguments and claims related to truth and belief",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"20596": {
+"text": " descriptive phrases related to determination and overcoming challenges",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"20712": {
+"text": "repeated instances of the article \"An\" at the beginning of sentences",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"20805": {
+"text": "assertions or claims made in scientific writing, particularly those regarding medical or biological phenomena",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"20809": {
+"text": " occurrences and handling of exceptions in programming contexts",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"20862": {
+"text": " words associated with game mechanics and player actions",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"20925": {
+"text": " technical references to programming concepts and functionality",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"20943": {
+"text": "instances of discussions related to accountability and community involvement",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"20983": {
+"text": " items related to financial or transactional contexts, especially involving exchanges or containers",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"20985": {
+"text": "technical terms related to circuit diagrams and programmable devices",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"20986": {
+"text": "phrases related to approximate quantities and statistics",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"21029": {
+"text": "positive adjectives that indicate quality or value",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"21045": {
+"text": " specific programming terms and their definitions, particularly related to footnotes and commands",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"21072": {
+"text": "function definitions in code",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"21154": {
+"text": "verbs indicating possession or continuity",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"21155": {
+"text": "terms related to medical conditions and their biological underpinnings",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"21184": {
+"text": " legal terminology related to formal agreements and documents",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"21188": {
+"text": "terms related to chemical compounds and their properties",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"21359": {
+"text": "references to wildlife and their interactions with the environment",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"21396": {
+"text": "terms related to scientific concepts and materials, particularly in physics and engineering contexts",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"21452": {
+"text": " experiences of family interactions and gatherings",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"21533": {
+"text": "references to pets or animals",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"21559": {
+"text": "elements related to personal experiences and relationships",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"21796": {
+"text": " references to files, folders, or data management in discussions",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"21892": {
+"text": "character interactions and dialogues that convey emotions or conflicts",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"21905": {
+"text": "descriptions of size and scale, particularly emphasizing small attributes",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"22017": {
+"text": "emotional expressions and sentiments related to happiness or sadness",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"22122": {
+"text": " topics related to cessation and various processes that involve the concept of \"sankhara.\"",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"22129": {
+"text": " terms related to environmental impact and global affairs",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"22166": {
+"text": "references to digital content and its accessibility",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"22190": {
+"text": "terms related to electron behavior and particle interactions in atomic physics",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"22246": {
+"text": " instructions for a process or task related to input manipulation",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"22265": {
+"text": " technical details regarding electronic devices and their performance",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"22383": {
+"text": " information about ticket availability and pricing for events",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"22446": {
+"text": "the presence of medical terminology and condition descriptions",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"22505": {
+"text": "symbols and numerically-defined elements",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"22639": {
+"text": "articles and modifiers that indicate quantity or characteristics of nouns",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"22709": {
+"text": " phrases indicating possession or belonging",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"22899": {
+"text": " occurrences of the verb \"be\" and its various forms in different contexts",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"22993": {
+"text": "phrases with the verb \"are\" and related verb forms",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"23002": {
+"text": "references to popularity and familiarity within various contexts",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"23049": {
+"text": " detailed technical specifications and settings related to computer programming or data structure management",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"23101": {
+"text": "instructions related to clicking buttons and navigating interfaces",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"23141": {
+"text": " key moments of revelation or discovery about characters or situations",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"23239": {
+"text": "references to specific items or works, particularly with a focus on individual titles or entities",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"23247": {
+"text": " references to programming concepts and coding structures",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"23276": {
+"text": " code snippets related to GPIO configurations and commands",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"23316": {
+"text": " phrases related to competitive scenarios",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"23346": {
+"text": "references to outdoor activities and experiences",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"23527": {
+"text": " occurrences of the verb \"is\" and its various forms, as well as phrases indicating state or condition",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"23598": {
+"text": " terms related to compliance and regulations",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"23666": {
+"text": "legal terms and phrases related to governmental or administrative processes",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"23710": {
+"text": "terms related to cellular processes and enzyme functions",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"23714": {
+"text": "sentences that include the verb \"is\" in various contexts",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"23735": {
+"text": "forms of the verb \"to be\" and expressions of availability",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"23753": {
+"text": "expressions of surprise or disbelief",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"23765": {
+"text": " comparisons and contrasts within a context, particularly regarding comfort and usability",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"23778": {
+"text": "elements related to crime and investigations",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"23834": {
+"text": " punctuation and organizational elements in text",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"23899": {
+"text": "statements about the status or characteristics of places and institutions",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"23913": {
+"text": "terms related to specific medical conditions and their classifications",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"24010": {
+"text": " descriptions of emotional and atmospheric settings",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"24061": {
+"text": " geographical locations and names associated with them",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"24062": {
+"text": " phrases related to economic conditions and challenges",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"24116": {
+"text": "conditional phrases related to events and actions",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"24156": {
+"text": "repeated mentions of \"the\" in various contexts, suggesting a focus on articles that indicate specific subjects or objects within the text",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"24269": {
+"text": " phrases related to children's entertainment and animated content",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"24366": {
+"text": "active verbs related to actions and processes in various contexts",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"24368": {
+"text": " references to consistency or equality in programming and logical operations",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"24393": {
+"text": " statements related to political pressure and international relations",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"24472": {
+"text": "phrases indicating possession or prior experience",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"24550": {
+"text": "future events and scheduled occurrences related to timelines or deadlines",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"24702": {
+"text": " phrases and concepts related to social justice and inequality",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"24830": {
+"text": " expressions related to the nature and quality of love",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"24861": {
+"text": "references to environmental pollution and its effects on ecosystems",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"25001": {
+"text": "key phrases and actions related to interpersonal relationships and emotional experiences",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"25055": {
+"text": " phrases related to legal actions and political situations",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"25151": {
+"text": "terms related to physiological measurements and drug effects in medical contexts",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"25280": {
+"text": "mathematical relationships and properties, particularly involving elements in set theory or algebraic structures",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"25285": {
+"text": "details about the Australian wine industry and its grape varieties",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"25297": {
+"text": "statements about functionality and correctness in a coding context",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"25332": {
+"text": "instances of community events and actions taken for the benefit of others",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"25345": {
+"text": "references to numerical values or positions within data structures",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"25347": {
+"text": "code-related keywords and constructs",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"25442": {
+"text": " references to family relationships and emotional experiences",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"25455": {
+"text": "code snippets and function definitions",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"25496": {
+"text": " phrases relating to legal testimony and courtroom proceedings",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"25652": {
+"text": " concepts related to academic culture and guidance in educational contexts",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"25734": {
+"text": " legal references and case docket numbers",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"25879": {
+"text": " concepts related to animal health management and breeding practices",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"25904": {
+"text": "phrases related to transitions and actions within discussions of political dynamics",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"25939": {
+"text": " phrases indicating the status or condition of objects or processes, particularly in relation to actions and evaluations",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"25940": {
+"text": " programming-related syntax and function calls",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"25955": {
+"text": "chemical processes and compounds involved in synthesis reactions",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"26061": {
+"text": "phrases related to social support and community engagement",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"26072": {
+"text": "references to various types of fraud and their implications in real estate transactions",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"26074": {
+"text": "content related to travel, culture, and personal experiences",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"26141": {
+"text": "file and string manipulation patterns in programming contexts",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"26249": {
+"text": " proposals and suggestions related to methods, policies, or actions",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"26269": {
+"text": " specific terms related to online accreditation",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"26287": {
+"text": "specific terms related to mortgage and financing",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"26366": {
+"text": "items related to formal documentation and annotations",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"26391": {
+"text": "keywords and phrases related to definitions and key concepts in various contexts",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"26394": {
+"text": " concepts of equality and balance in various contexts",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"26453": {
+"text": " keywords related to actions or evaluations concerning physical attributes or characteristics",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"26580": {
+"text": "phrases indicating importance or significance",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"26581": {
+"text": "references to casualties and injuries in emergencies or disaster situations",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"26599": {
+"text": " concepts related to community empowerment and personal potential development",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"26632": {
+"text": " references to physical sensations or experiences",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"26661": {
+"text": " key terms and significant phrases related to health and medical issues",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"26781": {
+"text": "instances of the indefinite article \"an.\"",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"26852": {
+"text": " references to influential historical figures and their works",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"26944": {
+"text": " references to health-related topics and issues",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"26951": {
+"text": "phrases indicating possession or ownership",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"26953": {
+"text": "mathematical concepts and terminologies related to statistics and probability",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"26962": {
+"text": "terms related to space exploration and aeronautics",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"26995": {
+"text": " references to pest control methods and issues",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"27058": {
+"text": "the presence of the verb \"is\" and its various forms in sentences",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"27076": {
+"text": "terms related to function definitions and operator behavior in programming",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"27129": {
+"text": "sports statistics and performance metrics",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"27138": {
+"text": " structures that indicate programming syntax and error handling",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"27227": {
+"text": "information about various species and their classifications",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"27382": {
+"text": " phrases indicating various states or conditions",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"27391": {
+"text": "terms related to medical recommendations and patient management",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"27422": {
+"text": "quantitative comparisons of medical data related to health outcomes",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"27489": {
+"text": "phrases related to health and medical partnerships",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"27580": {
+"text": "instructions or queries related to processing tasks and data",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"27600": {
+"text": "technical terminology related to physics",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"27634": {
+"text": " code-related elements, particularly function and method definitions within programming contexts",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"27664": {
+"text": "actions and movements related to traveling or relocating",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"27676": {
+"text": "lists of items or options separated by commas",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"27730": {
+"text": "references to individuals and their roles or statuses",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"27810": {
+"text": " phrases related to time spent in various activities or experiences",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"27902": {
+"text": " terms related to military and strategic events",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"27950": {
+"text": "terms related to economic conditions and trends affecting consumer behavior",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"28079": {
+"text": " mathematical terms and properties related to manifolds and topology",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"28111": {
+"text": "details and offerings related to wedding events and services",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"28229": {
+"text": "phrases that describe emotional or physical states and their effects",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"28237": {
+"text": "phrases related to storage and preservation",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"28259": {
+"text": "phrases or statements indicating existence or identity",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"28350": {
+"text": " real estate listings, specifically focusing on details about the size and features of properties",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"28470": {
+"text": " architectural features and historical significance of buildings",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"28483": {
+"text": " programming constructs related to variable definitions and conditions",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"28575": {
+"text": "references to quantities, particularly involving the number two",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"28657": {
+"text": "references to the economic impact of trade policies and practices",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"28773": {
+"text": " references to wildfires and related environmental destruction",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"28800": {
+"text": "references to health risks and their implications",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"28810": {
+"text": " phrases expressing doubt or denial regarding identity or truthfulness",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"28817": {
+"text": "discussions about philosophical concepts and ethical dilemmas",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"28897": {
+"text": " occurrences of the verb \"is\" in various contexts",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"29026": {
+"text": "references to familial connections and support",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"29309": {
+"text": " sentences indicating factual statements or assertions",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"29504": {
+"text": " mathematical constructs and logical relationships in formal writing",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"29735": {
+"text": "references to medical marijuana and its implications",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"29826": {
+"text": " technical terms related to photography and image editing",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"29883": {
+"text": " negative assessments and criticisms of various subjects",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"29957": {
+"text": " phrases indicating historic firsts or significant achievements",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"29992": {
+"text": " concepts related to mathematical formulas and validation processes",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"30047": {
+"text": " discussions related to gene editing techniques and their applications in neuroscience",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"30083": {
+"text": "topics related to space exploration and technology",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"30324": {
+"text": " information related to camping amenities and services",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"30346": {
+"text": "elements related to color specifications and settings in programming or design contexts",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"30416": {
+"text": "dates and days of the week",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"30422": {
+"text": "financial terminology related to capital and investment",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"30442": {
+"text": " references to significant medical conditions or diseases",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"30472": {
+"text": " references to content from earlier sections or posts",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"30502": {
+"text": "quantities or counts related to entities in the text",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"30520": {
+"text": "words related to physical attributes and conditions of objects or entities",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"30557": {
+"text": "references to temperature values or measurements related to safety thresholds",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"30566": {
+"text": "specific details related to video games and their characteristics",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"30916": {
+"text": "statements describing specific characteristics or qualities",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"30919": {
+"text": " actions related to data conversion and transformation",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"31002": {
+"text": "terms related to genomic studies and genetic structures",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"31048": {
+"text": "programming structures and definitions related to locale data",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"31052": {
+"text": "elements of programming code related to function definitions and structures",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"31086": {
+"text": " instances of possession or familial relationships",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"31118": {
+"text": "conjunctions and connectors indicating relationships or comparisons",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"31156": {
+"text": " musical terms and references",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"31189": {
+"text": " technical terms related to energy transfer and diffusion processes in materials",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"31199": {
+"text": " scientific and mathematical terms related to interactions and relationships",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"31222": {
+"text": " references to significant locations or landmarks",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"31299": {
+"text": " the article \"an\" in various contexts",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"31333": {
+"text": " keywords associated with theatrical and musical performances",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"31472": {
+"text": " terms related to physical systems and their properties in a scientific context",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"31474": {
+"text": "references to literary works and their authors",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"31484": {
+"text": "terms related to sleep and sleep disorders",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"31517": {
+"text": "the article \"the\" indicating focus on specific subjects or entities",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"31668": {
+"text": " phrases related to solar energy and related technologies",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"31678": {
+"text": "conditional phrases related to pressure measurements",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"31723": {
+"text": " terms related to efficiency and technological innovation",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"31758": {
+"text": " programming concepts related to error handling and messaging systems",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"31792": {
+"text": "words related to baseball statistics and performance",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"31825": {
+"text": "various types of diversity, particularly in biological and genetic contexts",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"31854": {
+"text": " phrases that express varying degrees of value or sentiment",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"31902": {
+"text": " financial conditions and comparisons",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"32040": {
+"text": " references to specific quantities or measurements",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"32047": {
+"text": "phrases related to political negotiations and legislative processes",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"32123": {
+"text": " terminology related to window management and graphical user interfaces (GUIs)",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"32149": {
+"text": " numerical values and thresholds related to parameters or limits",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"32328": {
+"text": " assertions about safety and risk, particularly relating to medical or health contexts",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"32341": {
+"text": " time-related measurements and durations",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"32342": {
+"text": " phrases related to absolute necessities and total losses",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"32367": {
+"text": " key phrases related to legal proceedings and testimonies",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"32395": {
+"text": " geographical features and locations",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"32484": {
+"text": "references to browser compatibility and settings adjustments",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"32592": {
+"text": "terms related to medical procedures and treatments",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"32658": {
+"text": "phrases related to mental health and well-being",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"32682": {
+"text": "options and alternatives within discussions or choices",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+},
+"32709": {
+"text": "expressions of personal opinion or sentiment about media",
+"source": "neuronpedia:pythia-70m-deduped/5-res-sm"
+}
+}

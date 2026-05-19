@@ -1,0 +1,535 @@
+{
+  "pythia_70m": {
+    "display": "Pythia 70M",
+    "n_prompts": 52,
+    "n_capital_prompts": 6,
+    "label_coverage_top_k_sup": 1.0,
+    "sup_pct_grammar": 1.9230769230769231,
+    "opp_pct_grammar": 11.153846153846153,
+    "enrichment_ratio": 5.8,
+    "per_category": {
+      "capital": {
+        "n": 6,
+        "sup_pct_grammar": 0.0,
+        "opp_pct_grammar": 28.333333333333332,
+        "enrichment": 2833.333333333333
+      },
+      "weekday": {
+        "n": 5,
+        "sup_pct_grammar": 0.0,
+        "opp_pct_grammar": 30.0,
+        "enrichment": 3000.0
+      },
+      "math": {
+        "n": 5,
+        "sup_pct_grammar": 0.0,
+        "opp_pct_grammar": 2.0,
+        "enrichment": 200.0
+      },
+      "named-entity": {
+        "n": 4,
+        "sup_pct_grammar": 0.0,
+        "opp_pct_grammar": 0.0,
+        "enrichment": 0.0
+      },
+      "syntactic": {
+        "n": 4,
+        "sup_pct_grammar": 0.0,
+        "opp_pct_grammar": 0.0,
+        "enrichment": 0.0
+      },
+      "reasoning": {
+        "n": 4,
+        "sup_pct_grammar": 5.0,
+        "opp_pct_grammar": 2.5,
+        "enrichment": 0.5
+      },
+      "instruction": {
+        "n": 4,
+        "sup_pct_grammar": 2.5,
+        "opp_pct_grammar": 12.5,
+        "enrichment": 5.0
+      },
+      "factual-recall": {
+        "n": 4,
+        "sup_pct_grammar": 5.0,
+        "opp_pct_grammar": 2.5,
+        "enrichment": 0.5
+      },
+      "code": {
+        "n": 4,
+        "sup_pct_grammar": 2.5,
+        "opp_pct_grammar": 30.0,
+        "enrichment": 12.0
+      },
+      "multi-step-arithmetic": {
+        "n": 4,
+        "sup_pct_grammar": 0.0,
+        "opp_pct_grammar": 5.0,
+        "enrichment": 500.0
+      },
+      "pronoun": {
+        "n": 4,
+        "sup_pct_grammar": 2.5,
+        "opp_pct_grammar": 0.0,
+        "enrichment": 0.0
+      },
+      "summarization-opener": {
+        "n": 4,
+        "sup_pct_grammar": 7.5,
+        "opp_pct_grammar": 10.0,
+        "enrichment": 1.3333333333333333
+      }
+    },
+    "fingerprint_features": [
+      {
+        "feature_index": 23899,
+        "n_capital_prompts": 6,
+        "label": "statements about the status or characteristics of places and institutions",
+        "is_grammar": false
+      },
+      {
+        "feature_index": 24062,
+        "n_capital_prompts": 6,
+        "label": " phrases related to economic conditions and challenges",
+        "is_grammar": false
+      },
+      {
+        "feature_index": 23527,
+        "n_capital_prompts": 6,
+        "label": " occurrences of the verb \"is\" and its various forms, as well as phrases indicati",
+        "is_grammar": true
+      }
+    ]
+  },
+  "gpt2": {
+    "display": "GPT-2 small",
+    "n_prompts": 52,
+    "n_capital_prompts": 6,
+    "label_coverage_top_k_sup": 1.0,
+    "sup_pct_grammar": 2.6923076923076925,
+    "opp_pct_grammar": 2.5,
+    "enrichment_ratio": 0.9285714285714285,
+    "per_category": {
+      "capital": {
+        "n": 6,
+        "sup_pct_grammar": 3.3333333333333335,
+        "opp_pct_grammar": 0.0,
+        "enrichment": 0.0
+      },
+      "weekday": {
+        "n": 5,
+        "sup_pct_grammar": 2.0,
+        "opp_pct_grammar": 2.0,
+        "enrichment": 1.0
+      },
+      "math": {
+        "n": 5,
+        "sup_pct_grammar": 0.0,
+        "opp_pct_grammar": 0.0,
+        "enrichment": 0.0
+      },
+      "named-entity": {
+        "n": 4,
+        "sup_pct_grammar": 0.0,
+        "opp_pct_grammar": 0.0,
+        "enrichment": 0.0
+      },
+      "syntactic": {
+        "n": 4,
+        "sup_pct_grammar": 0.0,
+        "opp_pct_grammar": 0.0,
+        "enrichment": 0.0
+      },
+      "reasoning": {
+        "n": 4,
+        "sup_pct_grammar": 12.5,
+        "opp_pct_grammar": 2.5,
+        "enrichment": 0.2
+      },
+      "instruction": {
+        "n": 4,
+        "sup_pct_grammar": 0.0,
+        "opp_pct_grammar": 10.0,
+        "enrichment": 1000.0
+      },
+      "factual-recall": {
+        "n": 4,
+        "sup_pct_grammar": 0.0,
+        "opp_pct_grammar": 0.0,
+        "enrichment": 0.0
+      },
+      "code": {
+        "n": 4,
+        "sup_pct_grammar": 2.5,
+        "opp_pct_grammar": 12.5,
+        "enrichment": 5.0
+      },
+      "multi-step-arithmetic": {
+        "n": 4,
+        "sup_pct_grammar": 2.5,
+        "opp_pct_grammar": 0.0,
+        "enrichment": 0.0
+      },
+      "pronoun": {
+        "n": 4,
+        "sup_pct_grammar": 10.0,
+        "opp_pct_grammar": 2.5,
+        "enrichment": 0.25
+      },
+      "summarization-opener": {
+        "n": 4,
+        "sup_pct_grammar": 0.0,
+        "opp_pct_grammar": 2.5,
+        "enrichment": 250.0
+      }
+    },
+    "fingerprint_features": [
+      {
+        "feature_index": 21000,
+        "n_capital_prompts": 6,
+        "label": "names of famous individuals",
+        "is_grammar": false
+      },
+      {
+        "feature_index": 12013,
+        "n_capital_prompts": 6,
+        "label": "countries and locations",
+        "is_grammar": false
+      },
+      {
+        "feature_index": 19182,
+        "n_capital_prompts": 5,
+        "label": "phrases containing names of organizations or companies",
+        "is_grammar": false
+      },
+      {
+        "feature_index": 6863,
+        "n_capital_prompts": 5,
+        "label": "words related to politics and government institutions",
+        "is_grammar": false
+      }
+    ]
+  },
+  "gemma_1_2b": {
+    "display": "Gemma 1 2B",
+    "n_prompts": 52,
+    "n_capital_prompts": 6,
+    "label_coverage_top_k_sup": 0.975,
+    "sup_pct_grammar": 4.8076923076923075,
+    "opp_pct_grammar": 16.346153846153847,
+    "enrichment_ratio": 3.4000000000000004,
+    "per_category": {
+      "capital": {
+        "n": 6,
+        "sup_pct_grammar": 10.0,
+        "opp_pct_grammar": 38.333333333333336,
+        "enrichment": 3.8333333333333335
+      },
+      "weekday": {
+        "n": 5,
+        "sup_pct_grammar": 6.0,
+        "opp_pct_grammar": 36.0,
+        "enrichment": 6.0
+      },
+      "math": {
+        "n": 5,
+        "sup_pct_grammar": 0.0,
+        "opp_pct_grammar": 0.0,
+        "enrichment": 0.0
+      },
+      "named-entity": {
+        "n": 4,
+        "sup_pct_grammar": 0.0,
+        "opp_pct_grammar": 10.0,
+        "enrichment": 1000.0
+      },
+      "syntactic": {
+        "n": 4,
+        "sup_pct_grammar": 7.5,
+        "opp_pct_grammar": 0.0,
+        "enrichment": 0.0
+      },
+      "reasoning": {
+        "n": 4,
+        "sup_pct_grammar": 2.5,
+        "opp_pct_grammar": 10.0,
+        "enrichment": 4.0
+      },
+      "instruction": {
+        "n": 4,
+        "sup_pct_grammar": 2.5,
+        "opp_pct_grammar": 32.5,
+        "enrichment": 13.0
+      },
+      "factual-recall": {
+        "n": 4,
+        "sup_pct_grammar": 5.0,
+        "opp_pct_grammar": 15.0,
+        "enrichment": 3.0
+      },
+      "code": {
+        "n": 4,
+        "sup_pct_grammar": 7.5,
+        "opp_pct_grammar": 10.0,
+        "enrichment": 1.3333333333333333
+      },
+      "multi-step-arithmetic": {
+        "n": 4,
+        "sup_pct_grammar": 0.0,
+        "opp_pct_grammar": 0.0,
+        "enrichment": 0.0
+      },
+      "pronoun": {
+        "n": 4,
+        "sup_pct_grammar": 2.5,
+        "opp_pct_grammar": 15.0,
+        "enrichment": 6.0
+      },
+      "summarization-opener": {
+        "n": 4,
+        "sup_pct_grammar": 12.5,
+        "opp_pct_grammar": 17.5,
+        "enrichment": 1.4
+      }
+    },
+    "fingerprint_features": [
+      {
+        "feature_index": 5541,
+        "n_capital_prompts": 6,
+        "label": "instances of the verb \"is\" and other related forms indicating existence or state",
+        "is_grammar": true
+      },
+      {
+        "feature_index": 13714,
+        "n_capital_prompts": 6,
+        "label": "information about international airports in Istanbul",
+        "is_grammar": false
+      },
+      {
+        "feature_index": 5162,
+        "n_capital_prompts": 6,
+        "label": "statements of identity or existence",
+        "is_grammar": false
+      },
+      {
+        "feature_index": 16346,
+        "n_capital_prompts": 6,
+        "label": " various forms of the verb \"to be\" combined with adjectives or descriptors",
+        "is_grammar": true
+      },
+      {
+        "feature_index": 5943,
+        "n_capital_prompts": 6,
+        "label": "the verb \"is\" in various contexts",
+        "is_grammar": true
+      }
+    ]
+  },
+  "gemma_2b": {
+    "display": "Gemma 2 2B",
+    "n_prompts": 52,
+    "n_capital_prompts": 6,
+    "label_coverage_top_k_sup": 1.0,
+    "sup_pct_grammar": 2.8846153846153846,
+    "opp_pct_grammar": 8.076923076923077,
+    "enrichment_ratio": 2.8,
+    "per_category": {
+      "capital": {
+        "n": 6,
+        "sup_pct_grammar": 0.0,
+        "opp_pct_grammar": 20.0,
+        "enrichment": 2000.0
+      },
+      "weekday": {
+        "n": 5,
+        "sup_pct_grammar": 4.0,
+        "opp_pct_grammar": 16.0,
+        "enrichment": 4.0
+      },
+      "math": {
+        "n": 5,
+        "sup_pct_grammar": 0.0,
+        "opp_pct_grammar": 4.0,
+        "enrichment": 400.0
+      },
+      "named-entity": {
+        "n": 4,
+        "sup_pct_grammar": 0.0,
+        "opp_pct_grammar": 0.0,
+        "enrichment": 0.0
+      },
+      "syntactic": {
+        "n": 4,
+        "sup_pct_grammar": 0.0,
+        "opp_pct_grammar": 0.0,
+        "enrichment": 0.0
+      },
+      "reasoning": {
+        "n": 4,
+        "sup_pct_grammar": 7.5,
+        "opp_pct_grammar": 0.0,
+        "enrichment": 0.0
+      },
+      "instruction": {
+        "n": 4,
+        "sup_pct_grammar": 2.5,
+        "opp_pct_grammar": 12.5,
+        "enrichment": 5.0
+      },
+      "factual-recall": {
+        "n": 4,
+        "sup_pct_grammar": 2.5,
+        "opp_pct_grammar": 0.0,
+        "enrichment": 0.0
+      },
+      "code": {
+        "n": 4,
+        "sup_pct_grammar": 2.5,
+        "opp_pct_grammar": 12.5,
+        "enrichment": 5.0
+      },
+      "multi-step-arithmetic": {
+        "n": 4,
+        "sup_pct_grammar": 0.0,
+        "opp_pct_grammar": 5.0,
+        "enrichment": 500.0
+      },
+      "pronoun": {
+        "n": 4,
+        "sup_pct_grammar": 12.5,
+        "opp_pct_grammar": 7.5,
+        "enrichment": 0.6
+      },
+      "summarization-opener": {
+        "n": 4,
+        "sup_pct_grammar": 5.0,
+        "opp_pct_grammar": 12.5,
+        "enrichment": 2.5
+      }
+    },
+    "fingerprint_features": [
+      {
+        "feature_index": 15596,
+        "n_capital_prompts": 6,
+        "label": "past and present tense forms of the verb \"to be\" in various contexts",
+        "is_grammar": true
+      },
+      {
+        "feature_index": 15935,
+        "n_capital_prompts": 6,
+        "label": "references to countries and their significant characteristics or roles in a glob",
+        "is_grammar": false
+      },
+      {
+        "feature_index": 10142,
+        "n_capital_prompts": 5,
+        "label": "instances of the word \"is\" in various contexts",
+        "is_grammar": true
+      }
+    ]
+  },
+  "gemma_9b": {
+    "display": "Gemma 2 9B",
+    "n_prompts": 52,
+    "n_capital_prompts": 6,
+    "label_coverage_top_k_sup": 1.0,
+    "sup_pct_grammar": 3.076923076923077,
+    "opp_pct_grammar": 4.038461538461538,
+    "enrichment_ratio": 1.3124999999999998,
+    "per_category": {
+      "capital": {
+        "n": 6,
+        "sup_pct_grammar": 1.6666666666666667,
+        "opp_pct_grammar": 15.0,
+        "enrichment": 9.0
+      },
+      "weekday": {
+        "n": 5,
+        "sup_pct_grammar": 0.0,
+        "opp_pct_grammar": 0.0,
+        "enrichment": 0.0
+      },
+      "math": {
+        "n": 5,
+        "sup_pct_grammar": 0.0,
+        "opp_pct_grammar": 4.0,
+        "enrichment": 400.0
+      },
+      "named-entity": {
+        "n": 4,
+        "sup_pct_grammar": 0.0,
+        "opp_pct_grammar": 0.0,
+        "enrichment": 0.0
+      },
+      "syntactic": {
+        "n": 4,
+        "sup_pct_grammar": 2.5,
+        "opp_pct_grammar": 0.0,
+        "enrichment": 0.0
+      },
+      "reasoning": {
+        "n": 4,
+        "sup_pct_grammar": 7.5,
+        "opp_pct_grammar": 0.0,
+        "enrichment": 0.0
+      },
+      "instruction": {
+        "n": 4,
+        "sup_pct_grammar": 5.0,
+        "opp_pct_grammar": 12.5,
+        "enrichment": 2.5
+      },
+      "factual-recall": {
+        "n": 4,
+        "sup_pct_grammar": 5.0,
+        "opp_pct_grammar": 0.0,
+        "enrichment": 0.0
+      },
+      "code": {
+        "n": 4,
+        "sup_pct_grammar": 7.5,
+        "opp_pct_grammar": 2.5,
+        "enrichment": 0.3333333333333333
+      },
+      "multi-step-arithmetic": {
+        "n": 4,
+        "sup_pct_grammar": 0.0,
+        "opp_pct_grammar": 5.0,
+        "enrichment": 500.0
+      },
+      "pronoun": {
+        "n": 4,
+        "sup_pct_grammar": 7.5,
+        "opp_pct_grammar": 2.5,
+        "enrichment": 0.3333333333333333
+      },
+      "summarization-opener": {
+        "n": 4,
+        "sup_pct_grammar": 2.5,
+        "opp_pct_grammar": 2.5,
+        "enrichment": 1.0
+      }
+    },
+    "fingerprint_features": [
+      {
+        "feature_index": 5564,
+        "n_capital_prompts": 6,
+        "label": " biomedically relevant concepts and references, particularly those related to ce",
+        "is_grammar": false
+      },
+      {
+        "feature_index": 6299,
+        "n_capital_prompts": 6,
+        "label": " concepts related to heat and thermal energy management in various scientific co",
+        "is_grammar": false
+      },
+      {
+        "feature_index": 10996,
+        "n_capital_prompts": 5,
+        "label": "critical terms related to nutrition and essential minerals",
+        "is_grammar": false
+      }
+    ]
+  }
+}

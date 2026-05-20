@@ -1,0 +1,490 @@
+{
+  "selectivity_thresholds": {
+    "log10_min": 1.0,
+    "copula_mean_min": 1.0
+  },
+  "refined": {
+    "gemma": {
+      "n_high_selectivity_copula_features": 15,
+      "features": [
+        {
+          "feature_index": 13414,
+          "copula_mean": 38.399505615234375,
+          "noncopula_mean": 0.0,
+          "log10_selectivity": 4.584336942712859,
+          "label": "statements of existence or presence"
+        },
+        {
+          "feature_index": 15149,
+          "copula_mean": 11.026782989501953,
+          "noncopula_mean": 0.009782310575246811,
+          "log10_selectivity": 3.0097763740888115,
+          "label": "sentences that describe the characteristics or functionalities of structures or systems"
+        },
+        {
+          "feature_index": 12564,
+          "copula_mean": 9.741687774658203,
+          "noncopula_mean": 0.014712627045810223,
+          "log10_selectivity": 2.7924299826400167,
+          "label": "repetitive phrases related to existence or state in various contexts"
+        },
+        {
+          "feature_index": 6051,
+          "copula_mean": 7.945793628692627,
+          "noncopula_mean": 0.020862719044089317,
+          "log10_selectivity": 2.5604877611791066,
+          "label": "present tense verbs and their usage"
+        },
+        {
+          "feature_index": 8511,
+          "copula_mean": 8.484559059143066,
+          "noncopula_mean": 0.030773859471082687,
+          "log10_selectivity": 2.4266104900581706,
+          "label": "past tense forms of the verb \"to be.\""
+        },
+        {
+          "feature_index": 13627,
+          "copula_mean": 6.831342697143555,
+          "noncopula_mean": 0.03976554423570633,
+          "log10_selectivity": 2.2242763969043393,
+          "label": "various forms of the verb \"to be\" and its usage in different contexts"
+        },
+        {
+          "feature_index": 15332,
+          "copula_mean": 9.708413124084473,
+          "noncopula_mean": 0.06941882520914078,
+          "log10_selectivity": 2.139504204699761,
+          "label": "information about people's identities and roles, particularly their professional backgrounds and affiliations"
+        },
+        {
+          "feature_index": 13429,
+          "copula_mean": 13.921927452087402,
+          "noncopula_mean": 0.10219628363847733,
+          "log10_selectivity": 2.1300665026550103,
+          "label": "references to marriage and related social issues"
+        },
+        {
+          "feature_index": 5853,
+          "copula_mean": 6.357089519500732,
+          "noncopula_mean": 0.05299469456076622,
+          "log10_selectivity": 2.0709755495415845,
+          "label": "instances of the verb \"to be\" in various forms"
+        },
+        {
+          "feature_index": 15596,
+          "copula_mean": 58.43894577026367,
+          "noncopula_mean": 0.528117835521698,
+          "log10_selectivity": 2.0431574032642787,
+          "label": "past and present tense forms of the verb \"to be\" in various contexts"
+        },
+        {
+          "feature_index": 3362,
+          "copula_mean": 8.965320587158203,
+          "noncopula_mean": 0.09525083750486374,
+          "log10_selectivity": 1.9692097457184885,
+          "label": "statements of existence or recognition related to subjects and their accomplishments"
+        },
+        {
+          "feature_index": 2751,
+          "copula_mean": 6.874312877655029,
+          "noncopula_mean": 0.07720701396465302,
+          "log10_selectivity": 1.9440467622345436,
+          "label": "negations and verbs related to state or condition, particularly in the context of social implications and policy commentary"
+        },
+        {
+          "feature_index": 15813,
+          "copula_mean": 9.117172241210938,
+          "noncopula_mean": 0.11947073042392731,
+          "log10_selectivity": 1.8790262482026838,
+          "label": "repeated instances of the verb \"is\" and variations in sentence structure"
+        },
+        {
+          "feature_index": 13346,
+          "copula_mean": 14.598427772521973,
+          "noncopula_mean": 0.24708804488182068,
+          "log10_selectivity": 1.7697299973056104,
+          "label": "expressions of personal feelings or states of being"
+        },
+        {
+          "feature_index": 2429,
+          "copula_mean": 10.302188873291016,
+          "noncopula_mean": 0.19066159427165985,
+          "log10_selectivity": 1.7304365648263318,
+          "label": "statements about the presence or significance of certain conditions or criteria"
+        }
+      ]
+    },
+    "gpt2": {
+      "n_high_selectivity_copula_features": 14,
+      "features": [
+        {
+          "feature_index": 21496,
+          "copula_mean": 4.623114109039307,
+          "noncopula_mean": 0.0,
+          "log10_selectivity": 3.665028542608546,
+          "label": "phrases related to uncertainty or questioning"
+        },
+        {
+          "feature_index": 19805,
+          "copula_mean": 2.3239476680755615,
+          "noncopula_mean": 0.0,
+          "log10_selectivity": 3.3664131818617604,
+          "label": "phrases describing the state or condition of the world"
+        },
+        {
+          "feature_index": 13145,
+          "copula_mean": 1.5087262392044067,
+          "noncopula_mean": 0.0,
+          "log10_selectivity": 3.1788982031993043,
+          "label": "statements or clues in a written text"
+        },
+        {
+          "feature_index": 2189,
+          "copula_mean": 2.2141613960266113,
+          "noncopula_mean": 0.000654397124890238,
+          "log10_selectivity": 3.1267656076120725,
+          "label": "personal statements starting with \"I am\" and \"I am not\""
+        },
+        {
+          "feature_index": 2862,
+          "copula_mean": 1.329009771347046,
+          "noncopula_mean": 0.0,
+          "log10_selectivity": 3.1238548316637127,
+          "label": "medical conditions or substances"
+        },
+        {
+          "feature_index": 6651,
+          "copula_mean": 2.9239726066589355,
+          "noncopula_mean": 0.0012365200091153383,
+          "log10_selectivity": 3.1165490151660755,
+          "label": "the verb \"is\" followed by various types of content"
+        },
+        {
+          "feature_index": 13939,
+          "copula_mean": 1.2797070741653442,
+          "noncopula_mean": 0.0,
+          "log10_selectivity": 3.107449808416783,
+          "label": "instances of the word \"are\""
+        },
+        {
+          "feature_index": 7780,
+          "copula_mean": 1.069145679473877,
+          "noncopula_mean": 0.0,
+          "log10_selectivity": 3.029442902437637,
+          "label": "phrases related to law enforcement and criminal activities"
+        },
+        {
+          "feature_index": 291,
+          "copula_mean": 2.3378264904022217,
+          "noncopula_mean": 0.004859839100390673,
+          "log10_selectivity": 2.6011123128578686,
+          "label": "the verb \"is\" at the beginning of sentences"
+        },
+        {
+          "feature_index": 22699,
+          "copula_mean": 1.130735993385315,
+          "noncopula_mean": 0.002540702698752284,
+          "log10_selectivity": 2.504655666277072,
+          "label": "proper nouns representing people and their professional roles"
+        },
+        {
+          "feature_index": 21000,
+          "copula_mean": 2.1599466800689697,
+          "noncopula_mean": 0.009529601782560349,
+          "log10_selectivity": 2.3122321041083467,
+          "label": "names of famous individuals"
+        },
+        {
+          "feature_index": 21923,
+          "copula_mean": 1.7877917289733887,
+          "noncopula_mean": 0.011100527830421925,
+          "log10_selectivity": 2.169755463268701,
+          "label": "sentences emphasizing the importance of time"
+        },
+        {
+          "feature_index": 10903,
+          "copula_mean": 2.239464044570923,
+          "noncopula_mean": 0.054218608886003494,
+          "log10_selectivity": 1.6082525173311895,
+          "label": "instances of sentences starting with \"I am\" or \"We are\""
+        },
+        {
+          "feature_index": 1960,
+          "copula_mean": 1.7671351432800293,
+          "noncopula_mean": 0.10968652367591858,
+          "log10_selectivity": 1.2034207084268629,
+          "label": "specific events or incidents happening at a certain time or place"
+        }
+      ]
+    },
+    "pythia_70m": {
+      "n_high_selectivity_copula_features": 1,
+      "features": [
+        {
+          "feature_index": 11271,
+          "copula_mean": 1.9501075744628906,
+          "noncopula_mean": 0.03192959353327751,
+          "log10_selectivity": 1.7726948448862725,
+          "label": " verbs that signify existence or state"
+        }
+      ]
+    },
+    "gemma_1_2b": {
+      "n_high_selectivity_copula_features": 3,
+      "features": [
+        {
+          "feature_index": 5943,
+          "copula_mean": 1.3868310451507568,
+          "noncopula_mean": 0.0,
+          "log10_selectivity": 3.142336598233425,
+          "label": "the verb \"is\" in various contexts"
+        },
+        {
+          "feature_index": 5162,
+          "copula_mean": 1.1524176597595215,
+          "noncopula_mean": 0.0005470907199196517,
+          "log10_selectivity": 2.8724708154674343,
+          "label": "statements of identity or existence"
+        },
+        {
+          "feature_index": 11942,
+          "copula_mean": 1.2748140096664429,
+          "noncopula_mean": 0.009316782467067242,
+          "log10_selectivity": 2.092243093423669,
+          "label": " instances of the verb \"is\" and its variations to denote availability or state of being"
+        }
+      ]
+    }
+  },
+  "routing": {
+    "gemma": {
+      "n_capitals": 6,
+      "total": 15,
+      "mean_per_prompt": 2.5,
+      "n_high_selectivity_features": 15,
+      "per_prompt": [
+        {
+          "prompt_id": "capital-fr",
+          "n_high_selectivity_copula_in_opposing_top10": 3,
+          "overlap_feature_indices": [
+            13414,
+            15149,
+            15596
+          ]
+        },
+        {
+          "prompt_id": "capital-jp",
+          "n_high_selectivity_copula_in_opposing_top10": 3,
+          "overlap_feature_indices": [
+            13414,
+            15149,
+            15596
+          ]
+        },
+        {
+          "prompt_id": "capital-de",
+          "n_high_selectivity_copula_in_opposing_top10": 2,
+          "overlap_feature_indices": [
+            15149,
+            15596
+          ]
+        },
+        {
+          "prompt_id": "capital-it",
+          "n_high_selectivity_copula_in_opposing_top10": 3,
+          "overlap_feature_indices": [
+            13414,
+            15149,
+            15596
+          ]
+        },
+        {
+          "prompt_id": "capital-es",
+          "n_high_selectivity_copula_in_opposing_top10": 2,
+          "overlap_feature_indices": [
+            13414,
+            15596
+          ]
+        },
+        {
+          "prompt_id": "capital-ru",
+          "n_high_selectivity_copula_in_opposing_top10": 2,
+          "overlap_feature_indices": [
+            15149,
+            15596
+          ]
+        }
+      ]
+    },
+    "gpt2": {
+      "n_capitals": 6,
+      "total": 16,
+      "mean_per_prompt": 2.6666666666666665,
+      "n_high_selectivity_features": 14,
+      "per_prompt": [
+        {
+          "prompt_id": "capital-fr",
+          "n_high_selectivity_copula_in_opposing_top10": 2,
+          "overlap_feature_indices": [
+            19805,
+            21000
+          ]
+        },
+        {
+          "prompt_id": "capital-jp",
+          "n_high_selectivity_copula_in_opposing_top10": 3,
+          "overlap_feature_indices": [
+            19805,
+            21000,
+            21496
+          ]
+        },
+        {
+          "prompt_id": "capital-de",
+          "n_high_selectivity_copula_in_opposing_top10": 2,
+          "overlap_feature_indices": [
+            19805,
+            21000
+          ]
+        },
+        {
+          "prompt_id": "capital-it",
+          "n_high_selectivity_copula_in_opposing_top10": 3,
+          "overlap_feature_indices": [
+            19805,
+            21000,
+            21496
+          ]
+        },
+        {
+          "prompt_id": "capital-es",
+          "n_high_selectivity_copula_in_opposing_top10": 3,
+          "overlap_feature_indices": [
+            19805,
+            21000,
+            21496
+          ]
+        },
+        {
+          "prompt_id": "capital-ru",
+          "n_high_selectivity_copula_in_opposing_top10": 3,
+          "overlap_feature_indices": [
+            19805,
+            21000,
+            21496
+          ]
+        }
+      ]
+    },
+    "pythia_70m": {
+      "n_capitals": 6,
+      "total": 6,
+      "mean_per_prompt": 1.0,
+      "n_high_selectivity_features": 1,
+      "per_prompt": [
+        {
+          "prompt_id": "capital-fr",
+          "n_high_selectivity_copula_in_opposing_top10": 1,
+          "overlap_feature_indices": [
+            11271
+          ]
+        },
+        {
+          "prompt_id": "capital-jp",
+          "n_high_selectivity_copula_in_opposing_top10": 1,
+          "overlap_feature_indices": [
+            11271
+          ]
+        },
+        {
+          "prompt_id": "capital-de",
+          "n_high_selectivity_copula_in_opposing_top10": 1,
+          "overlap_feature_indices": [
+            11271
+          ]
+        },
+        {
+          "prompt_id": "capital-it",
+          "n_high_selectivity_copula_in_opposing_top10": 1,
+          "overlap_feature_indices": [
+            11271
+          ]
+        },
+        {
+          "prompt_id": "capital-es",
+          "n_high_selectivity_copula_in_opposing_top10": 1,
+          "overlap_feature_indices": [
+            11271
+          ]
+        },
+        {
+          "prompt_id": "capital-ru",
+          "n_high_selectivity_copula_in_opposing_top10": 1,
+          "overlap_feature_indices": [
+            11271
+          ]
+        }
+      ]
+    },
+    "gemma_1_2b": {
+      "n_capitals": 6,
+      "total": 16,
+      "mean_per_prompt": 2.6666666666666665,
+      "n_high_selectivity_features": 3,
+      "per_prompt": [
+        {
+          "prompt_id": "capital-fr",
+          "n_high_selectivity_copula_in_opposing_top10": 3,
+          "overlap_feature_indices": [
+            5162,
+            5943,
+            11942
+          ]
+        },
+        {
+          "prompt_id": "capital-jp",
+          "n_high_selectivity_copula_in_opposing_top10": 3,
+          "overlap_feature_indices": [
+            5162,
+            5943,
+            11942
+          ]
+        },
+        {
+          "prompt_id": "capital-de",
+          "n_high_selectivity_copula_in_opposing_top10": 2,
+          "overlap_feature_indices": [
+            5162,
+            5943
+          ]
+        },
+        {
+          "prompt_id": "capital-it",
+          "n_high_selectivity_copula_in_opposing_top10": 2,
+          "overlap_feature_indices": [
+            5162,
+            5943
+          ]
+        },
+        {
+          "prompt_id": "capital-es",
+          "n_high_selectivity_copula_in_opposing_top10": 3,
+          "overlap_feature_indices": [
+            5162,
+            5943,
+            11942
+          ]
+        },
+        {
+          "prompt_id": "capital-ru",
+          "n_high_selectivity_copula_in_opposing_top10": 3,
+          "overlap_feature_indices": [
+            5162,
+            5943,
+            11942
+          ]
+        }
+      ]
+    }
+  }
+}

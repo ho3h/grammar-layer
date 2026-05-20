@@ -1,16 +1,20 @@
 # grammar-layer
 
-> A coordinated grammar-suppression apparatus inside language models, made visible by direct causal ablation. Present in three model families across two organisations, *absent* in GPT-2 small. Reframes "why do some models predict Tokyo and others don't" into "why does one model's prediction structure recruit its grammar features and the other's doesn't".
+> Amplify one SAE feature in Gemma 2 2B labelled "forms of the verb 'to be'" by ten times, and on every capital-completion prompt the argmax flips to **" not"**. Not "a". Not "the". "not". The same dial in Gemma 1 2B and Pythia 70M drives log P(target) down monotonically too — they just converge to generic "a" instead. The suppression apparatus is cross-family; the negation attractor is Gemma-2-2B specific.
 
 ---
 
-## A specific question
+## The headline experiment
 
-Ask two language models to finish the sentence **"The capital of Japan is"**.
+Take Gemma 2 2B. Ask it *"The capital of Japan is __"*. It says *Tokyo*.
 
-**Gemma 2 (Google, 2 billion parameters)** says *"Tokyo"*. **GPT-2 small (OpenAI, 124 million parameters)** says *"the"*. The boring explanation is "Gemma is bigger and newer". The interesting question is: what is *actually happening inside each model* when one of them succeeds and the other doesn't?
+Now find the SAE feature in its residual stream at layer 20 that most strongly opposes the target — feature 15596, labelled by Neuronpedia as *"past and present tense forms of the verb 'to be' in various contexts"*. Multiply its activation at the last position by ten. The argmax does not stay on Tokyo, and it does not drift to "a" or "the". On all six capital-completion prompts in our benchmark — France, Germany, Italy, Spain, Russia, Japan — it flips to **" not"**. Six different correct answers, one feature whose amplification turns each of them into denial.
 
-This repo is the answer to that question.
+Most of what we call hedging in language models is the model fighting itself. We knew that. What we didn't know: turn the dial up on the right grammar feature in Gemma 2 2B, and the fight resolves toward " not".
+
+The same protocol on Gemma 1 2B (feature 5541, "instances of the verb 'is'") and Pythia 70M (feature 23527, "occurrences of the verb 'is' and its various forms") shows the same monotone collapse of target probability, but the argmax converges to a generic *" a"*, not negation. GPT-2 small has 652 grammar-labelled features in its SAE and recruits none of them as opposers on these prompts — the apparatus we are pointing the dial at simply isn't in its prediction routing for these completions.
+
+This is what we found.
 
 ---
 

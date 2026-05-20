@@ -1,6 +1,10 @@
-# Same vocabulary, different routing: SAE feature opposers on capital completions
+# Amplify a copula feature, get negation: SAE feature opposers on factual completions
 
-Ask Gemma 2 2B to finish "The capital of Japan is" and it says Tokyo. Ask GPT-2 small the same question and it says the. The boring explanation is that Gemma is newer and was trained on more data. The less boring explanation, which this writeup is about, lives one level down: when you decompose each model's hidden state into sparse-autoencoder features and rank them by their signed contribution to log P(Tokyo), the two models look qualitatively different on the side of the ledger that pushes *against* the target. Inside Gemma, the same pair of grammar features (one labelled "forms of the verb 'to be'", one labelled "instances of the word 'is'") appears as a top opposer on all six capital-completion prompts in our benchmark. GPT-2 has 652 grammar-labelled features in its SAE vocabulary, including direct decoder-similar counterparts of Gemma's pair, and recruits none of them as opposers on any capital prompt. The same pattern (grammar features clustering on the opposing side) shows up in Pythia 70M and Gemma 1 2B as well, which rules out scale and rules out Google's training recipe as the explanation. It does not show up in GPT-2 small.
+Ask Gemma 2 2B to finish "The capital of Japan is" and it says Tokyo. Now take a single SAE feature in the residual stream at layer 20 — feature 15596, labelled "past and present tense forms of the verb 'to be'" — and multiply its activation at the last position by ten. The argmax does not stay on Tokyo, and it does not drift to " a" or " the". On all six capital prompts in our benchmark — France, Germany, Italy, Spain, Russia, Japan — it flips to **" not"**. Six different correct answers, one feature whose amplification turns each of them into outright negation. Most of what we call hedging in language models is the model fighting itself. We knew that. What we didn't know: turn the dial up on the right grammar feature in Gemma 2 2B, and the fight resolves toward " not". The same dial in Gemma 1 2B (f5541) and Pythia 70M (f23527) drives log P(target) monotonically down on the same prompts, but the argmax in those models converges to generic " a", not negation. The negation attractor is Gemma 2 2B specifically.
+
+This writeup is structured around that finding. The setup is the supporting-side joint ablation (Result 1) and the opposing-side inversion (Result 2) which together identify f15596 (and a small set of cross-family analogues) as the locus of the suppressive force. The fingerprint section shows the same pair of features (f15596 + f10142) appears as a top opposer on every capital prompt. Cross-family replication shows the same kind of feature appears at the depth-matched layer in Pythia 70M (f23527), Gemma 1 2B (f5541, f16346, f5943), and Gemma 2 9B at L31 (f6341, f4635); GPT-2 small does not recruit any of its 652 grammar-labelled features as opposers on these prompts. Cross-task scope shows the fingerprint is specific to capital-completions, not a generic mechanism for all "X is Y" templates. The climax is the amplification study (Result 5): bidirectional control, strict monotonicity across four models, and a negation attractor in Gemma 2 2B that the other models in the same family do not share.
+
+The honest disappointment is on the surface-behaviour side. The original n=75 behavioural test suggested the internal mechanism propagates to open-ended generation. A proper-power retest at n=300 falsifies that: the four metrics we chose do not distinguish the inversion-having models from GPT-2 at adequate power. The internal mechanism is real and large (a 10-nat shift in log P(target) when we amplify the fingerprint feature); the open-ended-generation signal of it, if it exists, is smaller than this benchmark can resolve. We treat this as the same intellectual move as the v2 → v3 correction earlier in this work: a hypothesis that looked supported at low sample size dissolves under proper power, and we report the dissolution rather than retain the inflated claim. Heimersheim's population-statistics warning applied to our own downstream claim.
 
 ## Method
 
@@ -212,22 +216,42 @@ The honest scope claim is therefore tighter than the v2 framing or the unqualifi
 
 The cross-task visualisation is at [`reports/viz_cross_task.png`](viz_cross_task.png). See [`reports/cross_task_analysis.json`](cross_task_analysis.json) for the full four-model breakdown and per-prompt detail.
 
-## Result 5: bidirectional control via amplification
+## Result 5: bidirectional control and the negation attractor
 
-Ablation tells you the feature is necessary. The stronger claim — that amplifying the feature actively pushes the model toward generic completions — requires bidirectional steering. We scaled the last-position activation of feat 15596 in Gemma 2 2B and feat 23527 in Pythia 70M by factors in {0.0, 0.5, 1.0, 2.0, 5.0, 10.0} and recorded the mean log P(target) over the six capital prompts at each scale.
+Ablation tells you the feature is necessary. The stronger claim — that amplifying the feature actively shifts probability mass — requires bidirectional steering. We scaled the last-position activation of the top capital-opposing copula feature in three models — Gemma 2 2B f15596, Gemma 1 2B f5541, Pythia 70M f23527 — by factors in {0.0, 0.5, 1.0, 2.0, 5.0, 10.0} on the six capital prompts.
 
-| Scale | Gemma f15596: mean log P(target) | Pythia f23527: mean log P(target) |
-|---|---|---|
-| 0.0 (ablate) | −2.80 | −7.38 |
-| 0.5 | −3.24 | −7.49 |
-| 1.0 (baseline) | −3.68 | −7.60 |
-| 2.0 | −4.54 | −7.83 |
-| 5.0 | −7.35 | −8.59 |
-| 10.0 | −13.51 | −9.99 |
+| Scale | Gemma 2 2B f15596 | Gemma 1 2B f5541 | Pythia 70M f23527 |
+|---|---|---|---|
+| 0.0 (ablate) | −2.80 | −3.50 | −7.38 |
+| 0.5 | −3.24 | −3.71 | −7.49 |
+| 1.0 (baseline) | −3.68 | −3.91 | −7.60 |
+| 2.0 | −4.54 | −4.32 | −7.83 |
+| 5.0 | −7.35 | −5.52 | −8.59 |
+| 10.0 | −13.51 | −7.37 | −9.99 |
 
-Both features satisfy strict monotonicity across all six scales: as activation goes up, target log-probability goes down. In Gemma 2 2B the effect is large (10 nats of probability mass moved by scaling f15596 from 1.0× to 10.0×). In Pythia 70M the absolute effect is smaller because Pythia's baseline log P(target) is already low (capitals are well outside its competence), but the monotonicity is cleaner: log P(generic) also rises monotonically with the amplification scale, so both directions move the way the suppression interpretation predicts. The argmax flips from " a" / " the" at scale ≤ 2 to " not" at scale 10 across all six Gemma capital prompts, which is consistent with f15596 encoding negation as well as copular template structure.
+All three satisfy strict monotonicity. As activation goes up, log P(target) goes down — large effect in Gemma 2 2B (10 nats moved from 1× to 10×), smaller in absolute terms in Pythia (where the baseline is already low because capitals are outside Pythia's competence) but monotone in both directions. The cross-family causal claim is therefore not correlational: scaling the copula opposer up actively shifts probability mass away from the specific factual target on every capital prompt in every model where the apparatus exists.
 
-Bidirectional control is the cleaner causal claim. Zero-ablation only shows the feature is sufficient to depress the target (and is exposed to the OOD critique); amplification shows that scaling the feature *toward* more activation actively shifts probability mass from specific completions to generic ones, which is the prediction the suppression interpretation makes. The same data is the basis for using f15596 as a style-steering primitive: scaling it up makes Gemma hedge harder; scaling it down makes Gemma commit harder. See [`reports/viz_amplification.png`](viz_amplification.png) for the per-scale curves and [`reports/amp_gemma_f15596.json`](amp_gemma_f15596.json) / [`reports/amp_pythia_70m_f23527.json`](amp_pythia_70m_f23527.json) for the raw data.
+The argmax tells a sharper, more specific story. At baseline (scale 1.0), the three models' argmax distributions on the six capital prompts are:
+
+| Model | argmax at scale 1.0 (baseline) |
+|---|---|
+| Gemma 2 2B | " Tokyo" on 1/6, " a" on 5/6 |
+| Gemma 1 2B | " a" on 6/6 |
+| Pythia 70M | " the" on 6/6 |
+
+As we amplify, all three models drift their argmax through the generic-completion set. The difference is where they land at scale 10:
+
+| Model | argmax at scale 10 |
+|---|---|
+| **Gemma 2 2B** | **" not" on 6/6** |
+| Gemma 1 2B | " a" on 6/6 |
+| Pythia 70M | " a" on 6/6 |
+
+In Gemma 2 2B specifically, scaling the copula feature ten times flips the argmax through generic completions to outright negation on every single capital prompt. The decoder direction of f15596 has substantial alignment with the unembedding direction of " not" (token id 780) — when the feature dominates the residual stream at the last position, what comes out is a denial of the specific factual claim the prompt is asking for. Neither Gemma 1 2B nor Pythia 70M shows this. They collapse cleanly to " a", which is consistent with their copula opposers encoding the generic copular template ("X is a Y") but not negation.
+
+The negation attractor is therefore not a generic property of copula-suppressor features across model families. It is Gemma 2 2B specific. The mechanism (copula features as opposers, recruited cross-family on capital completions) is universal across the four inversion-having models we tested; the *direction* the feature points the model when amplified is family-specific and probably training-specific. This is the cleanest single piece of evidence we have that f15596 in Gemma 2 2B isn't just a copular template feature — it is a copular template feature with negation polarity baked into its decoder vector.
+
+For interpretability: zero-ablation alone is exposed to the OOD critique that pushes activations to a value the model never sees in training. Bidirectional amplification removes that critique — scaling toward more activation is in-distribution, and it produces the predicted effect monotonically. For steering: f15596 in Gemma 2 2B is a usable primitive for making the model deny specific factual claims, with a known dose-response curve. See [`reports/viz_amplification.png`](viz_amplification.png) for the per-scale curves and [`reports/amp_gemma_f15596.json`](amp_gemma_f15596.json), [`reports/amp_gemma_1_2b_f5541.json`](amp_gemma_1_2b_f5541.json), [`reports/amp_pythia_70m_f23527.json`](amp_pythia_70m_f23527.json) for the raw data.
 
 ## Functional rediscovery: f15596 is independently the top copula detector
 
@@ -295,6 +319,8 @@ Stolfo, Wu, Gurnee, Belinkov, Song, Sachan, and Nanda introduced two families of
 
 Neither mechanism can produce the effect we observe. Entropy neurons operate through the LN null space, which by construction acts on every logit at once; they cannot selectively penalise Tokyo over Paris over Berlin within the same forward pass, because the null-space contribution is shared across the vocabulary. Token-frequency neurons can in principle weight high-frequency tokens differently from low-frequency ones, but capital names are heterogeneous in frequency and the suppression we measure tracks the correct-answer slot rather than any frequency band. The features in our opposing set are mid-to-late residual-stream SAE features, not final-layer MLP neurons, and their decoder directions have substantial components outside the LN null space. The Stolfo et al. mechanisms therefore describe a complementary regime: uniform, last-layer, content-agnostic hedging. Ours is content-selective, per-prompt, and located several layers earlier. Both can be true of the same model.
 
+The negation attractor finding (Result 5) is what most clearly distinguishes the present work from confidence-regulation neurons. An entropy neuron, when amplified, broadens the output distribution toward uniformity; a token-frequency neuron, when amplified, biases it toward the unigram baseline. Neither produces a directed flip of the argmax to a specific other token. f15596 in Gemma 2 2B does: amplification ten times moves the argmax through " a" and " the" to " not" on every capital prompt. The same feature class in Gemma 1 2B and Pythia 70M does *not* produce this directed flip — they converge to " a" — which says the decoder direction of f15596 carries content beyond the copular-template signal. This is the kind of feature-level steering primitive that the confidence-neuron literature explicitly excludes.
+
 ### Interpretability illusions (Heimersheim 2024)
 
 Heimersheim's "An Interpretability Illusion from Population Statistics in Causal Analysis" (LessWrong, 2024) documents a failure mode that any aggregate ablation study is exposed to. He observes that if a feature is causally important on a subset of prompts and inert on the rest, the aggregate metric will still favour the hypothesis that the feature matters, because the inert slice averages out rather than averaging away. The worked example is direct: "we found evidence for an SAE feature that seemed quite important for the IOI task… the feature was only involved in the BABA variant specifically." The post is careful that this is not a critique of any one paper but a structural risk in how causal interpretability is reported.
@@ -311,7 +337,9 @@ The full analysis is driven from a small Python module (`src/neograph/fingerprin
 
 ## Conclusion
 
-The supporting-side joint zero-ablation result is the load-bearing causal claim: ten features per prompt, selected by signed attribution, are enough to collapse Gemma 2 2B from 0.52 to 0.04 across twelve categories, with mean Δlog P(target) of +3.45 nats and a 41× ratio over a random size-matched draw. The same protocol drops every other tested model from baseline to near zero. That part is model-agnostic and task-agnostic — it holds on capitals, currencies, languages, compositions, and continents.
+The headline finding is the negation attractor: in Gemma 2 2B, amplifying f15596 ten times flips the argmax from " a" / " the" to " not" on every capital prompt. This is not what we expected to find, and we did not find it in the same protocol applied to Gemma 1 2B (which converges to " a") or Pythia 70M (which converges to " a"). The mechanism — copula features recruited as opposers of specific factual completions — is universal across four models, three families, two organisations, and a 130× parameter range. The polarity of what the feature points the model toward when amplified is Gemma 2 2B-specific.
+
+The supporting-side joint zero-ablation result is the methodological foundation: ten features per prompt, selected by signed attribution, are enough to collapse Gemma 2 2B from 0.52 to 0.04 across twelve categories, with mean Δlog P(target) of +3.45 nats and a 41× ratio over a random size-matched draw. The same protocol drops every other tested model from baseline to near zero. That part is model-agnostic and task-agnostic — it holds on capitals, currencies, languages, compositions, and continents.
 
 The interesting structure is on the opposing side, and it is narrower than the v2 framing suggested. On capital-completion prompts specifically, grammar features cluster as opposers in Gemma 2 2B, Gemma 1 2B, Pythia 70M, and Gemma 2 9B (at L31, the within-family depth-matched layer) — four models, three families, two organisations, a 130× parameter range. The same pair of grammar features in Gemma 2 2B (f15596, f10142) suppresses the specific capital on all six capital prompts, and the same pattern appears with different feature indices in each model; bidirectional amplification in Gemma 2 2B monotonically pushes log P(target) down (10 nats moved from 1× to 10× scale) and flips the argmax through generic completions to negation. GPT-2 small has 652 grammar-labelled features in its SAE and recruits none of them as opposers on the same capital prompts; its routing uses content features end to end. The fingerprint phenomenon does *not* extend to currencies, compositions, or continents — those task types recruit content opposers like every other model on every other prompt type. The opposing-side grammar inversion is specific to the "X is [generic-Y]" surface template where the grammar features and the specific factual answer most directly compete. The behavioural propagation we attempted to measure on open-ended generation does not survive a proper-power retest (Result 4); the surface behaviour we picked may not be what the apparatus most clearly affects.
 

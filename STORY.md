@@ -1,16 +1,20 @@
-# Two models, same question, very different inside
+# Turn one dial and Gemma starts saying "not"
 
 *A non-technical walkthrough of the finding. The full methods are in [reports/writeup.md](reports/writeup.md).*
 
 ---
 
-Ask a language model to finish the sentence "**The capital of Japan is**". Two different models, two very different stories about what happens inside them.
+Ask Gemma 2 2B to finish *"The capital of Japan is __"*. It says *Tokyo*. Right answer.
 
-**Gemma 2 (a 2-billion-parameter model from Google) answers "Tokyo."**
+Now reach inside the model and find one specific internal concept: the one a public catalogue (Neuronpedia) has labelled *"past and present tense forms of the verb 'to be'"*. That concept is normally firing — it has to, for "is" to function as a copula in the prompt. We're going to turn its activation up. Not double, not triple. Multiply it by ten.
 
-**GPT-2 small (a 124-million-parameter model from OpenAI, released in 2019) doesn't get it.** It thinks the most likely next word is "the".
+The next-token prediction does not stay on *Tokyo*. It does not drift to *a*, or *the*, or any of the generic completions you might guess. It flips to **" not"**.
 
-Why does Gemma get it right and GPT-2 not? The boring answer is "Gemma is bigger and more recent". The interesting answer is what happens when you open them up and look at the actual machinery producing the prediction.
+We tried this on six different capital prompts — France, Germany, Italy, Spain, Russia, Japan. Six different correct answers (Paris, Berlin, Rome, Madrid, Moscow, Tokyo). On every single one, amplifying that one *forms of "to be"* feature ten times produces the same flip to *" not"*.
+
+This is the headline finding. Most of what we call hedging in language models is the model fighting itself — competing internal pressures, one of which wants the specific factual answer, others of which want the generic copular completion. We knew that part. What we didn't know: in Gemma 2 2B specifically, if you turn up the right grammar feature, the fight resolves toward outright denial. The same dial in Pythia 70M and Gemma 1 2B (older Gemma generation) drops the probability of the right answer just as cleanly, but it converges to the generic *" a"*. The negation attractor is Gemma-2-2B-specific.
+
+The rest of this writeup is what gets you from "amplifying one feature does this" to "the same kind of feature, recruited the same way, exists across three model families and is *absent* in GPT-2 small". The original question — why does Gemma get *Tokyo* right and GPT-2 not — is the setup. The amplification result is the climax.
 
 ## How to look inside a language model
 

@@ -49,20 +49,31 @@ def plot_panel(ax: plt.Axes, run: dict, title: str) -> None:
 
 
 def main() -> None:
-    gemma = load_run("gemma", 15596)
-    pythia = load_run("pythia_70m", 23527)
+    panels = [
+        ("gemma",      15596, "Gemma 2 2B  •  f15596  •  'forms of the verb \"to be\"'  →  argmax flips to \" not\""),
+        ("gemma_1_2b",  5541, "Gemma 1 2B  •  f5541  •  'instances of the verb \"is\"'  →  argmax stays on \" a\""),
+        ("pythia_70m", 23527, "Pythia 70M  •  f23527  •  'occurrences of the verb \"is\" and its forms'  →  argmax stays on \" a\""),
+    ]
+    # Optional 9B panel if available
+    try:
+        load_run("gemma_9b_l31", 6341)
+        panels.append(("gemma_9b_l31", 6341, "Gemma 2 9B (L31)  •  f6341  •  'instances of the verb \"is\" and its variations'"))
+    except FileNotFoundError:
+        pass
 
-    fig, axes = plt.subplots(1, 2, figsize=(13, 5))
-    plot_panel(
-        axes[0], gemma,
-        "Gemma 2 2B  •  f15596  •  'past and present tense forms of the verb \"to be\"'",
-    )
-    plot_panel(
-        axes[1], pythia,
-        "Pythia 70M  •  f23527  •  'occurrences of the verb \"is\" and its forms'",
-    )
+    n = len(panels)
+    fig, axes = plt.subplots(1, n, figsize=(5.5 * n, 5), sharey=False)
+    if n == 1:
+        axes = [axes]
+    for ax, (model, feat, title) in zip(axes, panels):
+        run = load_run(model, feat)
+        plot_panel(ax, run, title)
 
-    fig.suptitle("Bidirectional steering: amplifying the copula opposer pushes log P(target) down monotonically", fontsize=12)
+    fig.suptitle(
+        "Bidirectional steering of the copula opposer: monotone log-P collapse in every "
+        "inversion model;\nargmax flips to ' not' in Gemma 2 2B only (the negation attractor)",
+        fontsize=12,
+    )
     fig.tight_layout()
     out = ROOT / "reports" / "viz_amplification.png"
     fig.savefig(out, dpi=140, bbox_inches="tight")

@@ -1,6 +1,6 @@
 # Two models, same question, very different inside
 
-*A non-technical walkthrough of the finding. The full methods are in [reports/writeup_v3_revised.md](reports/writeup_v3_revised.md).*
+*A non-technical walkthrough of the finding. The full methods are in [reports/writeup.md](reports/writeup.md).*
 
 ---
 
@@ -116,9 +116,9 @@ We tested this directly. Fifteen open-ended prompts (story openings, instruction
 - How often it constructs generic noun phrases like "a thing", "the way", "a kind".
 - What fraction of sentences open with copula-led structures like "This is…", "There are…", "It was…".
 
-The results: Gemma's continuations are higher than GPT-2's on all four metrics. The two largest differences — copula-led sentence openers (5% vs 2%, p = 0.018) and hedge density (1.85 vs 1.16 per 100 tokens, p = 0.050) — reach statistical significance with just 75 generations per model. Copula density and generic-NP rate trend in the same direction but don't pass with this sample size. **Four out of four metrics point the way the internal finding predicts; two of the four are significant.**
+At n=75 per model the means line up by inversion status, and the largest gaps (Gemma vs GPT-2 on hedges and copula-led openers) reach p ≤ 0.05. But this is where the story gets honestly uncomfortable. When we re-ran GPT-2 and Pythia at n=300 to settle the scale-controlled comparison, GPT-2's behavioural means came up substantially (copula +12%, hedges +34%, generic NP +69%, copula-openers +145%) — the n=75 sample was undersampling the high-frequency tail. The Pythia (n=300) vs GPT-2 (n=300) comparison is null on every metric. The Gemma vs GPT-2 comparison, against the better-sampled GPT-2, also slips off significance.
 
-There is an unavoidable size confound — Gemma 2 2B is 16× larger than GPT-2 small. The clean control is the comparison with Pythia 70M (which has the grammar layer per the internal analysis, but is *smaller* than GPT-2). If Pythia's prose shows the same grammatical signature as Gemma's despite being so much smaller than GPT-2, the behavioral signature decouples from scale entirely. That comparison is in flight as of writing and is the most informative remaining test.
+The honest read: on this open-ended generation benchmark, the four metrics we chose don't distinguish the inversion-having models from GPT-2 at adequate power. The internal mechanism is real and large (a 10-nat shift in log P(target) when we amplify the fingerprint feature), but the open-ended-generation signal of it is smaller than these metrics can resolve. A targeted behavioural test — generating from the exact prompt template where amplification produces the largest internal effect — would be the natural follow-up.
 
 The behavioral test passes the smell test that a non-specialist can apply directly: read a few paragraphs from each model and check whether you can hear the difference. Three examples from the same prompt, "Climate change is":
 
@@ -132,7 +132,7 @@ Both Gemma and Pythia start with "is a X" — they take the copular template the
 
 ## Reading the rest
 
-The full technical writeup is at [reports/writeup_v3_revised.md](reports/writeup_v3_revised.md). It covers the cross-model breadth (seven SAE-equipped language models, from Pythia 70M to Gemma 2 9B), the per-category breakdown, the ablation methodology, the targeting controls, mean-ablation replication, capital-prompt fingerprint, behavioral signature, and the open follow-ups. The interactive viewer at [apps/grammar_layer/index.html](apps/grammar_layer/index.html) lets you walk the feature space of each model.
+The full technical writeup is at [reports/writeup.md](reports/writeup.md). It covers the cross-model breadth (seven SAE-equipped language models, from Pythia 70M to Gemma 2 9B), the per-category breakdown, the ablation methodology, the targeting controls, mean-ablation replication, capital-prompt fingerprint, behavioral signature, and the open follow-ups. The interactive viewer at [apps/grammar_layer/index.html](apps/grammar_layer/index.html) lets you walk the feature space of each model.
 
 Key figures:
 - [`reports/viz_smoking_gun.png`](reports/viz_smoking_gun.png) — single-prompt case study, Gemma vs GPT-2

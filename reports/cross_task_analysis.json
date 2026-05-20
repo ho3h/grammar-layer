@@ -1,0 +1,356 @@
+{
+  "gemma": {
+    "currency": {
+      "n_prompts": 6,
+      "n_fingerprint_in_opp5": 0,
+      "n_grammar_in_opp5": 0,
+      "n_grammar_in_sup5": 0,
+      "fingerprint_per_prompt": [
+        {
+          "prompt": "currency-jp",
+          "fingerprint_in_opp5": []
+        },
+        {
+          "prompt": "currency-us",
+          "fingerprint_in_opp5": []
+        },
+        {
+          "prompt": "currency-uk",
+          "fingerprint_in_opp5": []
+        },
+        {
+          "prompt": "currency-eu",
+          "fingerprint_in_opp5": []
+        },
+        {
+          "prompt": "currency-in",
+          "fingerprint_in_opp5": []
+        },
+        {
+          "prompt": "currency-mx",
+          "fingerprint_in_opp5": []
+        }
+      ],
+      "baseline_hits": 2,
+      "joint_ablated_hits": 0,
+      "mean_log_p_drop": 4.144367218017578,
+      "baseline_hit_rate": 0.3333333333333333,
+      "joint_ablated_hit_rate": 0.0,
+      "grammar_share_opp_pct": 0.0,
+      "grammar_share_sup_pct": 0.0,
+      "enrichment_opp_vs_sup": 1.0,
+      "fingerprint_rate": 0.0
+    },
+    "language": {
+      "n_prompts": 6,
+      "n_fingerprint_in_opp5": 1,
+      "n_grammar_in_opp5": 1,
+      "n_grammar_in_sup5": 0,
+      "fingerprint_per_prompt": [
+        {
+          "prompt": "language-br",
+          "fingerprint_in_opp5": []
+        },
+        {
+          "prompt": "language-fr",
+          "fingerprint_in_opp5": []
+        },
+        {
+          "prompt": "language-de",
+          "fingerprint_in_opp5": []
+        },
+        {
+          "prompt": "language-cn",
+          "fingerprint_in_opp5": [
+            15596
+          ]
+        },
+        {
+          "prompt": "language-ru",
+          "fingerprint_in_opp5": []
+        },
+        {
+          "prompt": "language-jp",
+          "fingerprint_in_opp5": []
+        }
+      ],
+      "baseline_hits": 5,
+      "joint_ablated_hits": 0,
+      "mean_log_p_drop": 4.7990723351637525,
+      "baseline_hit_rate": 0.8333333333333334,
+      "joint_ablated_hit_rate": 0.0,
+      "grammar_share_opp_pct": 3.3333333333333335,
+      "grammar_share_sup_pct": 0.0,
+      "enrichment_opp_vs_sup": Infinity,
+      "fingerprint_rate": 8.333333333333332
+    },
+    "composition": {
+      "n_prompts": 6,
+      "n_fingerprint_in_opp5": 0,
+      "n_grammar_in_opp5": 0,
+      "n_grammar_in_sup5": 0,
+      "fingerprint_per_prompt": [
+        {
+          "prompt": "composition-h2o",
+          "fingerprint_in_opp5": []
+        },
+        {
+          "prompt": "composition-co2",
+          "fingerprint_in_opp5": []
+        },
+        {
+          "prompt": "composition-nh3",
+          "fingerprint_in_opp5": []
+        },
+        {
+          "prompt": "composition-nacl",
+          "fingerprint_in_opp5": []
+        },
+        {
+          "prompt": "composition-air",
+          "fingerprint_in_opp5": []
+        },
+        {
+          "prompt": "composition-glass",
+          "fingerprint_in_opp5": []
+        }
+      ],
+      "baseline_hits": 5,
+      "joint_ablated_hits": 0,
+      "mean_log_p_drop": 2.521806846062342,
+      "baseline_hit_rate": 0.8333333333333334,
+      "joint_ablated_hit_rate": 0.0,
+      "grammar_share_opp_pct": 0.0,
+      "grammar_share_sup_pct": 0.0,
+      "enrichment_opp_vs_sup": 1.0,
+      "fingerprint_rate": 0.0
+    },
+    "continent": {
+      "n_prompts": 6,
+      "n_fingerprint_in_opp5": 0,
+      "n_grammar_in_opp5": 0,
+      "n_grammar_in_sup5": 1,
+      "fingerprint_per_prompt": [
+        {
+          "prompt": "continent-jp",
+          "fingerprint_in_opp5": []
+        },
+        {
+          "prompt": "continent-fr",
+          "fingerprint_in_opp5": []
+        },
+        {
+          "prompt": "continent-eg",
+          "fingerprint_in_opp5": []
+        },
+        {
+          "prompt": "continent-br",
+          "fingerprint_in_opp5": []
+        },
+        {
+          "prompt": "continent-au",
+          "fingerprint_in_opp5": []
+        },
+        {
+          "prompt": "continent-in",
+          "fingerprint_in_opp5": []
+        }
+      ],
+      "baseline_hits": 4,
+      "joint_ablated_hits": 0,
+      "mean_log_p_drop": 5.2315223688880605,
+      "baseline_hit_rate": 0.6666666666666666,
+      "joint_ablated_hit_rate": 0.0,
+      "grammar_share_opp_pct": 0.0,
+      "grammar_share_sup_pct": 3.3333333333333335,
+      "enrichment_opp_vs_sup": 0.0,
+      "fingerprint_rate": 0.0
+    }
+  },
+  "gpt2": {
+    "currency": {
+      "n_prompts": 6,
+      "n_fingerprint_in_opp5": 0,
+      "n_grammar_in_opp5": 0,
+      "n_grammar_in_sup5": 6,
+      "fingerprint_per_prompt": [],
+      "baseline_hits": 6,
+      "joint_ablated_hits": 3,
+      "mean_log_p_drop": 1.5389572779337566,
+      "baseline_hit_rate": 1.0,
+      "joint_ablated_hit_rate": 0.5,
+      "grammar_share_opp_pct": 0.0,
+      "grammar_share_sup_pct": 20.0,
+      "enrichment_opp_vs_sup": 0.0
+    },
+    "language": {
+      "n_prompts": 6,
+      "n_fingerprint_in_opp5": 0,
+      "n_grammar_in_opp5": 0,
+      "n_grammar_in_sup5": 5,
+      "fingerprint_per_prompt": [],
+      "baseline_hits": 3,
+      "joint_ablated_hits": 0,
+      "mean_log_p_drop": 2.121540288130442,
+      "baseline_hit_rate": 0.5,
+      "joint_ablated_hit_rate": 0.0,
+      "grammar_share_opp_pct": 0.0,
+      "grammar_share_sup_pct": 16.666666666666664,
+      "enrichment_opp_vs_sup": 0.0
+    },
+    "composition": {
+      "n_prompts": 6,
+      "n_fingerprint_in_opp5": 0,
+      "n_grammar_in_opp5": 0,
+      "n_grammar_in_sup5": 0,
+      "fingerprint_per_prompt": [],
+      "baseline_hits": 2,
+      "joint_ablated_hits": 2,
+      "mean_log_p_drop": 1.0495349665482838,
+      "baseline_hit_rate": 0.3333333333333333,
+      "joint_ablated_hit_rate": 0.3333333333333333,
+      "grammar_share_opp_pct": 0.0,
+      "grammar_share_sup_pct": 0.0,
+      "enrichment_opp_vs_sup": 1.0
+    },
+    "continent": {
+      "n_prompts": 6,
+      "n_fingerprint_in_opp5": 0,
+      "n_grammar_in_opp5": 1,
+      "n_grammar_in_sup5": 0,
+      "fingerprint_per_prompt": [],
+      "baseline_hits": 1,
+      "joint_ablated_hits": 1,
+      "mean_log_p_drop": 2.7656590988238654,
+      "baseline_hit_rate": 0.16666666666666666,
+      "joint_ablated_hit_rate": 0.16666666666666666,
+      "grammar_share_opp_pct": 3.3333333333333335,
+      "grammar_share_sup_pct": 0.0,
+      "enrichment_opp_vs_sup": Infinity
+    }
+  },
+  "pythia_70m": {
+    "currency": {
+      "n_prompts": 6,
+      "n_fingerprint_in_opp5": 0,
+      "n_grammar_in_opp5": 0,
+      "n_grammar_in_sup5": 0,
+      "fingerprint_per_prompt": [],
+      "baseline_hits": 0,
+      "joint_ablated_hits": 0,
+      "mean_log_p_drop": 3.04512087504069,
+      "baseline_hit_rate": 0.0,
+      "joint_ablated_hit_rate": 0.0,
+      "grammar_share_opp_pct": 0.0,
+      "grammar_share_sup_pct": 0.0,
+      "enrichment_opp_vs_sup": 1.0
+    },
+    "language": {
+      "n_prompts": 6,
+      "n_fingerprint_in_opp5": 0,
+      "n_grammar_in_opp5": 0,
+      "n_grammar_in_sup5": 0,
+      "fingerprint_per_prompt": [],
+      "baseline_hits": 0,
+      "joint_ablated_hits": 0,
+      "mean_log_p_drop": 4.127528468767802,
+      "baseline_hit_rate": 0.0,
+      "joint_ablated_hit_rate": 0.0,
+      "grammar_share_opp_pct": 0.0,
+      "grammar_share_sup_pct": 0.0,
+      "enrichment_opp_vs_sup": 1.0
+    },
+    "composition": {
+      "n_prompts": 6,
+      "n_fingerprint_in_opp5": 0,
+      "n_grammar_in_opp5": 0,
+      "n_grammar_in_sup5": 0,
+      "fingerprint_per_prompt": [],
+      "baseline_hits": 3,
+      "joint_ablated_hits": 0,
+      "mean_log_p_drop": 5.701651771863301,
+      "baseline_hit_rate": 0.5,
+      "joint_ablated_hit_rate": 0.0,
+      "grammar_share_opp_pct": 0.0,
+      "grammar_share_sup_pct": 0.0,
+      "enrichment_opp_vs_sup": 1.0
+    },
+    "continent": {
+      "n_prompts": 6,
+      "n_fingerprint_in_opp5": 0,
+      "n_grammar_in_opp5": 0,
+      "n_grammar_in_sup5": 0,
+      "fingerprint_per_prompt": [],
+      "baseline_hits": 0,
+      "joint_ablated_hits": 0,
+      "mean_log_p_drop": 3.6766653855641684,
+      "baseline_hit_rate": 0.0,
+      "joint_ablated_hit_rate": 0.0,
+      "grammar_share_opp_pct": 0.0,
+      "grammar_share_sup_pct": 0.0,
+      "enrichment_opp_vs_sup": 1.0
+    }
+  },
+  "gemma_1_2b": {
+    "currency": {
+      "n_prompts": 6,
+      "n_fingerprint_in_opp5": 0,
+      "n_grammar_in_opp5": 1,
+      "n_grammar_in_sup5": 2,
+      "fingerprint_per_prompt": [],
+      "baseline_hits": 3,
+      "joint_ablated_hits": 0,
+      "mean_log_p_drop": 4.042953113714854,
+      "baseline_hit_rate": 0.5,
+      "joint_ablated_hit_rate": 0.0,
+      "grammar_share_opp_pct": 3.3333333333333335,
+      "grammar_share_sup_pct": 6.666666666666667,
+      "enrichment_opp_vs_sup": 0.5
+    },
+    "language": {
+      "n_prompts": 6,
+      "n_fingerprint_in_opp5": 0,
+      "n_grammar_in_opp5": 6,
+      "n_grammar_in_sup5": 1,
+      "fingerprint_per_prompt": [],
+      "baseline_hits": 6,
+      "joint_ablated_hits": 0,
+      "mean_log_p_drop": 3.119768850505352,
+      "baseline_hit_rate": 1.0,
+      "joint_ablated_hit_rate": 0.0,
+      "grammar_share_opp_pct": 20.0,
+      "grammar_share_sup_pct": 3.3333333333333335,
+      "enrichment_opp_vs_sup": 6.0
+    },
+    "composition": {
+      "n_prompts": 6,
+      "n_fingerprint_in_opp5": 0,
+      "n_grammar_in_opp5": 1,
+      "n_grammar_in_sup5": 1,
+      "fingerprint_per_prompt": [],
+      "baseline_hits": 4,
+      "joint_ablated_hits": 1,
+      "mean_log_p_drop": 2.17951358606418,
+      "baseline_hit_rate": 0.6666666666666666,
+      "joint_ablated_hit_rate": 0.16666666666666666,
+      "grammar_share_opp_pct": 3.3333333333333335,
+      "grammar_share_sup_pct": 3.3333333333333335,
+      "enrichment_opp_vs_sup": 1.0
+    },
+    "continent": {
+      "n_prompts": 6,
+      "n_fingerprint_in_opp5": 0,
+      "n_grammar_in_opp5": 1,
+      "n_grammar_in_sup5": 0,
+      "fingerprint_per_prompt": [],
+      "baseline_hits": 2,
+      "joint_ablated_hits": 0,
+      "mean_log_p_drop": 3.3748099729418755,
+      "baseline_hit_rate": 0.3333333333333333,
+      "joint_ablated_hit_rate": 0.0,
+      "grammar_share_opp_pct": 3.3333333333333335,
+      "grammar_share_sup_pct": 0.0,
+      "enrichment_opp_vs_sup": Infinity
+    }
+  }
+}

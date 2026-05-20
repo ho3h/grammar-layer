@@ -1,0 +1,940 @@
+{
+  "corpus_size": 123,
+  "top_n": 20,
+  "per_model": {
+    "gemma": {
+      "n_copula_tokens": 72,
+      "n_noncopula_tokens": 1143,
+      "copula_token_ids": [
+        502,
+        555,
+        563,
+        603,
+        614,
+        708,
+        729,
+        895,
+        1049,
+        1125,
+        1144,
+        1855,
+        2065,
+        2125,
+        2437,
+        2448,
+        4181,
+        5419,
+        5881,
+        6570,
+        7162,
+        9626,
+        11576,
+        16978,
+        20532,
+        22176,
+        29172,
+        30919,
+        31709,
+        38352,
+        48338,
+        57180
+      ],
+      "top_copula_features": [
+        {
+          "feature_index": 15596,
+          "specificity": 57.91082763671875,
+          "copula_mean": 58.43894577026367,
+          "noncopula_mean": 0.528117835521698
+        },
+        {
+          "feature_index": 13414,
+          "specificity": 38.399505615234375,
+          "copula_mean": 38.399505615234375,
+          "noncopula_mean": 0.0
+        },
+        {
+          "feature_index": 10142,
+          "specificity": 22.430742263793945,
+          "copula_mean": 28.336376190185547,
+          "noncopula_mean": 5.90563440322876
+        },
+        {
+          "feature_index": 13346,
+          "specificity": 14.351339340209961,
+          "copula_mean": 14.598427772521973,
+          "noncopula_mean": 0.24708804488182068
+        },
+        {
+          "feature_index": 13429,
+          "specificity": 13.819730758666992,
+          "copula_mean": 13.921927452087402,
+          "noncopula_mean": 0.10219628363847733
+        },
+        {
+          "feature_index": 15149,
+          "specificity": 11.017001152038574,
+          "copula_mean": 11.026782989501953,
+          "noncopula_mean": 0.009782310575246811
+        },
+        {
+          "feature_index": 2429,
+          "specificity": 10.111527442932129,
+          "copula_mean": 10.302188873291016,
+          "noncopula_mean": 0.19066159427165985
+        },
+        {
+          "feature_index": 12564,
+          "specificity": 9.726975440979004,
+          "copula_mean": 9.741687774658203,
+          "noncopula_mean": 0.014712627045810223
+        },
+        {
+          "feature_index": 15332,
+          "specificity": 9.638994216918945,
+          "copula_mean": 9.708413124084473,
+          "noncopula_mean": 0.06941882520914078
+        },
+        {
+          "feature_index": 2523,
+          "specificity": 9.371338844299316,
+          "copula_mean": 10.654760360717773,
+          "noncopula_mean": 1.2834218740463257
+        },
+        {
+          "feature_index": 15813,
+          "specificity": 8.997701644897461,
+          "copula_mean": 9.117172241210938,
+          "noncopula_mean": 0.11947073042392731
+        },
+        {
+          "feature_index": 3362,
+          "specificity": 8.87006950378418,
+          "copula_mean": 8.965320587158203,
+          "noncopula_mean": 0.09525083750486374
+        },
+        {
+          "feature_index": 8511,
+          "specificity": 8.453784942626953,
+          "copula_mean": 8.484559059143066,
+          "noncopula_mean": 0.030773859471082687
+        },
+        {
+          "feature_index": 6051,
+          "specificity": 7.924931049346924,
+          "copula_mean": 7.945793628692627,
+          "noncopula_mean": 0.020862719044089317
+        },
+        {
+          "feature_index": 1741,
+          "specificity": 7.704353332519531,
+          "copula_mean": 9.591288566589355,
+          "noncopula_mean": 1.8869353532791138
+        },
+        {
+          "feature_index": 6143,
+          "specificity": 7.676819324493408,
+          "copula_mean": 12.967267036437988,
+          "noncopula_mean": 5.29044771194458
+        },
+        {
+          "feature_index": 13774,
+          "specificity": 6.8308329582214355,
+          "copula_mean": 11.858963012695312,
+          "noncopula_mean": 5.028130054473877
+        },
+        {
+          "feature_index": 2751,
+          "specificity": 6.79710578918457,
+          "copula_mean": 6.874312877655029,
+          "noncopula_mean": 0.07720701396465302
+        },
+        {
+          "feature_index": 13627,
+          "specificity": 6.791577339172363,
+          "copula_mean": 6.831342697143555,
+          "noncopula_mean": 0.03976554423570633
+        },
+        {
+          "feature_index": 5853,
+          "specificity": 6.3040947914123535,
+          "copula_mean": 6.357089519500732,
+          "noncopula_mean": 0.05299469456076622
+        }
+      ]
+    },
+    "gpt2": {
+      "n_copula_tokens": 73,
+      "n_noncopula_tokens": 1200,
+      "copula_token_ids": [
+        271,
+        307,
+        318,
+        321,
+        373,
+        389,
+        533,
+        547,
+        587,
+        716,
+        852,
+        1148,
+        1350,
+        1355,
+        1703,
+        3792,
+        3856,
+        4231,
+        5840,
+        8491,
+        8920,
+        9776,
+        11204,
+        11873,
+        15176,
+        16973,
+        18357,
+        22474,
+        35653,
+        36844,
+        47436
+      ],
+      "top_copula_features": [
+        {
+          "feature_index": 21496,
+          "specificity": 4.623114109039307,
+          "copula_mean": 4.623114109039307,
+          "noncopula_mean": 0.0
+        },
+        {
+          "feature_index": 6651,
+          "specificity": 2.922736167907715,
+          "copula_mean": 2.9239726066589355,
+          "noncopula_mean": 0.0012365200091153383
+        },
+        {
+          "feature_index": 291,
+          "specificity": 2.3329665660858154,
+          "copula_mean": 2.3378264904022217,
+          "noncopula_mean": 0.004859839100390673
+        },
+        {
+          "feature_index": 19805,
+          "specificity": 2.3239476680755615,
+          "copula_mean": 2.3239476680755615,
+          "noncopula_mean": 0.0
+        },
+        {
+          "feature_index": 2189,
+          "specificity": 2.2135069370269775,
+          "copula_mean": 2.2141613960266113,
+          "noncopula_mean": 0.000654397124890238
+        },
+        {
+          "feature_index": 10903,
+          "specificity": 2.1852455139160156,
+          "copula_mean": 2.239464044570923,
+          "noncopula_mean": 0.054218608886003494
+        },
+        {
+          "feature_index": 21000,
+          "specificity": 2.1504170894622803,
+          "copula_mean": 2.1599466800689697,
+          "noncopula_mean": 0.009529601782560349
+        },
+        {
+          "feature_index": 6863,
+          "specificity": 1.791518211364746,
+          "copula_mean": 3.469635248184204,
+          "noncopula_mean": 1.678117036819458
+        },
+        {
+          "feature_index": 21923,
+          "specificity": 1.776691198348999,
+          "copula_mean": 1.7877917289733887,
+          "noncopula_mean": 0.011100527830421925
+        },
+        {
+          "feature_index": 1960,
+          "specificity": 1.657448649406433,
+          "copula_mean": 1.7671351432800293,
+          "noncopula_mean": 0.10968652367591858
+        },
+        {
+          "feature_index": 13145,
+          "specificity": 1.5087262392044067,
+          "copula_mean": 1.5087262392044067,
+          "noncopula_mean": 0.0
+        },
+        {
+          "feature_index": 2862,
+          "specificity": 1.329009771347046,
+          "copula_mean": 1.329009771347046,
+          "noncopula_mean": 0.0
+        },
+        {
+          "feature_index": 13939,
+          "specificity": 1.2797070741653442,
+          "copula_mean": 1.2797070741653442,
+          "noncopula_mean": 0.0
+        },
+        {
+          "feature_index": 7451,
+          "specificity": 1.1843713521957397,
+          "copula_mean": 1.9353697299957275,
+          "noncopula_mean": 0.7509983777999878
+        },
+        {
+          "feature_index": 22699,
+          "specificity": 1.1281952857971191,
+          "copula_mean": 1.130735993385315,
+          "noncopula_mean": 0.002540702698752284
+        },
+        {
+          "feature_index": 7780,
+          "specificity": 1.069145679473877,
+          "copula_mean": 1.069145679473877,
+          "noncopula_mean": 0.0
+        },
+        {
+          "feature_index": 302,
+          "specificity": 1.028489351272583,
+          "copula_mean": 1.2316197156906128,
+          "noncopula_mean": 0.20313037931919098
+        },
+        {
+          "feature_index": 5316,
+          "specificity": 0.9997948408126831,
+          "copula_mean": 0.9997948408126831,
+          "noncopula_mean": 0.0
+        },
+        {
+          "feature_index": 12013,
+          "specificity": 0.9866270422935486,
+          "copula_mean": 0.9999920129776001,
+          "noncopula_mean": 0.013364986516535282
+        },
+        {
+          "feature_index": 13916,
+          "specificity": 0.9595168828964233,
+          "copula_mean": 0.9604626297950745,
+          "noncopula_mean": 0.0009457266423851252
+        }
+      ]
+    },
+    "pythia_70m": {
+      "n_copula_tokens": 73,
+      "n_noncopula_tokens": 1219,
+      "copula_token_ids": [
+        261,
+        310,
+        312,
+        320,
+        369,
+        403,
+        497,
+        609,
+        644,
+        717,
+        1146,
+        1257,
+        1680,
+        2325,
+        2513,
+        3052,
+        4238,
+        4678,
+        6272,
+        6723,
+        8096,
+        11952,
+        12349,
+        12796,
+        16688,
+        18412,
+        20394,
+        26143,
+        27200,
+        41192,
+        46457
+      ],
+      "top_copula_features": [
+        {
+          "feature_index": 11271,
+          "specificity": 1.9181779623031616,
+          "copula_mean": 1.9501075744628906,
+          "noncopula_mean": 0.03192959353327751
+        },
+        {
+          "feature_index": 11255,
+          "specificity": 0.8056693077087402,
+          "copula_mean": 0.8058582544326782,
+          "noncopula_mean": 0.0001889290288090706
+        },
+        {
+          "feature_index": 27730,
+          "specificity": 0.7540977001190186,
+          "copula_mean": 0.7601214051246643,
+          "noncopula_mean": 0.006023722235113382
+        },
+        {
+          "feature_index": 3308,
+          "specificity": 0.6860648989677429,
+          "copula_mean": 0.6873916983604431,
+          "noncopula_mean": 0.0013268153415992856
+        },
+        {
+          "feature_index": 23527,
+          "specificity": 0.6465573906898499,
+          "copula_mean": 0.6473075151443481,
+          "noncopula_mean": 0.0007501122890971601
+        },
+        {
+          "feature_index": 28810,
+          "specificity": 0.5658732056617737,
+          "copula_mean": 0.5726385712623596,
+          "noncopula_mean": 0.006765387021005154
+        },
+        {
+          "feature_index": 16511,
+          "specificity": 0.5473027229309082,
+          "copula_mean": 0.6000677347183228,
+          "noncopula_mean": 0.05276501923799515
+        },
+        {
+          "feature_index": 23666,
+          "specificity": 0.5217065811157227,
+          "copula_mean": 1.5314966440200806,
+          "noncopula_mean": 1.009790062904358
+        },
+        {
+          "feature_index": 12173,
+          "specificity": 0.4640258550643921,
+          "copula_mean": 1.3760919570922852,
+          "noncopula_mean": 0.9120661020278931
+        },
+        {
+          "feature_index": 3617,
+          "specificity": 0.44588392972946167,
+          "copula_mean": 0.448757141828537,
+          "noncopula_mean": 0.0028731985948979855
+        },
+        {
+          "feature_index": 24062,
+          "specificity": 0.44272032380104065,
+          "copula_mean": 0.44816771149635315,
+          "noncopula_mean": 0.005447384435683489
+        },
+        {
+          "feature_index": 16160,
+          "specificity": 0.4193137288093567,
+          "copula_mean": 1.1959551572799683,
+          "noncopula_mean": 0.7766414284706116
+        },
+        {
+          "feature_index": 17218,
+          "specificity": 0.4179924428462982,
+          "copula_mean": 0.4256853759288788,
+          "noncopula_mean": 0.007692946121096611
+        },
+        {
+          "feature_index": 13295,
+          "specificity": 0.4145941734313965,
+          "copula_mean": 0.415147602558136,
+          "noncopula_mean": 0.0005534340161830187
+        },
+        {
+          "feature_index": 13191,
+          "specificity": 0.4075516164302826,
+          "copula_mean": 0.40802329778671265,
+          "noncopula_mean": 0.0004716715484391898
+        },
+        {
+          "feature_index": 11235,
+          "specificity": 0.4059542715549469,
+          "copula_mean": 0.40795356035232544,
+          "noncopula_mean": 0.001999290194362402
+        },
+        {
+          "feature_index": 7541,
+          "specificity": 0.3881336450576782,
+          "copula_mean": 1.0847212076187134,
+          "noncopula_mean": 0.6965875625610352
+        },
+        {
+          "feature_index": 29309,
+          "specificity": 0.382706880569458,
+          "copula_mean": 0.38486313819885254,
+          "noncopula_mean": 0.0021562441252171993
+        },
+        {
+          "feature_index": 7556,
+          "specificity": 0.34977805614471436,
+          "copula_mean": 0.9810671210289001,
+          "noncopula_mean": 0.6312890648841858
+        },
+        {
+          "feature_index": 22993,
+          "specificity": 0.3446437418460846,
+          "copula_mean": 0.3465197682380676,
+          "noncopula_mean": 0.0018760166130959988
+        }
+      ]
+    },
+    "gemma_1_2b": {
+      "n_copula_tokens": 72,
+      "n_noncopula_tokens": 1143,
+      "copula_token_ids": [
+        502,
+        555,
+        563,
+        603,
+        614,
+        708,
+        729,
+        895,
+        1049,
+        1125,
+        1144,
+        1855,
+        2065,
+        2125,
+        2437,
+        2448,
+        4181,
+        5419,
+        5881,
+        6570,
+        7162,
+        9626,
+        11576,
+        16978,
+        20532,
+        22176,
+        29172,
+        30919,
+        31709,
+        38352,
+        48338,
+        57180
+      ],
+      "top_copula_features": [
+        {
+          "feature_index": 10323,
+          "specificity": 1.4387853145599365,
+          "copula_mean": 2.77447509765625,
+          "noncopula_mean": 1.3356897830963135
+        },
+        {
+          "feature_index": 5943,
+          "specificity": 1.3868310451507568,
+          "copula_mean": 1.3868310451507568,
+          "noncopula_mean": 0.0
+        },
+        {
+          "feature_index": 11942,
+          "specificity": 1.2654972076416016,
+          "copula_mean": 1.2748140096664429,
+          "noncopula_mean": 0.009316782467067242
+        },
+        {
+          "feature_index": 5162,
+          "specificity": 1.151870608329773,
+          "copula_mean": 1.1524176597595215,
+          "noncopula_mean": 0.0005470907199196517
+        },
+        {
+          "feature_index": 14100,
+          "specificity": 0.8667729496955872,
+          "copula_mean": 0.870877206325531,
+          "noncopula_mean": 0.004104274790734053
+        },
+        {
+          "feature_index": 3555,
+          "specificity": 0.794897198677063,
+          "copula_mean": 0.7991636395454407,
+          "noncopula_mean": 0.004266452044248581
+        },
+        {
+          "feature_index": 6578,
+          "specificity": 0.7535684108734131,
+          "copula_mean": 0.7539775967597961,
+          "noncopula_mean": 0.0004091621085535735
+        },
+        {
+          "feature_index": 1023,
+          "specificity": 0.6228809952735901,
+          "copula_mean": 0.6585410833358765,
+          "noncopula_mean": 0.03566008061170578
+        },
+        {
+          "feature_index": 5541,
+          "specificity": 0.5880972146987915,
+          "copula_mean": 0.5922194123268127,
+          "noncopula_mean": 0.004122194368392229
+        },
+        {
+          "feature_index": 1873,
+          "specificity": 0.5494154095649719,
+          "copula_mean": 0.5551010966300964,
+          "noncopula_mean": 0.005685687996447086
+        },
+        {
+          "feature_index": 3998,
+          "specificity": 0.546576976776123,
+          "copula_mean": 1.0581506490707397,
+          "noncopula_mean": 0.5115736722946167
+        },
+        {
+          "feature_index": 6514,
+          "specificity": 0.5243514776229858,
+          "copula_mean": 0.529442310333252,
+          "noncopula_mean": 0.005090851336717606
+        },
+        {
+          "feature_index": 13665,
+          "specificity": 0.5230449438095093,
+          "copula_mean": 0.5230449438095093,
+          "noncopula_mean": 0.0
+        },
+        {
+          "feature_index": 5611,
+          "specificity": 0.5197622776031494,
+          "copula_mean": 1.2167257070541382,
+          "noncopula_mean": 0.6969634294509888
+        },
+        {
+          "feature_index": 12942,
+          "specificity": 0.5005823969841003,
+          "copula_mean": 0.5028675198554993,
+          "noncopula_mean": 0.0022851359099149704
+        },
+        {
+          "feature_index": 15477,
+          "specificity": 0.415033757686615,
+          "copula_mean": 0.41873112320899963,
+          "noncopula_mean": 0.003697353648021817
+        },
+        {
+          "feature_index": 11745,
+          "specificity": 0.4041653275489807,
+          "copula_mean": 0.44275951385498047,
+          "noncopula_mean": 0.038594186305999756
+        },
+        {
+          "feature_index": 7971,
+          "specificity": 0.40233945846557617,
+          "copula_mean": 0.5756658911705017,
+          "noncopula_mean": 0.17332644760608673
+        },
+        {
+          "feature_index": 13693,
+          "specificity": 0.39652591943740845,
+          "copula_mean": 0.5241091847419739,
+          "noncopula_mean": 0.12758326530456543
+        },
+        {
+          "feature_index": 12344,
+          "specificity": 0.38868844509124756,
+          "copula_mean": 0.39040398597717285,
+          "noncopula_mean": 0.0017155344830825925
+        }
+      ]
+    }
+  },
+  "routing": {
+    "gemma": {
+      "n_capital_prompts": 6,
+      "n_top_copula_in_opposing_top10_total": 22,
+      "mean_recruited_per_prompt": 3.6666666666666665,
+      "per_prompt": [
+        {
+          "prompt_id": "capital-fr",
+          "n_top_copula_in_opposing_top10": 4,
+          "overlap_feature_indices": [
+            10142,
+            13414,
+            15149,
+            15596
+          ]
+        },
+        {
+          "prompt_id": "capital-jp",
+          "n_top_copula_in_opposing_top10": 5,
+          "overlap_feature_indices": [
+            6143,
+            10142,
+            13414,
+            15149,
+            15596
+          ]
+        },
+        {
+          "prompt_id": "capital-de",
+          "n_top_copula_in_opposing_top10": 3,
+          "overlap_feature_indices": [
+            10142,
+            15149,
+            15596
+          ]
+        },
+        {
+          "prompt_id": "capital-it",
+          "n_top_copula_in_opposing_top10": 4,
+          "overlap_feature_indices": [
+            10142,
+            13414,
+            15149,
+            15596
+          ]
+        },
+        {
+          "prompt_id": "capital-es",
+          "n_top_copula_in_opposing_top10": 3,
+          "overlap_feature_indices": [
+            10142,
+            13414,
+            15596
+          ]
+        },
+        {
+          "prompt_id": "capital-ru",
+          "n_top_copula_in_opposing_top10": 3,
+          "overlap_feature_indices": [
+            10142,
+            15149,
+            15596
+          ]
+        }
+      ]
+    },
+    "gpt2": {
+      "n_capital_prompts": 6,
+      "n_top_copula_in_opposing_top10_total": 28,
+      "mean_recruited_per_prompt": 4.666666666666667,
+      "per_prompt": [
+        {
+          "prompt_id": "capital-fr",
+          "n_top_copula_in_opposing_top10": 4,
+          "overlap_feature_indices": [
+            6863,
+            12013,
+            19805,
+            21000
+          ]
+        },
+        {
+          "prompt_id": "capital-jp",
+          "n_top_copula_in_opposing_top10": 5,
+          "overlap_feature_indices": [
+            6863,
+            12013,
+            19805,
+            21000,
+            21496
+          ]
+        },
+        {
+          "prompt_id": "capital-de",
+          "n_top_copula_in_opposing_top10": 4,
+          "overlap_feature_indices": [
+            6863,
+            12013,
+            19805,
+            21000
+          ]
+        },
+        {
+          "prompt_id": "capital-it",
+          "n_top_copula_in_opposing_top10": 5,
+          "overlap_feature_indices": [
+            6863,
+            12013,
+            19805,
+            21000,
+            21496
+          ]
+        },
+        {
+          "prompt_id": "capital-es",
+          "n_top_copula_in_opposing_top10": 5,
+          "overlap_feature_indices": [
+            6863,
+            12013,
+            19805,
+            21000,
+            21496
+          ]
+        },
+        {
+          "prompt_id": "capital-ru",
+          "n_top_copula_in_opposing_top10": 5,
+          "overlap_feature_indices": [
+            6863,
+            12013,
+            19805,
+            21000,
+            21496
+          ]
+        }
+      ]
+    },
+    "pythia_70m": {
+      "n_capital_prompts": 6,
+      "n_top_copula_in_opposing_top10_total": 32,
+      "mean_recruited_per_prompt": 5.333333333333333,
+      "per_prompt": [
+        {
+          "prompt_id": "capital-fr",
+          "n_top_copula_in_opposing_top10": 7,
+          "overlap_feature_indices": [
+            11271,
+            13191,
+            13295,
+            23527,
+            24062,
+            28810,
+            29309
+          ]
+        },
+        {
+          "prompt_id": "capital-jp",
+          "n_top_copula_in_opposing_top10": 5,
+          "overlap_feature_indices": [
+            11271,
+            13295,
+            23527,
+            24062,
+            28810
+          ]
+        },
+        {
+          "prompt_id": "capital-de",
+          "n_top_copula_in_opposing_top10": 5,
+          "overlap_feature_indices": [
+            11255,
+            11271,
+            13295,
+            23527,
+            24062
+          ]
+        },
+        {
+          "prompt_id": "capital-it",
+          "n_top_copula_in_opposing_top10": 4,
+          "overlap_feature_indices": [
+            11271,
+            13295,
+            23527,
+            24062
+          ]
+        },
+        {
+          "prompt_id": "capital-es",
+          "n_top_copula_in_opposing_top10": 5,
+          "overlap_feature_indices": [
+            11271,
+            13295,
+            23527,
+            24062,
+            28810
+          ]
+        },
+        {
+          "prompt_id": "capital-ru",
+          "n_top_copula_in_opposing_top10": 6,
+          "overlap_feature_indices": [
+            11255,
+            11271,
+            13295,
+            23527,
+            24062,
+            28810
+          ]
+        }
+      ]
+    },
+    "gemma_1_2b": {
+      "n_capital_prompts": 6,
+      "n_top_copula_in_opposing_top10_total": 40,
+      "mean_recruited_per_prompt": 6.666666666666667,
+      "per_prompt": [
+        {
+          "prompt_id": "capital-fr",
+          "n_top_copula_in_opposing_top10": 7,
+          "overlap_feature_indices": [
+            5162,
+            5541,
+            5943,
+            10323,
+            11942,
+            12942,
+            14100
+          ]
+        },
+        {
+          "prompt_id": "capital-jp",
+          "n_top_copula_in_opposing_top10": 7,
+          "overlap_feature_indices": [
+            5162,
+            5541,
+            5943,
+            10323,
+            11942,
+            12942,
+            14100
+          ]
+        },
+        {
+          "prompt_id": "capital-de",
+          "n_top_copula_in_opposing_top10": 6,
+          "overlap_feature_indices": [
+            5162,
+            5541,
+            5943,
+            10323,
+            12942,
+            14100
+          ]
+        },
+        {
+          "prompt_id": "capital-it",
+          "n_top_copula_in_opposing_top10": 6,
+          "overlap_feature_indices": [
+            5162,
+            5541,
+            5943,
+            10323,
+            12942,
+            14100
+          ]
+        },
+        {
+          "prompt_id": "capital-es",
+          "n_top_copula_in_opposing_top10": 7,
+          "overlap_feature_indices": [
+            5162,
+            5541,
+            5943,
+            10323,
+            11942,
+            12942,
+            14100
+          ]
+        },
+        {
+          "prompt_id": "capital-ru",
+          "n_top_copula_in_opposing_top10": 7,
+          "overlap_feature_indices": [
+            5162,
+            5541,
+            5943,
+            10323,
+            11942,
+            12942,
+            14100
+          ]
+        }
+      ]
+    }
+  }
+}

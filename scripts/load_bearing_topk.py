@@ -61,6 +61,18 @@ GEMMA_9B = {
     "activation_threshold": 1e-3,
 }
 
+# Gemma 2 9B at layer 31 (74% depth) — closes the layer-depth confound on the
+# 9B null result. Gemma 2 2B's run is at L20/26 = 77%, Gemma 1 2B at L12/18 = 67%,
+# both deeper than 9B L20/42 = 48%. L31/42 = 74% matches the 2B run.
+GEMMA_9B_L31 = {
+    "nickname": "gemma_9b_l31",
+    "hf_name": "gemma-2-9b",
+    "sae_release": "gemma-scope-9b-pt-res-canonical",
+    "sae_id_attr": "layer_31/width_16k/canonical",
+    "hook_name": "blocks.31.hook_resid_post",
+    "activation_threshold": 1e-3,
+}
+
 GPT2 = {
     "nickname": "gpt2",
     "hf_name": "gpt2",
@@ -139,15 +151,16 @@ GEMMA_W65K = {
 }
 
 MODEL_SPECS = {
-    "gemma":       GEMMA,
-    "gemma_w65k":  GEMMA_W65K,
-    "gemma_9b":    GEMMA_9B,
-    "gemma_27b":   GEMMA_27B,
-    "gemma_1_2b":  GEMMA_1_2B,
-    "gpt2":        GPT2,
-    "pythia_70m":  PYTHIA_70M,
-    "qwen3_1_7b":  QWEN3_1_7B,
-    "mistral_7b":  MISTRAL_7B,
+    "gemma":         GEMMA,
+    "gemma_w65k":    GEMMA_W65K,
+    "gemma_9b":      GEMMA_9B,
+    "gemma_9b_l31":  GEMMA_9B_L31,
+    "gemma_27b":     GEMMA_27B,
+    "gemma_1_2b":    GEMMA_1_2B,
+    "gpt2":          GPT2,
+    "pythia_70m":    PYTHIA_70M,
+    "qwen3_1_7b":    QWEN3_1_7B,
+    "mistral_7b":    MISTRAL_7B,
 }
 
 

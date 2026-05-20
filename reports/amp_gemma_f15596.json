@@ -1,0 +1,429 @@
+{
+  "summary": {
+    "model": "gemma",
+    "feature": 15596,
+    "n_prompts": 6,
+    "scales": [
+      0.0,
+      0.5,
+      1.0,
+      2.0,
+      5.0,
+      10.0
+    ],
+    "mean_log_p_target_by_scale": {
+      "0.0": -2.802553137143453,
+      "0.5": -3.237555742263794,
+      "1.0": -3.682087222735087,
+      "2.0": -4.5405993064244585,
+      "5.0": -7.348162134488423,
+      "10.0": -13.511287291844686
+    },
+    "mean_log_p_generic_max_by_scale": {
+      "0.0": -1.909068802992503,
+      "0.5": -1.8732503056526184,
+      "1.0": -1.8484569390614827,
+      "2.0": -1.8555919329325359,
+      "5.0": -1.9777281483014424,
+      "10.0": -1.8168921669324238
+    },
+    "hit_rate_target_by_scale": {
+      "0.0": 0.16666666666666666,
+      "0.5": 0.16666666666666666,
+      "1.0": 0.16666666666666666,
+      "2.0": 0.0,
+      "5.0": 0.0,
+      "10.0": 0.0
+    },
+    "generic_rate_by_scale": {
+      "0.0": 0.8333333333333334,
+      "0.5": 0.8333333333333334,
+      "1.0": 0.8333333333333334,
+      "2.0": 1.0,
+      "5.0": 1.0,
+      "10.0": 1.0
+    },
+    "monotone_decreasing_target": true,
+    "monotone_increasing_generic": false
+  },
+  "generic_candidates": [
+    [
+      476,
+      " a"
+    ],
+    [
+      573,
+      " the"
+    ],
+    [
+      671,
+      " an"
+    ],
+    [
+      974,
+      " one"
+    ],
+    [
+      780,
+      " not"
+    ],
+    [
+      1170,
+      " also"
+    ],
+    [
+      3836,
+      " known"
+    ]
+  ],
+  "per_prompt": [
+    {
+      "id": "capital-fr",
+      "prompt": "The capital of France is",
+      "target": " Paris",
+      "target_token_id": 7127,
+      "target_token_str": " Paris",
+      "baseline_feature_mag": 63.70439529418945,
+      "scales": [
+        {
+          "argmax_token_id": 476,
+          "log_p_target": -2.466475009918213,
+          "log_p_generic_max": -1.7792307138442993,
+          "log_p_generic_sum": -0.5662686824798584,
+          "log_p_argmax": -1.7792307138442993,
+          "scale": 0.0
+        },
+        {
+          "argmax_token_id": 476,
+          "log_p_target": -2.9420266151428223,
+          "log_p_generic_max": -1.7200456857681274,
+          "log_p_generic_sum": -0.5765361785888672,
+          "log_p_argmax": -1.7200456857681274,
+          "scale": 0.5
+        },
+        {
+          "argmax_token_id": 476,
+          "log_p_target": -3.433220863342285,
+          "log_p_generic_max": -1.7086610794067383,
+          "log_p_generic_sum": -0.6045310497283936,
+          "log_p_argmax": -1.7086610794067383,
+          "scale": 1.0
+        },
+        {
+          "argmax_token_id": 476,
+          "log_p_target": -4.360147476196289,
+          "log_p_generic_max": -1.7488536834716797,
+          "log_p_generic_sum": -0.6700303554534912,
+          "log_p_argmax": -1.7488536834716797,
+          "scale": 2.0
+        },
+        {
+          "argmax_token_id": 476,
+          "log_p_target": -6.757335662841797,
+          "log_p_generic_max": -1.9231622219085693,
+          "log_p_generic_sum": -0.8015040159225464,
+          "log_p_argmax": -1.9231622219085693,
+          "scale": 5.0
+        },
+        {
+          "argmax_token_id": 780,
+          "log_p_target": -12.786312103271484,
+          "log_p_generic_max": -1.819464087486267,
+          "log_p_generic_sum": -1.0153968334197998,
+          "log_p_argmax": -1.819464087486267,
+          "scale": 10.0
+        }
+      ]
+    },
+    {
+      "id": "capital-jp",
+      "prompt": "The capital of Japan is",
+      "target": " Tokyo",
+      "target_token_id": 22099,
+      "target_token_str": " Tokyo",
+      "baseline_feature_mag": 57.2795524597168,
+      "scales": [
+        {
+          "argmax_token_id": 22099,
+          "log_p_target": -1.2860913276672363,
+          "log_p_generic_max": -2.3276524543762207,
+          "log_p_generic_sum": -1.137929081916809,
+          "log_p_argmax": -1.2860913276672363,
+          "scale": 0.0
+        },
+        {
+          "argmax_token_id": 22099,
+          "log_p_target": -1.5296120643615723,
+          "log_p_generic_max": -2.181236743927002,
+          "log_p_generic_sum": -1.0810474157333374,
+          "log_p_argmax": -1.5296120643615723,
+          "scale": 0.5
+        },
+        {
+          "argmax_token_id": 22099,
+          "log_p_target": -1.7738127708435059,
+          "log_p_generic_max": -2.0906615257263184,
+          "log_p_generic_sum": -1.0567110776901245,
+          "log_p_argmax": -1.7738127708435059,
+          "scale": 1.0
+        },
+        {
+          "argmax_token_id": 476,
+          "log_p_target": -2.2450931072235107,
+          "log_p_generic_max": -2.0019309520721436,
+          "log_p_generic_sum": -1.0416905879974365,
+          "log_p_argmax": -2.0019309520721436,
+          "scale": 2.0
+        },
+        {
+          "argmax_token_id": 476,
+          "log_p_target": -3.7913978099823,
+          "log_p_generic_max": -1.9633471965789795,
+          "log_p_generic_sum": -0.9870020151138306,
+          "log_p_argmax": -1.9633471965789795,
+          "scale": 5.0
+        },
+        {
+          "argmax_token_id": 780,
+          "log_p_target": -7.382911205291748,
+          "log_p_generic_max": -1.8374876976013184,
+          "log_p_generic_sum": -1.0740622282028198,
+          "log_p_argmax": -1.8374876976013184,
+          "scale": 10.0
+        }
+      ]
+    },
+    {
+      "id": "capital-de",
+      "prompt": "The capital of Germany is",
+      "target": " Berlin",
+      "target_token_id": 12514,
+      "target_token_str": " Berlin",
+      "baseline_feature_mag": 57.290794372558594,
+      "scales": [
+        {
+          "argmax_token_id": 573,
+          "log_p_target": -2.6348752975463867,
+          "log_p_generic_max": -1.8662959337234497,
+          "log_p_generic_sum": -0.7517023086547852,
+          "log_p_argmax": -1.8662959337234497,
+          "scale": 0.0
+        },
+        {
+          "argmax_token_id": 476,
+          "log_p_target": -3.1498661041259766,
+          "log_p_generic_max": -1.9640922546386719,
+          "log_p_generic_sum": -0.7391246557235718,
+          "log_p_argmax": -1.9640922546386719,
+          "scale": 0.5
+        },
+        {
+          "argmax_token_id": 476,
+          "log_p_target": -3.7078607082366943,
+          "log_p_generic_max": -1.9385392665863037,
+          "log_p_generic_sum": -0.7491695880889893,
+          "log_p_argmax": -1.9385392665863037,
+          "scale": 1.0
+        },
+        {
+          "argmax_token_id": 476,
+          "log_p_target": -4.852945327758789,
+          "log_p_generic_max": -1.9213486909866333,
+          "log_p_generic_sum": -0.7831113338470459,
+          "log_p_argmax": -1.9213486909866333,
+          "scale": 2.0
+        },
+        {
+          "argmax_token_id": 476,
+          "log_p_target": -8.583420753479004,
+          "log_p_generic_max": -1.942116618156433,
+          "log_p_generic_sum": -0.8414754867553711,
+          "log_p_argmax": -1.942116618156433,
+          "scale": 5.0
+        },
+        {
+          "argmax_token_id": 780,
+          "log_p_target": -16.463401794433594,
+          "log_p_generic_max": -1.8588799238204956,
+          "log_p_generic_sum": -1.0034480094909668,
+          "log_p_argmax": -1.8588799238204956,
+          "scale": 10.0
+        }
+      ]
+    },
+    {
+      "id": "capital-it",
+      "prompt": "The capital of Italy is",
+      "target": " Rome",
+      "target_token_id": 11344,
+      "target_token_str": " Rome",
+      "baseline_feature_mag": 61.941471099853516,
+      "scales": [
+        {
+          "argmax_token_id": 476,
+          "log_p_target": -3.223367691040039,
+          "log_p_generic_max": -1.895248532295227,
+          "log_p_generic_sum": -0.6256533861160278,
+          "log_p_argmax": -1.895248532295227,
+          "scale": 0.0
+        },
+        {
+          "argmax_token_id": 476,
+          "log_p_target": -3.7716174125671387,
+          "log_p_generic_max": -1.8446040153503418,
+          "log_p_generic_sum": -0.6432298421859741,
+          "log_p_argmax": -1.8446040153503418,
+          "scale": 0.5
+        },
+        {
+          "argmax_token_id": 476,
+          "log_p_target": -4.342904090881348,
+          "log_p_generic_max": -1.828688383102417,
+          "log_p_generic_sum": -0.6747016906738281,
+          "log_p_argmax": -1.828688383102417,
+          "scale": 1.0
+        },
+        {
+          "argmax_token_id": 476,
+          "log_p_target": -5.470089435577393,
+          "log_p_generic_max": -1.8491939306259155,
+          "log_p_generic_sum": -0.743776798248291,
+          "log_p_argmax": -1.8491939306259155,
+          "scale": 2.0
+        },
+        {
+          "argmax_token_id": 476,
+          "log_p_target": -8.594762802124023,
+          "log_p_generic_max": -2.0202174186706543,
+          "log_p_generic_sum": -0.8797073364257812,
+          "log_p_argmax": -2.0202174186706543,
+          "scale": 5.0
+        },
+        {
+          "argmax_token_id": 780,
+          "log_p_target": -13.558019638061523,
+          "log_p_generic_max": -1.8933196067810059,
+          "log_p_generic_sum": -1.0647435188293457,
+          "log_p_argmax": -1.8933196067810059,
+          "scale": 10.0
+        }
+      ]
+    },
+    {
+      "id": "capital-es",
+      "prompt": "The capital of Spain is",
+      "target": " Madrid",
+      "target_token_id": 15500,
+      "target_token_str": " Madrid",
+      "baseline_feature_mag": 64.74989318847656,
+      "scales": [
+        {
+          "argmax_token_id": 476,
+          "log_p_target": -4.151761054992676,
+          "log_p_generic_max": -1.7180721759796143,
+          "log_p_generic_sum": -0.519615888595581,
+          "log_p_argmax": -1.7180721759796143,
+          "scale": 0.0
+        },
+        {
+          "argmax_token_id": 476,
+          "log_p_target": -4.626997470855713,
+          "log_p_generic_max": -1.6757646799087524,
+          "log_p_generic_sum": -0.5521918535232544,
+          "log_p_argmax": -1.6757646799087524,
+          "scale": 0.5
+        },
+        {
+          "argmax_token_id": 476,
+          "log_p_target": -5.09531831741333,
+          "log_p_generic_max": -1.6771341562271118,
+          "log_p_generic_sum": -0.5945723056793213,
+          "log_p_argmax": -1.6771341562271118,
+          "scale": 1.0
+        },
+        {
+          "argmax_token_id": 476,
+          "log_p_target": -5.982834815979004,
+          "log_p_generic_max": -1.7329798936843872,
+          "log_p_generic_sum": -0.6735128164291382,
+          "log_p_argmax": -1.7329798936843872,
+          "scale": 2.0
+        },
+        {
+          "argmax_token_id": 476,
+          "log_p_target": -9.930258750915527,
+          "log_p_generic_max": -1.9367244243621826,
+          "log_p_generic_sum": -0.8090503215789795,
+          "log_p_argmax": -1.9367244243621826,
+          "scale": 5.0
+        },
+        {
+          "argmax_token_id": 780,
+          "log_p_target": -19.01310920715332,
+          "log_p_generic_max": -1.7925159931182861,
+          "log_p_generic_sum": -1.022550344467163,
+          "log_p_argmax": -1.7925159931182861,
+          "scale": 10.0
+        }
+      ]
+    },
+    {
+      "id": "capital-ru",
+      "prompt": "The capital of Russia is",
+      "target": " Moscow",
+      "target_token_id": 23970,
+      "target_token_str": " Moscow",
+      "baseline_feature_mag": 63.5305061340332,
+      "scales": [
+        {
+          "argmax_token_id": 573,
+          "log_p_target": -3.052748441696167,
+          "log_p_generic_max": -1.867913007736206,
+          "log_p_generic_sum": -0.6597157716751099,
+          "log_p_argmax": -1.867913007736206,
+          "scale": 0.0
+        },
+        {
+          "argmax_token_id": 476,
+          "log_p_target": -3.405214786529541,
+          "log_p_generic_max": -1.853758454322815,
+          "log_p_generic_sum": -0.7003551721572876,
+          "log_p_argmax": -1.853758454322815,
+          "scale": 0.5
+        },
+        {
+          "argmax_token_id": 476,
+          "log_p_target": -3.7394065856933594,
+          "log_p_generic_max": -1.8470572233200073,
+          "log_p_generic_sum": -0.7450084686279297,
+          "log_p_argmax": -1.8470572233200073,
+          "scale": 1.0
+        },
+        {
+          "argmax_token_id": 476,
+          "log_p_target": -4.332485675811768,
+          "log_p_generic_max": -1.8792444467544556,
+          "log_p_generic_sum": -0.8207739591598511,
+          "log_p_argmax": -1.8792444467544556,
+          "scale": 2.0
+        },
+        {
+          "argmax_token_id": 476,
+          "log_p_target": -6.431797027587891,
+          "log_p_generic_max": -2.080801010131836,
+          "log_p_generic_sum": -0.9278420209884644,
+          "log_p_argmax": -2.080801010131836,
+          "scale": 5.0
+        },
+        {
+          "argmax_token_id": 780,
+          "log_p_target": -11.863969802856445,
+          "log_p_generic_max": -1.6996856927871704,
+          "log_p_generic_sum": -1.103031873703003,
+          "log_p_argmax": -1.6996856927871704,
+          "scale": 10.0
+        }
+      ]
+    }
+  ]
+}

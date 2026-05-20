@@ -1,0 +1,29 @@
+[
+  {"id": "currency-jp",      "prompt": "The currency of Japan is the",                "target": " yen",        "category": "currency"},
+  {"id": "currency-us",      "prompt": "The currency of the United States is the",    "target": " dollar",     "category": "currency"},
+  {"id": "currency-uk",      "prompt": "The currency of the United Kingdom is the",   "target": " pound",      "category": "currency"},
+  {"id": "currency-eu",      "prompt": "The currency of the European Union is the",   "target": " euro",       "category": "currency"},
+  {"id": "currency-in",      "prompt": "The currency of India is the",                "target": " rupee",      "category": "currency"},
+  {"id": "currency-mx",      "prompt": "The currency of Mexico is the",               "target": " peso",       "category": "currency"},
+
+  {"id": "language-br",      "prompt": "The official language of Brazil is",          "target": " Portuguese", "category": "language"},
+  {"id": "language-fr",      "prompt": "The official language of France is",          "target": " French",     "category": "language"},
+  {"id": "language-de",      "prompt": "The official language of Germany is",         "target": " German",     "category": "language"},
+  {"id": "language-cn",      "prompt": "The official language of China is",           "target": " Mandarin",   "category": "language"},
+  {"id": "language-ru",      "prompt": "The official language of Russia is",          "target": " Russian",    "category": "language"},
+  {"id": "language-jp",      "prompt": "The official language of Japan is",           "target": " Japanese",   "category": "language"},
+
+  {"id": "composition-h2o",  "prompt": "Water is composed of hydrogen and",           "target": " oxygen",     "category": "composition"},
+  {"id": "composition-co2",  "prompt": "Carbon dioxide is composed of carbon and",    "target": " oxygen",     "category": "composition"},
+  {"id": "composition-nh3",  "prompt": "Ammonia is composed of nitrogen and",         "target": " hydrogen",   "category": "composition"},
+  {"id": "composition-nacl", "prompt": "Salt is composed of sodium and",              "target": " chlorine",   "category": "composition"},
+  {"id": "composition-air",  "prompt": "Air is mostly composed of nitrogen and",      "target": " oxygen",     "category": "composition"},
+  {"id": "composition-glass","prompt": "Glass is mainly composed of silicon and",     "target": " oxygen",     "category": "composition"},
+
+  {"id": "continent-jp",     "prompt": "Japan is a country in",                       "target": " Asia",       "category": "continent"},
+  {"id": "continent-fr",     "prompt": "France is a country in",                      "target": " Europe",     "category": "continent"},
+  {"id": "continent-eg",     "prompt": "Egypt is a country in",                       "target": " Africa",     "category": "continent"},
+  {"id": "continent-br",     "prompt": "Brazil is a country in South",                "target": " America",    "category": "continent"},
+  {"id": "continent-au",     "prompt": "Australia is a continent and a",              "target": " country",    "category": "continent"},
+  {"id": "continent-in",     "prompt": "India is a country in",                       "target": " Asia",       "category": "continent"}
+]

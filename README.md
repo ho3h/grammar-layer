@@ -99,7 +99,7 @@ If Gemma really has a grammar-suppression apparatus and GPT-2 doesn't, this shou
 
 ![4-model behavioral signature](reports/viz_behavior_4models.png)
 
-**The three models with the internal inversion (Gemma 2 2B, Gemma 1 2B, Pythia 70M) cluster together on every metric**, all above GPT-2 small. The pairwise t-tests show GPT-2 is significantly different from each of them on hedges and copula-led sentence openers; the three blue bars are statistically indistinguishable from each other.
+**The means line up by inversion status at n=75**: Gemma 2 2B, Gemma 1 2B, and Pythia 70M are above GPT-2 small on every metric, and the original n=75 pairwise t-tests reach p ≤ 0.05 on hedges and copula-led openers for the Gemmas. But this does *not* hold up at proper power — running GPT-2 and Pythia at n=300 raises GPT-2's means substantially (copula +12%, hedges +34%, generic NP +69%, copula-openers +145%), and the proper-power Pythia-vs-GPT-2 comparison shows no significant difference on any metric. The n=75 result was undersampling. The open-ended behavioural signature on these four metrics does not survive at adequate power; the surface signal of the internal apparatus is smaller than this benchmark can resolve. See the writeup's Result 4 for the full numbers.
 
 Same prompt, "Climate change is", three different model continuations to give you a feel for it:
 
@@ -125,22 +125,9 @@ For people thinking about model differences more broadly:
 
 ---
 
-## What attacks does this survive?
+## What's still open
 
-| Reviewer attack | Status |
-|---|---|
-| "Tautology — you selected by ablation then ablated" | **Closed** — targeted top-10 produces 41× the Δlog P of a size-matched random selection |
-| "Zero-ablation is OOD" | **Closed** — mean-ablation produces the same qualitative collapse (Δlog P +2.87 vs +3.45) |
-| "Enrichment ratio is sampling noise" | **Closed** — bootstrap 95% CI [1.56, 6.14], excluding null |
-| "The fingerprint of two features on 6 capitals is coincidence" | **Closed** — permutation p = 0.0077 |
-| "GPT-2 just doesn't have grammar features" | **Closed** — 652 grammar features in GPT-2 SAE, zero recruited as opposers on capitals |
-| "Inversion is uniquely Gemma 2 2B (N=1)" | **Closed** — Pythia 70M (5.80×), Gemma 1 2B (3.40×), Gemma 2 2B (2.80×) all show it |
-| "It's just a scale signature" | **Closed** — Pythia 70M is *smaller* than GPT-2 small and has the strongest inversion |
-| "It's just Google's training recipe" | **Closed** — Pythia 70M is EleutherAI |
-| "Doesn't propagate to behaviour" | **Closed** — three inversion models cluster behaviourally, significantly above GPT-2 on 2/4 metrics |
-| "It's a width-16k SAE artifact" | **Partially closed** — width-65k preserves 1.94× aggregate enrichment (~70% of 16k) but specific feature indices fragment, as predicted by SAE-width-stability literature |
-
-Full breakdown of each test is in the technical writeup linked below.
+A few critiques the writeup explicitly does not close: the named-feature fingerprint (f15596, f10142) fragments at SAE width 65k while aggregate enrichment stays roughly 70% intact, which means the underlying mechanism is width-stable but the specific feature names at width 16k are SAE-training artefacts. The Gemma 2 9B null result at L20 is a layer-depth confound (48% depth versus the within-family runs at 67–77%), and the deeper-layer re-run hasn't yet landed. Auto-interp labels are noisy, the grammar/content keyword classifier is post-hoc, and the behavioural test at n=75 is underpowered for the scale-controlled Pythia-vs-GPT-2 comparison. The full limitations section is in the technical writeup.
 
 ---
 
@@ -148,9 +135,9 @@ Full breakdown of each test is in the technical writeup linked below.
 
 **Three depths, depending on how much detail you want:**
 
-- 📖 **[STORY.md](STORY.md)** — long-form non-technical walkthrough (~15 min read), if you want more of the narrative above with full prose explanations and analogies.
-- 📊 **[reports/writeup_v3_revised.md](reports/writeup_v3_revised.md)** — full technical writeup with methodology, statistical tests, per-category tables, raw numbers, and the reviewer-attack checklist.
-- 🌐 **[web/index.html](web/index.html)** — an earlier (May 13) interactive walkthrough of the v2 results with embedded Three.js feature-graph visualisation. The text framing is pre-v3-correction in places, but the interactive parts still work — `cd web && python3 -m http.server 8765` and open `http://localhost:8765`.
+- **[STORY.md](STORY.md)** — long-form non-technical walkthrough (~15 min read), if you want more of the narrative above with full prose explanations and analogies.
+- **[reports/writeup.md](reports/writeup.md)** — full technical writeup: methodology, statistical tests, per-category tables, controls, raw numbers, limitations, related work.
+- **[web/index.html](web/index.html)** — interactive walkthrough with embedded Three.js feature-graph visualisation. `cd web && python3 -m http.server 8765` and open `http://localhost:8765`.
 
 **Key figures referenced above** are in [`reports/`](reports/) — the actual numbers backing each one are in the JSON files next to them (`reports/load_bearing_pos10_*.json`, `reports/cross_model_grammar.json`, `reports/behavior_metrics_4models.json`, etc.).
 
@@ -186,6 +173,33 @@ Other models: pass `--model gpt2 | pythia_70m | gemma_1_2b | qwen3_1_7b | mistra
 
 ---
 
+## Programmatic API
+
+For driving the fingerprint from a notebook or script:
+
+```python
+from neograph.fingerprint import (
+    identify_copula_opposers, cross_model_routing, steer_feature,
+)
+
+# Which features oppose specific completions in Gemma 2 2B?
+for r in identify_copula_opposers("gemma"):
+    print(r.feature, r.label)
+
+# Side-by-side routing on a single benchmark prompt
+routing = cross_model_routing("capital-jp")
+for model, blob in routing.items():
+    print(model, blob["baseline"]["argmax_token_str"], blob["opposing"][0])
+
+# Bidirectional steering: amplify the copula feature, watch the argmax shift
+with steer_feature(model, sae, feature_index=15596, scale=10.0):
+    logits = model(tokens)  # argmax flips from "Tokyo" to "not"
+```
+
+Documented Cypher queries against the Neo4j substrate are in [`cypher/fingerprint_queries.cypher`](cypher/fingerprint_queries.cypher) — six queries covering single-prompt routing, cross-family enrichment, fingerprint identification, and the label-cosine universality check. A runnable end-to-end demo is in [`notebooks/fingerprint_quickstart.py`](notebooks/fingerprint_quickstart.py).
+
+---
+
 ## Environment notes
 
 Development on Apple Silicon M5 Max (128 GB unified memory) under macOS. All SAE forward passes use MPS; CPU parity verified at smoke time (max |Δ| ≈ 9.8e-04 on Gemma 2 2B L20 vs CPU). Pythia 70M, GPT-2 small, Gemma 1 2B, Gemma 2 2B, and Qwen 3 1.7B all run comfortably in 128 GB; Mistral 7B and Gemma 2 9B are tight — close other apps. Pythia ≥ 6.9B is untested on this machine.
@@ -194,16 +208,6 @@ The substrate name in the code is **neograph** — a multi-relation feature grap
 
 ---
 
-## License & citation
+## License
 
 MIT — see [LICENSE](LICENSE).
-
-```bibtex
-@misc{hopkinson2026grammarlayer,
-  author = {Hopkinson, Theo},
-  title  = {The Grammar Suppression Layer: A causal-ablation study across seven SAE-equipped language models},
-  year   = {2026},
-  url    = {https://github.com/ho3h/grammar-layer},
-  note   = {The writeup at reports/writeup_v3_revised.md is the canonical reference; STORY.md is the non-technical walkthrough.}
-}
-```

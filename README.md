@@ -1,6 +1,6 @@
 # grammar-layer
 
-> Amplify one SAE feature in Gemma 2 2B labelled "forms of the verb 'to be'" by ten times, and on every capital-completion prompt the argmax flips to **" not"**. Not "a". Not "the". "not". The same dial in Gemma 1 2B and Pythia 70M drives log P(target) down monotonically too — they just converge to generic "a" instead. The suppression apparatus is cross-family; the negation attractor is Gemma-2-2B specific.
+> Amplify one SAE feature in Gemma 2 2B labelled "forms of the verb 'to be'" by ten times, and on every capital-completion prompt the argmax flips to **" not"**. Not "a". Not "the". "not". The same dial in Gemma 2 9B (at the depth-matched layer L31), Gemma 1 2B, and Pythia 70M drives log P(target) down monotonically too — they all converge to generic "a" instead. The suppression apparatus is cross-family (four models, three families, 130× parameter range). The negation attractor is Gemma 2 2B alone.
 
 ---
 
@@ -12,7 +12,7 @@ Now find the SAE feature in its residual stream at layer 20 that most strongly o
 
 Most of what we call hedging in language models is the model fighting itself. We knew that. What we didn't know: turn the dial up on the right grammar feature in Gemma 2 2B, and the fight resolves toward " not".
 
-The same protocol on Gemma 1 2B (feature 5541, "instances of the verb 'is'") and Pythia 70M (feature 23527, "occurrences of the verb 'is' and its various forms") shows the same monotone collapse of target probability, but the argmax converges to a generic *" a"*, not negation. GPT-2 small has 652 grammar-labelled features in its SAE and recruits none of them as opposers on these prompts — the apparatus we are pointing the dial at simply isn't in its prediction routing for these completions.
+The same protocol on Gemma 2 9B at layer 31 (feature 6341, "instances of the verb 'is' and its variations"), Gemma 1 2B (feature 5541, "instances of the verb 'is'"), and Pythia 70M (feature 23527, "occurrences of the verb 'is' and its various forms") shows the same monotone collapse of target probability, but the argmax converges to a generic *" a"*, not negation. GPT-2 small has 652 grammar-labelled features in its SAE and recruits none of them as opposers on these prompts — the apparatus we are pointing the dial at simply isn't in its prediction routing for these completions.
 
 This is what we found.
 

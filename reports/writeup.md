@@ -1,6 +1,6 @@
 # Amplify a copula feature, get negation: SAE feature opposers on factual completions
 
-Ask Gemma 2 2B to finish "The capital of Japan is" and it says Tokyo. Now take a single SAE feature in the residual stream at layer 20 — feature 15596, labelled "past and present tense forms of the verb 'to be'" — and multiply its activation at the last position by ten. The argmax does not stay on Tokyo, and it does not drift to " a" or " the". On all six capital prompts in our benchmark — France, Germany, Italy, Spain, Russia, Japan — it flips to **" not"**. Six different correct answers, one feature whose amplification turns each of them into outright negation. Most of what we call hedging in language models is the model fighting itself. We knew that. What we didn't know: turn the dial up on the right grammar feature in Gemma 2 2B, and the fight resolves toward " not". The same dial in Gemma 1 2B (f5541) and Pythia 70M (f23527) drives log P(target) monotonically down on the same prompts, but the argmax in those models converges to generic " a", not negation. The negation attractor is Gemma 2 2B specifically.
+Ask Gemma 2 2B to finish "The capital of Japan is" and it says Tokyo. Now take a single SAE feature in the residual stream at layer 20 — feature 15596, labelled "past and present tense forms of the verb 'to be'" — and multiply its activation at the last position by ten. The argmax does not stay on Tokyo, and it does not drift to " a" or " the". On all six capital prompts in our benchmark — France, Germany, Italy, Spain, Russia, Japan — it flips to **" not"**. Six different correct answers, one feature whose amplification turns each of them into outright negation. Most of what we call hedging in language models is the model fighting itself. We knew that. What we didn't know: turn the dial up on the right grammar feature in Gemma 2 2B, and the fight resolves toward " not". The same protocol on the depth-matched copula feature in Gemma 2 9B at L31 (f6341), Gemma 1 2B (f5541), and Pythia 70M (f23527) drives log P(target) monotonically down on the same prompts in every case, but the argmax in all three converges to generic " a", not negation. The suppression mechanism is cross-family. The negation attractor is Gemma 2 2B alone.
 
 This writeup is structured around that finding. The setup is the supporting-side joint ablation (Result 1) and the opposing-side inversion (Result 2) which together identify f15596 (and a small set of cross-family analogues) as the locus of the suppressive force. The fingerprint section shows the same pair of features (f15596 + f10142) appears as a top opposer on every capital prompt. Cross-family replication shows the same kind of feature appears at the depth-matched layer in Pythia 70M (f23527), Gemma 1 2B (f5541, f16346, f5943), and Gemma 2 9B at L31 (f6341, f4635); GPT-2 small does not recruit any of its 652 grammar-labelled features as opposers on these prompts. Cross-task scope shows the fingerprint is specific to capital-completions, not a generic mechanism for all "X is Y" templates. The climax is the amplification study (Result 5): bidirectional control, strict monotonicity across four models, and a negation attractor in Gemma 2 2B that the other models in the same family do not share.
 
@@ -218,38 +218,40 @@ The cross-task visualisation is at [`reports/viz_cross_task.png`](viz_cross_task
 
 ## Result 5: bidirectional control and the negation attractor
 
-Ablation tells you the feature is necessary. The stronger claim — that amplifying the feature actively shifts probability mass — requires bidirectional steering. We scaled the last-position activation of the top capital-opposing copula feature in three models — Gemma 2 2B f15596, Gemma 1 2B f5541, Pythia 70M f23527 — by factors in {0.0, 0.5, 1.0, 2.0, 5.0, 10.0} on the six capital prompts.
+Ablation tells you the feature is necessary. The stronger claim — that amplifying the feature actively shifts probability mass — requires bidirectional steering. We scaled the last-position activation of the top capital-opposing copula feature in four models — Gemma 2 2B f15596, Gemma 2 9B L31 f6341, Gemma 1 2B f5541, Pythia 70M f23527 — by factors in {0.0, 0.5, 1.0, 2.0, 5.0, 10.0} on the six capital prompts.
 
-| Scale | Gemma 2 2B f15596 | Gemma 1 2B f5541 | Pythia 70M f23527 |
-|---|---|---|---|
-| 0.0 (ablate) | −2.80 | −3.50 | −7.38 |
-| 0.5 | −3.24 | −3.71 | −7.49 |
-| 1.0 (baseline) | −3.68 | −3.91 | −7.60 |
-| 2.0 | −4.54 | −4.32 | −7.83 |
-| 5.0 | −7.35 | −5.52 | −8.59 |
-| 10.0 | −13.51 | −7.37 | −9.99 |
+| Scale | Gemma 2 2B f15596 | Gemma 2 9B L31 f6341 | Gemma 1 2B f5541 | Pythia 70M f23527 |
+|---|---|---|---|---|
+| 0.0 (ablate) | −2.80 | −4.55 | −3.50 | −7.38 |
+| 0.5 | −3.24 | −4.88 | −3.71 | −7.49 |
+| 1.0 (baseline) | −3.68 | −5.20 | −3.91 | −7.60 |
+| 2.0 | −4.54 | −5.74 | −4.32 | −7.83 |
+| 5.0 | −7.35 | −6.68 | −5.52 | −8.59 |
+| 10.0 | −13.51 | −8.95 | −7.37 | −9.99 |
 
-All three satisfy strict monotonicity. As activation goes up, log P(target) goes down — large effect in Gemma 2 2B (10 nats moved from 1× to 10×), smaller in absolute terms in Pythia (where the baseline is already low because capitals are outside Pythia's competence) but monotone in both directions. The cross-family causal claim is therefore not correlational: scaling the copula opposer up actively shifts probability mass away from the specific factual target on every capital prompt in every model where the apparatus exists.
+All four satisfy strict monotonicity. As activation goes up, log P(target) goes down — large effect in Gemma 2 2B (10 nats moved from 1× to 10×), substantial in 9B (4 nats), monotone in both directions in every model. The cross-family causal claim is therefore not correlational: scaling the copula opposer up actively shifts probability mass away from the specific factual target on every capital prompt in every model where the apparatus exists.
 
-The argmax tells a sharper, more specific story. At baseline (scale 1.0), the three models' argmax distributions on the six capital prompts are:
+The argmax tells a sharper, more specific story. At baseline (scale 1.0), the four models' argmax distributions on the six capital prompts are:
 
 | Model | argmax at scale 1.0 (baseline) |
 |---|---|
 | Gemma 2 2B | " Tokyo" on 1/6, " a" on 5/6 |
+| Gemma 2 9B (L31) | " a" on 6/6 |
 | Gemma 1 2B | " a" on 6/6 |
 | Pythia 70M | " the" on 6/6 |
 
-As we amplify, all three models drift their argmax through the generic-completion set. The difference is where they land at scale 10:
+As we amplify, all four models drift their argmax through the generic-completion set. The difference is where they land at scale 10:
 
 | Model | argmax at scale 10 |
 |---|---|
 | **Gemma 2 2B** | **" not" on 6/6** |
+| Gemma 2 9B (L31) | " a" on 6/6 |
 | Gemma 1 2B | " a" on 6/6 |
 | Pythia 70M | " a" on 6/6 |
 
-In Gemma 2 2B specifically, scaling the copula feature ten times flips the argmax through generic completions to outright negation on every single capital prompt. The decoder direction of f15596 has substantial alignment with the unembedding direction of " not" (token id 780) — when the feature dominates the residual stream at the last position, what comes out is a denial of the specific factual claim the prompt is asking for. Neither Gemma 1 2B nor Pythia 70M shows this. They collapse cleanly to " a", which is consistent with their copula opposers encoding the generic copular template ("X is a Y") but not negation.
+In Gemma 2 2B specifically — and only Gemma 2 2B, not Gemma 2 9B at the depth-matched layer, not Gemma 1 2B, not Pythia 70M — scaling the copula feature ten times flips the argmax through generic completions to outright negation on every single capital prompt. The decoder direction of f15596 has substantial alignment with the unembedding direction of " not" (token id 780); when the feature dominates the residual stream at the last position, what comes out is a denial of the specific factual claim the prompt is asking for. The 9B's f6341, despite being labelled essentially identically ("instances of the verb 'is' and its variations" vs Gemma 2 2B f15596's "past and present tense forms of the verb 'to be'"), does not carry the same polarity in its decoder vector — amplification just drifts deeper into the generic " a" completion.
 
-The negation attractor is therefore not a generic property of copula-suppressor features across model families. It is Gemma 2 2B specific. The mechanism (copula features as opposers, recruited cross-family on capital completions) is universal across the four inversion-having models we tested; the *direction* the feature points the model when amplified is family-specific and probably training-specific. This is the cleanest single piece of evidence we have that f15596 in Gemma 2 2B isn't just a copular template feature — it is a copular template feature with negation polarity baked into its decoder vector.
+The negation attractor is therefore not a generic property of copula-suppressor features across model families, not even across the Gemma 2 family. It is Gemma 2 2B specific. The mechanism (copula features as opposers, recruited cross-family on capital completions) is universal across all four inversion-having models we tested; the *direction* the feature points the model when amplified is feature-specific and almost certainly an artefact of how this particular SAE on this particular model decomposed the residual stream during training. This is the cleanest single piece of evidence we have that f15596 in Gemma 2 2B is more than a copular template feature — its decoder vector encodes polarity (denial) in addition to the template signal. The same is not true of the structurally and semantically analogous features we identified in the other three inversion-having models.
 
 For interpretability: zero-ablation alone is exposed to the OOD critique that pushes activations to a value the model never sees in training. Bidirectional amplification removes that critique — scaling toward more activation is in-distribution, and it produces the predicted effect monotonically. For steering: f15596 in Gemma 2 2B is a usable primitive for making the model deny specific factual claims, with a known dose-response curve. See [`reports/viz_amplification.png`](viz_amplification.png) for the per-scale curves and [`reports/amp_gemma_f15596.json`](amp_gemma_f15596.json), [`reports/amp_gemma_1_2b_f5541.json`](amp_gemma_1_2b_f5541.json), [`reports/amp_pythia_70m_f23527.json`](amp_pythia_70m_f23527.json) for the raw data.
 
